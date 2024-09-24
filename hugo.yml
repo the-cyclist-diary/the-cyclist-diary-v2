@@ -1,0 +1,5 @@
+baseURL: https://example.org/
+languageCode: fr-FR
+title: The cyclist diary
+theme: ananke
+defaultContentLanguage: fr
