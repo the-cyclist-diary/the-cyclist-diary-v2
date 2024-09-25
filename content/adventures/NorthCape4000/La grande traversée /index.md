@@ -9,18 +9,31 @@ La journée est radieuse, mais la Laponie est un endroit un peu monotone et en t
 
 Eduard est un très gros rouleur et il emmène l'équipage vers des moyennes encore jamais atteintes. Autant dire que je souffre, mais le jeu en vaut la chandelle, nous arrivons tôt ! Assez tôt pour bien profiter de la soirée et manger à notre faim. 
 
-Demain une immense étape nous attend jusqu'au dernier point de contrôle avant le Cap Nord : Gällivare.![auto-import](https://thumbsnap.com/i/a7VUuwuS.jpg)
+Demain une immense étape nous attend jusqu'au dernier point de contrôle avant le Cap Nord : Gällivare.
+![auto-import](https://thumbsnap.com/i/a7VUuwuS.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ZsW1vh54.jpg)
+
 ![auto-import](https://thumbsnap.com/i/8BaE9DJY.jpg)
+
 ![auto-import](https://thumbsnap.com/i/smLGd2JS.jpg)
+
 ![auto-import](https://thumbsnap.com/i/5Ffdqk2P.jpg)
+
 ![auto-import](https://thumbsnap.com/i/3piskKFe.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Ey5FQBq9.jpg)
+
 ![auto-import](https://thumbsnap.com/i/7Aij5g5T.jpg)
+
 ![auto-import](https://thumbsnap.com/i/vjLRcPii.jpg)
+
 ![auto-import](https://thumbsnap.com/i/PXPBCQyH.jpg)
+
 ![auto-import](https://thumbsnap.com/i/CfaVVucR.jpg)
+
 ![auto-import](https://thumbsnap.com/i/5qGDW6Lo.jpg)
+
 ![auto-import](https://thumbsnap.com/i/83yfSBMq.jpg)
 ## Commentaires
 #### Maman

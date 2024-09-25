@@ -9,14 +9,23 @@ La pluie est au rendez-vous et ne nous quittera pas de la journée, ce qui rend 
 
 Première pause à 120km, jamais nous n'avions roulé aussi longtemps sans marquer d'arrêt. Nous avalons des quantités phénoménales de brötchen dans une boulangerie devant des serveuses hilares qui s'échangent en allemand des anecdotes sur la NorthCape, nous ne sommes manifestement pas les premiers à passer ici.
 
-La deuxième partie de la journée est marquée par deux crevaisons. Nous réparons prestement puis repartons vers Lohne où nous dormons dans une chambre pour deux, avec un matelas gonflable au sol. Un bon kebab nous a remis en forme. C'est nécessaire car demain, 280km sont au programme !![auto-import](https://thumbsnap.com/i/ou9Mu92j.jpg)
+La deuxième partie de la journée est marquée par deux crevaisons. Nous réparons prestement puis repartons vers Lohne où nous dormons dans une chambre pour deux, avec un matelas gonflable au sol. Un bon kebab nous a remis en forme. C'est nécessaire car demain, 280km sont au programme !
+![auto-import](https://thumbsnap.com/i/ou9Mu92j.jpg)
+
 ![auto-import](https://thumbsnap.com/i/cV3UHKEt.jpg)
+
 ![auto-import](https://thumbsnap.com/i/dPDFUAg8.jpg)
+
 ![auto-import](https://thumbsnap.com/i/gmgJD61R.jpg)
+
 ![auto-import](https://thumbsnap.com/i/AfQ1nKAa.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Z6Zo1gqa.jpg)
+
 ![auto-import](https://thumbsnap.com/i/W32c4fAc.jpg)
+
 ![auto-import](https://thumbsnap.com/i/z5YmY6zz.jpg)
+
 ![auto-import](https://thumbsnap.com/i/8AnaJNiD.jpg)
 ## Commentaires
 #### Titi

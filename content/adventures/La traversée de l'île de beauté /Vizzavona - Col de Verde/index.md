@@ -13,9 +13,14 @@ Le relais de San Petru est notre point de chute, nous y arrivons à 13h. Des cô
 L'après midi est douce, nous buvons quelques pastis en bonne compagnie, autour d'une carte pour prévoir l'étape de demain. 
 Malheureusement une grosse tempête est prévue et personne ne semble prêt à y faire face dans sa tente. 
 
-Les plans alternatifs prêts, tout ce beau monde se met au lit, prêt à affronter cette journée qui s'annonce éprouvante.![auto-import](https://thumbsnap.com/i/bapT44u6.jpg)
+Les plans alternatifs prêts, tout ce beau monde se met au lit, prêt à affronter cette journée qui s'annonce éprouvante.
+![auto-import](https://thumbsnap.com/i/bapT44u6.jpg)
+
 ![auto-import](https://thumbsnap.com/i/4kSQB9ub.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Gy7oSWhP.jpg)
+
 ![auto-import](https://thumbsnap.com/i/UGUPgtiw.jpg)
+
 ![auto-import](https://thumbsnap.com/i/fZgLSrY5.jpg)
 ## Commentaires

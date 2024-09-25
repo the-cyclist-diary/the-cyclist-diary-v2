@@ -21,20 +21,35 @@ Point culminant de la journée : j'ai pu trouver ce soir un petit fast good enco
 Note à part : le montage de ma tente était désastreux la nuit dernière, ce qui explique l'inconfort. Aujourdhui c'est 100x mieux et devinez pourquoi ? J'ai suivi les instructions de montage que j'ai MOI-MÊME écrites. Mais vraiment alors, quelle surprise franchement. Elle est effectivement petite, mais confortable et je pense bien étanche. L'Écosse confirmera ou non ce dernier point, sans aucun doute.
 
 
-P.S. J'ai été très touché par tous vos messages, je les ai découverts cet après-midi en mangeant un sandwich très moyen entre deux champs de moutons, les mains frigorifiés et ca m'a fait très chaud au cœur. J'espère que vous continuerez à prendre du plaisir à suivre l'aventure. Merci !!![auto-import](https://thumbsnap.com/i/Wiy64p4C.jpg)
+P.S. J'ai été très touché par tous vos messages, je les ai découverts cet après-midi en mangeant un sandwich très moyen entre deux champs de moutons, les mains frigorifiés et ca m'a fait très chaud au cœur. J'espère que vous continuerez à prendre du plaisir à suivre l'aventure. Merci !!
+![auto-import](https://thumbsnap.com/i/Wiy64p4C.jpg)
+
 ![auto-import](https://thumbsnap.com/i/QnyvY4XL.jpg)
+
 ![auto-import](https://thumbsnap.com/i/BSJTUjLz.jpg)
+
 ![auto-import](https://thumbsnap.com/i/g73Srg3B.jpg)
+
 ![auto-import](https://thumbsnap.com/i/6k3W3qDs.jpg)
+
 ![auto-import](https://thumbsnap.com/i/UTDRuzMC.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Xebfo3NB.jpg)
+
 ![auto-import](https://thumbsnap.com/i/jC2S4fBX.jpg)
+
 ![auto-import](https://thumbsnap.com/i/vD4zsJWr.jpg)
+
 ![auto-import](https://thumbsnap.com/i/iYmk8Wwy.jpg)
+
 ![auto-import](https://thumbsnap.com/i/3Dv4YC4U.jpg)
+
 ![auto-import](https://thumbsnap.com/i/c3MPWFmq.jpg)
+
 ![auto-import](https://thumbsnap.com/i/MieXGzs6.jpg)
+
 ![auto-import](https://thumbsnap.com/i/yCScdzKz.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Apn1dE4Q.jpg)
 ## Commentaires
 #### Moum

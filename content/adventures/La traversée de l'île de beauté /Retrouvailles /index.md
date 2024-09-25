@@ -24,13 +24,21 @@ Après quelques déboires, nous somme pris et arrivons à Calenzana en deux temp
 ### Camp de base
 L'installation se fait sur un terrain poussiéreux et chaud. Nous nous croyons seuls mais arrivé 18h le camping est plein à craquer, les tentes les unes sur les autres. Heureusement les voisins sont forts sympathiques et nous discutons bien.
 
-Demain, le départ est fixé à 5h30 pour arriver tôt au gîte, que nous n'avons pas réservé...![auto-import](https://thumbsnap.com/i/MYAEAL3F.jpg)
+Demain, le départ est fixé à 5h30 pour arriver tôt au gîte, que nous n'avons pas réservé...
+![auto-import](https://thumbsnap.com/i/MYAEAL3F.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ZpHcw4jZ.jpg)
+
 ![auto-import](https://thumbsnap.com/i/7YnULipi.jpg)
+
 ![auto-import](https://thumbsnap.com/i/kXQN4Kjf.jpg)
+
 ![auto-import](https://thumbsnap.com/i/caWX9zER.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ffMdr8bx.jpg)
+
 ![auto-import](https://thumbsnap.com/i/4rFZst71.jpg)
+
 ![auto-import](https://thumbsnap.com/i/T8v3AknF.jpg)
 ## Commentaires
 #### Dad

@@ -9,16 +9,27 @@ Il est temps cependant que l'aventure se termine car les petits inconforts se mu
 
 Nous avons dégoté un petit chalet en bord de lac absolument charmant pour ce soir et nous ne nous privons pas de faire un feu de cheminée en mangeant nos wraps aux pois-chiche.
 
-L'étape de demain est prête, ainsi que les points de ravitaillement. Comme on dit, "y'a plus qu'à"...![auto-import](https://thumbsnap.com/i/5t7X4Rja.jpg)
+L'étape de demain est prête, ainsi que les points de ravitaillement. Comme on dit, "y'a plus qu'à"...
+![auto-import](https://thumbsnap.com/i/5t7X4Rja.jpg)
+
 ![auto-import](https://thumbsnap.com/i/pjcqM3rn.jpg)
+
 ![auto-import](https://thumbsnap.com/i/sAE9vTDm.jpg)
+
 ![auto-import](https://thumbsnap.com/i/4gV7KixT.jpg)
+
 ![auto-import](https://thumbsnap.com/i/5Cih3heJ.jpg)
+
 ![auto-import](https://thumbsnap.com/i/oZPjqBiB.jpg)
+
 ![auto-import](https://thumbsnap.com/i/hA2KcmBG.jpg)
+
 ![auto-import](https://thumbsnap.com/i/4HuQFtZ1.jpg)
+
 ![auto-import](https://thumbsnap.com/i/YH957FKj.jpg)
+
 ![auto-import](https://thumbsnap.com/i/hPodGPaS.jpg)
+
 ![auto-import](https://thumbsnap.com/i/emMFo16y.jpg)
 ## Commentaires
 #### Maman

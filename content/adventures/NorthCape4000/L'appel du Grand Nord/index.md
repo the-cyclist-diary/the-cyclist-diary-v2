@@ -28,12 +28,19 @@ Deux jours de tourisme m'attendent ensuite dans la capitale Piémontaise, ainsi 
 He oui ! Petite spécificité de la NC4K, le tracking des participants est disponible **en direct** durant toute la durée de l'événement. Bien sûr, le résumé de chaque étape sera disponible ici même, agrémenté de quelques photos. Bien que cette année, je doute de ma capacité à écrire des tartines tous les soirs au bivouac.
 
 
-> Pour ne rien louper de l'aventure, le tracking en direct est disponible [ici](https://northcape4000.com/), je suis apparemment le dossard n°261![auto-import](https://thumbsnap.com/i/urWYcWTo.jpg)
+> Pour ne rien louper de l'aventure, le tracking en direct est disponible [ici](https://northcape4000.com/), je suis apparemment le dossard n°261
+![auto-import](https://thumbsnap.com/i/urWYcWTo.jpg)
+
 ![auto-import](https://thumbsnap.com/i/w6Y9CCU7.jpg)
+
 ![auto-import](https://thumbsnap.com/i/9wpTj4ei.jpg)
+
 ![auto-import](https://thumbsnap.com/i/gWZjsBzM.jpg)
+
 ![auto-import](https://thumbsnap.com/i/AQDctfBB.jpg)
+
 ![auto-import](https://thumbsnap.com/i/uMzk14Uv.jpg)
+
 ![auto-import](https://thumbsnap.com/i/PsWBxfz3.jpg)
 ## Commentaires
 #### Alex B

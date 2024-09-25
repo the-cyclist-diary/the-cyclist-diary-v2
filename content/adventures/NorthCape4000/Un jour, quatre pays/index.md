@@ -15,13 +15,21 @@ Nous nous arrêtons à Moers où un hôtel kitsch à souhait, pour vieux ruche t
 
 Mes compagnons de route pensent qu'il serait plus sage de réduire l'allure et de prendre le bateau le 30. Cela me désole mais j'ai besoin d'eux pour continuer, je me joindrai donc à l'avis de la majorité. Je souffre de nombreuses inflammations diverses aux articulations, il serait peut-être effectivement plus sage de lever le pied.
 
-Demain, il pleut.![auto-import](https://thumbsnap.com/i/qm2NNruA.jpg)
+Demain, il pleut.
+![auto-import](https://thumbsnap.com/i/qm2NNruA.jpg)
+
 ![auto-import](https://thumbsnap.com/i/cUz7mWzb.jpg)
+
 ![auto-import](https://thumbsnap.com/i/fvi27Ysb.jpg)
+
 ![auto-import](https://thumbsnap.com/i/CmXJGbHW.jpg)
+
 ![auto-import](https://thumbsnap.com/i/qMV4bBep.jpg)
+
 ![auto-import](https://thumbsnap.com/i/53acXRJh.jpg)
+
 ![auto-import](https://thumbsnap.com/i/pgjJvQEY.jpg)
+
 ![auto-import](https://thumbsnap.com/i/4P2sJb18.jpg)
 ## Commentaires
 #### Titi

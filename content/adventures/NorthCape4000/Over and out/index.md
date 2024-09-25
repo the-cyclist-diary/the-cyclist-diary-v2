@@ -13,15 +13,25 @@ Aéroport, check-in, dépôt des vélos. Nous retrouvons d'autres participants d
 
 Sébastien part le premier, puis viens notre tour, nous embarquons pour Oslo. J'y effectue mon changement pour Bordeaux avec Paulina, qui, elle, repart vers Prague. Une fois arrivé, je sais qu'il me faudra remonter entièrement mon vélo pour pouvoir effectuer la dizaine de kilomètres qui me sépare de mon appartement. Cette idée éveille en moi une certaine lassitude, mais je me réjouis à l'idée de retrouver un peu de confort et d'intimité.
 
-Une seule question demeure désormais : **mais quelle sera la prochaine aventure ?**![auto-import](https://thumbsnap.com/i/hfhnpuMC.jpg)
+Une seule question demeure désormais : **mais quelle sera la prochaine aventure ?**
+![auto-import](https://thumbsnap.com/i/hfhnpuMC.jpg)
+
 ![auto-import](https://thumbsnap.com/i/dtGoFvjd.jpg)
+
 ![auto-import](https://thumbsnap.com/i/odS9vqwc.jpg)
+
 ![auto-import](https://thumbsnap.com/i/zJwNfrPw.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Yz7fqAvh.jpg)
+
 ![auto-import](https://thumbsnap.com/i/5rN2aupe.jpg)
+
 ![auto-import](https://thumbsnap.com/i/mmiDiSrJ.jpg)
+
 ![auto-import](https://thumbsnap.com/i/XzDbMXvU.jpg)
+
 ![auto-import](https://thumbsnap.com/i/qGXqbPFp.jpg)
+
 ![auto-import](https://thumbsnap.com/i/yJY889z1.jpg)
 ## Commentaires
 #### Lo73

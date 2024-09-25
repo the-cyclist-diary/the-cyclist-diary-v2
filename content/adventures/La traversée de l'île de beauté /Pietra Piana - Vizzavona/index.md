@@ -15,11 +15,18 @@ En fin d'étape, dans un moment d'inattention, je chute sur une dalle de pierre 
 ### Campement 
 Le bivouac est animé, nous retrouvons de nombreuses connaissances et buvons le coup. Sur les personnes parties d'Ortu avec nous, ils ne sont plus nombreux désormais.
 Par chance, un randonneur me donne l'un de ses bâtons, après en avoir racheté une paire. 
-William à les pieds en piteux état, mais qu'importe, nous sommes bien décidés à mener à bien ce voyage !![auto-import](https://thumbsnap.com/i/mKKbQxEq.jpg)
+William à les pieds en piteux état, mais qu'importe, nous sommes bien décidés à mener à bien ce voyage !
+![auto-import](https://thumbsnap.com/i/mKKbQxEq.jpg)
+
 ![auto-import](https://thumbsnap.com/i/f4tzzHAU.jpg)
+
 ![auto-import](https://thumbsnap.com/i/8sivnJHy.jpg)
+
 ![auto-import](https://thumbsnap.com/i/FWxH1G2K.jpg)
+
 ![auto-import](https://thumbsnap.com/i/RaqNLAYE.jpg)
+
 ![auto-import](https://thumbsnap.com/i/SPMwEbDV.jpg)
+
 ![auto-import](https://thumbsnap.com/i/AppsrX9o.jpg)
 ## Commentaires

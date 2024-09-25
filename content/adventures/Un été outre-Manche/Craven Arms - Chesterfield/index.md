@@ -13,22 +13,39 @@ En effet, sortir de Leek par le nord, c'est arriver dans... le Peak District, qu
 Le paysage est cependant magnifique, plus beau que tout ce que j'ai pu voir jusqu'à présent. Après encore pas mal d'efforts, j'arrive enfin à Chesterfield. A partir de là, la pluie commence à tomber et la luminosité décline ; je sais que je dois trouver ou dormir.
 Après une vingtaine de km, j'arrive enfin à un camping que j'avais repéré. Malheureusement, il est 21h et je me fait jeter, malgré mon insistance (ça paraît fou, non ??).
 Je retourne auprès du lac que surplombe le camping pour établir le campement sur la berge. La nuit sera très courte, l'endroit est touristique, je dois partir tôt, cette fois.
-Demain, direction le lake district ! ![auto-import](https://thumbsnap.com/i/a3vJ53GE.jpg)
+Demain, direction le lake district ! 
+![auto-import](https://thumbsnap.com/i/a3vJ53GE.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Cjts9A3v.jpg)
+
 ![auto-import](https://thumbsnap.com/i/bM8vYY3A.jpg)
+
 ![auto-import](https://thumbsnap.com/i/yEDK8iSK.jpg)
+
 ![auto-import](https://thumbsnap.com/i/vucpwdfB.jpg)
+
 ![auto-import](https://thumbsnap.com/i/X9d54F2V.jpg)
+
 ![auto-import](https://thumbsnap.com/i/f3es16Mf.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ghi6tgMs.jpg)
+
 ![auto-import](https://thumbsnap.com/i/jLyrqi62.jpg)
+
 ![auto-import](https://thumbsnap.com/i/YDivkvT3.jpg)
+
 ![auto-import](https://thumbsnap.com/i/mxy7JjgD.jpg)
+
 ![auto-import](https://thumbsnap.com/i/JNbUfPK1.jpg)
+
 ![auto-import](https://thumbsnap.com/i/xzfX2m2P.jpg)
+
 ![auto-import](https://thumbsnap.com/i/cPgPFdbg.jpg)
+
 ![auto-import](https://thumbsnap.com/i/tDqNktdZ.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Apusr6Nq.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ns6Co6j6.jpg)
 ## Commentaires
 #### Moum

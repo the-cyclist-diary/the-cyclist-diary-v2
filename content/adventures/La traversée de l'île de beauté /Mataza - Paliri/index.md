@@ -17,12 +17,20 @@ Pour prendre de la route du refuge de Paliri, nous avons deux options : parcours
 Le terrain devient plus sablonneux. À nouveau, nous croisons des gardiens de refuge à cheval, acheminant des déchets depuis Paliri. Quelques dizaines de minutes plus tard, nous atteignons le refuge.
 La soirée est venteuse, mais la vue à couper le souffle. Nous buvons quelques bières devant les falaises avec nos nouveaux amis. 
 
-Demain s'annonce la redescente, définitive, vers Conca.![auto-import](https://thumbsnap.com/i/kPNYDjoC.jpg)
+Demain s'annonce la redescente, définitive, vers Conca.
+![auto-import](https://thumbsnap.com/i/kPNYDjoC.jpg)
+
 ![auto-import](https://thumbsnap.com/i/yb32pRyH.jpg)
+
 ![auto-import](https://thumbsnap.com/i/mvBCzkAp.jpg)
+
 ![auto-import](https://thumbsnap.com/i/7nJBVDyU.jpg)
+
 ![auto-import](https://thumbsnap.com/i/KLSwozMX.jpg)
+
 ![auto-import](https://thumbsnap.com/i/u4Pae5Kk.jpg)
+
 ![auto-import](https://thumbsnap.com/i/WwbShBj5.jpg)
+
 ![auto-import](https://thumbsnap.com/i/i7SsfSjG.jpg)
 ## Commentaires

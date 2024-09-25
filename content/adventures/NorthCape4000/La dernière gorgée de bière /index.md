@@ -26,13 +26,21 @@ Rapidement, une discussion s'engage avec deux Français. Échange de conseils gl
 Je rentre de ce meeting le cœur léger. La météo s'annonce plus clémente que prévue et la perspective d'un sommeil sous un toit demain soir me ravit. De plus, ces deux nouveaux compagnons m'ont appris qu'il serait possible de réserver une traversée vers Oslo le 30 ! Dès que le bureau de la compagnie maritime rouvre, un coup de fil s'impose. Ce point de passage conditionne toute la première partie de mon voyage, si je peux réduire les kilomètres journaliers nécessaires jusqu'au Danemark, je suis preneur.
 
 
-21 h, les sacoches sont prêtes, le cycliste également. Il est bientôt l'heure de dormir, demain commence la plus folle et gigantesque aventure de ma vie.![auto-import](https://thumbsnap.com/i/DEwqoVZV.jpg)
+21 h, les sacoches sont prêtes, le cycliste également. Il est bientôt l'heure de dormir, demain commence la plus folle et gigantesque aventure de ma vie.
+![auto-import](https://thumbsnap.com/i/DEwqoVZV.jpg)
+
 ![auto-import](https://thumbsnap.com/i/DAZKD7gz.jpg)
+
 ![auto-import](https://thumbsnap.com/i/qnCHc85L.jpg)
+
 ![auto-import](https://thumbsnap.com/i/R9qQ3w8k.jpg)
+
 ![auto-import](https://thumbsnap.com/i/iRmENTkP.jpg)
+
 ![auto-import](https://thumbsnap.com/i/f1PLwjns.jpg)
+
 ![auto-import](https://thumbsnap.com/i/oASgQf8h.jpg)
+
 ![auto-import](https://thumbsnap.com/i/NiP9WKTk.jpg)
 ## Commentaires
 #### Sandrine

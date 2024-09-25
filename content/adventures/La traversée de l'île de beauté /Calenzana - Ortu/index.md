@@ -16,10 +16,18 @@ Après un peu de grimpe sur de beaux blocs rocheux, nous émergeons finalement s
 Le terrain de bivouac est immense et des dizaines de tentes s'éparpillent entre des murets de pierre.
 Nous nous installons rapidement, avant de prendre une bonne bière fraîche.
 
-La météo de demain s'annonce compliquée et le tonnerre gronde déjà par à-coups. Nous devrons passer par la vallée plutôt que par le chemin des crêtes pour rejoindre le prochain refuge...![auto-import](https://thumbsnap.com/i/DMuTvoeM.jpg)
+La météo de demain s'annonce compliquée et le tonnerre gronde déjà par à-coups. Nous devrons passer par la vallée plutôt que par le chemin des crêtes pour rejoindre le prochain refuge...
+
+
+![auto-import](https://thumbsnap.com/i/DMuTvoeM.jpg)
+
 ![auto-import](https://thumbsnap.com/i/qY5f5ZA9.jpg)
+
 ![auto-import](https://thumbsnap.com/i/JdipwZb9.jpg)
+
 ![auto-import](https://thumbsnap.com/i/VzTNLjuP.jpg)
+
 ![auto-import](https://thumbsnap.com/i/iF4LS8t7.jpg)
+
 ![auto-import](https://thumbsnap.com/i/kKZtrXKF.jpg)
 ## Commentaires

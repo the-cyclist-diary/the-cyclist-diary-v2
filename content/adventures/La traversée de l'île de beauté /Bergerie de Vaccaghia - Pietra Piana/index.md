@@ -14,14 +14,24 @@ La première heure est baignée d'une lumière d'aube jaune et chaleureuse tandi
 
 Lorsque la pluie commence, notre moral est déjà bien entamé. En quelques minutes nous sommes trempés, au point de courir sans vergogne dans le ruisseau qui nous sert désormais de sentier. L'arrivée au refuge est salvatrice, tout le monde se rue sur la petite salle abritée pour se réchauffer autour d'un chocolat chaud. Nous nous changeons, jouons aux cartes avec des Belges et quelques français sympathiques et rapidement vient le temps de monter la tente, de dîner devant la belle vie qui se dégage et de se mettre au lit. 
 
-Demain soir doit être beau et nous avons prévu de rejoindre Vizzavone, point central officiel du GR20.![auto-import](https://thumbsnap.com/i/Sp3k9viq.jpg)
+Demain soir doit être beau et nous avons prévu de rejoindre Vizzavone, point central officiel du GR20.
+![auto-import](https://thumbsnap.com/i/Sp3k9viq.jpg)
+
 ![auto-import](https://thumbsnap.com/i/GtWc4KXT.jpg)
+
 ![auto-import](https://thumbsnap.com/i/t1HYiLDP.jpg)
+
 ![auto-import](https://thumbsnap.com/i/PcERY2cy.jpg)
+
 ![auto-import](https://thumbsnap.com/i/hrnjubh3.jpg)
+
 ![auto-import](https://thumbsnap.com/i/jVtKV14u.jpg)
+
 ![auto-import](https://thumbsnap.com/i/vftXEzxM.jpg)
+
 ![auto-import](https://thumbsnap.com/i/gEhVaD68.jpg)
+
 ![auto-import](https://thumbsnap.com/i/9UCji6cu.jpg)
+
 ![auto-import](https://thumbsnap.com/i/bJQy57AE.jpg)
 ## Commentaires

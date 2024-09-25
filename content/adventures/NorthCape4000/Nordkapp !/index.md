@@ -19,23 +19,41 @@ Les tunnels à franchir avant Honningsvåg sont terribles et nous y laissons des
 Une petite sieste plus tard et les organisateurs sont là pour valider notre temps et prendre quelques photos supplémentaires. Tout va très vite ensuite, il faut s'organiser, réserver des bus, hôtel, changer les avions, prévoir les cartons...
 En quelques minutes, nous sommes dans le car pour Alta, où un avion m'emmènera à Bordeaux en quelques heures.
 
-Je ressens un mélange d'émotions intenses, entre fierté, joie mais aussi soulagement, car cette aventure m'a éprouvé. Je suis ravi de pouvoir me reposer quelques jours avant de reprendre une vie normale.![auto-import](https://thumbsnap.com/i/umXb4oKh.jpg)
+Je ressens un mélange d'émotions intenses, entre fierté, joie mais aussi soulagement, car cette aventure m'a éprouvé. Je suis ravi de pouvoir me reposer quelques jours avant de reprendre une vie normale.
+![auto-import](https://thumbsnap.com/i/umXb4oKh.jpg)
+
 ![auto-import](https://thumbsnap.com/i/hPLCGWRe.jpg)
+
 ![auto-import](https://thumbsnap.com/i/RCfcWcBF.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ykc2RJdf.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ZVGgnH9E.jpg)
+
 ![auto-import](https://thumbsnap.com/i/oNrm6p1G.jpg)
+
 ![auto-import](https://thumbsnap.com/i/6C4F64YH.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Kx55Lykg.jpg)
+
 ![auto-import](https://thumbsnap.com/i/LLVwvsaX.jpg)
+
 ![auto-import](https://thumbsnap.com/i/APGn4MU2.jpg)
+
 ![auto-import](https://thumbsnap.com/i/XNjp9mav.jpg)
+
 ![auto-import](https://thumbsnap.com/i/svaTEfPu.jpg)
+
 ![auto-import](https://thumbsnap.com/i/mbPiMnbF.jpg)
+
 ![auto-import](https://thumbsnap.com/i/cJBthsTs.jpg)
+
 ![auto-import](https://thumbsnap.com/i/iHAQpUGp.jpg)
+
 ![auto-import](https://thumbsnap.com/i/zkNPboqj.jpg)
+
 ![auto-import](https://thumbsnap.com/i/HBxuh18V.jpg)
+
 ![auto-import](https://thumbsnap.com/i/E4n5mHCz.jpg)
 ## Commentaires
 #### Maman

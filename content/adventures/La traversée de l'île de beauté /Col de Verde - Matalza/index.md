@@ -22,11 +22,18 @@ Au refuge de Matalza, nous commandons un dîner chaud. Ce sera le seul du voyage
 ### Au sec 
 Le dîner est bon sans plus, mais à 19h, l'orage se manifeste finalement. En quelques minutes, le terrain est imbibé d'eau, des flaques se forment, la tente est immergée. Nous demandons à être abrités dans le refuge, ce qui est accepté par la patronne. Ni une, ni deux, nous débarquons toutes les affaires de la tente et les transférons au sec. Nous passons finalement une nuit au chaud, au sec, et pour le prix d'un bivouac. 
 
-Demain nous doublons à nouveau pour nous rapprocher de Conca et passer une dernière étape paisible, pour finir cette randonnée en beauté.![auto-import](https://thumbsnap.com/i/vVCB6Q2C.jpg)
+Demain nous doublons à nouveau pour nous rapprocher de Conca et passer une dernière étape paisible, pour finir cette randonnée en beauté.
+![auto-import](https://thumbsnap.com/i/vVCB6Q2C.jpg)
+
 ![auto-import](https://thumbsnap.com/i/3tLWMCLZ.jpg)
+
 ![auto-import](https://thumbsnap.com/i/GV53JyHg.jpg)
+
 ![auto-import](https://thumbsnap.com/i/pjjzezCx.jpg)
+
 ![auto-import](https://thumbsnap.com/i/iCUwPzk4.jpg)
+
 ![auto-import](https://thumbsnap.com/i/9EtygEBw.jpg)
+
 ![auto-import](https://thumbsnap.com/i/w9tsZrvR.jpg)
 ## Commentaires

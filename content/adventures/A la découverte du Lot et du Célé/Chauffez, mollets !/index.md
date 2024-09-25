@@ -14,9 +14,14 @@ Arbres moussus et herbe brûlée, voilà le spectacle qui nous attend une fois l
 
 Nous redescendons finalement sur Cabrerets, joli petit village aux notes médiévales, dans lequel nous passerons la nuit. Le camping municipal est bien rempli mais pas complet, on nous place avantageusement au bord du Célé, qui nous permettra de passer une nuit au frais.
 
-Demain, une grosse étape nous attend, parsemée de belle découvertes et dont le point d'orgue sera l'arrivée à Saint Cirq Lapopie.![auto-import](https://thumbsnap.com/i/cDEFGfPY.jpg)
+Demain, une grosse étape nous attend, parsemée de belle découvertes et dont le point d'orgue sera l'arrivée à Saint Cirq Lapopie.
+![auto-import](https://thumbsnap.com/i/cDEFGfPY.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Hxw7DX56.jpg)
+
 ![auto-import](https://thumbsnap.com/i/BpMm1gtv.jpg)
+
 ![auto-import](https://thumbsnap.com/i/CnypEQd8.jpg)
+
 ![auto-import](https://thumbsnap.com/i/zBd5EnNz.jpg)
 ## Commentaires

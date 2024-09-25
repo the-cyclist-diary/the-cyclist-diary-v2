@@ -12,13 +12,21 @@ L'humeur est variable, proportionnelle au taux de glycémie. Une terrible côte 
 
 Nous glissons ensuite tranquillement sur 40 kilomètres vers un petit camping. Le propriétaire nous engueule car nous arrivons trop tard, mais pour 5€ la nuit, je n'ai rien à redire.
 
-La nuit sera courte, nous voulons repartir au plus tard à 5h car la pluie arrive à 6h et nous dormons a la belle étoile. Demain je peux enfin essayer de renégocier mon billet de ferry...![auto-import](https://thumbsnap.com/i/nrh8ZShG.jpg)
+La nuit sera courte, nous voulons repartir au plus tard à 5h car la pluie arrive à 6h et nous dormons a la belle étoile. Demain je peux enfin essayer de renégocier mon billet de ferry...
+![auto-import](https://thumbsnap.com/i/nrh8ZShG.jpg)
+
 ![auto-import](https://thumbsnap.com/i/FuzN792d.jpg)
+
 ![auto-import](https://thumbsnap.com/i/fT9crfGm.jpg)
+
 ![auto-import](https://thumbsnap.com/i/nZhFHv6K.jpg)
+
 ![auto-import](https://thumbsnap.com/i/7df1qT3Q.jpg)
+
 ![auto-import](https://thumbsnap.com/i/fiGBjrWT.jpg)
+
 ![auto-import](https://thumbsnap.com/i/y5QXjYTL.jpg)
+
 ![auto-import](https://thumbsnap.com/i/JKXz6Lzc.jpg)
 ## Commentaires
 #### Dad

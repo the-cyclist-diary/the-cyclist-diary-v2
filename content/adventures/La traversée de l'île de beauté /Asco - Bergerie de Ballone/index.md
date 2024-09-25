@@ -15,12 +15,20 @@ La montée est difficile dans les immenses pierriers, mais nous arrivons tout de
 
 Nous dormons à la bergerie de Ballone, qui est un peu surpeuplée. Heureusement nous sommes arrivés tôt, ce qui nous permet de choisir un très joli emplacement près de la rivière. 
 
-Demain devrait être une journée longue mais plus facile et nous espérons pouvoir nous régaler de bons fromages corses dans une bergerie !![auto-import](https://thumbsnap.com/i/3ZCY2XFF.jpg)
+Demain devrait être une journée longue mais plus facile et nous espérons pouvoir nous régaler de bons fromages corses dans une bergerie !
+![auto-import](https://thumbsnap.com/i/3ZCY2XFF.jpg)
+
 ![auto-import](https://thumbsnap.com/i/EnhGQEeb.jpg)
+
 ![auto-import](https://thumbsnap.com/i/zmtw8bo7.jpg)
+
 ![auto-import](https://thumbsnap.com/i/2vo5XYya.jpg)
+
 ![auto-import](https://thumbsnap.com/i/5wsp9Mr3.jpg)
+
 ![auto-import](https://thumbsnap.com/i/V1GJFfNi.jpg)
+
 ![auto-import](https://thumbsnap.com/i/rBRkjkvW.jpg)
+
 ![auto-import](https://thumbsnap.com/i/WCxqXj5L.jpg)
 ## Commentaires

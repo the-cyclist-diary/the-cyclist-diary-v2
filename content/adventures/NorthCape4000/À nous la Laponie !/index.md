@@ -17,12 +17,19 @@ Malheureusement nous appelons trop tard le camping de Gällivare, il n'y a plus 
 
 Pour les deux jours qui viennent, nous souhaitons venir à bout de l'avant-dernière trace GPS de 550 kilomètres, ce qui promet donc de belles étapes à nouveau.
 
-Si tout se passe bien, arrivée prévue lundi 7 au Cap Nord ! ![auto-import](https://thumbsnap.com/i/cNyGcCVt.jpg)
+Si tout se passe bien, arrivée prévue lundi 7 au Cap Nord ! 
+![auto-import](https://thumbsnap.com/i/cNyGcCVt.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ZZg3JokB.jpg)
+
 ![auto-import](https://thumbsnap.com/i/M4iUKSHY.jpg)
+
 ![auto-import](https://thumbsnap.com/i/1F8GixrF.jpg)
+
 ![auto-import](https://thumbsnap.com/i/59WwPoCy.jpg)
+
 ![auto-import](https://thumbsnap.com/i/PKo9hLha.jpg)
+
 ![auto-import](https://thumbsnap.com/i/TMvk9kB1.jpg)
 ## Commentaires
 #### Maman

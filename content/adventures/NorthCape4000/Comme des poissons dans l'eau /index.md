@@ -13,15 +13,25 @@ J'ai fait le plein de sucre au magasin et ne fait qu'une bouchée de ces dernier
 
 La cabane où nous dormons est très cozy et ces hébergements qui en France coûteraient certainement une petite fortune, valent ici moins cher qu'un dortoir en auberge de jeunesse.
 
-Demain une autre longue journée s'annonce, avec moins de dénivelé, mais un véritable déluge l'après-midi.![auto-import](https://thumbsnap.com/i/m3d4fP4B.jpg)
+Demain une autre longue journée s'annonce, avec moins de dénivelé, mais un véritable déluge l'après-midi.
+![auto-import](https://thumbsnap.com/i/m3d4fP4B.jpg)
+
 ![auto-import](https://thumbsnap.com/i/DZ3Eegac.jpg)
+
 ![auto-import](https://thumbsnap.com/i/SQoegJiv.jpg)
+
 ![auto-import](https://thumbsnap.com/i/rKHQLs3F.jpg)
+
 ![auto-import](https://thumbsnap.com/i/8HmQB7Xd.jpg)
+
 ![auto-import](https://thumbsnap.com/i/FmgkfVUm.jpg)
+
 ![auto-import](https://thumbsnap.com/i/qqdFiFKj.jpg)
+
 ![auto-import](https://thumbsnap.com/i/nvUcnnwt.jpg)
+
 ![auto-import](https://thumbsnap.com/i/TwtTLrj1.jpg)
+
 ![auto-import](https://thumbsnap.com/i/YeKNJnCj.jpg)
 ## Commentaires
 #### Maman

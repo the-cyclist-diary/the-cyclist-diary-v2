@@ -14,22 +14,39 @@ Après nos quelques pauses règlementaires, je déniche un petit motel presque s
 
 Une chambre, deux lits, une mini cuisine et une table pour dîner, voilà ce dont nous révions après cette longue journée, marquée par quelques averses.
 
-Nous nous endormons épuisés mais fier de nous, notre plan se déroule à merveille. Demain nous n'aurons que 160km à effectuer et nous pourrons nous reposer à l'envie dans le ferry, pour attaquer la Suède en pleine forme ! ![auto-import](https://thumbsnap.com/i/WR5qxpwc.jpg)
+Nous nous endormons épuisés mais fier de nous, notre plan se déroule à merveille. Demain nous n'aurons que 160km à effectuer et nous pourrons nous reposer à l'envie dans le ferry, pour attaquer la Suède en pleine forme ! 
+![auto-import](https://thumbsnap.com/i/WR5qxpwc.jpg)
+
 ![auto-import](https://thumbsnap.com/i/22aiZJMT.jpg)
+
 ![auto-import](https://thumbsnap.com/i/1Gtx6kEo.jpg)
+
 ![auto-import](https://thumbsnap.com/i/GxHURShc.jpg)
+
 ![auto-import](https://thumbsnap.com/i/FUkDwZ7E.jpg)
+
 ![auto-import](https://thumbsnap.com/i/UJvmyJW1.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Bsjbjo1H.jpg)
+
 ![auto-import](https://thumbsnap.com/i/zqi2EhjH.jpg)
+
 ![auto-import](https://thumbsnap.com/i/XDycHGBY.jpg)
+
 ![auto-import](https://thumbsnap.com/i/7E7W53a4.jpg)
+
 ![auto-import](https://thumbsnap.com/i/XTuJtD5M.jpg)
+
 ![auto-import](https://thumbsnap.com/i/vpsw5g9W.jpg)
+
 ![auto-import](https://thumbsnap.com/i/32EBsAT5.jpg)
+
 ![auto-import](https://thumbsnap.com/i/8e4ZVjz4.jpg)
+
 ![auto-import](https://thumbsnap.com/i/d952fsiH.jpg)
+
 ![auto-import](https://thumbsnap.com/i/39vLAGrx.jpg)
+
 ![auto-import](https://thumbsnap.com/i/u4ZyBrcJ.jpg)
 ## Commentaires
 #### Maman

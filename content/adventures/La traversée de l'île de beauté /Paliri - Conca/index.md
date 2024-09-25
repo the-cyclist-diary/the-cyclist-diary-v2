@@ -14,10 +14,15 @@ Si la plupart des randonneurs vont à Porto-Vecchio, nous descendons à Sainte-L
 C'est pourtant ici que s'arrête le car à destination de Bastia, que nous comptons rejoindre dès aujourd'hui, afin de profiter au mieux des quelques jours de détente qu'il nous reste sur l'île de beauté.
 
 ### Epilogue
-Fin d'une belle aventure, qui aura mis nos corps à rude épreuve ! Mais quel plaisir de se retrouver à nouveau et de partir ensemble à la conquête de ce GR dantesque. Au fil des jours de marche, nous avons déjà commencé à fomenter notre prochain voyage... ![auto-import](https://thumbsnap.com/i/JyHJc9i3.jpg)
+Fin d'une belle aventure, qui aura mis nos corps à rude épreuve ! Mais quel plaisir de se retrouver à nouveau et de partir ensemble à la conquête de ce GR dantesque. Au fil des jours de marche, nous avons déjà commencé à fomenter notre prochain voyage... 
+![auto-import](https://thumbsnap.com/i/JyHJc9i3.jpg)
+
 ![auto-import](https://thumbsnap.com/i/T21tdH2R.jpg)
+
 ![auto-import](https://thumbsnap.com/i/RzTb7h7k.jpg)
+
 ![auto-import](https://thumbsnap.com/i/DtvMjAYr.jpg)
+
 ![auto-import](https://thumbsnap.com/i/eQbtn1QN.jpg)
 ## Commentaires
 #### Sandrine

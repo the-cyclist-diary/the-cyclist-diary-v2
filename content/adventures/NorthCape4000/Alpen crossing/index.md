@@ -15,12 +15,19 @@ Fin de descente, nous retrouvons un groupe. Pour compenser le retard, ça roule 
 À Montreux c'en est trop, avec Sébastien, le compagnon français, nous nous arrêtons faire des courses. 27 kilomètres plus tard, nous voilà à Lausanne, un kilo de pâtes et un peu de sauce tomate sur les bras. La soirée est courte : douche, dîner, dodo, en 1h30 tout est plié.
 
 Demain matin un petit col nous attend à nouveau au réveil, il faut être affûté. Le deuxième laron, Laurent, en difficulté dans la montée, nous rejoindra dans la nuit.
+
 ![auto-import](https://thumbsnap.com/i/1mqH6k7E.jpg)
+
 ![auto-import](https://thumbsnap.com/i/R8yZgJWd.jpg)
+
 ![auto-import](https://thumbsnap.com/i/3pmwmacV.jpg)
+
 ![auto-import](https://thumbsnap.com/i/CJ8U5os6.jpg)
+
 ![auto-import](https://thumbsnap.com/i/hWNxe1rX.jpg)
+
 ![auto-import](https://thumbsnap.com/i/RCuvWvhz.jpg)
+
 ![auto-import](https://thumbsnap.com/i/M9MVAMyM.jpg)
 ## Commentaires
 #### Séverine

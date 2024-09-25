@@ -10,30 +10,55 @@ Une fois terminées ces discussions et le matériel rangé, il est 9h bien tass�
 Au deuxième, nous vérifions l'état des cloches, qu'il fait sonner d'un coup de pied. Une fois l'état des lieux et la visite de la nef terminée, il s'en retourne à ses occupations probablement toutes aussi pieuses, tandis que je vais finalement payer ma nuit. Départ donc à 10h. Je ne suis pas très fier de moi, mais ça en valait la peine ! Je me fait cueillir rapidement par Fleet Moss, une belle ascension de 5km à 9% de moyenne, ça réveille. La descente de l'autre côté est vertigineuse, j'ai l'impression de dévaler une piste noire ; record absolu de vitesse battu, 86km/h !
 Je continue à m'enfoncer dans le Lake District. Malheureusement, quand je l'atteins, la pluie a repris de plus belle. Ma seule ascension de col du district s'effectue donc sous une belle "shower" du début à la fin. C'est dommage, mais ça ne m'empêche pas de suer toute l'eau de mon corps, malgré le maillot ouvert et les 20 degrés. Je constate avec joie que les sensations reviennent enfin dans mes jambes, après 4 jours de galère. J'avale, certes non sans peine, des rampes à 20%, ce qui n'aurait pas été concevable dimanche dernier. Belle descente une fois de plus, qui m'emporte vers de grands lacs, dans lesquels les anglais... se baignent (?!). La fin de la journée est moins drôle, j'ai brûlé trop d'énergie, il pleut toujours et il est déjà tard. Je cherche un camping, que je trouve dans la banlieue éloignée de Carlisle. Les 40km pour le rejoindre sont pénibles, j'ai beau manger tout ce qui passe la portée de ma main que je plonge régulièrement dans mon sac, l'énergie ne revient pas. C'est la pire sensation qui soit car elle n'annonce qu'une chose : il faut s'arrêter. 
 
-J'arrive enfin dans un petit camping à la ferme, qui n'est autre qu'un champ avec des toilettes de chantier. J'installe ma tente, toujours pas imperméable (mais j'ai acheté le nécessaire !) Et je profite enfin d'une bière méritée accompagnée d'un petit bleu bien français. La météo n'est vraiment pas bonne, il pleut à grosses gouttes et pour la première fois, j'ai froid. Selon mon voisin de tente, "c'est plutôt normal, pour la saison !". Ils n'ont pas la chance de connaître l'été, les pauvres. Demain, plein Nord !![auto-import](https://thumbsnap.com/i/yJwvoybX.jpg)
+J'arrive enfin dans un petit camping à la ferme, qui n'est autre qu'un champ avec des toilettes de chantier. J'installe ma tente, toujours pas imperméable (mais j'ai acheté le nécessaire !) Et je profite enfin d'une bière méritée accompagnée d'un petit bleu bien français. La météo n'est vraiment pas bonne, il pleut à grosses gouttes et pour la première fois, j'ai froid. Selon mon voisin de tente, "c'est plutôt normal, pour la saison !". Ils n'ont pas la chance de connaître l'été, les pauvres. Demain, plein Nord !
+![auto-import](https://thumbsnap.com/i/yJwvoybX.jpg)
+
 ![auto-import](https://thumbsnap.com/i/GhGZrPVR.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Yvtc2auN.jpg)
+
 ![auto-import](https://thumbsnap.com/i/z9AdhkHS.jpg)
+
 ![auto-import](https://thumbsnap.com/i/TsW8V1kM.jpg)
+
 ![auto-import](https://thumbsnap.com/i/xz4Cxe16.jpg)
+
 ![auto-import](https://thumbsnap.com/i/9Xf293n2.jpg)
+
 ![auto-import](https://thumbsnap.com/i/MwR3LdEe.jpg)
+
 ![auto-import](https://thumbsnap.com/i/SYbvHXkL.jpg)
+
 ![auto-import](https://thumbsnap.com/i/CcHJwiiF.jpg)
+
 ![auto-import](https://thumbsnap.com/i/NCndpfAS.jpg)
+
 ![auto-import](https://thumbsnap.com/i/KY8gAzRy.jpg)
+
 ![auto-import](https://thumbsnap.com/i/CHkaApuk.jpg)
+
 ![auto-import](https://thumbsnap.com/i/M96RRWXB.jpg)
+
 ![auto-import](https://thumbsnap.com/i/bgXqraDF.jpg)
+
 ![auto-import](https://thumbsnap.com/i/PUzhNQ41.jpg)
+
 ![auto-import](https://thumbsnap.com/i/J2EBY29Y.jpg)
+
 ![auto-import](https://thumbsnap.com/i/4WdJwczJ.jpg)
+
 ![auto-import](https://thumbsnap.com/i/FKCufBKu.jpg)
+
 ![auto-import](https://thumbsnap.com/i/KU7GoTmy.jpg)
+
 ![auto-import](https://thumbsnap.com/i/n9m9zq7R.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Sbhn4x9c.jpg)
+
 ![auto-import](https://thumbsnap.com/i/KRjz4kjE.jpg)
+
 ![auto-import](https://thumbsnap.com/i/zywzjMw9.jpg)
+
 ![auto-import](https://thumbsnap.com/i/bRxwavdF.jpg)
 ## Commentaires
 #### Nicolien

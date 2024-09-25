@@ -11,12 +11,19 @@ A Frederikshavn nous faisons quelques courses et passons au carwash pour nettoye
 
 Après un grand rassemblement avec d'autres participants dans le hall du terminal, c'est l'attente, l'embarquement, puis l'installation, dans la grande pièce des sièges inclinables. J'ai donné l'astuce du duvet-sac de couchage a tous mes collègues, nous nous retrouvons donc, 15 cyclistes puants, à coucher sur la moquette du navire.
 
-Demain nous profiterons du petit-déjeuner à bord pour nous refaire une santé et attaquer sereinement les premières côtes Norvégiennes.![auto-import](https://thumbsnap.com/i/tfsRQGoV.jpg)
+Demain nous profiterons du petit-déjeuner à bord pour nous refaire une santé et attaquer sereinement les premières côtes Norvégiennes.
+![auto-import](https://thumbsnap.com/i/tfsRQGoV.jpg)
+
 ![auto-import](https://thumbsnap.com/i/KHBzyJAg.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Xgyi42iR.jpg)
+
 ![auto-import](https://thumbsnap.com/i/HMFvJrgZ.jpg)
+
 ![auto-import](https://thumbsnap.com/i/5uMr8tks.jpg)
+
 ![auto-import](https://thumbsnap.com/i/N2tXunXn.jpg)
+
 ![auto-import](https://thumbsnap.com/i/tAYfDqUR.jpg)
 ## Commentaires
 #### Francois

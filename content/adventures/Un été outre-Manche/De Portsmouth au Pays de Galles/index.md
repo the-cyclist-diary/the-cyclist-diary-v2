@@ -7,23 +7,41 @@ La nuit a été courte et inconfortable sur le Normandie. De grands café m'auro
 A l'heure de passer le pont reliant l'Angleterre au Pays de Galles, la petite larme est versée. Cette journée aura été définitivement l'une des plus difficile de ma courte vie de cycliste.
 Pour couronner le tout, ce soir la pluie s'est invitée à la fête. Si la tente tient le coup, la nuit sera longue et reposante, sinon...
 Demain, je pars jouer dans les collines galloise, avant de bifurquer à nouveau vers le centre de l'Angleterre.
-Je me couche éreinté, mais heureux. ![auto-import](https://thumbsnap.com/i/vaA7WSHV.jpg)
+Je me couche éreinté, mais heureux. 
+![auto-import](https://thumbsnap.com/i/vaA7WSHV.jpg)
+
 ![auto-import](https://thumbsnap.com/i/xGsQ54jX.jpg)
+
 ![auto-import](https://thumbsnap.com/i/PuPGA4mn.jpg)
+
 ![auto-import](https://thumbsnap.com/i/AoCApzPk.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ZRhq8gVB.jpg)
+
 ![auto-import](https://thumbsnap.com/i/3xraRmKQ.jpg)
+
 ![auto-import](https://thumbsnap.com/i/Ppf3f26q.jpg)
+
 ![auto-import](https://thumbsnap.com/i/pXhjE9hd.jpg)
+
 ![auto-import](https://thumbsnap.com/i/vgFs4hn7.jpg)
+
 ![auto-import](https://thumbsnap.com/i/ZwKXrBkf.jpg)
+
 ![auto-import](https://thumbsnap.com/i/daf21LFF.jpg)
+
 ![auto-import](https://thumbsnap.com/i/47UqtZ61.jpg)
+
 ![auto-import](https://thumbsnap.com/i/AcEbFMY3.jpg)
+
 ![auto-import](https://thumbsnap.com/i/6z2P8fzj.jpg)
+
 ![auto-import](https://thumbsnap.com/i/d5vuCVqR.jpg)
+
 ![auto-import](https://thumbsnap.com/i/kNjRPJm7.jpg)
+
 ![auto-import](https://thumbsnap.com/i/opciMTny.jpg)
+
 ![auto-import](https://thumbsnap.com/i/3P6Bbafa.jpg)
 ## Commentaires
 #### Dad

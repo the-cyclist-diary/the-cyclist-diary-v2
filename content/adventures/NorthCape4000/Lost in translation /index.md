@@ -26,16 +26,27 @@ Un rapide tour du centre plus tard, je jette mon dévolu sur une simili-boulange
 Je passe devant les collections l'œil vitreux et l'esprit embué. La NC4K occupe mes pensées et occulte quelque peu les vieilleries exposées çà et là. Je me réjouis néanmoins des collections antiques du sous-sol, vestiges de lointains et prestigieux ancêtres moyen-orientaux. 
 
 
-À 18 h me voilà déjà sur le chemin du retour, de petites provisions dans mon sac. Ce soir des wraps avocat/philadelphia/poulet OGM feront l'affaire. Je profite du calme de l'auberge pour prendre une douche fraîche et m'écrouler sur mon lit. Une armée de ventilateur a été dépêchée pour mettre la chaleur en déroute, en vain. Ce soir de nombreux colocataires m'ont rejoint. Ils vont faire la connaissance de celui que mon ami Guillaume surnomme "l'ours". Bonne nuit à eux...![auto-import](https://thumbsnap.com/i/8qzRgpM3.jpg)
+À 18 h me voilà déjà sur le chemin du retour, de petites provisions dans mon sac. Ce soir des wraps avocat/philadelphia/poulet OGM feront l'affaire. Je profite du calme de l'auberge pour prendre une douche fraîche et m'écrouler sur mon lit. Une armée de ventilateur a été dépêchée pour mettre la chaleur en déroute, en vain. Ce soir de nombreux colocataires m'ont rejoint. Ils vont faire la connaissance de celui que mon ami Guillaume surnomme "l'ours". Bonne nuit à eux...
+![auto-import](https://thumbsnap.com/i/8qzRgpM3.jpg)
+
 ![auto-import](https://thumbsnap.com/i/dTnzgiLS.jpg)
+
 ![auto-import](https://thumbsnap.com/i/u4QMhVkf.jpg)
+
 ![auto-import](https://thumbsnap.com/i/5RpPN8hZ.jpg)
+
 ![auto-import](https://thumbsnap.com/i/L3z5uPW1.jpg)
+
 ![auto-import](https://thumbsnap.com/i/rVP6Uwcv.jpg)
+
 ![auto-import](https://thumbsnap.com/i/BWAHT46A.jpg)
+
 ![auto-import](https://thumbsnap.com/i/jFRRD4mL.jpg)
+
 ![auto-import](https://thumbsnap.com/i/dSdRNz32.jpg)
+
 ![auto-import](https://thumbsnap.com/i/PuYJ5ZoM.jpg)
+
 ![auto-import](https://thumbsnap.com/i/V5wFdgP9.jpg)
 ## Commentaires
 #### Dad

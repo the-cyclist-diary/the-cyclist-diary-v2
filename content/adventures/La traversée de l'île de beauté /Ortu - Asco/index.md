@@ -17,12 +17,19 @@ Le passage du col se fait bâtons rangés, en grimpant sur la pierre humide.
 ### Vers Asco
 La descente vers Asco se fait en quatrième vitesse, à travers d'énormes blocs de pierre. Les genoux trinquent, mais nous apercevons la petite station de ski. Toujours pas d'orage à l'horizon, nous resterons au sec aujourd'hui !
 
-Demain la journée s'annonce technique et le risque d'orage est toujours présent, le départ sera de nouveau très matinal. Heureusement cette fois, nous ne doublerons pas l'étape.![auto-import](https://thumbsnap.com/i/wd95mfA8.jpg)
+Demain la journée s'annonce technique et le risque d'orage est toujours présent, le départ sera de nouveau très matinal. Heureusement cette fois, nous ne doublerons pas l'étape.
+![auto-import](https://thumbsnap.com/i/wd95mfA8.jpg)
+
 ![auto-import](https://thumbsnap.com/i/A4PiavKx.jpg)
+
 ![auto-import](https://thumbsnap.com/i/havG8WF3.jpg)
+
 ![auto-import](https://thumbsnap.com/i/pwUrd2Pg.jpg)
+
 ![auto-import](https://thumbsnap.com/i/6J2WJYDM.jpg)
+
 ![auto-import](https://thumbsnap.com/i/x7mjrtNC.jpg)
+
 ![auto-import](https://thumbsnap.com/i/urodkCfS.jpg)
 ## Commentaires
 #### Dad
