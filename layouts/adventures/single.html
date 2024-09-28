@@ -1,6 +1,20 @@
 {{ define "main" }}
-
-  {{ partial "heading.html" . }}
-  {{ .Content }}
-  {{ partial "giscus.html" }}
+<div class="section">
+    <div class="container is-max-tablet">
+        {{ partial "heading.html" . }}
+        <hr>
+        <div class="has-text-justified">
+            {{ .Content }}
+        </div>
+    </div>
+    <div class="section">
+        {{ partial "giscus.html" }}
+    </div>
+</div>
+<script>
+    let sliders = document.querySelectorAll('.glide');
+    sliders.forEach(s => {
+        new Glide(s).mount();
+    })
+</script>
 {{ end }}

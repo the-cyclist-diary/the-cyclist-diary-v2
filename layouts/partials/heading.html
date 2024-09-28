@@ -1,12 +1,12 @@
-<header class="Heading">
-  <h2>
+<header>
+  <p class="title is-6 is-family-sans-serif">
     <a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.LinkTitle }}</a>
-  </h2>
-  <h1 class="Heading-title">
+  </p>
+  <p class="title is-4 is-family-sans-serif">
     {{ .Title }}
-  </h1>
+  </p>
   {{ with .PublishDate | default nil }}
-    <time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . }}">
+    <time class="subtitle is-family-sans-serif" datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . }}">
       {{- time.Format ":date_long" . -}}
     </time>
   {{ end }}

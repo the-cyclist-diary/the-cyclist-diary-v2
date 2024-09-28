@@ -16,3 +16,9 @@ module:
   mounts:
     - source: "assets/images"
       target: "static/images"
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        title: true
