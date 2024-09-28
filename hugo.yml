@@ -3,11 +3,6 @@ languageCode: fr-FR
 title: The cyclist diary
 theme: hugo-flex
 defaultContentLanguage: fr
-params:
-  footer: "The cyclist diary - 2024"
-  summaries: true
-  css:
-    - css/style.css
 menu:
   main:
     - name: Aventures
