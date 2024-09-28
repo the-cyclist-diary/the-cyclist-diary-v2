@@ -1,0 +1,2 @@
+{{ $base_css := resources.Get "css/style.css" }}
+{{ .Page.Scratch.SetInMap "css" "base" $base_css }}

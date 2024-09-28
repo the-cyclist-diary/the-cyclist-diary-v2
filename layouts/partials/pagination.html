@@ -1,0 +1,14 @@
+{{ if gt .Paginator.TotalPages 1 }}
+<nav class="is-size-5">
+    {{ with .Paginator.Next }}
+    <div class="has-text-right">
+        <a class="Pagination u-clickable" href="{{ relLangURL .URL }}" rel="prev">Suivant »</a>
+    </div>
+    {{ end }}
+    {{ with .Paginator.Prev }}
+    <div class="has-text-left">
+        <a class="Pagination Pagination--right u-clickable" href="{{ relLangURL .URL }}" rel="next">« Précédent</a>
+    </div>
+    {{ end }}
+</nav>
+{{ end }}

@@ -1,0 +1,36 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+/* Mobile first */
+.navbar {
+    position: absolute;
+    top: 0 ;
+}
+#cover-display {
+    background-image: url('/images/cover.jpeg');
+    background-size: cover;
+    height: 10rem;
+    position: static;
+}
+
+.navbar-burger span {
+    color: white;
+}
+
+#a-fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+/* Ecran ordinateur/tablette */
+@media screen and (min-width: 450px) {
+    #cover-display {
+        height: 20rem;
+    }
+}
+
+/** ROOT VARIABLES **/
+:root {
+    --bulma-navbar-item-color: white;
+}

@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container is-max-desktop">
+        {{ partial "section-heading.html" . }}
+        <div class="block has-text-justified is-size-5">
+            {{ .Content }}
+        </div>
+        <hr class="mb-6">
+        {{ range .Paginator.Pages }}
+        <div class="container has-text-justified">
+            <a href="{{ .RelPermalink }}">
+                <p class="title is-4">
+                    {{ .Title }}
+                </p>
+                <p class="subtitle is-6">
+                    {{ time.Format "2006-01-02" .PublishDate }}
+                </p>
+            </a>
+            <div class="mt-5">
+                {{ .Summary }}
+                {{ if .Truncated }}
+                    <a href="{{ .RelPermalink }}">Lire plus...</a>
+                {{ end }}
+            </div>
+            <hr>
+        </div>
+        {{ end }}
+        {{ template "partials/pagination.html" . }}
+    </div>
+</div>
+{{ end }}

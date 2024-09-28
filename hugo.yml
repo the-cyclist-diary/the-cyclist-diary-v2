@@ -6,6 +6,8 @@ defaultContentLanguage: fr
 params:
   footer: "The cyclist diary - 2024"
   summaries: true
+  css:
+    - css/style.css
 menu:
   main:
     - name: Aventures
@@ -14,3 +16,8 @@ menu:
     - name: A propos
       pageRef: /about
       weight: 2
+
+module:
+  mounts:
+    - source: "assets/images"
+      target: "static/images"

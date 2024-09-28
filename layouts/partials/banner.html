@@ -1,0 +1,47 @@
+<div id="cover-display">
+    <nav>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="site-navbar">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu" id="site-navbar">
+            <div class="navbar-end has-text-weight-bold is-size-5">
+                {{ range site.Menus.main }}
+                {{ $url := relLangURL .URL }}
+                {{ if isset .Params "format" | and .Page }}
+                {{ $url = (.Page.OutputFormats.Get .Params.format).RelPermalink }}
+                {{ end }}
+                <a class="navbar-item white" href="{{ $url }}">{{ .Name }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </nav>
+    <a id="a-fill-div" href="{{ relLangURL nil }}"></a>
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+            el.addEventListener('click', () => {
+
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+
+            });
+        });
+
+    });
+</script>
