@@ -1,5 +1,16 @@
 baseURL: https://example.org/
 languageCode: fr-FR
 title: The cyclist diary
-theme: ananke
+theme: hugo-flex
 defaultContentLanguage: fr
+params:
+  footer: "The cyclist diary - 2024"
+  summaries: true
+menu:
+  main:
+    - name: Aventures
+      pageRef: /adventures
+      weight: 1
+    - name: A propos
+      pageRef: /about
+      weight: 2
