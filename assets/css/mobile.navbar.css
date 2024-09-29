@@ -1,0 +1,21 @@
+.navbar {
+    position: absolute;
+    top: 0 ;
+}
+#cover-display {
+    background-image: url('/images/cover.jpeg');
+    background-size: cover;
+    height: 10rem;
+    position: static;
+}
+
+.navbar-burger span {
+    color: white;
+}
+
+#a-fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}

@@ -16,6 +16,8 @@ module:
   mounts:
     - source: "assets/images"
       target: "static/images"
+    - source: "assets/css"
+      target: "static/css"
 
 markup:
   goldmark:

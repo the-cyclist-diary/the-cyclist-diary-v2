@@ -1,0 +1,8 @@
+.glide {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.glide__slide img {
+    display: block;
+    margin: auto;
+}

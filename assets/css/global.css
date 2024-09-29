@@ -2,54 +2,11 @@
 @import "https://unpkg.com/@glidejs/glide@3.6.2/dist/css/glide.core.min.css";
 @import "https://unpkg.com/@glidejs/glide@3.6.2/dist/css/glide.theme.min.css";
 
-/* Mobile first */
-.glide {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.glide__slide img {
-    display: block;
-    margin: auto;
-}
-.footer {
-    --bulma-footer-padding: 1rem 1rem 2rem;
-}
-.navbar {
-    position: absolute;
-    top: 0 ;
-}
-#cover-display {
-    background-image: url('/images/cover.jpeg');
-    background-size: cover;
-    height: 10rem;
-    position: static;
-}
-
-.navbar-burger span {
-    color: white;
-}
-
-#a-fill-div {
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-}
-
-img {
-    max-height: 90vh;
-}
-
-.image.is-128x128 {
-    object-fit: cover;
-}
-
-/* Ecran ordinateur/tablette */
-@media screen and (min-width: 450px) {
-    #cover-display {
-        height: 20rem;
-    }
-}
+@import "footer.css";
+@import "glide.css";
+@import "mobile.navbar.css";
+@import "desktop.navbar.css";
+@import "images.css";
 
 /** ROOT VARIABLES **/
 :root {
