@@ -14,7 +14,11 @@
 <script>
     let sliders = document.querySelectorAll('.glide');
     sliders.forEach(s => {
-        new Glide(s).mount();
+        new Glide(s, {
+            type: 'slider',
+            startAt: 0,
+            perView: 1
+        }).mount();
     })
 </script>
 {{ end }}

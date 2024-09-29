@@ -1,4 +1,6 @@
 {{- $src := .Get "src" -}}
 <li class="glide__slide">
-    <img class="slide" src="{{ $src }}">
+    <a href="{{ $src }}">
+        <img alt="{{ $src }}" class="slide" src="{{ $src }}">
+    </a>
 </li>

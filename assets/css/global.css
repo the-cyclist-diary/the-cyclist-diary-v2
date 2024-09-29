@@ -3,6 +3,10 @@
 @import "https://unpkg.com/@glidejs/glide@3.6.2/dist/css/glide.theme.min.css";
 
 /* Mobile first */
+.glide {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .glide__slide img {
     display: block;
     margin: auto;
