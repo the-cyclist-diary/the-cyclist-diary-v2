@@ -1,10 +1,10 @@
 <div class="container has-text-justified">
     {{ if eq .displaySection true }}
-    <p class="title is-6 is-family-sans-serif">
+    <p class="title is-6 is-underlined">
         <a href="{{ .context.CurrentSection.RelPermalink }}">{{ .context.CurrentSection.LinkTitle }}</a>
     </p>
     {{ end }}
-    <a href="{{ .RelPermalink }}">
+    <a href="{{ .context.RelPermalink }}">
         <span class="title is-4 is-family-sans-serif">
             {{ .context.Title }}
         </span>
@@ -12,10 +12,10 @@
             | {{ time.Format "2006-01-02" .context.PublishDate }}
         </span>
     </a>
-    <div class="mt-5">
+    <div class="mt-5 is-size-5">
         {{ .context.Summary }}
         {{ if .Truncated }}
-        <a href="{{ .RelPermalink }}">Lire plus...</a>
+        <a href="{{ .context.RelPermalink }}">Lire plus...</a>
         {{ end }}
     </div>
     <hr>

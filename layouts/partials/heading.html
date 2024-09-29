@@ -1,12 +1,12 @@
 <header>
-  <p class="title is-6 is-family-sans-serif">
+  <p class="title is-6 is-underlined">
     <a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.LinkTitle }}</a>
   </p>
-  <p class="title is-4 is-family-sans-serif">
+  <p class="title is-4">
     {{ .Title }}
   </p>
   {{ with .PublishDate | default nil }}
-    <time class="subtitle is-family-sans-serif" datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . }}">
+    <time class="subtitle" datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . }}">
       {{- time.Format ":date_long" . -}}
     </time>
   {{ end }}

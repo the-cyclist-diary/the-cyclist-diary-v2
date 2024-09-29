@@ -18,6 +18,8 @@ module:
       target: "static/images"
     - source: "assets/css"
       target: "static/css"
+    - source: "assets/fonts"
+      target: "static/fonts"
 
 markup:
   goldmark:

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "custom-sans-serif";
+    src: local("Blue_Highway_Rg"),
+    local("sans-serif"),
+    url("../fonts/Blue_Highway_Rg.otf") format('truetype');
+}
+
+@font-face {
+    font-family: "custom-serif";
+    src: local("LTSoul-Regular"),
+    local("serif"),
+    url("../fonts/LTSoul-Regular.otf") format('truetype');
+}
+
+.title {
+    font-family: custom-sans-serif, sans-serif !important;
+}
+.subtitle {
+    font-family: custom-sans-serif, sans-serif !important;
+}
+
+.navbar-item {
+    font-family: "custom-sans-serif",  "sans-serif";
+}
+
+p {
+    font-family: custom-serif, serif;
+}
