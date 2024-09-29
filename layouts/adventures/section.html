@@ -11,7 +11,7 @@
     <div class="container is-max-tablet">
         <hr class="mb-6">
         {{ range .Paginator.Pages }}
-            {{ partial "adventure-summary.html" . }}
+            {{ partial "adventure-summary.html" (dict "context" . "displaySection" false) }}
         {{ end }}
         {{ template "partials/pagination.html" . }}
     </div>

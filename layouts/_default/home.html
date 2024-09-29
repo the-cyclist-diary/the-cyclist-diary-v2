@@ -16,7 +16,7 @@
         </h1>
         <hr>
         {{ range .Paginator.Pages.Limit 5 }}
-        {{ partial "adventure-summary.html" . }}
+        {{ partial "adventure-summary.html" (dict "context" . "displaySection" true) }}
         {{ end }}
     </div>
 </div>
