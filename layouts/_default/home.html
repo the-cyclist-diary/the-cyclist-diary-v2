@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container is-max-tablet has-text-justified">
+        <h1 class="title is-family-sans-serif">
+            {{ .Title }}
+        </h1>
+        <p>
+            {{ .Content }}
+        </p>
+    </div>
+</div>
+<div class="section">
+    <div class="container is-max-tablet">
+        <h1 class="title is-family-sans-serif">
+            Derniers articles
+        </h1>
+        <hr>
+        {{ range .Paginator.Pages.Limit 5 }}
+        {{ partial "adventure-summary.html" . }}
+        {{ end }}
+    </div>
+</div>
+
+{{ end }}

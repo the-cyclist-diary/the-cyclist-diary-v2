@@ -1,0 +1,17 @@
+<div class="container has-text-justified">
+    <a href="{{ .RelPermalink }}">
+        <p class="title is-4 is-family-sans-serif">
+            {{ .Title }}
+        </p>
+        <p class="subtitle is-6 is-family-sans-serif">
+            {{ time.Format "2006-01-02" .PublishDate }}
+        </p>
+    </a>
+    <div class="mt-5">
+        {{ .Summary }}
+        {{ if .Truncated }}
+        <a href="{{ .RelPermalink }}">Lire plus...</a>
+        {{ end }}
+    </div>
+    <hr>
+</div>
