@@ -5,3 +5,8 @@ img {
 .image.is-128x128 {
     object-fit: cover;
 }
+
+.container.is-max-tablet img {
+    display: block;
+    margin: auto;
+}

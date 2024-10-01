@@ -1,7 +1,11 @@
 +++
 title = "Calenzana - Ortu"
-date = 2024-09-02 14:57:16.816572
+date = "2024-09-02 14:57:16.816572"
 draft = true
+gps = "gps.png"
+distance = "13,29"
+duree = "4:17:20"
+denivele = "1 570"
 +++
 
 ### A la loupiotte
