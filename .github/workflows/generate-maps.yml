@@ -4,6 +4,7 @@ on: [push]
 jobs:
   Generate-images-from-GPX-files:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - name: Generate images
         uses: the-cyclist-diary/generate-map-cicd@v1.2.1
