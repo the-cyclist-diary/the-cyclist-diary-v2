@@ -7,7 +7,7 @@ jobs:
     permissions: write-all
     steps:
       - name: Generate images
-        uses: the-cyclist-diary/generate-map-cicd@v1.2.1
+        uses: the-cyclist-diary/generate-map-cicd@v1.2.2
         with:
           content-path: "content"
           user-token: ${{ secrets.GITHUB_TOKEN }}
