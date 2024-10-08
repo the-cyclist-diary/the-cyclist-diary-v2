@@ -3,6 +3,42 @@
     <div class="container is-max-tablet">
         {{ partial "heading.html" . }}
         <hr>
+        {{ if .Params.gps }}
+        <div class="columns">
+            <div class="column">
+                <a href="{{.Params.gps}} ">
+                    <img alt="The gpx image of this adventure" src="{{ .Params.gps }}">
+                </a>
+            </div>
+            <div class="column has-text-left">
+                <div>
+                    <p class="subtitle">
+                        Distance
+                    </p>
+                    <p class="title">
+                        {{ .Params.distance }} km
+                    </p>
+                </div>
+                <div>
+                    <p class="subtitle">
+                        Durée
+                    </p>
+                    <p class="title">
+                        {{ .Params.duree }} h
+                    </p>
+                </div>
+                <div>
+                    <p class="subtitle">
+                        Dénivelé
+                    </p>
+                    <p class="title">
+                        {{ .Params.denivele }} m
+                    </p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+        <hr>
         <div class="has-text-justified is-size-5">
             {{ .Content }}
         </div>
