@@ -2,47 +2,7 @@
 <div class="section">
     <div class="container is-max-tablet">
         {{ partial "heading.html" . }}
-        <hr>
-        {{ if .Params.gps }}
-        <div>
-            <a href="{{.Params.gps}} ">
-                <img alt="The gpx image of this adventure" src="{{ .Params.gps }}"></a>
-            <div class="level">
-                <div class="level-item has-text-centered">
-                    <div>
-                        <p class="heading">Distance</p>
-                        <p class="subtitle">
-                            {{ $fmt := div (float .Params.distance) 1000 }}
-                            {{ printf "%.2f" $fmt }} km
-                        </p>
-                    </div>
-                </div>
-                <div class="level-item has-text-centered">
-                    <div>
-                        <p class="heading">Durée</p>
-                        <p class="subtitle">
-                            {{ .Params.duration }} h
-                        </p>
-                    </div>
-                </div>
-                <div class="level-item has-text-centered">
-                    <div>
-                        <p class="heading">Dénivelé</p>
-                        <p class="subtitle">
-                            {{ .Params.elevation }} m
-                        </p>
-                    </div>
-                </div>
-                <div class="level-item has-text-centered">
-                    <div>
-                        <p class="heading">Vitesse</p>
-                        {{ $speed := float .Params.speed }}
-                        <p class="subtitle">{{ printf "%.2f" $speed }} km/h</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {{ end }}
+        {{ partial "gps-display.html" . }}
         <hr>
         <div class="has-text-justified is-size-5">
             {{ .Content }}
