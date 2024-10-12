@@ -14,15 +14,13 @@ La redescente est vite avalée, bien que le soleil pèse désormais de tout son 
 Un rapide arrêt au supermarché et un saut dans le Lot plus tard et nous voilà à Saint-Cirq. En bons touristes, nous gravissons la plus haute marche du Belvédère avant d'aller dîner dans un charmant petit restaurant de la ville. 
 
 Ce soir les jambes sont lourdes, demain sera difficile !
-![auto-import](https://thumbsnap.com/i/qnC5ujw8.jpg)
 
-![auto-import](https://thumbsnap.com/i/b1aokXvC.jpg)
+{{< gallery class="content-gallery" btn="6">}}
+{{< img src="qnC5ujw8.jpg" >}}
+{{< img src="b1aokXvC.jpg" >}}
+{{< img src="7YwdBjh9.jpg" >}}
+{{< img src="HHTrxkXx.jpg" >}}
+{{< img src="SFQpwEGd.jpg" >}}
+{{< img src="8yqoAis8.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/7YwdBjh9.jpg)
-
-![auto-import](https://thumbsnap.com/i/HHTrxkXx.jpg)
-
-![auto-import](https://thumbsnap.com/i/SFQpwEGd.jpg)
-
-![auto-import](https://thumbsnap.com/i/8yqoAis8.jpg)
-## Commentaires

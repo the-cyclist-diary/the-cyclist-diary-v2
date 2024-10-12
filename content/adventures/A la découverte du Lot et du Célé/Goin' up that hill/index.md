@@ -17,9 +17,10 @@ Ragaillardis par quelques barres de céréales, nous repartons de plus belle. Ap
 _Bis repetita_, montée, plateau, descente. Cette fois c'est en direction de Vers que l'on avance, pour finalement boucler la boucle prévue. Nous retrouvons le petit snack du départ, où nous profitons d'une bonne bière bien méritée. La pluie d'orage qui s'abat sur le camping n'aura pas raison de notre moral, la tente est étanche, on attend patiemment. A l'occasion d'une éclaircie, on dine.
 
 Pour demain la question se pose encore : rentrera-t-on à pied ou en stop jusqu'à Cahors ?
-![auto-import](https://thumbsnap.com/i/gHJyTP3S.jpg)
 
-![auto-import](https://thumbsnap.com/i/795DKvZn.jpg)
+{{< gallery class="content-gallery" btn="3">}}
+{{< img src="gHJyTP3S.jpg" >}}
+{{< img src="795DKvZn.jpg" >}}
+{{< img src="N6FiwMLe.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/N6FiwMLe.jpg)
-## Commentaires
