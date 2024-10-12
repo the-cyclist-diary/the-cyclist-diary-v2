@@ -1,7 +1,12 @@
 +++
+speed = "2.5377429"
 title = "Calenzana - Ortu"
-date = 2024-09-02 14:57:16.816572
-draft = true
+gps = "GR20_j1.png"
+draft = "true"
+distance = "13173"
+elevation = "1644"
+duration = "5:11:27"
+date = "2024-09-02 14:57:16.816572"
 +++
 ### A la loupiotte 
 Le départ a lieu en pleine nuit, à la frontale. Nous sommes nombreux au camping à avoir opté pour un un début de journée entre 5 et 6h. Aussi, dans la montagne endormie, ce sont autant de petits points lumineux que de groupes qui sursautent dans les lacets.
