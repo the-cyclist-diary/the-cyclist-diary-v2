@@ -1,8 +1,8 @@
 @font-face {
     font-family: "custom-sans-serif";
-    src: local("Blue_Highway_Rg"),
+    src: local("coolvetica_rg"),
     local("sans-serif"),
-    url("../fonts/Blue_Highway_Rg.otf") format('truetype');
+    url("../fonts/coolvetica_rg.otf") format('truetype');
 }
 
 @font-face {
