@@ -1,8 +1,8 @@
 @font-face {
     font-family: "custom-sans-serif";
-    src: local("coolvetica_rg"),
+    src: local("LTCushion"),
     local("sans-serif"),
-    url("../fonts/coolvetica_rg.otf") format('truetype');
+    url("../fonts/LTCushion-Medium.ttf") format('truetype');
 }
 
 @font-face {

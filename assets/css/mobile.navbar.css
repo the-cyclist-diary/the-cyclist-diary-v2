@@ -3,14 +3,24 @@
     top: 0 ;
 }
 #cover-display {
-    background-image: url('/images/cover.jpeg');
+    background-image: url('/images/cover.jpg');
     background-size: cover;
     height: 10rem;
     position: static;
+    text-shadow: 2px 2px 2px black;
 }
 
 .navbar-burger span {
     color: white;
+}
+
+#cover-display .title {
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    margin-top: 3rem;
 }
 
 #a-fill-div {

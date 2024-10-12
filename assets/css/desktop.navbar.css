@@ -2,4 +2,9 @@
     #cover-display {
         height: 20rem;
     }
+
+    #cover-display .title {
+        margin-top: 5rem;
+        font-size: 8rem !important;
+    }
 }
