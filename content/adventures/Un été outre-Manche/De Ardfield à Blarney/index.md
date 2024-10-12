@@ -4,39 +4,27 @@ date = 2022-08-15 21:30:16.266559
 draft = true
 +++
 La météo a menti ! Un soleil incroyable me fait émerger ce matin (je n'ai pas pu résister à la petite photo sous la tente). J'étends tout sur la clôture pendant mon petit-déjeuner ; ce soir, je dormirai dans une tente sèche et confortable, c'est un luxe rare. Je bricole un itinéraire qui m'emmènera jusqu'à un camping tout près de Cork. Je planifie d'y passer deux nuits, ce qui me permettra d'aller demain visiter la ville sans mon vélo. La route est tranquille, je commence par suivre le trait de côte, à la recherche des forts et criques perdus. Quel plaisir de pouvoir prendre son temps et d'aller se perdre en suivant chaque panneau touristique. Au bout d'une trentaine de kilomètres, je m'arrête devant une belle plage, l'un des spots de surf du coin, où je déguste un café (oui, accompagné de McVities, pourquoi poser la question ?). Les débutants en dossards rouge s'entrainent au take off dans de petites mousses molles. Je repars, la pointe de Old Head m'attends. J'y trouve un petit mémorial pour le Lusitania et pas mal de touristes. Après un bref passage dans les champs, c'est Kinsale, adorable cité portuaire où l'air sent bon le poisson mariné dans sa saumure salée. Je m'arrête malgré l'odeur pour déjeuner devant le port, en regardant les voiliers gîter sous la petite brise qui s'est levée. En faisant le bilan de mes cinquante kilomètres de la matinée, je me dis que je dois la vérité à tous les irlandais que je croise. Souvent, je suis arrêté par des troupeaux qui traversent la route accompagnés par leurs bergers. Les vaches (celles d'ici en particulier ?) ont tendance à recouvrir la route d'immondices particulièrement liquide pendant leur passage. Si, par malheur, j'ose ensuite prendre un peu de vitesse sur le chemin qu'elles ont emprunté, je me retrouve bien souvent maculé de l'odorant nectar. Alors sachez, chers hôtes irlandais, que les petites mouches sur mes joues, les herbes folles sur mes lunettes, les grumeaux dans ma barbe rousse, malgré votre bon esprit, ne doivent pas être pris pour quelques boues récoltées dans des ornières. En une phrase (digne de JCVD), quand ça a la couleur de la merde, la texture de la merde, l'odeur de la merde : C'EST de la merde. Heureusement, je trouve régulièrement de quoi me débarbouiller, que mon lectorat se rassure. Je repars, dans la montée, petit fait divers, un camion de BTP s'est encastré dans un poteau téléphonique. Ça fume, de l'huile partout, je suis bien content d'arriver après la bataille plutôt que pendant. Je roule encore un peu le long de la côte, ce long crochet sur la carte, c'est juste pour aller voir Robert's Cove. Une vraie crique de pirate, qui en a le nom et l'allure. Je ne suis pas déçu du voyage. Ce qui me chagrine en revanche, c'est le grain violent et très court qui m'attend juste après. Je sens que la journée prend un autre tournant, c'est la fin du beau temps, je remets ma veste. De toute façon, le reste de la journée s'annonce moins palpitant car je dois traverser la campagne pour remonter vers Cork. J'ai tout de même noté le nom d'une vieille abbaye en ruine que m'a indiqué un cycliste sympathique la veille pendant ma pause déjeuner. Rien de mieux que de demander aux locaux leur petit endroit préféré. Je roule bien, mais commence à apercevoir les nuages violet foncé qui planent au-dessus de Cork. Alors que commence à gronder le tonnerre, je descends à bonne vitesse une petite route de campagne. Elle débouche sur une départementale, je freine, assez fort. Malheur, je sens que je perds le contrôle du vélo ; il tremble, se dandine, que se passe-t-il ? Je réalise assez rapidement que je viens de crever, il s'agit de s'arrêter sans finir les dents sur le bitume. Freinage un peu en catastrophe (j'ai l'impression de sortir d'afterwork un vendredi tellement je ne tire pas droit), je finis sur le bas-côté. Je reprends mon souffle un instant, j'ai eu franchement peur ; c'est le pneu avant qui a lâché, il a presque déjanté. Pas de chance, je n'avais pas réparé ma chambre de secours, je n'ai donc d'autre choix que de poser une rustine ici et maintenant. Voilà une bonne heure de perdue car au lieu d'un, c'est deux immenses trous que je dois colmater (oui, j'avais pincé la chambre, je vous vois venir les cyclistes). L'orage gronde de plus belle et lorsque je repars, les nuages, n'y tenant plus, crèvent les uns après les autres. L'abbaye est en fait à quelques dizaines de mètres de l'endroit de la panne. J'y pénètre avec un peu d'appréhension. Au milieu des champs jaunes, des corbeaux partout, le ciel bas et les éclairs qui illument les vieux murs. J'ai l'impression d'être dans Le Nom de la Rose et je ne serais pas tout à fait étonné d'être accueilli par un vieux moine bossu (mais où est Sean ?!). Quelques photos et me revoilà sur la route, la pluie tombe de plus belle. Au bout d'encore quelques kilomètres, je dois me rendre à l'évidence : ma réparation ne tient pas bien, le pneu se dégonfle. Excellente excuse pour m'arrêter à une station service et dévorer un muffin au chocolat arrosé d'un café (j'ai quand même regonflé la chambre, après). Dernière montée : le camping se trouve tout en haut. Il y a aussi le célèbre château de Blarney, que je visiterais sans doute demain. J'arrive à la réception trempé, je mets de l'eau partout sur les papiers d'inscription. J'installe le camp rapidement, prends une bonne douche et me voilà dans la grande cuisine commune, à déguster ma ration de secours, que j'aurais gardé tout le voyage. Il n'y a QUE des français. Ça m'énerve un peu, j'ai l'impression avoir déjà franchi la Manche (je sais, c'est pas exactement la Manche, c'est la Mer Celtique, voilà). Heureusement, une famille hollandaise vient relever le niveau ! Tout le monde tourne au coca en jouant à "La course aux hérissons". Le papa, énorme, porte un pull tricoté bleu électrique avec un grand portrait de Pluto (il l'enlèvera par la suite pour dévoiler un t-shirt bambi). Merci à eux. Demain va être une belle journée. Normalement, le soleil devrait se joindre à la fête et j'ai hâte de pouvoir découvrir la ville et le château voisin. Merci à tous pour vos messages d'hier, vous avez bien raison : je vais profiter à fond de mon dernier jour ici et de la belle étape bretonne qui me reste !
-![auto-import](https://thumbsnap.com/i/enyHemih.jpg)
 
-![auto-import](https://thumbsnap.com/i/WPWdRwvJ.jpg)
+{{< gallery class="content-gallery" btn="17">}}
+{{< img src="enyHemih.jpg" >}}
+{{< img src="WPWdRwvJ.jpg" >}}
+{{< img src="Ab1JyhoN.jpg" >}}
+{{< img src="YrbfouPM.jpg" >}}
+{{< img src="MeXPMXmP.jpg" >}}
+{{< img src="L6KVrUNT.jpg" >}}
+{{< img src="cSsXYmKT.jpg" >}}
+{{< img src="TUBbpt3N.jpg" >}}
+{{< img src="TEW9WEtm.jpg" >}}
+{{< img src="FM735ERR.jpg" >}}
+{{< img src="NUF8mdnN.jpg" >}}
+{{< img src="iNZ4a2Wj.jpg" >}}
+{{< img src="98jT1TRN.jpg" >}}
+{{< img src="wVDaY1dW.jpg" >}}
+{{< img src="GL9D4B93.jpg" >}}
+{{< img src="xPLog5y9.jpg" >}}
+{{< img src="bm6CAbiT.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/Ab1JyhoN.jpg)
-
-![auto-import](https://thumbsnap.com/i/YrbfouPM.jpg)
-
-![auto-import](https://thumbsnap.com/i/MeXPMXmP.jpg)
-
-![auto-import](https://thumbsnap.com/i/L6KVrUNT.jpg)
-
-![auto-import](https://thumbsnap.com/i/cSsXYmKT.jpg)
-
-![auto-import](https://thumbsnap.com/i/TUBbpt3N.jpg)
-
-![auto-import](https://thumbsnap.com/i/TEW9WEtm.jpg)
-
-![auto-import](https://thumbsnap.com/i/FM735ERR.jpg)
-
-![auto-import](https://thumbsnap.com/i/NUF8mdnN.jpg)
-
-![auto-import](https://thumbsnap.com/i/iNZ4a2Wj.jpg)
-
-![auto-import](https://thumbsnap.com/i/98jT1TRN.jpg)
-
-![auto-import](https://thumbsnap.com/i/wVDaY1dW.jpg)
-
-![auto-import](https://thumbsnap.com/i/GL9D4B93.jpg)
-
-![auto-import](https://thumbsnap.com/i/xPLog5y9.jpg)
-
-![auto-import](https://thumbsnap.com/i/bm6CAbiT.jpg)
 ## Commentaires
 #### Moum
 Décidément, Ivan, j'aime ta façon de raconter tes emm ... C'est le cas de le dire!

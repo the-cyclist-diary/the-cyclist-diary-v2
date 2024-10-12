@@ -27,21 +27,18 @@ Je rentre de ce meeting le cœur léger. La météo s'annonce plus clémente que
 
 
 21 h, les sacoches sont prêtes, le cycliste également. Il est bientôt l'heure de dormir, demain commence la plus folle et gigantesque aventure de ma vie.
-![auto-import](https://thumbsnap.com/i/DEwqoVZV.jpg)
 
-![auto-import](https://thumbsnap.com/i/DAZKD7gz.jpg)
+{{< gallery class="content-gallery" btn="8">}}
+{{< img src="DEwqoVZV.jpg" >}}
+{{< img src="DAZKD7gz.jpg" >}}
+{{< img src="qnCHc85L.jpg" >}}
+{{< img src="R9qQ3w8k.jpg" >}}
+{{< img src="iRmENTkP.jpg" >}}
+{{< img src="f1PLwjns.jpg" >}}
+{{< img src="oASgQf8h.jpg" >}}
+{{< img src="NiP9WKTk.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/qnCHc85L.jpg)
-
-![auto-import](https://thumbsnap.com/i/R9qQ3w8k.jpg)
-
-![auto-import](https://thumbsnap.com/i/iRmENTkP.jpg)
-
-![auto-import](https://thumbsnap.com/i/f1PLwjns.jpg)
-
-![auto-import](https://thumbsnap.com/i/oASgQf8h.jpg)
-
-![auto-import](https://thumbsnap.com/i/NiP9WKTk.jpg)
 ## Commentaires
 #### Sandrine
 Coucou Ivan,

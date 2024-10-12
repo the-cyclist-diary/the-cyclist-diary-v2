@@ -14,39 +14,27 @@ Le paysage est cependant magnifique, plus beau que tout ce que j'ai pu voir jusq
 Après une vingtaine de km, j'arrive enfin à un camping que j'avais repéré. Malheureusement, il est 21h et je me fait jeter, malgré mon insistance (ça paraît fou, non ??).
 Je retourne auprès du lac que surplombe le camping pour établir le campement sur la berge. La nuit sera très courte, l'endroit est touristique, je dois partir tôt, cette fois.
 Demain, direction le lake district ! 
-![auto-import](https://thumbsnap.com/i/a3vJ53GE.jpg)
 
-![auto-import](https://thumbsnap.com/i/Cjts9A3v.jpg)
+{{< gallery class="content-gallery" btn="17">}}
+{{< img src="a3vJ53GE.jpg" >}}
+{{< img src="Cjts9A3v.jpg" >}}
+{{< img src="bM8vYY3A.jpg" >}}
+{{< img src="yEDK8iSK.jpg" >}}
+{{< img src="vucpwdfB.jpg" >}}
+{{< img src="X9d54F2V.jpg" >}}
+{{< img src="f3es16Mf.jpg" >}}
+{{< img src="ghi6tgMs.jpg" >}}
+{{< img src="jLyrqi62.jpg" >}}
+{{< img src="YDivkvT3.jpg" >}}
+{{< img src="mxy7JjgD.jpg" >}}
+{{< img src="JNbUfPK1.jpg" >}}
+{{< img src="xzfX2m2P.jpg" >}}
+{{< img src="cPgPFdbg.jpg" >}}
+{{< img src="tDqNktdZ.jpg" >}}
+{{< img src="Apusr6Nq.jpg" >}}
+{{< img src="ns6Co6j6.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/bM8vYY3A.jpg)
-
-![auto-import](https://thumbsnap.com/i/yEDK8iSK.jpg)
-
-![auto-import](https://thumbsnap.com/i/vucpwdfB.jpg)
-
-![auto-import](https://thumbsnap.com/i/X9d54F2V.jpg)
-
-![auto-import](https://thumbsnap.com/i/f3es16Mf.jpg)
-
-![auto-import](https://thumbsnap.com/i/ghi6tgMs.jpg)
-
-![auto-import](https://thumbsnap.com/i/jLyrqi62.jpg)
-
-![auto-import](https://thumbsnap.com/i/YDivkvT3.jpg)
-
-![auto-import](https://thumbsnap.com/i/mxy7JjgD.jpg)
-
-![auto-import](https://thumbsnap.com/i/JNbUfPK1.jpg)
-
-![auto-import](https://thumbsnap.com/i/xzfX2m2P.jpg)
-
-![auto-import](https://thumbsnap.com/i/cPgPFdbg.jpg)
-
-![auto-import](https://thumbsnap.com/i/tDqNktdZ.jpg)
-
-![auto-import](https://thumbsnap.com/i/Apusr6Nq.jpg)
-
-![auto-import](https://thumbsnap.com/i/ns6Co6j6.jpg)
 ## Commentaires
 #### Moum
 J'espère que tu as pu récupérer Ivan! Pas très convivial le camping chez les anglais ... Enfin tu n'en es pas à ta première expérience de bivouac sauvage ... Quand même, décevant ... Bon, je suppose que tu tires les leçons de ce départ tous azimuts, 200km/jour, tous les jours, c'est énorme vu les conditions! Tu vas devoir ménager un peu ta monture et ton organisme en ce début de voyage, non ...? Enfin, bravo pour cette prouesse! J'espère que tu auras une météo un peu plus clémente, en allant vers le nord qui sait?!     

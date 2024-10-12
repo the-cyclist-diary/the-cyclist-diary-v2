@@ -29,19 +29,17 @@ He oui ! Petite spécificité de la NC4K, le tracking des participants est dispo
 
 
 > Pour ne rien louper de l'aventure, le tracking en direct est disponible [ici](https://northcape4000.com/), je suis apparemment le dossard n°261
-![auto-import](https://thumbsnap.com/i/urWYcWTo.jpg)
 
-![auto-import](https://thumbsnap.com/i/w6Y9CCU7.jpg)
+{{< gallery class="content-gallery" btn="7">}}
+{{< img src="urWYcWTo.jpg" >}}
+{{< img src="w6Y9CCU7.jpg" >}}
+{{< img src="9wpTj4ei.jpg" >}}
+{{< img src="gWZjsBzM.jpg" >}}
+{{< img src="AQDctfBB.jpg" >}}
+{{< img src="uMzk14Uv.jpg" >}}
+{{< img src="PsWBxfz3.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/9wpTj4ei.jpg)
-
-![auto-import](https://thumbsnap.com/i/gWZjsBzM.jpg)
-
-![auto-import](https://thumbsnap.com/i/AQDctfBB.jpg)
-
-![auto-import](https://thumbsnap.com/i/uMzk14Uv.jpg)
-
-![auto-import](https://thumbsnap.com/i/PsWBxfz3.jpg)
 ## Commentaires
 #### Alex B
 Hola Ivan, tellement hâte de suivre cette nouvelle aventure !

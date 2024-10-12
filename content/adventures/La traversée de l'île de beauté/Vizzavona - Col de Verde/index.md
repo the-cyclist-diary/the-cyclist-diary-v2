@@ -1,0 +1,25 @@
++++
+title = "Vizzavona - Col de Verde"
+date = 2024-09-10 10:53:01.696185
+draft = true
++++
+### Premier jour au Sud
+Le réveil est difficile ce matin, l'accumulation des étapes se fait sentir. Nous partons tout de même à cinq heure moins le quart, pour une longue montée dont le sommet nous laisse découvrir un magnifique soleil levant. 
+
+Aujourd'hui est une étape facile, soleil et terrain roulant au programme. Nous marchons rapidement à travers les collines herbeuses. La brume cependant ne se lève pas sur les montagnes. 
+
+### San Petru di Verdi
+Le relais de San Petru est notre point de chute, nous y arrivons à 13h. Des côtes de bœuf grasses crépitent sure un feu de bois, des chasseurs sont attablés. Nous nous installons dans cette joyeuse atmosphère et nos compagnons de voyage nous rejoignent rapidement. 
+L'après midi est douce, nous buvons quelques pastis en bonne compagnie, autour d'une carte pour prévoir l'étape de demain. 
+Malheureusement une grosse tempête est prévue et personne ne semble prêt à y faire face dans sa tente. 
+
+Les plans alternatifs prêts, tout ce beau monde se met au lit, prêt à affronter cette journée qui s'annonce éprouvante.
+
+{{< gallery class="content-gallery" btn="5">}}
+{{< img src="bapT44u6.jpg" >}}
+{{< img src="4kSQB9ub.jpg" >}}
+{{< img src="Gy7oSWhP.jpg" >}}
+{{< img src="UGUPgtiw.jpg" >}}
+{{< img src="fZgLSrY5.jpg" >}}
+{{< /gallery >}}
+

@@ -12,7 +12,9 @@ Malheureusement la suite du trajet est bien longue et monotone. Le long du Lot, 
 L'arrivée à Cahors est tout de même joyeuse. Un peu de musique en ville, une petite pizzeria, qui semblait nous attendre, nous accueille. 
 
 Juste le temps d'avaler un bon déjeuner, de voir le fameux pont de la ville et nous voilà déjà à la gare, prêts à repartir pour Bordeaux, mais surtout, à l'aventure ! 
-![auto-import](https://thumbsnap.com/i/4vuy6vKH.jpg)
 
-![auto-import](https://thumbsnap.com/i/Gqgy3sgq.jpg)
-## Commentaires
+{{< gallery class="content-gallery" btn="2">}}
+{{< img src="4vuy6vKH.jpg" >}}
+{{< img src="Gqgy3sgq.jpg" >}}
+{{< /gallery >}}
+

@@ -8,41 +8,28 @@ A l'heure de passer le pont reliant l'Angleterre au Pays de Galles, la petite la
 Pour couronner le tout, ce soir la pluie s'est invitée à la fête. Si la tente tient le coup, la nuit sera longue et reposante, sinon...
 Demain, je pars jouer dans les collines galloise, avant de bifurquer à nouveau vers le centre de l'Angleterre.
 Je me couche éreinté, mais heureux. 
-![auto-import](https://thumbsnap.com/i/vaA7WSHV.jpg)
 
-![auto-import](https://thumbsnap.com/i/xGsQ54jX.jpg)
+{{< gallery class="content-gallery" btn="18">}}
+{{< img src="vaA7WSHV.jpg" >}}
+{{< img src="xGsQ54jX.jpg" >}}
+{{< img src="PuPGA4mn.jpg" >}}
+{{< img src="AoCApzPk.jpg" >}}
+{{< img src="ZRhq8gVB.jpg" >}}
+{{< img src="3xraRmKQ.jpg" >}}
+{{< img src="Ppf3f26q.jpg" >}}
+{{< img src="pXhjE9hd.jpg" >}}
+{{< img src="vgFs4hn7.jpg" >}}
+{{< img src="ZwKXrBkf.jpg" >}}
+{{< img src="daf21LFF.jpg" >}}
+{{< img src="47UqtZ61.jpg" >}}
+{{< img src="AcEbFMY3.jpg" >}}
+{{< img src="6z2P8fzj.jpg" >}}
+{{< img src="d5vuCVqR.jpg" >}}
+{{< img src="kNjRPJm7.jpg" >}}
+{{< img src="opciMTny.jpg" >}}
+{{< img src="3P6Bbafa.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/PuPGA4mn.jpg)
-
-![auto-import](https://thumbsnap.com/i/AoCApzPk.jpg)
-
-![auto-import](https://thumbsnap.com/i/ZRhq8gVB.jpg)
-
-![auto-import](https://thumbsnap.com/i/3xraRmKQ.jpg)
-
-![auto-import](https://thumbsnap.com/i/Ppf3f26q.jpg)
-
-![auto-import](https://thumbsnap.com/i/pXhjE9hd.jpg)
-
-![auto-import](https://thumbsnap.com/i/vgFs4hn7.jpg)
-
-![auto-import](https://thumbsnap.com/i/ZwKXrBkf.jpg)
-
-![auto-import](https://thumbsnap.com/i/daf21LFF.jpg)
-
-![auto-import](https://thumbsnap.com/i/47UqtZ61.jpg)
-
-![auto-import](https://thumbsnap.com/i/AcEbFMY3.jpg)
-
-![auto-import](https://thumbsnap.com/i/6z2P8fzj.jpg)
-
-![auto-import](https://thumbsnap.com/i/d5vuCVqR.jpg)
-
-![auto-import](https://thumbsnap.com/i/kNjRPJm7.jpg)
-
-![auto-import](https://thumbsnap.com/i/opciMTny.jpg)
-
-![auto-import](https://thumbsnap.com/i/3P6Bbafa.jpg)
 ## Commentaires
 #### Dad
 Bristol, Cardiff....que de souvenirs !!!

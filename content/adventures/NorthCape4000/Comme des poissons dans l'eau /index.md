@@ -14,25 +14,20 @@ J'ai fait le plein de sucre au magasin et ne fait qu'une bouchée de ces dernier
 La cabane où nous dormons est très cozy et ces hébergements qui en France coûteraient certainement une petite fortune, valent ici moins cher qu'un dortoir en auberge de jeunesse.
 
 Demain une autre longue journée s'annonce, avec moins de dénivelé, mais un véritable déluge l'après-midi.
-![auto-import](https://thumbsnap.com/i/m3d4fP4B.jpg)
 
-![auto-import](https://thumbsnap.com/i/DZ3Eegac.jpg)
+{{< gallery class="content-gallery" btn="10">}}
+{{< img src="m3d4fP4B.jpg" >}}
+{{< img src="DZ3Eegac.jpg" >}}
+{{< img src="SQoegJiv.jpg" >}}
+{{< img src="rKHQLs3F.jpg" >}}
+{{< img src="8HmQB7Xd.jpg" >}}
+{{< img src="FmgkfVUm.jpg" >}}
+{{< img src="qqdFiFKj.jpg" >}}
+{{< img src="nvUcnnwt.jpg" >}}
+{{< img src="TwtTLrj1.jpg" >}}
+{{< img src="YeKNJnCj.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/SQoegJiv.jpg)
-
-![auto-import](https://thumbsnap.com/i/rKHQLs3F.jpg)
-
-![auto-import](https://thumbsnap.com/i/8HmQB7Xd.jpg)
-
-![auto-import](https://thumbsnap.com/i/FmgkfVUm.jpg)
-
-![auto-import](https://thumbsnap.com/i/qqdFiFKj.jpg)
-
-![auto-import](https://thumbsnap.com/i/nvUcnnwt.jpg)
-
-![auto-import](https://thumbsnap.com/i/TwtTLrj1.jpg)
-
-![auto-import](https://thumbsnap.com/i/YeKNJnCj.jpg)
 ## Commentaires
 #### Maman
 Quand je pense que tu es à environ 200km de Trondheim ... Imaginais-tu à cette époque que tu y reviendrais, (presque), à vélo?!! Plus de 300km aujourd'hui ... malgré le froid, la pluie, le dénivelé, bravo!! vraiment!! Quel réconfort cette petite cabane 😍! 

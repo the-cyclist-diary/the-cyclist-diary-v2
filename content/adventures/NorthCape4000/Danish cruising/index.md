@@ -15,39 +15,27 @@ Après nos quelques pauses règlementaires, je déniche un petit motel presque s
 Une chambre, deux lits, une mini cuisine et une table pour dîner, voilà ce dont nous révions après cette longue journée, marquée par quelques averses.
 
 Nous nous endormons épuisés mais fier de nous, notre plan se déroule à merveille. Demain nous n'aurons que 160km à effectuer et nous pourrons nous reposer à l'envie dans le ferry, pour attaquer la Suède en pleine forme ! 
-![auto-import](https://thumbsnap.com/i/WR5qxpwc.jpg)
 
-![auto-import](https://thumbsnap.com/i/22aiZJMT.jpg)
+{{< gallery class="content-gallery" btn="17">}}
+{{< img src="WR5qxpwc.jpg" >}}
+{{< img src="22aiZJMT.jpg" >}}
+{{< img src="1Gtx6kEo.jpg" >}}
+{{< img src="GxHURShc.jpg" >}}
+{{< img src="FUkDwZ7E.jpg" >}}
+{{< img src="UJvmyJW1.jpg" >}}
+{{< img src="Bsjbjo1H.jpg" >}}
+{{< img src="zqi2EhjH.jpg" >}}
+{{< img src="XDycHGBY.jpg" >}}
+{{< img src="7E7W53a4.jpg" >}}
+{{< img src="XTuJtD5M.jpg" >}}
+{{< img src="vpsw5g9W.jpg" >}}
+{{< img src="32EBsAT5.jpg" >}}
+{{< img src="8e4ZVjz4.jpg" >}}
+{{< img src="d952fsiH.jpg" >}}
+{{< img src="39vLAGrx.jpg" >}}
+{{< img src="u4ZyBrcJ.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/1Gtx6kEo.jpg)
-
-![auto-import](https://thumbsnap.com/i/GxHURShc.jpg)
-
-![auto-import](https://thumbsnap.com/i/FUkDwZ7E.jpg)
-
-![auto-import](https://thumbsnap.com/i/UJvmyJW1.jpg)
-
-![auto-import](https://thumbsnap.com/i/Bsjbjo1H.jpg)
-
-![auto-import](https://thumbsnap.com/i/zqi2EhjH.jpg)
-
-![auto-import](https://thumbsnap.com/i/XDycHGBY.jpg)
-
-![auto-import](https://thumbsnap.com/i/7E7W53a4.jpg)
-
-![auto-import](https://thumbsnap.com/i/XTuJtD5M.jpg)
-
-![auto-import](https://thumbsnap.com/i/vpsw5g9W.jpg)
-
-![auto-import](https://thumbsnap.com/i/32EBsAT5.jpg)
-
-![auto-import](https://thumbsnap.com/i/8e4ZVjz4.jpg)
-
-![auto-import](https://thumbsnap.com/i/d952fsiH.jpg)
-
-![auto-import](https://thumbsnap.com/i/39vLAGrx.jpg)
-
-![auto-import](https://thumbsnap.com/i/u4ZyBrcJ.jpg)
 ## Commentaires
 #### Maman
 Ah, je m'en doutais bien, hormis les averses, quelle belle route! Quelle satisfaction d'atteindre le Danemark! Dommage pour Pierre, la crevaison, c'est la tuile 🙄. Merci Ivan pour ces belles photos! Vu l'état des jambes, nuit à l'hôtel avec douche, indispensable, c'est sûr!!             
