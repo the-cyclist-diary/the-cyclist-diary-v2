@@ -4,37 +4,41 @@
         {{ partial "heading.html" . }}
         <hr>
         {{ if .Params.gps }}
-        <div class="columns">
-            <div class="column">
-                <a href="{{.Params.gps}} ">
-                    <img alt="The gpx image of this adventure" src="{{ .Params.gps }}">
-                </a>
-            </div>
-            <div class="column has-text-left">
-                <div>
-                    <p class="subtitle">
-                        Distance
-                    </p>
-                    <p class="title">
-                        {{ $fmt := div (float .Params.distance) 1000 }}
-                        {{ printf "%.2f" $fmt }} km
-                    </p>
+        <div>
+            <a href="{{.Params.gps}} ">
+                <img alt="The gpx image of this adventure" src="{{ .Params.gps }}"></a>
+            <div class="level">
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Distance</p>
+                        <p class="subtitle">
+                            {{ $fmt := div (float .Params.distance) 1000 }}
+                            {{ printf "%.2f" $fmt }} km
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <p class="subtitle">
-                        Durée
-                    </p>
-                    <p class="title">
-                        {{ .Params.duration }} h
-                    </p>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Durée</p>
+                        <p class="subtitle">
+                            {{ .Params.duration }} h
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <p class="subtitle">
-                        Dénivelé
-                    </p>
-                    <p class="title">
-                        {{ .Params.denivele }} m
-                    </p>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Dénivelé</p>
+                        <p class="subtitle">
+                            {{ .Params.elevation }} m
+                        </p>
+                    </div>
+                </div>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Vitesse</p>
+                        {{ $speed := float .Params.speed }}
+                        <p class="subtitle">{{ printf "%.2f" $speed }} km/h</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -54,7 +58,7 @@
         new Glide(s, {
             type: 'carousel',
             startAt: 0,
-            perView: 1
+            perView: 2
         }).mount();
     })
 </script>
