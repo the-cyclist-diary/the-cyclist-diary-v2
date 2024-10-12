@@ -20,41 +20,28 @@ Une petite sieste plus tard et les organisateurs sont là pour valider notre tem
 En quelques minutes, nous sommes dans le car pour Alta, où un avion m'emmènera à Bordeaux en quelques heures.
 
 Je ressens un mélange d'émotions intenses, entre fierté, joie mais aussi soulagement, car cette aventure m'a éprouvé. Je suis ravi de pouvoir me reposer quelques jours avant de reprendre une vie normale.
-![auto-import](https://thumbsnap.com/i/umXb4oKh.jpg)
 
-![auto-import](https://thumbsnap.com/i/hPLCGWRe.jpg)
+{{< gallery class="content-gallery" btn="18">}}
+{{< img src="umXb4oKh.jpg" >}}
+{{< img src="hPLCGWRe.jpg" >}}
+{{< img src="RCfcWcBF.jpg" >}}
+{{< img src="ykc2RJdf.jpg" >}}
+{{< img src="ZVGgnH9E.jpg" >}}
+{{< img src="oNrm6p1G.jpg" >}}
+{{< img src="6C4F64YH.jpg" >}}
+{{< img src="Kx55Lykg.jpg" >}}
+{{< img src="LLVwvsaX.jpg" >}}
+{{< img src="APGn4MU2.jpg" >}}
+{{< img src="XNjp9mav.jpg" >}}
+{{< img src="svaTEfPu.jpg" >}}
+{{< img src="mbPiMnbF.jpg" >}}
+{{< img src="cJBthsTs.jpg" >}}
+{{< img src="iHAQpUGp.jpg" >}}
+{{< img src="zkNPboqj.jpg" >}}
+{{< img src="HBxuh18V.jpg" >}}
+{{< img src="E4n5mHCz.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/RCfcWcBF.jpg)
-
-![auto-import](https://thumbsnap.com/i/ykc2RJdf.jpg)
-
-![auto-import](https://thumbsnap.com/i/ZVGgnH9E.jpg)
-
-![auto-import](https://thumbsnap.com/i/oNrm6p1G.jpg)
-
-![auto-import](https://thumbsnap.com/i/6C4F64YH.jpg)
-
-![auto-import](https://thumbsnap.com/i/Kx55Lykg.jpg)
-
-![auto-import](https://thumbsnap.com/i/LLVwvsaX.jpg)
-
-![auto-import](https://thumbsnap.com/i/APGn4MU2.jpg)
-
-![auto-import](https://thumbsnap.com/i/XNjp9mav.jpg)
-
-![auto-import](https://thumbsnap.com/i/svaTEfPu.jpg)
-
-![auto-import](https://thumbsnap.com/i/mbPiMnbF.jpg)
-
-![auto-import](https://thumbsnap.com/i/cJBthsTs.jpg)
-
-![auto-import](https://thumbsnap.com/i/iHAQpUGp.jpg)
-
-![auto-import](https://thumbsnap.com/i/zkNPboqj.jpg)
-
-![auto-import](https://thumbsnap.com/i/HBxuh18V.jpg)
-
-![auto-import](https://thumbsnap.com/i/E4n5mHCz.jpg)
 ## Commentaires
 #### Maman
 Encore une fois bravo Ivan! et merci d'avoir partagé cette aventure qui est aussi pour toi une expérience inoubliable! Merci pour ce petit journal et ces photos qui m'ont fait rêver et voyager car malgré les difficultés et la souffrance qu'on imagine, tu as l'art de raconter, comme si tout était simple et facile et l'on rêve d'y être!

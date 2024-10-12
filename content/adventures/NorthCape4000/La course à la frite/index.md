@@ -11,23 +11,19 @@ Après une pause commune à la boulangerie, un Belge me propose de prendre sa ro
 Je retrouve ensuite des groupes habituels, puis Sébastien. Un autre français nous rejoins et nous finissons la journée tous les trois. Je n'ai pas pu changer mon billet de ferry. Aussi, mes deux camarades se sont portés volontaires pour le rôle de poisson pilote ! À partir d'aujourd'hui, nous rouleront 300km/j pour atteindre Frederikshavn samedi. Pour la peine, nous dormirons à l'hôtel.
 
 C'est osé, mais mes camarades sont de gros rouleurs, j'ai plutôt confiance en nous.
-![auto-import](https://thumbsnap.com/i/j55KsNGa.jpg)
 
-![auto-import](https://thumbsnap.com/i/pysgLY4d.jpg)
+{{< gallery class="content-gallery" btn="9">}}
+{{< img src="j55KsNGa.jpg" >}}
+{{< img src="pysgLY4d.jpg" >}}
+{{< img src="oqm6CU2C.jpg" >}}
+{{< img src="DiM8yewx.jpg" >}}
+{{< img src="txxcGTvb.jpg" >}}
+{{< img src="mTyoqHDY.jpg" >}}
+{{< img src="3nQB6jzL.jpg" >}}
+{{< img src="dvTCtnJZ.jpg" >}}
+{{< img src="9fxY9HvT.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/oqm6CU2C.jpg)
-
-![auto-import](https://thumbsnap.com/i/DiM8yewx.jpg)
-
-![auto-import](https://thumbsnap.com/i/txxcGTvb.jpg)
-
-![auto-import](https://thumbsnap.com/i/mTyoqHDY.jpg)
-
-![auto-import](https://thumbsnap.com/i/3nQB6jzL.jpg)
-
-![auto-import](https://thumbsnap.com/i/dvTCtnJZ.jpg)
-
-![auto-import](https://thumbsnap.com/i/9fxY9HvT.jpg)
 ## Commentaires
 #### Titi
 First !

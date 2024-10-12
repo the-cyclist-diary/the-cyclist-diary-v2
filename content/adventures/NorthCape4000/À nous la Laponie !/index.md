@@ -18,19 +18,17 @@ Malheureusement nous appelons trop tard le camping de Gällivare, il n'y a plus 
 Pour les deux jours qui viennent, nous souhaitons venir à bout de l'avant-dernière trace GPS de 550 kilomètres, ce qui promet donc de belles étapes à nouveau.
 
 Si tout se passe bien, arrivée prévue lundi 7 au Cap Nord ! 
-![auto-import](https://thumbsnap.com/i/cNyGcCVt.jpg)
 
-![auto-import](https://thumbsnap.com/i/ZZg3JokB.jpg)
+{{< gallery class="content-gallery" btn="7">}}
+{{< img src="cNyGcCVt.jpg" >}}
+{{< img src="ZZg3JokB.jpg" >}}
+{{< img src="M4iUKSHY.jpg" >}}
+{{< img src="1F8GixrF.jpg" >}}
+{{< img src="59WwPoCy.jpg" >}}
+{{< img src="PKo9hLha.jpg" >}}
+{{< img src="TMvk9kB1.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/M4iUKSHY.jpg)
-
-![auto-import](https://thumbsnap.com/i/1F8GixrF.jpg)
-
-![auto-import](https://thumbsnap.com/i/59WwPoCy.jpg)
-
-![auto-import](https://thumbsnap.com/i/PKo9hLha.jpg)
-
-![auto-import](https://thumbsnap.com/i/TMvk9kB1.jpg)
 ## Commentaires
 #### Maman
 Une telle étape, - belle route mais plus de 320km quand même! - mérite bien une nuit à l'hôtel 😊! La fatigue se lit sur les visages mais vos sourires sont radieux. Réconfortant! 

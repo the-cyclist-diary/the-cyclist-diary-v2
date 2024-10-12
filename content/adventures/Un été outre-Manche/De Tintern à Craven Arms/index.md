@@ -22,35 +22,25 @@ Note à part : le montage de ma tente était désastreux la nuit dernière, ce q
 
 
 P.S. J'ai été très touché par tous vos messages, je les ai découverts cet après-midi en mangeant un sandwich très moyen entre deux champs de moutons, les mains frigorifiés et ca m'a fait très chaud au cœur. J'espère que vous continuerez à prendre du plaisir à suivre l'aventure. Merci !!
-![auto-import](https://thumbsnap.com/i/Wiy64p4C.jpg)
 
-![auto-import](https://thumbsnap.com/i/QnyvY4XL.jpg)
+{{< gallery class="content-gallery" btn="15">}}
+{{< img src="Wiy64p4C.jpg" >}}
+{{< img src="QnyvY4XL.jpg" >}}
+{{< img src="BSJTUjLz.jpg" >}}
+{{< img src="g73Srg3B.jpg" >}}
+{{< img src="6k3W3qDs.jpg" >}}
+{{< img src="UTDRuzMC.jpg" >}}
+{{< img src="Xebfo3NB.jpg" >}}
+{{< img src="jC2S4fBX.jpg" >}}
+{{< img src="vD4zsJWr.jpg" >}}
+{{< img src="iYmk8Wwy.jpg" >}}
+{{< img src="3Dv4YC4U.jpg" >}}
+{{< img src="c3MPWFmq.jpg" >}}
+{{< img src="MieXGzs6.jpg" >}}
+{{< img src="yCScdzKz.jpg" >}}
+{{< img src="Apn1dE4Q.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/BSJTUjLz.jpg)
-
-![auto-import](https://thumbsnap.com/i/g73Srg3B.jpg)
-
-![auto-import](https://thumbsnap.com/i/6k3W3qDs.jpg)
-
-![auto-import](https://thumbsnap.com/i/UTDRuzMC.jpg)
-
-![auto-import](https://thumbsnap.com/i/Xebfo3NB.jpg)
-
-![auto-import](https://thumbsnap.com/i/jC2S4fBX.jpg)
-
-![auto-import](https://thumbsnap.com/i/vD4zsJWr.jpg)
-
-![auto-import](https://thumbsnap.com/i/iYmk8Wwy.jpg)
-
-![auto-import](https://thumbsnap.com/i/3Dv4YC4U.jpg)
-
-![auto-import](https://thumbsnap.com/i/c3MPWFmq.jpg)
-
-![auto-import](https://thumbsnap.com/i/MieXGzs6.jpg)
-
-![auto-import](https://thumbsnap.com/i/yCScdzKz.jpg)
-
-![auto-import](https://thumbsnap.com/i/Apn1dE4Q.jpg)
 ## Commentaires
 #### Moum
 Mon Ivan, je viens de lire ton émouvant message .... si, si, émouvant, car on a l'impression d'y être! Je vois très bien ce que tu as pu "endurer" ... ! Côté météo, si ça peut te consoler, ici aussi c'était 21 au soleil .... et ma foi, un peu de gris, un peu de vent, un peu de pluie, c'est le temps que tu préfères n'est-ce pas? Hardi! Tu vas y arriver même si je pense en effet, que ces reliefs pittoresque doivent être un véritable coupe-jarret!! Je t'embrasse!

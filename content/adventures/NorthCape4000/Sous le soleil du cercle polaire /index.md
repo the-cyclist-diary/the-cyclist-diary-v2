@@ -10,27 +10,21 @@ Il est temps cependant que l'aventure se termine car les petits inconforts se mu
 Nous avons dégoté un petit chalet en bord de lac absolument charmant pour ce soir et nous ne nous privons pas de faire un feu de cheminée en mangeant nos wraps aux pois-chiche.
 
 L'étape de demain est prête, ainsi que les points de ravitaillement. Comme on dit, "y'a plus qu'à"...
-![auto-import](https://thumbsnap.com/i/5t7X4Rja.jpg)
 
-![auto-import](https://thumbsnap.com/i/pjcqM3rn.jpg)
+{{< gallery class="content-gallery" btn="11">}}
+{{< img src="5t7X4Rja.jpg" >}}
+{{< img src="pjcqM3rn.jpg" >}}
+{{< img src="sAE9vTDm.jpg" >}}
+{{< img src="4gV7KixT.jpg" >}}
+{{< img src="5Cih3heJ.jpg" >}}
+{{< img src="oZPjqBiB.jpg" >}}
+{{< img src="hA2KcmBG.jpg" >}}
+{{< img src="4HuQFtZ1.jpg" >}}
+{{< img src="YH957FKj.jpg" >}}
+{{< img src="hPodGPaS.jpg" >}}
+{{< img src="emMFo16y.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/sAE9vTDm.jpg)
-
-![auto-import](https://thumbsnap.com/i/4gV7KixT.jpg)
-
-![auto-import](https://thumbsnap.com/i/5Cih3heJ.jpg)
-
-![auto-import](https://thumbsnap.com/i/oZPjqBiB.jpg)
-
-![auto-import](https://thumbsnap.com/i/hA2KcmBG.jpg)
-
-![auto-import](https://thumbsnap.com/i/4HuQFtZ1.jpg)
-
-![auto-import](https://thumbsnap.com/i/YH957FKj.jpg)
-
-![auto-import](https://thumbsnap.com/i/hPodGPaS.jpg)
-
-![auto-import](https://thumbsnap.com/i/emMFo16y.jpg)
 ## Commentaires
 #### Maman
 Ah! Le soleil ça change la vie! Vos mines réjouies font plaisir à voir!! Dernière ligne droite! Quelle satisfaction d'être là après ces kilomètres avalés au prix de tant d'efforts. Et pourtant, j'ai l'impression que Turin, c'était hier...

@@ -16,19 +16,17 @@ Fin de descente, nous retrouvons un groupe. Pour compenser le retard, ça roule 
 
 Demain matin un petit col nous attend à nouveau au réveil, il faut être affûté. Le deuxième laron, Laurent, en difficulté dans la montée, nous rejoindra dans la nuit.
 
-![auto-import](https://thumbsnap.com/i/1mqH6k7E.jpg)
 
-![auto-import](https://thumbsnap.com/i/R8yZgJWd.jpg)
+{{< gallery class="content-gallery" btn="7">}}
+{{< img src="1mqH6k7E.jpg" >}}
+{{< img src="R8yZgJWd.jpg" >}}
+{{< img src="3pmwmacV.jpg" >}}
+{{< img src="CJ8U5os6.jpg" >}}
+{{< img src="hWNxe1rX.jpg" >}}
+{{< img src="RCuvWvhz.jpg" >}}
+{{< img src="M9MVAMyM.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/3pmwmacV.jpg)
-
-![auto-import](https://thumbsnap.com/i/CJ8U5os6.jpg)
-
-![auto-import](https://thumbsnap.com/i/hWNxe1rX.jpg)
-
-![auto-import](https://thumbsnap.com/i/RCuvWvhz.jpg)
-
-![auto-import](https://thumbsnap.com/i/M9MVAMyM.jpg)
 ## Commentaires
 #### Séverine
 Go on Ivan!

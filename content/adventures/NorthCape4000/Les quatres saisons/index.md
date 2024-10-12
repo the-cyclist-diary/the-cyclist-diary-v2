@@ -13,21 +13,18 @@ La route est plus jolie que d'habitude et je profite des paysages, d'autant qu'e
 Après le passage de l'Elbe en bateau je retrouve mes deux amis et nous finissons la journée ensemble, en sillonnant la campagne dorée. La soirée a lieu dans un hôtel kitsch de Rendsburg, nous achetons dans sandwichs et des bières à la station service, que nous devorrons sur la table en plastique de la terrasse. En somme, une soirée normale, sur la NorthCape.
 
 J'ai pu échanger mon billet de ferry avec un autre participant aujourd'hui, je ferai donc la traversée dimanche. Demain nous nous avançons le plus possible avec Sébastien, puis nous finirons tranquillement dimanche, avant d'attaquer la deuxième moitié, sauvage, du voyage...
-![auto-import](https://thumbsnap.com/i/UXy2DfmT.jpg)
 
-![auto-import](https://thumbsnap.com/i/5rm5vvL3.jpg)
+{{< gallery class="content-gallery" btn="8">}}
+{{< img src="UXy2DfmT.jpg" >}}
+{{< img src="5rm5vvL3.jpg" >}}
+{{< img src="ksCj7v99.jpg" >}}
+{{< img src="vhLpRUnG.jpg" >}}
+{{< img src="Mqnz3Qj8.jpg" >}}
+{{< img src="7oAAzbU6.jpg" >}}
+{{< img src="CEoccu2v.jpg" >}}
+{{< img src="K1ktNjLt.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/ksCj7v99.jpg)
-
-![auto-import](https://thumbsnap.com/i/vhLpRUnG.jpg)
-
-![auto-import](https://thumbsnap.com/i/Mqnz3Qj8.jpg)
-
-![auto-import](https://thumbsnap.com/i/7oAAzbU6.jpg)
-
-![auto-import](https://thumbsnap.com/i/CEoccu2v.jpg)
-
-![auto-import](https://thumbsnap.com/i/K1ktNjLt.jpg)
 ## Commentaires
 #### Nina
 Hâte de lire ce que tu penses du Danemark :) La côte vers Frederikshavn m'avait fait penser à la Bretagne, surtout vers Skägen !

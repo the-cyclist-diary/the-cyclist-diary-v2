@@ -4,29 +4,22 @@ date = 2022-08-17 15:52:10.525312
 draft = true
 +++
 Comme prévu, la nuit a été froide et humide. A 6h, je me réveille transi, un rapide coup d'œil à mon téléphone m'annonce la couleur : il fait 5°. Je préfère me lever plutôt que de continuer à lutter contre le froid dans mon petit duvet, qui n'est prévu que pour 11° et qui, de toute façon, est trempé. Grande douche chaude et café dans la cuisine, je me réchauffe doucement. Vers 7h30, une famille de français rencontrée la veille vient se joindre à moi et nous discutons en déjeunant jusqu'à 9h. Il me faut une petite heure pour plier le camp et faire sécher un peu mes affaires. Même si ça a parfois été désagréable, je sais que j'effectue ces gestes pour la dernière fois avant un moment et que cela va me manquer, c'est une certitude. 10h, je suis fin prêt. Le papa me prend en photo juste avant mon départ, sourire crispé (il fait froid et j'ai le soleil dans les yeux) et crème solaire mal étalée sur les joues : ma meilleure tête du matin. La route est très facile, c'est de la descente jusqu'à Cork. Je retraverse la ville sans émotion, elle ne m'aura pas laissé un souvenir impérissable (le musée était quand même vraiment bien, ceci dit). Ensuite, en longeant la côte, j'arrive très vite à l'embarcadère. Pas de chance, il n'y a rien ici, je dois faire encore un petit aller-retour de 12km pour faire des courses (je suppose que la nourriture à bord est hors de prix ; c'est plutôt une erreur, la bière en tout cas est abordable). C'est mon dernier jour, je m'offre un (vraiment) petit restaurant avant de prendre le ferry. 15h, me voilà à faire la queue derrière les voitures. Heureusement, le vélo est, comme souvent, un pass VIP ; on me fait passer devant tout le monde. Que j'aime ces bateaux ! Petit tour du propriétaire, je visite restaurant, bar, cinémas et autre salons "lounge". Cette fois j'ai pris de quoi dormir, manger et m'occuper, la traversée s'annonce longue (15h !). 16h, on largue les amarres. Je suis un peu trop fatigué pour bien réaliser que c'est la fin du voyage. Le contrecoup se produira sûrement une fois en Bretagne. Je regarde la côte s'éloigner en mangeant des myrtilles. 17h, c'est l'heure de l'apéro, non ? 
-![auto-import](https://thumbsnap.com/i/3K42youV.jpg)
 
-![auto-import](https://thumbsnap.com/i/qTG9ZfMR.jpg)
+{{< gallery class="content-gallery" btn="12">}}
+{{< img src="3K42youV.jpg" >}}
+{{< img src="qTG9ZfMR.jpg" >}}
+{{< img src="dUQCmPzE.jpg" >}}
+{{< img src="LkheXtZN.jpg" >}}
+{{< img src="SZ8GoXYk.jpg" >}}
+{{< img src="F9Vj4vsQ.jpg" >}}
+{{< img src="rL4WswjP.jpg" >}}
+{{< img src="4tCaYfPA.jpg" >}}
+{{< img src="AEbKidY5.jpg" >}}
+{{< img src="iAUEmJTG.jpg" >}}
+{{< img src="CEKvA25R.jpg" >}}
+{{< img src="KREFgUuY.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/dUQCmPzE.jpg)
-
-![auto-import](https://thumbsnap.com/i/LkheXtZN.jpg)
-
-![auto-import](https://thumbsnap.com/i/SZ8GoXYk.jpg)
-
-![auto-import](https://thumbsnap.com/i/F9Vj4vsQ.jpg)
-
-![auto-import](https://thumbsnap.com/i/rL4WswjP.jpg)
-
-![auto-import](https://thumbsnap.com/i/4tCaYfPA.jpg)
-
-![auto-import](https://thumbsnap.com/i/AEbKidY5.jpg)
-
-![auto-import](https://thumbsnap.com/i/iAUEmJTG.jpg)
-
-![auto-import](https://thumbsnap.com/i/CEKvA25R.jpg)
-
-![auto-import](https://thumbsnap.com/i/KREFgUuY.jpg)
 ## Commentaires
 #### Moum
 En voyant ta tête de viking après la bataille,    je  me dis que tu ne vas pas tarder à  cogiter sur une prochaine expédition ... J'ai le coeur un peu serré de voir cette belle aventure prendre fin mais quelle joie de te retrouver demain!! Je n'ai qu'un mot, Ivan, MERCI! C'était incroyablement sympa de nous rassembler ainsi au fil de ton voyage. Un grand salut à tous les membres de cette petite communauté, que je connais et que j'ai lus, aussi, avec toujours beaucoup de plaisir! Keep friendly! 😊

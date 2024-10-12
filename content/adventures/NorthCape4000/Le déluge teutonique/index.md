@@ -10,23 +10,19 @@ La pluie est au rendez-vous et ne nous quittera pas de la journée, ce qui rend 
 Première pause à 120km, jamais nous n'avions roulé aussi longtemps sans marquer d'arrêt. Nous avalons des quantités phénoménales de brötchen dans une boulangerie devant des serveuses hilares qui s'échangent en allemand des anecdotes sur la NorthCape, nous ne sommes manifestement pas les premiers à passer ici.
 
 La deuxième partie de la journée est marquée par deux crevaisons. Nous réparons prestement puis repartons vers Lohne où nous dormons dans une chambre pour deux, avec un matelas gonflable au sol. Un bon kebab nous a remis en forme. C'est nécessaire car demain, 280km sont au programme !
-![auto-import](https://thumbsnap.com/i/ou9Mu92j.jpg)
 
-![auto-import](https://thumbsnap.com/i/cV3UHKEt.jpg)
+{{< gallery class="content-gallery" btn="9">}}
+{{< img src="ou9Mu92j.jpg" >}}
+{{< img src="cV3UHKEt.jpg" >}}
+{{< img src="dPDFUAg8.jpg" >}}
+{{< img src="gmgJD61R.jpg" >}}
+{{< img src="AfQ1nKAa.jpg" >}}
+{{< img src="Z6Zo1gqa.jpg" >}}
+{{< img src="W32c4fAc.jpg" >}}
+{{< img src="z5YmY6zz.jpg" >}}
+{{< img src="8AnaJNiD.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/dPDFUAg8.jpg)
-
-![auto-import](https://thumbsnap.com/i/gmgJD61R.jpg)
-
-![auto-import](https://thumbsnap.com/i/AfQ1nKAa.jpg)
-
-![auto-import](https://thumbsnap.com/i/Z6Zo1gqa.jpg)
-
-![auto-import](https://thumbsnap.com/i/W32c4fAc.jpg)
-
-![auto-import](https://thumbsnap.com/i/z5YmY6zz.jpg)
-
-![auto-import](https://thumbsnap.com/i/8AnaJNiD.jpg)
 ## Commentaires
 #### Titi
 On dit temps de cochon, les allemands ont "Sauwetter", littéralement "temps de truie". ^^ (prononce le saovéteur)

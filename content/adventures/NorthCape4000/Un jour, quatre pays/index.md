@@ -16,21 +16,18 @@ Nous nous arrêtons à Moers où un hôtel kitsch à souhait, pour vieux ruche t
 Mes compagnons de route pensent qu'il serait plus sage de réduire l'allure et de prendre le bateau le 30. Cela me désole mais j'ai besoin d'eux pour continuer, je me joindrai donc à l'avis de la majorité. Je souffre de nombreuses inflammations diverses aux articulations, il serait peut-être effectivement plus sage de lever le pied.
 
 Demain, il pleut.
-![auto-import](https://thumbsnap.com/i/qm2NNruA.jpg)
 
-![auto-import](https://thumbsnap.com/i/cUz7mWzb.jpg)
+{{< gallery class="content-gallery" btn="8">}}
+{{< img src="qm2NNruA.jpg" >}}
+{{< img src="cUz7mWzb.jpg" >}}
+{{< img src="fvi27Ysb.jpg" >}}
+{{< img src="CmXJGbHW.jpg" >}}
+{{< img src="qMV4bBep.jpg" >}}
+{{< img src="53acXRJh.jpg" >}}
+{{< img src="pgjJvQEY.jpg" >}}
+{{< img src="4P2sJb18.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/fvi27Ysb.jpg)
-
-![auto-import](https://thumbsnap.com/i/CmXJGbHW.jpg)
-
-![auto-import](https://thumbsnap.com/i/qMV4bBep.jpg)
-
-![auto-import](https://thumbsnap.com/i/53acXRJh.jpg)
-
-![auto-import](https://thumbsnap.com/i/pgjJvQEY.jpg)
-
-![auto-import](https://thumbsnap.com/i/4P2sJb18.jpg)
 ## Commentaires
 #### Titi
 Diantre. Ton aventure a l'air d'être particulièrement exigeante. Tes compagnons de route ont probablement raison. Qui veut aller loin ménage ses mollets. Courage demain pour toi et ton derrière. ✊️

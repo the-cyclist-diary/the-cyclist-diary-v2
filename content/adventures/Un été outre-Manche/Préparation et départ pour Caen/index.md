@@ -7,27 +7,21 @@ Départ bien (trop) tôt ce matin de Bordeaux, pour rejoindre Caen par le train.
 Après bien des heures ballotté dans un TGV puis un TER, c'est enfin la libération. 
 Remontage du vélo qui était emmitouflé dans sa sacoche, puis départ pour Ouistreham le long du canal, pour finir par une longue après-midi de visite, notamment d'une jolie exposition dans le bourg et de nombreux cafés.
 Départ du ferry à destination de Porstmouth prévu pour 23h, arrivée demain, 7h...
-![auto-import](https://thumbsnap.com/i/TpifGLot.jpg)
 
-![auto-import](https://thumbsnap.com/i/CRyS5nTS.jpg)
+{{< gallery class="content-gallery" btn="11">}}
+{{< img src="TpifGLot.jpg" >}}
+{{< img src="CRyS5nTS.jpg" >}}
+{{< img src="yqQE9tLr.jpg" >}}
+{{< img src="mfSFzzeL.jpg" >}}
+{{< img src="R7z4XJww.jpg" >}}
+{{< img src="rTyBTTNT.jpg" >}}
+{{< img src="irc9cJ5n.jpg" >}}
+{{< img src="ZmZR9vjS.jpg" >}}
+{{< img src="aXXBsumQ.jpg" >}}
+{{< img src="kowYQRNa.jpg" >}}
+{{< img src="CQm1Sk83.jpg" >}}
+{{< /gallery >}}
 
-![auto-import](https://thumbsnap.com/i/yqQE9tLr.jpg)
-
-![auto-import](https://thumbsnap.com/i/mfSFzzeL.jpg)
-
-![auto-import](https://thumbsnap.com/i/R7z4XJww.jpg)
-
-![auto-import](https://thumbsnap.com/i/rTyBTTNT.jpg)
-
-![auto-import](https://thumbsnap.com/i/irc9cJ5n.jpg)
-
-![auto-import](https://thumbsnap.com/i/ZmZR9vjS.jpg)
-
-![auto-import](https://thumbsnap.com/i/aXXBsumQ.jpg)
-
-![auto-import](https://thumbsnap.com/i/kowYQRNa.jpg)
-
-![auto-import](https://thumbsnap.com/i/CQm1Sk83.jpg)
 ## Commentaires
 #### Yann
 Génial ton trip 😎
