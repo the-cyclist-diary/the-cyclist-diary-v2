@@ -1,7 +1,7 @@
 {{ if .Params.gps }}
 <br>
 <div>
-    <a href="{{.Params.gps}} ">
+    <a href="{{.Params.gps}}" target="_blank">
         <img alt="The gpx image of this adventure" src="{{ .Params.gps }}"></a>
     <div class="level">
         <div class="level-item has-text-centered">
@@ -9,7 +9,9 @@
                 <p class="heading">Distance</p>
                 <p class="subtitle">
                     {{ $fmt := div (float .Params.distance) 1000 }}
-                    {{ printf "%.2f" $fmt }} km
+                    {{ with $distance := printf "%.2f" $fmt }}
+                        {{ lang.FormatNumberCustom 2 $distance "-|.| " "|"}} km
+                    {{ end }}
                 </p>
             </div>
         </div>
@@ -25,7 +27,7 @@
             <div>
                 <p class="heading">Dénivelé</p>
                 <p class="subtitle">
-                    {{ .Params.elevation }} m
+                    {{ lang.FormatNumberCustom 0 .Params.elevation "-|.| " "|" }} m
                 </p>
             </div>
         </div>
@@ -39,4 +41,6 @@
     </div>
 </div>
 <hr>
+{{ else }}
+<br>
 {{ end }}
