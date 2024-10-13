@@ -33,8 +33,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
-          fetch-depth: 0
+          submodules: true
       - name: Setup GH Pages
         id: pages
         uses: actions/configure-pages@v5
