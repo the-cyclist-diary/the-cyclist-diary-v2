@@ -1,7 +1,7 @@
 +++
 title = "Retour vers la Norvège "
 date = 2023-07-31 19:22:22.159532
-draft = true
+draft = "false"
 +++
 C'est le grand retour en Norvège pour moi ! Que d'émotion en débarquant sur le port d'Oslo. Nous passons au checkpoint faire tamponner notre carnet de bord, pour la première fois.
 

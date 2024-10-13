@@ -1,7 +1,7 @@
 +++
 title = "Retrouvailles "
 date = 2024-08-31 18:11:45.058962
-draft = true
+draft = "false"
 +++
 Plus d'un an sépare nos retrouvailles avec mon ami William. La dernière fois, nous marchions sur le déserté sentier Cathare hors saison.
 Cette fois cependant, nous avons choisi un itinéraire hautement plus touristique : le GR20.

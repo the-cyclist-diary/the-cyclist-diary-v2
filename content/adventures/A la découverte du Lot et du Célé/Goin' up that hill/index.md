@@ -1,7 +1,7 @@
 +++
 title = "Goin' up that hill"
 date = 2024-08-17 19:02:03.755166
-draft = true
+draft = "false"
 +++
 ### Départ peinard 
 Après une nuit agitée, notamment par notre voisin le petit Matéo et ses cauchemars, nous nous réveillons à l'aube sur les bords du Lot, prêts à reprendre nos pérégrinations.

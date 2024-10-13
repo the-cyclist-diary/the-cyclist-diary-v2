@@ -1,7 +1,7 @@
 +++
 title = "Préparation et départ pour Caen"
 date = 2022-07-23 20:03:00.719336
-draft = true
+draft = "false"
 +++
 Départ bien (trop) tôt ce matin de Bordeaux, pour rejoindre Caen par le train.
 Après bien des heures ballotté dans un TGV puis un TER, c'est enfin la libération. 

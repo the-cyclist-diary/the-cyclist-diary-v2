@@ -1,7 +1,7 @@
 +++
 title = "Quelque part - Bort-les-Orgues"
 date = 2022-04-17 21:17:00
-draft = true
+draft = "false"
 +++
 Pas mal d'errements aujourd'hui, je me suis bien planté de route !
 Au lieu de bifurquer vers le Nord, j'ai continué ma route vers Saint-Flour...

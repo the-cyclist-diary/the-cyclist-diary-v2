@@ -1,7 +1,7 @@
 +++
 title = "Bye Bye Danemark"
 date = 2023-07-30 23:05:11.235387
-draft = true
+draft = "false"
 +++
 L'étape du jour est bien courte, seulement 150km. Nous faisons une longue grasse matinée et un petit déjeuner copieux. En fait, nous prenons notre temps, pour le pas arriver trop vite à l'embarcadère.
 

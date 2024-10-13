@@ -1,7 +1,7 @@
 +++
 title = "Comme des poissons dans l'eau "
 date = 2023-08-01 21:28:57.559769
-draft = true
+draft = "false"
 +++
 Le départ à 5h est glacial, je suis couvert au maximum et pourtant je meurs de froid. Au bout d'une heure la pluie s'invite à la fête et notre plus dure journée jusqu'à présent commence. Pendant plus de quatre heures, pas un mot échangé. Nous ravalons notre douleur et livrons chacun de notre côté une véritable bataille mentale pour tenir. 
 

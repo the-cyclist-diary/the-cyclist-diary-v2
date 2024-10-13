@@ -1,7 +1,7 @@
 +++
 title = "Sous le soleil du cercle polaire "
 date = 2023-08-05 21:25:13.005172
-draft = true
+draft = "false"
 +++
 Voilà une journée comme on aurait voulu en avoir plus souvent ! Du soleil du matin au soir, pas une goutte de pluie et 15° au plus chaud de la journée. De quoi avaler les kilomètres sereinement. 
 
