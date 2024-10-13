@@ -1,9 +1,9 @@
 {{ define "main" }}
 <div class="section">
     <div class="container is-max-tablet">
+        {{ partial "breadcrumb.html" . }}
         {{ partial "heading.html" . }}
         {{ partial "gps-display.html" . }}
-        <hr>
         <div class="has-text-justified is-size-5">
             {{ .Content }}
         </div>
