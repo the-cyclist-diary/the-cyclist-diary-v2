@@ -1,19 +1,26 @@
 {{ define "main" }}
 <div class="section">
-    <div>
-        <div class="container is-max-tablet">
-            {{ partial "section-heading.html" . }}
-            <div class="block has-text-justified is-size-5">
-                {{ .Content }}
-            </div>
-        </div>
-    </div>
     <div class="container is-max-tablet">
-        <hr class="mb-6">
-        {{ range .Paginator.Pages }}
-            {{ partial "adventure-summary.html" (dict "context" . "displaySection" false) }}
-        {{ end }}
-        {{ template "partials/pagination.html" . }}
+        <div>
+        {{ partial "breadcrumb.html" . }}
+        {{ partial "section-heading.html" . }}
+        <div class="block has-text-justified is-size-5">
+            {{ .Content }}
+        </div>
+        {{ partial "gps-display.html" . }}
+        </div>
+        <div>
+            <h2 class="title">
+               Etapes
+            </h2>
+            <br>
+        </div>
+        <div>
+            {{ range .Paginator.Pages }}
+                {{ partial "step-short-summary.html" . }}
+            {{ end }}
+            {{ template "partials/pagination.html" . }}
+        </div>
     </div>
 </div>
 {{ end }}

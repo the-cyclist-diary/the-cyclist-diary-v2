@@ -1,0 +1,28 @@
+<article class="media">
+    {{ if .Params.gps }}
+    <figure class="media-left">
+        <p>
+            {{ $image := .Resources.GetMatch .Params.gps }}
+            <img class="image is-128x128" src="{{ $image.RelPermalink }}">
+        </p>
+    </figure>
+    {{ end }}
+    <div class="media-content">
+        <div class="content has-text-justified">
+            <a href="{{ .RelPermalink }}">
+                <span class="title is-4 is-family-sans-serif">
+                    {{ .Title }}
+                </span>
+                <span> | </span>
+                <span class="subtitle is-6 is-family-sans-serif">
+                    {{ time.Format "2006-01-02" .PublishDate }}
+                </span>
+            </a>
+            <p>
+                {{ with $summary := .Summary | truncate 250 }}
+                    {{ $summary | plainify }}
+                {{ end }}
+            </p>
+        </div>
+    </div>
+</article>

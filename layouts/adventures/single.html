@@ -1,45 +1,9 @@
 {{ define "main" }}
 <div class="section">
     <div class="container is-max-tablet">
+        {{ partial "breadcrumb.html" . }}
         {{ partial "heading.html" . }}
-        <hr>
-        {{ if .Params.gps }}
-        <div class="columns">
-            <div class="column">
-                <a href="{{.Params.gps}} ">
-                    <img alt="The gpx image of this adventure" src="{{ .Params.gps }}">
-                </a>
-            </div>
-            <div class="column has-text-left">
-                <div>
-                    <p class="subtitle">
-                        Distance
-                    </p>
-                    <p class="title">
-                        {{ $fmt := div (float .Params.distance) 1000 }}
-                        {{ printf "%.2f" $fmt }} km
-                    </p>
-                </div>
-                <div>
-                    <p class="subtitle">
-                        Durée
-                    </p>
-                    <p class="title">
-                        {{ .Params.duration }} h
-                    </p>
-                </div>
-                <div>
-                    <p class="subtitle">
-                        Dénivelé
-                    </p>
-                    <p class="title">
-                        {{ .Params.denivele }} m
-                    </p>
-                </div>
-            </div>
-        </div>
-        {{ end }}
-        <hr>
+        {{ partial "gps-display.html" . }}
         <div class="has-text-justified is-size-5">
             {{ .Content }}
         </div>
@@ -54,7 +18,7 @@
         new Glide(s, {
             type: 'carousel',
             startAt: 0,
-            perView: 1
+            perView: 2
         }).mount();
     })
 </script>

@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container is-max-tablet">
+        {{ partial "breadcrumb.html" . }}
+        {{ partial "section-heading.html" . }}
+        <br>
+        <article class="media">
+            <figure class="image is-128x128 media-left">
+                <p>
+                    {{ $image := .Resources.GetMatch "index.jpg" }}
+                    <img alt="the cyclist face :)" class="is-rounded" src="{{ $image.RelPermalink }}">
+                </p>
+            </figure>
+            <div class="media-content">
+                <div class="content has-text-justified is-size-5">
+                    <a href="{{ .RelPermalink }}">
+                <span class="title is-4 is-family-sans-serif">
+                    Ivan B.
+                </span>
+                        <span> | </span>
+                        <span class="subtitle is-6 is-family-sans-serif">
+                    <a href="https://www.strava.com/athletes/58243641" target="_blank">@ivanb</a>
+                </span>
+                    </a>
+                    <p>
+                        {{ .Content }}
+                    </p>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+{{ end }}

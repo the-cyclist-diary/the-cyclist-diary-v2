@@ -1,0 +1,47 @@
+{{ if .Params.gps }}
+    {{ $gpsImage := .Resources.Get .Params.gps }}
+    <br>
+    <div>
+        <a href="{{ $gpsImage.RelPermalink}}" target="_blank">
+            <img alt="The gpx image of this adventure" src="{{ $gpsImage.RelPermalink }}"></a>
+        <div class="level">
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Distance</p>
+                    <p class="subtitle">
+                        {{ $fmt := div (float .Params.distance) 1000 }}
+                        {{ with $distance := printf "%.2f" $fmt }}
+                            {{ lang.FormatNumberCustom 2 $distance "-|.| " "|"}} km
+                        {{ end }}
+                    </p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Durée</p>
+                    <p class="subtitle">
+                        {{ .Params.duration }} h
+                    </p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Dénivelé</p>
+                    <p class="subtitle">
+                        {{ lang.FormatNumberCustom 0 .Params.elevation "-|.| " "|" }} m
+                    </p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Vitesse</p>
+                    {{ $speed := float .Params.speed }}
+                    <p class="subtitle">{{ printf "%.2f" $speed }} km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    {{ else }}
+    <br>
+{{ end }}

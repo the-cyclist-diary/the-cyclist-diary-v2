@@ -5,8 +5,11 @@
         </ul>
     </div>
     <div class="glide__bullets" data-glide-el="controls[nav]">
-    {{ range $k, $v := seq (.Get "btn") }}
-        <button class="glide__bullet" data-glide-dir="={{ $k }}"></button>
-    {{ end }}
+        {{ $buttons := .Get "btn" }}
+        {{if gt (len (seq $buttons)) 2}}
+            {{ range $k, $v := seq $buttons }}
+                <button class="glide__bullet" data-glide-dir="={{ $k }}"></button>
+            {{ end }}
+        {{end}}
     </div>
 </div>

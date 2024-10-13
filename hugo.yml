@@ -5,7 +5,7 @@ theme: hugo-flex
 defaultContentLanguage: fr
 menu:
   main:
-    - name: Aventures
+    - name: Sur le vif
       pageRef: /adventures
       weight: 1
     - name: A propos

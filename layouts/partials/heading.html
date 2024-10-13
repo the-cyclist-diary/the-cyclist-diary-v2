@@ -1,13 +1,11 @@
-<header>
-  <p class="title is-6 is-underlined">
-    <a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.LinkTitle }}</a>
-  </p>
-  <p class="title is-4">
+<header class="has-text-centered">
+    <span class="title is-4">
     {{ .Title }}
-  </p>
-  {{ with .PublishDate | default nil }}
+    </span>
+    {{ with .PublishDate | default nil }}
     <time class="subtitle" datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . }}">
-      {{- time.Format ":date_long" . -}}
+    <span> | </span>
+    {{- time.Format ":date_long" . -}}
     </time>
-  {{ end }}
+    {{ end }}
 </header>

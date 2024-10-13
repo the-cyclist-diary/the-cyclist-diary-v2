@@ -10,8 +10,8 @@
   {{ block "load_page_assets" . }}
     {{ $noop := .Content }}
   {{ end }}
-  {{ partial "assets.html" . }}
-  {{ partial "glide.html" . }}
+  {{ partialCached "assets.html" . }}
+  {{ partialCached "glide.html" . }}
 </head>
 
 <body>

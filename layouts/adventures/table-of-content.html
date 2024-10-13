@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="section">
     <div class="container is-max-tablet">
+        {{ partial "breadcrumb.html" . }}
         {{ partial "section-heading.html" . }}
         <div class="block has-text-justified is-size-5">
             {{ .Content }}

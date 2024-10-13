@@ -13,5 +13,14 @@
 :root {
     --bulma-navbar-item-color: white;
     --bulma-family-primary: serif;
+    --bulma-link-text: #898989;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
