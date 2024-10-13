@@ -1,6 +1,3 @@
-{{ $level := add .Level site.Params.headingoffset | math.Max 1 }}
-{{ $anchor := safeURL .Anchor }}
-
-<p class="subtitle mt-4 is-family-sans-serif" id="{{ $anchor }}">
+<p class="subtitle mt-4 is-family-sans-serif">
     {{ safeHTML .Text }}
 </p>

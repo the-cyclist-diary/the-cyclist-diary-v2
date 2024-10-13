@@ -1,7 +1,6 @@
 baseURL: https://the-cyclist-diary.fr
 languageCode: fr-FR
 title: The cyclist diary
-theme: hugo-flex
 defaultContentLanguage: fr
 menu:
   main:
