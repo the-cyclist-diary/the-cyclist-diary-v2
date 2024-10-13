@@ -19,6 +19,8 @@ module:
       target: "static/css"
     - source: "assets/fonts"
       target: "static/fonts"
+    - source: "static"
+      target: "static"
 
 markup:
   goldmark:

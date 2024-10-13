@@ -1,2 +1,5 @@
-{{ $base_css := resources.Get "css/global.css" }}
-{{ .Page.Scratch.SetInMap "css" "base" $base_css }}
+{{ $cssTemplate := resources.Match "css/*.css"}}
+{{ range $k, $v := $cssTemplate }}
+    {{ $style := $v | resources.ExecuteAsTemplate $v . | css.Sass }}
+    {{ $.Page.Scratch.SetInMap "css" (string $k) $style}}
+{{ end }}
