@@ -2,6 +2,7 @@ baseURL: https://the-cyclist-diary.github.io/the-cyclist-diary-v2/
 languageCode: fr-FR
 title: The cyclist diary
 defaultContentLanguage: fr
+timeout: 120
 menu:
   main:
     - name: Sur le vif
