@@ -1,7 +1,12 @@
 +++
+speed = "23.312746"
 title = "La grande traversée "
-date = 2023-08-03 20:15:55.965344
+gps = "Morning_Ride (1).png"
 draft = "false"
+distance = "290166"
+elevation = "2555"
+duration = "12:26:48"
+date = "2023-08-03 20:15:55.965344"
 +++
 Aujourd'hui c'est _enfin_ sous un grand soleil que nous partons à la conquête de la Laponie. Rapidement nous retrouvons Eduard, un Hollandais que nous avons souvent croisé sur la route. Nous décidons de rouler ensemble, car il vise la même ville que nous, puis de partager un gîte.
 

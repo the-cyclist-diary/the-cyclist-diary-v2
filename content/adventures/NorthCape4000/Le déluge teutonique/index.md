@@ -1,7 +1,12 @@
 +++
+speed = "18.897783"
 title = "Le déluge teutonique"
-date = 2023-07-27 21:13:38.533605
+gps = "Morning_Ride (1).png"
 draft = "false"
+distance = "219524"
+elevation = "1156"
+duration = "11:36:59"
+date = "2023-07-27 21:13:38.533605"
 +++
 Nous partons plus tard ce matin et prévoyons une petite journée, pour récupérer de la veille. L'hôtel allemand est un labyrinthe immense dans lequel nous nous perdons pas mal avant de réussir à sortir. Nous vidons le buffet à volonté pour refaire nos forces.
 

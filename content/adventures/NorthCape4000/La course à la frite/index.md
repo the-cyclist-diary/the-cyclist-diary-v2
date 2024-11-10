@@ -1,7 +1,12 @@
 +++
+speed = "18.065739"
 title = "La course à la frite"
-date = 2023-07-25 21:45:14.878495
+gps = "Morning_Ride (1).png"
 draft = "false"
+distance = "270419"
+elevation = "2416"
+duration = "14:58:07"
+date = "2023-07-25 21:45:14.878495"
 +++
 Départ chaotique, sous la pluie, le long du canal de l'Ourcq.
 La sortie de Paris est laborieuse, le vent souffle de face, je n'avance pas et je m'épuise. La campagne offre ensuite un triste spectacle, sous les gros nuages, les champs rasés de près sont bien ternes.

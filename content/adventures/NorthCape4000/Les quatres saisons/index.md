@@ -1,7 +1,12 @@
 +++
+speed = "19.891562"
 title = "Les quatres saisons"
-date = 2023-07-28 21:53:18.605433
+gps = "Morning_Ride.png"
 draft = "false"
+distance = "288726"
+elevation = "1898"
+duration = "14:30:54"
+date = "2023-07-28 21:53:18.605433"
 +++
 Pour changer, départ sous le crachin et la grisaille ce matin. Une première crevaison intervient à Brême, puis nous prenons une douche monumentale, du genre qui pénètre toutes les couches de notre tenue.
 

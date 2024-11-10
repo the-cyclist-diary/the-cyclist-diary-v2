@@ -1,7 +1,12 @@
 +++
+speed = "22.381565"
 title = "Bye Bye Danemark"
-date = 2023-07-30 23:05:11.235387
+gps = "Lunch_Ride.png"
 draft = "false"
+distance = "151088"
+elevation = "885"
+duration = "6:45:02"
+date = "2023-07-30 23:05:11.235387"
 +++
 L'étape du jour est bien courte, seulement 150km. Nous faisons une longue grasse matinée et un petit déjeuner copieux. En fait, nous prenons notre temps, pour le pas arriver trop vite à l'embarcadère.
 

@@ -1,7 +1,12 @@
 +++
+speed = "4.1657114"
 title = "Vers Cahors"
-date = 2024-08-18 12:35:08.419491
+gps = "Quercy_j4.png"
 draft = "false"
+distance = "19256"
+elevation = "412"
+duration = "4:37:21"
+date = "2024-08-18 12:35:08.419491"
 +++
 ### Grimpette et parlotte
 De nouveau levés de bonne heure, après une nuit fort reposante, nous nous mettons en marche pour cette dernière étape dont l'objectif est clair : rejoindre Cahors.

@@ -1,7 +1,12 @@
 +++
+speed = "14.667426"
 title = "Bort-les-Orgues - Limoges"
-date = 2022-07-19 22:50:46.899243
+gps = "Fin_du_voyage_de_Pâques_.png"
 draft = "false"
+distance = "123789"
+elevation = "1885"
+duration = "8:26:23"
+date = "2022-07-19 22:50:46.899243"
 +++
 Fin d'un joli weekend plein de rebondissements. Petite journée aujourd'hui car j'ai peur d'être un peu court pour attraper mon train sinon.
 Je profiterais de ce petit flottement une fois à Limoges pour aller boire une grande bière bien fraîche. 

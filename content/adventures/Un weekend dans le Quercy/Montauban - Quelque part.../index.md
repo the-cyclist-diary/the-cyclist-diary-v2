@@ -1,7 +1,12 @@
 +++
+speed = "17.48892"
 title = "Montauban - Quelque part..."
-date = 2022-04-16 21:09:00
+gps = "J_en_chie_dans_le_Quercy.png"
 draft = "false"
+distance = "191732"
+elevation = "1933"
+duration = "10:57:47"
+date = "2022-04-16 21:09:00"
 +++
 Peut-être trop d'ambition pour cette première étape : impossible de rejoindre Saint-Flour, à près de 200km de Montauban. J'avais définitivement sous-estimé le dénivelé...
 Pour compenser, joli petit bivouac en bord de rivière, très agréable !

@@ -1,7 +1,12 @@
 +++
+speed = "16.432547"
 title = "De Portsmouth au Pays de Galles"
-date = 2022-07-24 19:25:36.296635
+gps = "Morning_Gravel_Ride.png"
 draft = "false"
+distance = "199094"
+elevation = "1807"
+duration = "12:06:57"
+date = "2022-07-24 19:25:36.296635"
 +++
 La nuit a été courte et inconfortable sur le Normandie. De grands café m'auront accompagnés toute la journée mais malheureusement la fatigue restera de mise jusqu'au bout. Dans ces conditions, très difficile de finir l'étape, de nombreuses barre de flocons d'avoine sucrées aideront, dans une certaine mesure.
 A l'heure de passer le pont reliant l'Angleterre au Pays de Galles, la petite larme est versée. Cette journée aura été définitivement l'une des plus difficile de ma courte vie de cycliste.

@@ -1,7 +1,12 @@
 +++
+speed = "19.586487"
 title = "Nordkapp !"
-date = 2023-08-07 12:52:55.507093
+gps = "Morning_Ride (1).png"
 draft = "false"
+distance = "456746"
+elevation = "3975"
+duration = "23:19:10"
+date = "2023-08-07 12:52:55.507093"
 +++
 Nous nous réveillons ragaillardis de notre nuit dans notre charmante cabane Finlandaise. Le petit déjeuner est copieux, le propriétaire des lieux nous fait même l'honneur d'une truite sauvage fumée, pêchée par lui. 
 

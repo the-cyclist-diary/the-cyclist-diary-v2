@@ -1,7 +1,12 @@
 +++
+speed = "16.02853"
 title = "Retour vers la Norvège "
-date = 2023-07-31 19:22:22.159532
+gps = "Morning_Ride.png"
 draft = "false"
+distance = "159052"
+elevation = "1640"
+duration = "9:55:23"
+date = "2023-07-31 19:22:22.159532"
 +++
 C'est le grand retour en Norvège pour moi ! Que d'émotion en débarquant sur le port d'Oslo. Nous passons au checkpoint faire tamponner notre carnet de bord, pour la première fois.
 

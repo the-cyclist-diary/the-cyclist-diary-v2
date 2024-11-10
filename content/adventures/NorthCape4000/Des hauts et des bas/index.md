@@ -1,7 +1,12 @@
 +++
+speed = "19.500141"
 title = "Des hauts et des bas"
-date = 2023-07-23 20:55:14.499097
+gps = "Morning_Ride (1).png"
 draft = "false"
+distance = "277617"
+elevation = "2671"
+duration = "14:14:12"
+date = "2023-07-23 20:55:14.499097"
 +++
 Le départ de Lausanne est douloureux, deux petits cols pour le petit déjeuner.
 Un vent fort nous ralenti mais notre petit groupe de fortune lutte vaillamment. Enfin la frontière, la maison.

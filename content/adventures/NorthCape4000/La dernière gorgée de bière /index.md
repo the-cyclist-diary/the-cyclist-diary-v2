@@ -1,7 +1,12 @@
 +++
+speed = "4.011528"
 title = "La dernière gorgée de bière "
-date = 2023-07-21 19:22:30.334160
+gps = "NC4K_meeting.png"
 draft = "false"
+distance = "17322"
+elevation = "95"
+duration = "4:19:05"
+date = "2023-07-21 19:22:30.334160"
 +++
 La nuit fut bonne à l'abri du ventilateur. Un réveil tardif, mais pas trop, suivi de deux cafés _à l'italienne_ -bien sûr-, plus tard, il est temps de faire de petites courses en prévision du lendemain.
 

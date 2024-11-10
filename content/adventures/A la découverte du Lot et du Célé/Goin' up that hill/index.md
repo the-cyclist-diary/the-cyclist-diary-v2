@@ -1,7 +1,12 @@
 +++
+speed = "3.7416573"
 title = "Goin' up that hill"
-date = 2024-08-17 19:02:03.755166
+gps = "Quercy_j3.png"
 draft = "false"
+distance = "23640"
+elevation = "575"
+duration = "6:19:05"
+date = "2024-08-17 19:02:03.755166"
 +++
 ### Départ peinard 
 Après une nuit agitée, notamment par notre voisin le petit Matéo et ses cauchemars, nous nous réveillons à l'aube sur les bords du Lot, prêts à reprendre nos pérégrinations.

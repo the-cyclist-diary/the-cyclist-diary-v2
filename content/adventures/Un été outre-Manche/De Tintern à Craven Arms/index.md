@@ -1,7 +1,12 @@
 +++
+speed = "13.794295"
 title = "De Tintern à Craven Arms"
-date = 2022-07-25 20:13:36.513949
+gps = "Morning_Gravel_Ride (1).png"
 draft = "false"
+distance = "194649"
+elevation = "2938"
+duration = "14:06:39"
+date = "2022-07-25 20:13:36.513949"
 +++
 Réveil peu après 5h ce matin. L'air est doux mais humide, la tente aussi. Elle a tenu, la petite ! Quoique j'ai senti quelques gouttes perler dans ma nuque durant la nuit... un arrêt dans un quelconque magasin outdoor permettra de régler ce problème.
 Malgré tout, j'ai dormi et longtemps ! Vers 21h, n'y tenant plus, j'ai sombré dans les bras d'une Morphée bien agitée, qui m'a réveillé de nombreuse fois à coup de combat de catch D'ANNI (Animal Nocturne Non Identifié) et de maux de tête.

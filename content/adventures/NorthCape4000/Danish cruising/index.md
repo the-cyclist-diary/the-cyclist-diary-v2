@@ -1,7 +1,12 @@
 +++
+speed = "19.214006"
 title = "Danish cruising"
-date = 2023-07-29 21:31:43.071766
+gps = "Morning_Ride (1).png"
 draft = "false"
+distance = "270245"
+elevation = "1717"
+duration = "14:03:54"
+date = "2023-07-29 21:31:43.071766"
 +++
 Ce matin deux crevaisons nous retardent de presque une heure, après un départ déjà tardif. Pierre doit rejoindre un vélociste pour réparer durablement son pneu tandis que je continue la route avec Sébastien. 
 

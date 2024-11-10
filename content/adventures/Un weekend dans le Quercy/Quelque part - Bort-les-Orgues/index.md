@@ -1,7 +1,12 @@
 +++
+speed = "16.264084"
 title = "Quelque part - Bort-les-Orgues"
-date = 2022-04-17 21:17:00
+gps = "Cantal_j2.png"
 draft = "false"
+distance = "175119"
+elevation = "2963"
+duration = "10:46:02"
+date = "2022-04-17 21:17:00"
 +++
 Pas mal d'errements aujourd'hui, je me suis bien planté de route !
 Au lieu de bifurquer vers le Nord, j'ai continué ma route vers Saint-Flour...

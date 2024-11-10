@@ -1,7 +1,12 @@
 +++
+speed = "3.767741"
 title = "Chauffez, mollets !"
-date = 2024-08-15 19:14:30.815364
+gps = "j1.png"
 draft = "false"
+distance = "16397"
+elevation = "373"
+duration = "4:21:07"
+date = "2024-08-15 19:14:30.815364"
 +++
 ### Atteindre Cahors 
 Sous un ciel gris et par seulement 20°, nous débarquons ce jeudi 15 août 2024 dans la petite gare de Cahors.

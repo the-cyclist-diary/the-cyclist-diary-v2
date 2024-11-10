@@ -1,7 +1,12 @@
 +++
+speed = "19.22827"
 title = "Bis repetita"
-date = 2023-08-02 21:50:22.391721
+gps = "Morning_Ride.png"
 draft = "false"
+distance = "279328"
+elevation = "1607"
+duration = "14:31:37"
+date = "2023-08-02 21:50:22.391721"
 +++
 Aujourd'hui nous traversons les stations de ski Suédoises, ce qui promet un beau dénivelé.
 

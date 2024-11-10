@@ -1,7 +1,12 @@
 +++
+speed = "18.441454"
 title = "Un jour, quatre pays"
-date = 2023-07-26 22:29:27.696452
+gps = "Morning_Ride.png"
 draft = "false"
+distance = "285402"
+elevation = "1999"
+duration = "15:28:34"
+date = "2023-07-26 22:29:27.696452"
 +++
 Le départ est glacial, 7° au bord de l'eau, tout le monde est bien couvert. La nuit à l'hôtel a été excellente, nous sommes en parfait état de fonctionnement.
 

@@ -1,7 +1,12 @@
 +++
+speed = "22.367828"
 title = "À nous la Laponie !"
-date = 2023-08-04 21:34:27.840438
+gps = "Sortie_vélo_le_matin.png"
 draft = "false"
+distance = "323911"
+elevation = "2128"
+duration = "14:28:52"
+date = "2023-08-04 21:34:27.840438"
 +++
 L'objectif du jour est clair : rejoindre Gällivare, la capitale de la Laponie. L'étape s'annonce longue mais pas très difficile. 
 
