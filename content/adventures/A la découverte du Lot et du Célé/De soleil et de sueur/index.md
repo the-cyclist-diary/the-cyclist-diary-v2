@@ -1,7 +1,7 @@
 +++
 title = "De soleil et de sueur"
 date = 2024-08-16 07:39:00
-draft = true
+draft = "false"
 +++
 ### Célé'té
 Départ relativement matinal, à 8h, après un petit déjeuner copieux, composé de sandwichs à la banane et au beurre de cacahuète. Ça monte dans les premiers kilomètres car il faut gravir le causse, mais l'ascension est brève et nous redescendons rapidement sur Sauliac ou nous pouvons faire une petite pause et nous réapprovisionner en eau. La vraie difficulté de la journée à surtout lieu juste après...

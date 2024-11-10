@@ -7,9 +7,6 @@
   {{ partial "title.html" . }}
   {{ partial "link.html" . }}
   {{ partial "load_site_assets.html" . }}
-  {{ block "load_page_assets" . }}
-    {{ $noop := .Content }}
-  {{ end }}
   {{ partialCached "assets.html" . }}
   {{ partialCached "glide.html" . }}
 </head>

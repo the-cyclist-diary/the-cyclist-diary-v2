@@ -1,7 +1,7 @@
 +++
 title = "Alpen crossing"
 date = 2023-07-22 22:02:16.357161
-draft = true
+draft = "false"
 +++
 Départ 8h, des gourdes tombent, des pneus explosent, bref, nous sommes 300 cyclistes.
 Je prends le groupe de tête qui me traîne à 30 de moyenne vers Aoste avant de me perdre.

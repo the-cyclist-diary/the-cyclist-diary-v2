@@ -1,7 +1,7 @@
 +++
 title = "Over and out"
 date = 2023-08-08 21:13:39.333778
-draft = true
+draft = "false"
 +++
 J'ai toujours tendance à croire qu'un voyage à vélo se termine le jour où j'arrête de pédaler, de courir après un chrono. C'est pourtant une fausse impression car le transfert vers Bordeaux est, à lui seul, une petite aventure en soit.
 

@@ -1,8 +1,8 @@
-baseURL: https://the-cyclist-diary.fr
+baseURL: https://the-cyclist-diary.github.io/the-cyclist-diary-v2/
 languageCode: fr-FR
 title: The cyclist diary
-theme: hugo-flex
 defaultContentLanguage: fr
+timeout: 120
 menu:
   main:
     - name: Sur le vif
@@ -20,6 +20,8 @@ module:
       target: "static/css"
     - source: "assets/fonts"
       target: "static/fonts"
+    - source: "static"
+      target: "static"
 
 markup:
   goldmark:

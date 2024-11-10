@@ -1,7 +1,7 @@
 +++
 title = "Le déluge teutonique"
 date = 2023-07-27 21:13:38.533605
-draft = true
+draft = "false"
 +++
 Nous partons plus tard ce matin et prévoyons une petite journée, pour récupérer de la veille. L'hôtel allemand est un labyrinthe immense dans lequel nous nous perdons pas mal avant de réussir à sortir. Nous vidons le buffet à volonté pour refaire nos forces.
 

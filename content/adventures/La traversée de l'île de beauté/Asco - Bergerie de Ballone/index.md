@@ -2,7 +2,7 @@
 speed = "1.4286805"
 title = "Asco - Bergerie de Ballone"
 gps = "GR20_j3.png"
-draft = "true"
+draft = "false"
 distance = "11435"
 elevation = "1463"
 duration = "8:00:14"

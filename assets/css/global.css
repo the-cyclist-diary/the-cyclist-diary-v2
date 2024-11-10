@@ -2,13 +2,6 @@
 @import "https://unpkg.com/@glidejs/glide@3.6.2/dist/css/glide.core.min.css";
 @import "https://unpkg.com/@glidejs/glide@3.6.2/dist/css/glide.theme.min.css";
 
-@import "footer.css";
-@import "glide.css";
-@import "mobile.navbar.css";
-@import "desktop.navbar.css";
-@import "images.css";
-@import "typogragphy.css";
-
 /** ROOT VARIABLES **/
 :root {
     --bulma-navbar-item-color: white;

@@ -1,7 +1,7 @@
 +++
 title = "Les quatres saisons"
 date = 2023-07-28 21:53:18.605433
-draft = true
+draft = "false"
 +++
 Pour changer, départ sous le crachin et la grisaille ce matin. Une première crevaison intervient à Brême, puis nous prenons une douche monumentale, du genre qui pénètre toutes les couches de notre tenue.
 

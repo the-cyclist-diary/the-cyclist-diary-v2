@@ -2,7 +2,7 @@
 speed = "2.9787383"
 title = "Mataza - Paliri"
 gps = "GR20_j9.png"
-draft = "true"
+draft = "false"
 distance = "26922"
 elevation = "2078"
 duration = "9:02:17"

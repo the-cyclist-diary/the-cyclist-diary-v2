@@ -2,10 +2,15 @@
     position: absolute;
     top: 0 ;
 }
+@media screen and (max-width: 450px) {
+    #cover-display {
+        height: 10rem;
+    }
+}
+
 #cover-display {
-    background-image: url('/images/cover.jpg');
+    background-image: url({{ (resources.Get "images/cover.webp").RelPermalink }});
     background-size: cover;
-    height: 10rem;
     position: static;
     text-shadow: 2px 2px 2px black;
 }

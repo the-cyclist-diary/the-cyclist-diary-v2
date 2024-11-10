@@ -1,12 +1,4 @@
 <article class="media">
-    {{ if .Params.gps }}
-    <figure class="media-left">
-        <p>
-            {{ $image := .Resources.GetMatch .Params.gps }}
-            <img class="image is-128x128" src="{{ $image.RelPermalink }}">
-        </p>
-    </figure>
-    {{ end }}
     <div class="media-content">
         <div class="content has-text-justified">
             <a href="{{ .RelPermalink }}">

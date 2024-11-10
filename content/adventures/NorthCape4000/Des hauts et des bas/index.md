@@ -1,7 +1,7 @@
 +++
 title = "Des hauts et des bas"
 date = 2023-07-23 20:55:14.499097
-draft = true
+draft = "false"
 +++
 Le départ de Lausanne est douloureux, deux petits cols pour le petit déjeuner.
 Un vent fort nous ralenti mais notre petit groupe de fortune lutte vaillamment. Enfin la frontière, la maison.

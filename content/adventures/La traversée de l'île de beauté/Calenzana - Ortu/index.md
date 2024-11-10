@@ -2,7 +2,7 @@
 speed = "2.5377429"
 title = "Calenzana - Ortu"
 gps = "GR20_j1.png"
-draft = "true"
+draft = "false"
 distance = "13173"
 elevation = "1644"
 duration = "5:11:27"

@@ -2,7 +2,7 @@
 speed = "2.5670557"
 title = "La traversée de l'île de beauté "
 gps = "6935319048085717622.png"
-draft = "true"
+draft = "false"
 distance = "202448"
 elevation = "15303"
 duration = "78:51:50"

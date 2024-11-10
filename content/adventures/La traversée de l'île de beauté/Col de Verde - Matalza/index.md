@@ -2,7 +2,7 @@
 speed = "2.887663"
 title = "Col de Verde - Matalza"
 gps = "GR20_j8.png"
-draft = "true"
+draft = "false"
 distance = "28036"
 elevation = "1821"
 duration = "9:42:32"

@@ -1,7 +1,7 @@
 +++
 title = "Un jour, quatre pays"
 date = 2023-07-26 22:29:27.696452
-draft = true
+draft = "false"
 +++
 Le départ est glacial, 7° au bord de l'eau, tout le monde est bien couvert. La nuit à l'hôtel a été excellente, nous sommes en parfait état de fonctionnement.
 

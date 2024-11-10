@@ -1,7 +1,7 @@
 +++
 title = "Danish cruising"
 date = 2023-07-29 21:31:43.071766
-draft = true
+draft = "false"
 +++
 Ce matin deux crevaisons nous retardent de presque une heure, après un départ déjà tardif. Pierre doit rejoindre un vélociste pour réparer durablement son pneu tandis que je continue la route avec Sébastien. 
 

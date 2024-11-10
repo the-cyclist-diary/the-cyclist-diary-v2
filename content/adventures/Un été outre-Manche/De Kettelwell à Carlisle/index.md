@@ -1,7 +1,7 @@
 +++
 title = "De Kettelwell à Carlisle"
 date = 2022-07-28 21:04:29.545874
-draft = true
+draft = "false"
 +++
 Ce matin, rien ne presse. Je dois en effet attendre l'ouverture de la supérette du village pour retirer de l'argent que je laisserai à l'accueil du camping (comme prévu hier, pour ceux qui suivent). Petite déconvenue : ce matin, il pleut. C'est toujours moins agréable de se lever dans l'humidité. Heureusement, cette sensation est bien vite atténuée par mon voisin fort sympathique qui vient m'offrir un café frais (filtré à la french press, ça ne s'invente pas). Nous discutons un peu, il est cycliste aussi. A peine est-il reparti qu'un écossais, cette fois, vient à ma rencontre et commence à me questionner sur l'itinéraire. Il m'oriente notamment sur le meilleur moyen de passer en Irlande ; c'est toujours ça de prit. 
 

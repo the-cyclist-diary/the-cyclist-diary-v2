@@ -1,7 +1,7 @@
 +++
 title = "Lost in translation "
 date = 2023-07-20 19:28:59.594228
-draft = true
+draft = "false"
 +++
 Des changements de plans de dernière minute ont provoqué un petit inattendu : je passe une journée complète supplémentaire à Turin sans autre objectif que d'attendre le fatidique coup d'envoi de l'aventure.
 
