@@ -2,8 +2,13 @@
     {{ $gpsImage := .Resources.Get .Params.gps }}
     <br>
     <div>
-        <a href="{{ $gpsImage.RelPermalink}}" target="_blank">
-            <img alt="The gpx image of this adventure" src="{{ $gpsImage.RelPermalink }}"></a>
+        {{ with $original := .Resources.GetMatch (printf "%s" $gpsImage ) }}
+            {{ with $webp := .Process "webp" }}
+                <a href="{{ .RelPermalink}}" target="_blank">
+                    <img alt="The gpx image of this adventure" src="{{ .RelPermalink }}">
+                </a>
+            {{end}}
+        {{end}}
         <div class="level">
             <div class="level-item has-text-centered">
                 <div>
