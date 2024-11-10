@@ -3,7 +3,7 @@
     {{ with $webp := .Process "webp" }}
         <li class="glide__slide">
             <a href="{{ .RelPermalink }}" target="_blank">
-                <img alt="{{ .RelPermalink }}" class="slide" src="{{ .RelPermalink }}">
+                <img alt="{{ .RelPermalink }}" class="slide" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
             </a>
         </li>
     {{end}}

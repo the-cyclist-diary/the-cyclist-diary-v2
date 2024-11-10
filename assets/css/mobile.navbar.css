@@ -9,7 +9,7 @@
 }
 
 #cover-display {
-    background-image: url({{ (resources.Get "images/cover.jpg").RelPermalink }});
+    background-image: url({{ (resources.Get "images/cover.webp").RelPermalink }});
     background-size: cover;
     position: static;
     text-shadow: 2px 2px 2px black;
