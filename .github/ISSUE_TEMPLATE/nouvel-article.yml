@@ -1,6 +1,5 @@
----
 name: Nouvel article
-about: Ecriture d'un nouvel article
+about: "Ecriture d'un nouvel article"
 title: Nouvel article
 labels: article
 assignees: ibethus
@@ -12,10 +11,9 @@ body:
     placeholder: "NC4K"
   validations:
     required: true
----
-
-## sous-titre
-// Description
-// Photos
-
-:gpx: 
+  - type: textarea
+    id: body
+    attributes:
+      label: Content
+      description: Content of the article
+      placeholder: // Description // Images // :gpx:
