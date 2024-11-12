@@ -4,13 +4,13 @@ title: Nouvel article
 labels: article
 assignees: ibethus
 body:
-- type: input
-  id: adventure
-  attributes:
-    label: Adventure linked to this article
-    placeholder: "NC4K"
-  validations:
-    required: true
+  - type: input
+    id: adventure
+    attributes:
+      label: Adventure linked to this article
+      placeholder: "NC4K"
+    validations:
+      required: true
   - type: textarea
     id: body
     attributes:
