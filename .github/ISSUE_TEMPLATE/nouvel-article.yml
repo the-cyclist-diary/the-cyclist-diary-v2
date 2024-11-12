@@ -16,4 +16,4 @@ body:
     attributes:
       label: Content
       description: Content of the article
-      placeholder: // Description // Images // :gpx:
+      placeholder: "Description | Images | :gpx:"
