@@ -1,6 +1,7 @@
 name: Generate articles from issues
 on:
   issues:
+    types: [opened, edited]
   workflow_dispatch:
 permissions:
   contents: write
