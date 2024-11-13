@@ -1,0 +1,17 @@
+name: Generate articles from issues
+on:
+  issues:
+    types: [opened, edited]
+  workflow_dispatch:
+permissions:
+  contents: write
+  id-token: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate articles
+        uses: the-cyclist-diary/the-cyclist-diary-editor@main
+        with:
+          github-token: ${{ secrets.PAT }}
+          github-username: ibethus
