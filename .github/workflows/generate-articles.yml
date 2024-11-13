@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate articles
-        uses: the-cyclist-diary/the-cyclist-diary-editor@main
+        uses: the-cyclist-diary-editor@main
         with:
           github-token: ${{ secrets.PAT }}
           github-username: ibethus
