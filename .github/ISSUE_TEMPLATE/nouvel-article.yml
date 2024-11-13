@@ -7,13 +7,14 @@ body:
   - type: input
     id: adventure
     attributes:
-      label: Adventure linked to this article
+      label: :adventure:
+      description: "L'aventure liée à cet article"
       placeholder: "NC4K"
     validations:
       required: true
   - type: textarea
     id: body
     attributes:
-      label: Content
-      description: Content of the article
+      label: :content:
+      description: "Le contenu de l'article"
       placeholder: "Description | Images | :gpx:"
