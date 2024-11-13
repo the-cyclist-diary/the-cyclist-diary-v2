@@ -15,6 +15,6 @@ body:
   - type: textarea
     id: body
     attributes:
-      label: :content:
+      label: ":content:"
       description: "Le contenu de l'article"
       placeholder: "Description | Images | :gpx:"
