@@ -1,0 +1,16 @@
+name: Deploy the-cyclist-diary.fr to GH Pages
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: write
+  id-token: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate articles
+        uses: the-cyclist-diary/the-cyclist-diary-editor@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-username: ibethus
