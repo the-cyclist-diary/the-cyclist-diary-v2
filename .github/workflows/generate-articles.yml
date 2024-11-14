@@ -1,4 +1,6 @@
 name: Generate articles from issues
+run-name: | 
+  ${{ github.actor }} a lancé la génération automatique d'un article
 on:
   issues:
     types: [opened, edited]
