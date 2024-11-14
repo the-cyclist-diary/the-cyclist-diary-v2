@@ -1,6 +1,11 @@
 +++
+speed = "3.059547"
 title = "L'âme du Verdon"
+gps = "11375306174985643713.png"
 draft = "false"
+distance = "26341"
+elevation = "1495"
+duration = "8:36:34"
 date = "2024-11-14"
 +++
 
