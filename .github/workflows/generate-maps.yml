@@ -1,5 +1,5 @@
 name: Image from GPX generator
-run-name: ${{ github.actor }} started map image generation 🚀
+run-name: ${{ github.actor }} a démarré la génération des images depuis les GPX
 on: [push]
 jobs:
   Generate-images-from-GPX-files:
