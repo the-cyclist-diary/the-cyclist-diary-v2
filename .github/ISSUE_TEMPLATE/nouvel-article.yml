@@ -6,11 +6,11 @@ assignees: ibethus
 body:
   - type: textarea
     id: body
+    validations:
+        required: true
     attributes:
       label: ":content:"
-      description: "Le contenu de l'article"
-      validations:
-        required: true
+      description: "Le contenu de l'article"      
       value: |
         :adventure: //nom de l'aventure        
         :gpx: //nom du fichier gpx
