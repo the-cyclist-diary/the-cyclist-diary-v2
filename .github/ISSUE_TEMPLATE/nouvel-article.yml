@@ -9,7 +9,6 @@ body:
     validations:
         required: true
     attributes:
-      label: ":content:"
       description: "Le contenu de l'article"      
       value: |
         :adventure: //nom de l'aventure        
