@@ -10,4 +10,4 @@ jobs:
         uses: the-cyclist-diary/generate-map-cicd@v1.4.0
         with:
           content-path: "content"
-          user-token: ${{ secrets.GITHUB_TOKEN }}
+          user-token: ${{ secrets.PAT }}
