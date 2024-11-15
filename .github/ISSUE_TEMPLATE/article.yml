@@ -1,0 +1,30 @@
+---
+name: Nouvel article
+description: "Création d'un nouvel article"
+assignees: ibethus
+body:
+  - type: markdown
+    id: hint
+    attributes:
+      value: |
+        ## Création d'un article
+        
+        * le label désigne l'aventure liée*
+        * le milestone doit être "article"*
+        * un fichier GPX peut être inclu dans le body avec le tag :gpx: suivi du fichier uploadé avec l'extension .zip
+  - type: input
+    id: date
+    attributes:
+      label: "Date de l'article"
+      description: "Date au format AAAA-MM-JJ, si vide, utilisation de la date du jour"
+      placeholder: "2024-10-25"
+    validations:
+      required: false
+  - type: textarea
+    id: content
+    attributes:
+      label: Contenu
+      description: "Contenu de l'article"
+    validations:
+      required: true
+---
