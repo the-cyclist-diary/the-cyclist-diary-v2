@@ -1,7 +1,12 @@
 +++
+speed = "3.059547"
 title = "Grasse - Gréolières"
-date = "2024-04-28"
+gps = "Grasse - Gréolières.png"
 draft = "false"
+distance = "26341"
+elevation = "1495"
+duration = "8:36:34"
+date = "2024-04-28"
 +++
 
 
