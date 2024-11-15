@@ -15,7 +15,7 @@ date = "2024-04-28"
 
 Nous partons de bon matin de Grasse ou nous nous sommes retrouvés la veille dans un petit airbnb à peine assez large pour contenir nos grandes carcasses.
 Le temps est maussade sans être désagréable, bien que nous aimerions profiter de la vue sur mer, au lieu de subir un brouillard épais et persistant.
-Ce n'est qu'après un bon effort, sur les hauteurs de le ville, que l'azur se découvre.
+Ce n'est qu'après un bon effort, sur les hauteurs de la ville, que l'azur se découvre.
 
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="b218de1f-dc82-4fdb-a309-1e1cd73678b3.jpg" >}}

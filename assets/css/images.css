@@ -1,7 +1,3 @@
-img {
-    max-height: 70vh;
-}
-
 .image.is-128x128 {
     object-fit: cover;
 }

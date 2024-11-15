@@ -1,6 +1,6 @@
 {{- $src := .Get "src" -}}
 {{ with $original := .Page.Resources.GetMatch (printf "%s" (.Get "src") ) }}
-    {{ with $webp := .Resize (printf "%dx webp" 400)}}
+    {{ with .Resize "500x" }}
         <li class="glide__slide">
             <a href="{{ $src }}" target="_blank">
                 <img alt="{{ .RelPermalink }}" class="slide" src="{{ .RelPermalink }}" loading="lazy">
