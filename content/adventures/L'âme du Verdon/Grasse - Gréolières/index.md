@@ -4,9 +4,9 @@ title = "Grasse - Gréolières"
 gps = "Grasse - Gréolières.png"
 draft = "false"
 distance = "26341"
-elevation = "1495"
-duration = "8:36:34"
 date = "2024-04-28"
+duration = "8:36:34"
+elevation = "1495"
 +++
 
 

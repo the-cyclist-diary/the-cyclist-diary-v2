@@ -1,12 +1,12 @@
 +++
 speed = "3.059547"
 title = "L'âme du Verdon"
-gps = "6033117891964782361.png"
+gps = "11496271755554289103.png"
 draft = "false"
 distance = "26341"
-date = "2024-11-14"
-duration = "8:36:34"
 elevation = "1495"
+duration = "8:36:34"
+date = "2024-11-14"
 +++
 
 Alors que l'air frais du printemps souffle encore sur les Alpes-Maritimes, nous nous mettons en quête, mon ami Guillaume et moi,
