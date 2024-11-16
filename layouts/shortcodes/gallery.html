@@ -8,7 +8,7 @@
         {{ $buttons := .Get "btn" }}
         {{if gt (len (seq $buttons)) 2}}
             {{ range $k, $v := seq $buttons }}
-                <button class="glide__bullet" data-glide-dir="={{ $k }}"></button>
+                <button aria-label="image selection button" class="glide__bullet" data-glide-dir="={{ $k }}"></button>
             {{ end }}
         {{end}}
     </div>
