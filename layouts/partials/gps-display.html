@@ -4,8 +4,11 @@
 <div id="loading">
     Chargement de la carte...
 </div>
-<div id="map-container" class="fade-hidden">    
+<div id="map-container" class="fade-hidden">
     <div id="map"></div>
+    <div id="elevation-chart-container">
+        <canvas id="elevation-chart"></canvas>
+    </div>
     <br>
     <div class="level" id="stats">
         <div class="level-item has-text-centered">
@@ -64,6 +67,10 @@
     const options = {
         async: true,
         polyline_options: { color: "var(--gpx-color)" },
+        markers: {
+            startIcon: null,
+            endIcon: null,
+        }
     };
 
     const gpx = new L.GPX(url, options).on('loaded', (e) => {
@@ -77,13 +84,96 @@
         spinner.classList.add('hidden');
         fadeIn(mapContainer);
         fadeIn(document.getElementById('stats'));
-        
+
         // Formatter et assigner les valeurs
         document.getElementById("distance").textContent = formatter.format(e.target.get_distance() / 1000) + ' km';
         document.getElementById("duree").textContent = formatTime(e.target.get_moving_time());
         document.getElementById("denivele").textContent = formatter.format(e.target.get_elevation_gain()) + ' m';
         document.getElementById("vitesse").textContent = formatter.format(e.target.get_moving_speed()) + ' km/h';
+
+        // Récupérer les données d'élévation
+        const points = e.target.get_elevation_data();
+        const data = points.map(p => ({
+            distance: p[0],
+            elevation: p[1]
+        }));
+
+        // Récupérer le tracé GPX
+        const track = e.target.getLayers()[0];
+
+        // Fonction pour créer un point surligné sur le tracé
+        const highlightPoint = (distance) => {
+            const point = track.getLatLngs()[Math.floor(distance)];
+            if (point) {
+                hoverMarker.setLatLng(point);
+                hoverMarker.setStyle({ opacity: 1 });
+            }
+        };
+
+        // Créer le graphique
+        const ctx = document.getElementById('elevation-chart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: data.map(p => p.distance.toFixed(1)),
+                datasets: [{
+                    label: 'Altitude (m)',
+                    data: data.map(p => p.elevation),
+                    fill: true,
+                    backgroundColor: "lightblue",
+                    showLine: false,
+                }]
+            },
+            options: {
+                elements: {
+                    point:{
+                        radius: 0
+                    }
+                },
+                responsive: true,
+                maintainAspectRatio: false,
+                layout: {
+                    padding: 0
+                },
+                animation: false,
+                scales: {
+
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Distance (km)'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: false,
+                            text: 'Altitude (m)'
+                        }
+                    }
+                },
+                onHover: (event, elements) => {
+                    if (elements.length) {
+                        const index = elements[0].index;
+                        highlightPoint(index);
+                    }
+                },
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                }
+            }
+        });
+        // Créer un marqueur caché qui sera réutilisé
+        const hoverMarker = L.circleMarker([0, 0], {
+            radius: 6,
+            color: 'white',
+            fillColor: 'lightblue',
+            fillOpacity: 1,
+            weight: 2,
+            opacity: 0,
+        }).addTo(map);
     }).addTo(map);
+
 </script>
 {{end}}
 <hr>
