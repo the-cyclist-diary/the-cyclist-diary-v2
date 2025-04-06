@@ -1,38 +1,43 @@
 {{ if .Params.gps }}
 {{ $gpxFile := .Resources.Get .Params.gps }}
 <br>
-<div id="loading">
-    Chargement de la carte...
-</div>
-<div id="map-container" class="fade-hidden">
-    <div id="map"></div>
-    <div id="elevation-chart-container">
-        <canvas id="elevation-chart"></canvas>
+<div id="map-container">
+    <div id="loading">
+        <div class="spinner"></div>
+        <div class="loading-text">
+            <p>Chargement de la carte...</p>
+        </div>
     </div>
-    <br>
-    <div class="level" id="stats">
-        <div class="level-item has-text-centered">
-            <div>
-                <p class="heading">Distance</p>
-                <p id="distance" class="subtitle"></p>
-            </div>
+    <div class="fade-hidden">
+        <div id="map"></div>
+        <div id="elevation-chart-container">
+            <canvas id="elevation-chart"></canvas>
         </div>
-        <div class="level-item has-text-centered">
-            <div>
-                <p class="heading">Durée</p>
-                <p id="duree" class="subtitle"></p>
+        <br>
+        <div class="level" id="stats">
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Distance</p>
+                    <p id="distance" class="subtitle"></p>
+                </div>
             </div>
-        </div>
-        <div class="level-item has-text-centered">
-            <div>
-                <p class="heading">Dénivelé</p>
-                <p id="denivele" class="subtitle"></p>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Durée</p>
+                    <p id="duree" class="subtitle"></p>
+                </div>
             </div>
-        </div>
-        <div class="level-item has-text-centered">
-            <div>
-                <p class="heading">Vitesse</p>
-                <p id="vitesse" class="subtitle"></p>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Dénivelé</p>
+                    <p id="denivele" class="subtitle"></p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Vitesse</p>
+                    <p id="vitesse" class="subtitle"></p>
+                </div>
             </div>
         </div>
     </div>
@@ -40,7 +45,6 @@
 
 {{ with $gpxFile }}
 <script type="module">
-    const mapContainer = document.getElementById('map-container');
     const spinner = document.getElementById('loading');
     const map = L.map('map');
 
@@ -77,13 +81,14 @@
         // Créer un formateur de nombres pour le français
         const formatter = new Intl.NumberFormat('fr-FR', {
             maximumFractionDigits: 1,
-            minimumFractionDigits: 1
+            minimumFractionDigits: 0
         });
 
         map.fitBounds(e.target.getBounds());
         spinner.classList.add('hidden');
-        fadeIn(mapContainer);
-        fadeIn(document.getElementById('stats'));
+        document.querySelectorAll('.fade-hidden').forEach((el) => {
+            fadeIn(el);
+        });
 
         // Formatter et assigner les valeurs
         document.getElementById("distance").textContent = formatter.format(e.target.get_distance() / 1000) + ' km';
@@ -128,7 +133,7 @@
 
                     x: {
                         title: {
-                            display: true,
+                            display: false,
                             text: 'Distance (km)'
                         }
                     },
@@ -158,6 +163,9 @@
                     mode: 'index'
                 },
                 plugins: {
+                    legend: {
+                        display: false
+                    },
                     tooltip: {
                         backgroundColor: 'rgba(255, 255, 255, 0.9)',
                         titleColor: '#666',
