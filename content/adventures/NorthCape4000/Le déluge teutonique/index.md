@@ -1,7 +1,7 @@
 +++
 speed = "18.897783"
 title = "Le déluge teutonique"
-gps = "Morning_Ride (1).png"
+gps = "Morning_Ride (1).gpx"
 draft = "false"
 distance = "219524"
 elevation = "1156"

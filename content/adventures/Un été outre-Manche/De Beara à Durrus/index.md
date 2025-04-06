@@ -1,7 +1,7 @@
 +++
 speed = "15.938407"
 title = "De Beara à Durrus"
-gps = "Morning_Gravel_Ride.png"
+gps = "Morning_Gravel_Ride.gpx"
 draft = "false"
 distance = "159663"
 elevation = "1931"

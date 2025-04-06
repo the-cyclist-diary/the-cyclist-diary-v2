@@ -1,7 +1,7 @@
 +++
 speed = "4.011528"
 title = "La dernière gorgée de bière "
-gps = "NC4K_meeting.png"
+gps = "NC4K_meeting.gpx"
 draft = "false"
 distance = "17322"
 elevation = "95"

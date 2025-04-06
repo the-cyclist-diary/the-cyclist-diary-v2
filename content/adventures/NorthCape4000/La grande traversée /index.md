@@ -1,7 +1,7 @@
 +++
 speed = "23.312746"
 title = "La grande traversée "
-gps = "Morning_Ride (1).png"
+gps = "Morning_Ride (1).gpx"
 draft = "false"
 distance = "290166"
 elevation = "2555"

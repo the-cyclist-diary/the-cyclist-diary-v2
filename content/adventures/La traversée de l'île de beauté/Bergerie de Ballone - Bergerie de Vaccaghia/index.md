@@ -1,7 +1,7 @@
 +++
 speed = "2.951646"
 title = "Bergerie de Ballone - Bergerie de Vaccaghia"
-gps = "GR20_j4.png"
+gps = "GR20_j4.gpx"
 draft = "false"
 distance = "30206"
 elevation = "1728"

@@ -1,7 +1,7 @@
 +++
 speed = "15.445613"
 title = "D'Inverness à Oban"
-gps = "Morning_Gravel_Ride (1).png"
+gps = "Morning_Gravel_Ride (1).gpx"
 draft = "false"
 distance = "161840"
 elevation = "1577"

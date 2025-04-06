@@ -1,7 +1,7 @@
 +++
 speed = "15.219844"
 title = "De Chesterfield à Kettelwell"
-gps = "Morning_Gravel_Ride (1).png"
+gps = "Morning_Gravel_Ride (1).gpx"
 draft = "false"
 distance = "194721"
 elevation = "1992"

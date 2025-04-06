@@ -1,7 +1,7 @@
 +++
 speed = "16.697725"
 title = "De Portnoo à Ballina"
-gps = "Morning_Gravel_Ride.png"
+gps = "Morning_Gravel_Ride.gpx"
 draft = "false"
 distance = "197715"
 elevation = "2152"

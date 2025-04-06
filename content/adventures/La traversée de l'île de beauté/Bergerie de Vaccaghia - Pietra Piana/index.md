@@ -1,7 +1,7 @@
 +++
 speed = "1.9628048"
 title = "Bergerie de Vaccaghia - Pietra Piana"
-gps = "GR20_j5.png"
+gps = "GR20_j5.gpx"
 draft = "false"
 distance = "12231"
 elevation = "1343"

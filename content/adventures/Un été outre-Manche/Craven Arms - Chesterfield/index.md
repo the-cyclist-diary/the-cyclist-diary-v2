@@ -1,7 +1,7 @@
 +++
 speed = "16.443361"
 title = "Craven Arms - Chesterfield"
-gps = "Morning_Gravel_Ride.png"
+gps = "Morning_Gravel_Ride.gpx"
 draft = "false"
 distance = "211521"
 elevation = "2124"

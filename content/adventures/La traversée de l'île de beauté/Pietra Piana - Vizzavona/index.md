@@ -1,7 +1,7 @@
 +++
 speed = "2.0871124"
 title = "Pietra Piana - Vizzavona"
-gps = "GR20_j6.png"
+gps = "GR20_j6.gpx"
 draft = "false"
 distance = "19380"
 elevation = "1378"

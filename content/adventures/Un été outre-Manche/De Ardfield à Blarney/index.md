@@ -1,7 +1,7 @@
 +++
 speed = "14.57769"
 title = "De Ardfield à Blarney"
-gps = "Trajet_vers_Cork_finalement_.png"
+gps = "Trajet_vers_Cork_finalement_.gpx"
 draft = "false"
 distance = "137909"
 elevation = "1823"

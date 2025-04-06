@@ -1,7 +1,7 @@
 +++
 speed = "16.304426"
 title = "Blowing in the wind"
-gps = "Morning_Ride.png"
+gps = "Morning_Ride.gpx"
 draft = "false"
 distance = "284313"
 elevation = "2027"

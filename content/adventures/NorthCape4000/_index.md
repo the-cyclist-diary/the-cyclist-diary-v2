@@ -1,7 +1,7 @@
 +++
 speed = "20.359182"
 title = "NorthCape4000"
-gps = "17041237810850465950.png"
+gps = "17041237810850465950.gpx"
 draft = "false"
 distance = "4746585"
 elevation = "35205"

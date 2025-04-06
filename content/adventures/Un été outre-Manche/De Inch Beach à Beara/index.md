@@ -1,7 +1,7 @@
 +++
 speed = "17.870907"
 title = "De Inch Beach à Beara"
-gps = "Morning_Gravel_Ride (1).png"
+gps = "Morning_Gravel_Ride (1).gpx"
 draft = "false"
 distance = "191318"
 elevation = "1876"

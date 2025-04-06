@@ -1,7 +1,7 @@
 +++
 speed = "19.500141"
 title = "Des hauts et des bas"
-gps = "Morning_Ride (1).png"
+gps = "Morning_Ride (1).gpx"
 draft = "false"
 distance = "277617"
 elevation = "2671"

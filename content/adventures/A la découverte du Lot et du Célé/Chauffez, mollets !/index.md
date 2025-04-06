@@ -1,7 +1,7 @@
 +++
 speed = "3.767741"
 title = "Chauffez, mollets !"
-gps = "j1.png"
+gps = "j1.gpx"
 draft = "false"
 distance = "16397"
 elevation = "373"

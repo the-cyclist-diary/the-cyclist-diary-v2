@@ -1,7 +1,7 @@
 +++
 speed = "3.059547"
 title = "Grasse - Gréolières"
-gps = "Grasse - Gréolières.png"
+gps = "Grasse - Gréolières.gpx"
 draft = "false"
 distance = "26341"
 date = "2024-04-28"

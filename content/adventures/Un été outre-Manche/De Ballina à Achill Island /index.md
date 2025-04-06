@@ -1,7 +1,7 @@
 +++
 speed = "17.13355"
 title = "De Ballina à Achill Island "
-gps = "Morning_Gravel_Ride (1).png"
+gps = "Morning_Gravel_Ride (1).gpx"
 draft = "false"
 distance = "157543"
 elevation = "1514"

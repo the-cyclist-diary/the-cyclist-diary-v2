@@ -1,0 +1,33 @@
+#map {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    --gpx-color: rgb(82, 144, 165);
+}
+
+.map-container{
+    height: 50vh;
+}
+#loading {
+    text-align: center;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.fade-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.fade-visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.8s ease-in-out, visibility 0.8s;
+}

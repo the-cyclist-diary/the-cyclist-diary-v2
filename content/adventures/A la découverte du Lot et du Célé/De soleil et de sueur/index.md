@@ -1,7 +1,7 @@
 +++
 speed = "3.02925"
 title = "De soleil et de sueur"
-gps = "Quercy_j2.png"
+gps = "Quercy_j2.gpx"
 draft = "false"
 distance = "25874"
 elevation = "782"

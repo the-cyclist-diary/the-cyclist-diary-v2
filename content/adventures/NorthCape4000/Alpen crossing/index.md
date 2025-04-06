@@ -1,7 +1,7 @@
 +++
 speed = "19.332558"
 title = "Alpen crossing"
-gps = "Morning_Ride.png"
+gps = "Morning_Ride.gpx"
 draft = "false"
 distance = "292899"
 elevation = "3341"

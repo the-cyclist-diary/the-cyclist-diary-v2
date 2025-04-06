@@ -1,7 +1,7 @@
 +++
 speed = "21.342894"
 title = "Sous le soleil du cercle polaire "
-gps = "Morning_Ride.png"
+gps = "Morning_Ride.gpx"
 draft = "false"
 distance = "288882"
 elevation = "1561"

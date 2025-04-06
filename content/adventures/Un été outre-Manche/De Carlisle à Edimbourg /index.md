@@ -1,7 +1,7 @@
 +++
 speed = "17.070564"
 title = "De Carlisle à Edimbourg "
-gps = "Morning_Gravel_Ride (1).png"
+gps = "Morning_Gravel_Ride (1).gpx"
 draft = "false"
 distance = "214577"
 elevation = "1825"

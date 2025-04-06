@@ -1,7 +1,7 @@
 +++
 speed = "14.359549"
 title = "De Larne à Letterkenny"
-gps = "Morning_Gravel_Ride.png"
+gps = "Morning_Gravel_Ride.gpx"
 draft = "false"
 distance = "202342"
 elevation = "2545"

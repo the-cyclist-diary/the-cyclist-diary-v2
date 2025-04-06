@@ -1,7 +1,7 @@
 +++
 speed = "15.315451"
 title = "De Carrigaholt à Inch Beach"
-gps = "Morning_Gravel_Ride.png"
+gps = "Morning_Gravel_Ride.gpx"
 draft = "false"
 distance = "158115"
 elevation = "1609"

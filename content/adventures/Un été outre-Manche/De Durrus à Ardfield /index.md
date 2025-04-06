@@ -1,7 +1,7 @@
 +++
 speed = "13.319741"
 title = "De Durrus à Ardfield "
-gps = "Récupération_la_tête_dans_les_nuages_.png"
+gps = "Récupération_la_tête_dans_les_nuages_.gpx"
 draft = "false"
 distance = "118357"
 elevation = "1700"

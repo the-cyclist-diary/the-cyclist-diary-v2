@@ -1,7 +1,7 @@
 +++
 speed = "17.574324"
 title = "Un été outre-Manche"
-gps = "16625914329462775360.png"
+gps = "16625914329462775360.gpx"
 draft = "false"
 distance = "3973652"
 elevation = "39863"

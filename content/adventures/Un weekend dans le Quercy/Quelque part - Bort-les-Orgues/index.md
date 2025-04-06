@@ -1,7 +1,7 @@
 +++
 speed = "16.264084"
 title = "Quelque part - Bort-les-Orgues"
-gps = "Cantal_j2.png"
+gps = "Cantal_j2.gpx"
 draft = "false"
 distance = "175119"
 elevation = "2963"

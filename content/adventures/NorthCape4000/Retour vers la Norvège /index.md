@@ -1,7 +1,7 @@
 +++
 speed = "16.02853"
 title = "Retour vers la Norvège "
-gps = "Morning_Ride.png"
+gps = "Morning_Ride.gpx"
 draft = "false"
 distance = "159052"
 elevation = "1640"

@@ -1,7 +1,7 @@
 +++
 speed = "18.441454"
 title = "Un jour, quatre pays"
-gps = "Morning_Ride.png"
+gps = "Morning_Ride.gpx"
 draft = "false"
 distance = "285402"
 elevation = "1999"

@@ -1,7 +1,7 @@
 +++
 speed = "14.667426"
 title = "Bort-les-Orgues - Limoges"
-gps = "Fin_du_voyage_de_Pâques_.png"
+gps = "Fin_du_voyage_de_Pâques_.gpx"
 draft = "false"
 distance = "123789"
 elevation = "1885"

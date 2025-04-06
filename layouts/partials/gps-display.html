@@ -1,52 +1,92 @@
 {{ if .Params.gps }}
-    {{ $gpsImage := .Resources.Get .Params.gps }}
+{{ $gpxFile := .Resources.Get .Params.gps }}
+<br>
+<div id="loading">
+    Chargement de la carte...
+</div>
+<div id="map-container" class="fade-hidden">    
+    <div id="map"></div>
     <br>
-    <div>
-        {{ with $original := .Resources.GetMatch (printf "%s" $gpsImage ) }}
-            {{ with $webp := .Process "webp" }}
-                <a href="{{ $original }}" target="_blank">
-                    <img alt="The gpx image of this adventure" src="{{ .RelPermalink }}" loading="lazy">
-                </a>
-            {{end}}
-        {{end}}
-        <div class="level">
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Distance</p>
-                    <p class="subtitle">
-                        {{ $fmt := div (float .Params.distance) 1000 }}
-                        {{ with $distance := printf "%.2f" $fmt }}
-                            {{ lang.FormatNumberCustom 2 $distance "-|.| " "|"}} km
-                        {{ end }}
-                    </p>
-                </div>
+    <div class="level" id="stats">
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Distance</p>
+                <p id="distance" class="subtitle"></p>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Durée</p>
-                    <p class="subtitle">
-                        {{ .Params.duration }} h
-                    </p>
-                </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Durée</p>
+                <p id="duree" class="subtitle"></p>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Dénivelé</p>
-                    <p class="subtitle">
-                        {{ lang.FormatNumberCustom 0 .Params.elevation "-|.| " "|" }} m
-                    </p>
-                </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Dénivelé</p>
+                <p id="denivele" class="subtitle"></p>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Vitesse</p>
-                    {{ $speed := float .Params.speed }}
-                    <p class="subtitle">{{ printf "%.2f" $speed }} km/h</p>
-                </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Vitesse</p>
+                <p id="vitesse" class="subtitle"></p>
             </div>
         </div>
     </div>
-    <hr>
-    {{ else }}
-    <br>
+</div>
+
+{{ with $gpxFile }}
+<script type="module">
+    const mapContainer = document.getElementById('map-container');
+    const spinner = document.getElementById('loading');
+    const map = L.map('map');
+
+    // Fonction utilitaire pour le fade-in
+    const fadeIn = (element) => {
+        element.classList.remove('fade-hidden');
+        element.classList.add('fade-visible');
+    };
+
+    // Fonction pour convertir les millisecondes en HH:MM:SS
+    const formatTime = (milliseconds) => {
+        const totalSeconds = Math.floor(milliseconds / 1000);
+        const hours = Math.floor(totalSeconds / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = totalSeconds % 60;
+        return `${hours.toString().padStart(2, '0')}h ${minutes.toString().padStart(2, '0')}m ${seconds.toString().padStart(2, '0')}s`;
+    };
+
+    L.tileLayer("https://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}.png", {
+        attribution: 'Map data &copy; <a href="http://www.osm.org">OpenStreetMap</a>'
+    }).addTo(map);
+
+    const url = "{{ .RelPermalink }}";
+    const options = {
+        async: true,
+        polyline_options: { color: "var(--gpx-color)" },
+    };
+
+    const gpx = new L.GPX(url, options).on('loaded', (e) => {
+        // Créer un formateur de nombres pour le français
+        const formatter = new Intl.NumberFormat('fr-FR', {
+            maximumFractionDigits: 1,
+            minimumFractionDigits: 1
+        });
+
+        map.fitBounds(e.target.getBounds());
+        spinner.classList.add('hidden');
+        fadeIn(mapContainer);
+        fadeIn(document.getElementById('stats'));
+        
+        // Formatter et assigner les valeurs
+        document.getElementById("distance").textContent = formatter.format(e.target.get_distance() / 1000) + ' km';
+        document.getElementById("duree").textContent = formatTime(e.target.get_moving_time());
+        document.getElementById("denivele").textContent = formatter.format(e.target.get_elevation_gain()) + ' m';
+        document.getElementById("vitesse").textContent = formatter.format(e.target.get_moving_speed()) + ' km/h';
+    }).addTo(map);
+</script>
+{{end}}
+<hr>
+{{ else }}
+<br>
 {{ end }}

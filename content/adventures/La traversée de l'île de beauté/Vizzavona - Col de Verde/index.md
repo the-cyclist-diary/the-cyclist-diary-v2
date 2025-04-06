@@ -1,7 +1,7 @@
 +++
 speed = "3.1898222"
 title = "Vizzavona - Col de Verde"
-gps = "GR20_j7.png"
+gps = "GR20_j7.gpx"
 draft = "false"
 distance = "28416"
 elevation = "1621"

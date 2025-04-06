@@ -1,7 +1,7 @@
 +++
 speed = "13.794295"
 title = "De Tintern à Craven Arms"
-gps = "Morning_Gravel_Ride (1).png"
+gps = "Morning_Gravel_Ride (1).gpx"
 draft = "false"
 distance = "194649"
 elevation = "2938"

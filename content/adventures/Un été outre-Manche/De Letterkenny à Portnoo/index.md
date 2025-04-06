@@ -1,7 +1,7 @@
 +++
 speed = "14.587018"
 title = "De Letterkenny à Portnoo"
-gps = "Morning_Gravel_Ride (1).png"
+gps = "Morning_Gravel_Ride (1).gpx"
 draft = "false"
 distance = "127916"
 elevation = "2040"

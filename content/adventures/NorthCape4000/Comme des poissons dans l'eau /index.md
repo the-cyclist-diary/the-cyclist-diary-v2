@@ -1,7 +1,7 @@
 +++
 speed = "19.146137"
 title = "Comme des poissons dans l'eau "
-gps = "Morning_Ride (1).png"
+gps = "Morning_Ride (1).gpx"
 draft = "false"
 distance = "313518"
 elevation = "3105"

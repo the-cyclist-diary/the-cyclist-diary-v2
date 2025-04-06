@@ -1,7 +1,7 @@
 +++
 speed = "17.48892"
 title = "Montauban - Quelque part..."
-gps = "J_en_chie_dans_le_Quercy.png"
+gps = "J_en_chie_dans_le_Quercy.gpx"
 draft = "false"
 distance = "191732"
 elevation = "1933"

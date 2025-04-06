@@ -1,7 +1,7 @@
 +++
 speed = "17.42217"
 title = "De Inishmore à Carrigaholt"
-gps = "Lunch_Gravel_Ride.png"
+gps = "Lunch_Gravel_Ride.gpx"
 draft = "false"
 distance = "123378"
 elevation = "1127"

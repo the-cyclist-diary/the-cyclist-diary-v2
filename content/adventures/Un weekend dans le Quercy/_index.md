@@ -1,7 +1,7 @@
 +++
 speed = "16.263739"
 title = "Un weekend dans le Quercy"
-gps = "17877364055244227591.png"
+gps = "17877364055244227591.gpx"
 draft = "false"
 distance = "490677"
 elevation = "6781"

@@ -1,7 +1,7 @@
 +++
 speed = "19.586487"
 title = "Nordkapp !"
-gps = "Morning_Ride (1).png"
+gps = "Morning_Ride (1).gpx"
 draft = "false"
 distance = "456746"
 elevation = "3975"

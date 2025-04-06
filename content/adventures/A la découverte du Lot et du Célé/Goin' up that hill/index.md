@@ -1,7 +1,7 @@
 +++
 speed = "3.7416573"
 title = "Goin' up that hill"
-gps = "Quercy_j3.png"
+gps = "Quercy_j3.gpx"
 draft = "false"
 distance = "23640"
 elevation = "575"

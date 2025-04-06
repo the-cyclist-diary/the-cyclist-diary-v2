@@ -1,7 +1,7 @@
 +++
 speed = "17.57154"
 title = "D'Édimbourg à presque Inverness"
-gps = "Morning_Gravel_Ride.png"
+gps = "Morning_Gravel_Ride.gpx"
 draft = "false"
 distance = "195049"
 elevation = "1861"

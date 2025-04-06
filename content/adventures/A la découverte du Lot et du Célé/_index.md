@@ -2,7 +2,7 @@
 speed = "3.5793152"
 featured_image = "index.jpg"
 title = "A la découverte du Lot et du Célé"
-gps = "8436152743130510436.png"
+gps = "8436152743130510436.gpx"
 draft = "false"
 distance = "85309"
 elevation = "2143"

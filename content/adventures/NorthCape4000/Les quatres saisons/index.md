@@ -1,7 +1,7 @@
 +++
 speed = "19.891562"
 title = "Les quatres saisons"
-gps = "Morning_Ride.png"
+gps = "Morning_Ride.gpx"
 draft = "false"
 distance = "288726"
 elevation = "1898"

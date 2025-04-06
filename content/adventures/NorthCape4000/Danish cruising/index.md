@@ -1,7 +1,7 @@
 +++
 speed = "19.214006"
 title = "Danish cruising"
-gps = "Morning_Ride (1).png"
+gps = "Morning_Ride (1).gpx"
 draft = "false"
 distance = "270245"
 elevation = "1717"

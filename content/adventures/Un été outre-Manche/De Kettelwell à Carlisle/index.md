@@ -1,7 +1,7 @@
 +++
 speed = "15.785934"
 title = "De Kettelwell à Carlisle"
-gps = "Morning_Gravel_Ride.png"
+gps = "Morning_Gravel_Ride.gpx"
 draft = "false"
 distance = "155509"
 elevation = "2228"

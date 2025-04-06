@@ -1,7 +1,7 @@
 +++
 speed = "3.9159856"
 title = "Paliri - Conca"
-gps = "GR20_J10.png"
+gps = "GR20_J10.gpx"
 draft = "false"
 distance = "13657"
 elevation = "499"

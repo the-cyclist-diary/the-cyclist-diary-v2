@@ -1,7 +1,7 @@
 +++
 speed = "2.0874372"
 title = "Ortu - Asco"
-gps = "gr20-J2.png"
+gps = "gr20-J2.gpx"
 draft = "false"
 distance = "18319"
 elevation = "1680"

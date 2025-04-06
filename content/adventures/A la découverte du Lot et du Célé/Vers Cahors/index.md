@@ -1,7 +1,7 @@
 +++
 speed = "4.1657114"
 title = "Vers Cahors"
-gps = "Quercy_j4.png"
+gps = "Quercy_j4.gpx"
 draft = "false"
 distance = "19256"
 elevation = "412"

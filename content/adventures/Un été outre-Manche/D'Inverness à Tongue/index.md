@@ -1,7 +1,7 @@
 +++
 speed = "17.643007"
 title = "D'Inverness à Tongue"
-gps = "Morning_Gravel_Ride (1).png"
+gps = "Morning_Gravel_Ride (1).gpx"
 draft = "false"
 distance = "205394"
 elevation = "1940"

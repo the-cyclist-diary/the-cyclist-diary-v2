@@ -1,7 +1,7 @@
 +++
 speed = "19.22827"
 title = "Bis repetita"
-gps = "Morning_Ride.png"
+gps = "Morning_Ride.gpx"
 draft = "false"
 distance = "279328"
 elevation = "1607"

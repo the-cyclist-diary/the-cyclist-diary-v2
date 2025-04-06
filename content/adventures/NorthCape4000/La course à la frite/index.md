@@ -1,7 +1,7 @@
 +++
 speed = "18.065739"
 title = "La course à la frite"
-gps = "Morning_Ride (1).png"
+gps = "Morning_Ride (1).gpx"
 draft = "false"
 distance = "270419"
 elevation = "2416"

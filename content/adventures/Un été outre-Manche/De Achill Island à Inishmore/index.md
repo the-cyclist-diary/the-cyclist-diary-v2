@@ -1,7 +1,7 @@
 +++
 speed = "18.18398"
 title = "De Achill Island à Inishmore"
-gps = "Full_blast_pour_choper_le_dernier_ferry_.png"
+gps = "Full_blast_pour_choper_le_dernier_ferry_.gpx"
 draft = "false"
 distance = "176127"
 elevation = "1539"

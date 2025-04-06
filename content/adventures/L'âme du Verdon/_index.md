@@ -1,7 +1,7 @@
 +++
 speed = "3.059547"
 title = "L'âme du Verdon"
-gps = "11496271755554289103.png"
+gps = "11496271755554289103.gpx"
 draft = "false"
 distance = "26341"
 elevation = "1495"
