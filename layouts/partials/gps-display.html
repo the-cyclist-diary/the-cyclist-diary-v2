@@ -98,21 +98,9 @@
             elevation: p[1]
         }));
 
-        // Récupérer le tracé GPX
-        const track = e.target.getLayers()[0];
-
-        // Fonction pour créer un point surligné sur le tracé
-        const highlightPoint = (distance) => {
-            const point = track.getLatLngs()[Math.floor(distance)];
-            if (point) {
-                hoverMarker.setLatLng(point);
-                hoverMarker.setStyle({ opacity: 1 });
-            }
-        };
-
         // Créer le graphique
         const ctx = document.getElementById('elevation-chart').getContext('2d');
-        new Chart(ctx, {
+        const chart = new Chart(ctx, {
             type: 'line',
             data: {
                 labels: data.map(p => p.distance.toFixed(1)),
@@ -126,7 +114,7 @@
             },
             options: {
                 elements: {
-                    point:{
+                    point: {
                         radius: 0
                     }
                 },
@@ -154,12 +142,52 @@
                 onHover: (event, elements) => {
                     if (elements.length) {
                         const index = elements[0].index;
-                        highlightPoint(index);
+                        const point = track.getLatLngs()[index];
+                        hoverMarker.setLatLng(point);
+                        hoverMarker.setStyle({ opacity: 1 });
+
+                        chart.setActiveElements([{
+                            datasetIndex: 0,
+                            index: index
+                        }]);
+                        chart.update('none');
                     }
                 },
                 interaction: {
                     intersect: false,
                     mode: 'index'
+                },
+                plugins: {
+                    tooltip: {
+                        backgroundColor: 'rgba(255, 255, 255, 0.9)',
+                        titleColor: '#666',
+                        bodyColor: '#666',
+                        titleFont: {
+                            weight: 'bold',
+                            size: 14
+                        },
+                        bodyFont: {
+                            size: 13
+                        },
+                        padding: 10,
+                        borderColor: '#ddd',
+                        borderWidth: 1,
+                        displayColors: false,
+                        position: 'nearest',
+                        caretPadding: 20,  // Distance en pixels entre le curseur et le tooltip
+                        caretSize: 3,      // Taille de la flèche du tooltip
+                        callbacks: {
+                            title: () => 'Point du parcours',
+                            label: (context) => {
+                                const elevation = data[context.dataIndex].elevation;
+                                const distance = data[context.dataIndex].distance;
+                                return [
+                                    `Distance: ${formatter.format(distance)} km`,
+                                    `Altitude: ${formatter.format(elevation)} m`
+                                ];
+                            }
+                        }
+                    }
                 }
             }
         });
@@ -172,6 +200,35 @@
             weight: 2,
             opacity: 0,
         }).addTo(map);
+
+        // Récupérer le tracé GPX
+        const track = e.target.getLayers()[0];
+
+        // Fonction pour trouver l'index du point le plus proche
+        const findClosestPointIndex = (latlng) => {
+            const points = track.getLatLngs();
+            const p = map.latLngToLayerPoint(latlng);
+            return points.findIndex((point) => {
+                const p2 = map.latLngToLayerPoint(point);
+                const dist = p.distanceTo(p2);
+                if (dist < 20) {
+                    return point;
+                }
+            });
+        };
+
+        // Déplacer les événements sur la ligne d'interaction
+        gpx.on('mousemove', (e) => {
+            const index = findClosestPointIndex(e.latlng);
+            const point = track.getLatLngs()[index];
+            hoverMarker.setLatLng(point);
+            hoverMarker.setStyle({ opacity: 1 });
+            chart.setActiveElements([{
+                datasetIndex: 0,
+                index: index
+            }]);
+            chart.update('none');
+        });
     }).addTo(map);
 
 </script>
