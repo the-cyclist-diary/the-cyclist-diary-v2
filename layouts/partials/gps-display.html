@@ -103,6 +103,25 @@
             elevation: p[1]
         }));
 
+        // Create a custom tooltip positioner to put at the bottom of the chart area
+        Chart.Tooltip.positioners.bottom = function (items) {
+            const pos = Chart.Tooltip.positioners.average(items);
+
+            // Happens when nothing is found
+            if (pos === false) {
+                return false;
+            }
+
+            const chart = this.chart;
+
+            return {
+                x: pos.x + 100,
+                y: chart.chartArea.top,
+                xAlign: 'center',
+                yAlign: 'bottom',
+            };
+        };
+
         // Créer le graphique
         const ctx = document.getElementById('elevation-chart').getContext('2d');
         const chart = new Chart(ctx, {
@@ -123,6 +142,8 @@
                         radius: 0
                     }
                 },
+                pointHoverBorderColor: 'black',
+                pointHoverBackgroundColor: 'lightblue',
                 responsive: true,
                 maintainAspectRatio: false,
                 layout: {
@@ -181,9 +202,9 @@
                         borderColor: '#ddd',
                         borderWidth: 1,
                         displayColors: false,
-                        position: 'nearest',
-                        caretPadding: 20,  // Distance en pixels entre le curseur et le tooltip
-                        caretSize: 3,      // Taille de la flèche du tooltip
+                        position: 'bottom',
+                        caretPadding: 20,
+                        caretSize: 0,
                         callbacks: {
                             title: () => 'Point du parcours',
                             label: (context) => {
