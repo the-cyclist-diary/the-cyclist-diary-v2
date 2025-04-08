@@ -12,6 +12,6 @@ jobs:
       - name: Generate images
         uses: the-cyclist-diary/gpx-merger-action@main        
         with:
+          github-token: ${{ secrets.PAT }}
           content-path: "content"
           user-token: ${{ secrets.PAT }}
-          github-token: ${{ secrets.PAT }}
