@@ -2,9 +2,6 @@ name: Deploy the-cyclist-diary.fr to GH Pages
 run-name: Déploiement du site
 
 on:
-  push:
-    branches:
-      - 'main'
   workflow_dispatch:
 
 permissions:
