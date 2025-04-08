@@ -13,5 +13,5 @@ jobs:
         uses: the-cyclist-diary/gpx-merger-action@main        
         with:
           github-token: ${{ secrets.PAT }}
-          content-path: "content"
+          content-path: "content/adventures"
           user-token: ${{ secrets.PAT }}
