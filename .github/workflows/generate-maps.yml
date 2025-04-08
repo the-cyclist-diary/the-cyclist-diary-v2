@@ -1,6 +1,9 @@
 name: Image from GPX generator
 run-name: ${{ github.actor }} a démarré la génération des images depuis les GPX
 on: [push]
+permissions:
+  contents: write
+  id-token: write
 jobs:
   Generate-images-from-GPX-files:
     runs-on: ubuntu-latest
@@ -11,3 +14,4 @@ jobs:
         with:
           content-path: "content"
           user-token: ${{ secrets.PAT }}
+          github-token: ${{ secrets.PAT }}
