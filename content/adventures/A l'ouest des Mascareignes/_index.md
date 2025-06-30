@@ -1,11 +1,6 @@
 +++
-speed = "46.18249"
 title = "A l'ouest des Mascareignes"
-gps = "11240139567350158775.png"
 draft = "false"
-distance = "242240"
-elevation = "410"
-duration = "5:14:43"
 date = "2025-06-29 20:25:11.050529"
 +++
 
