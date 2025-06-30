@@ -1,13 +1,18 @@
-name: Image from GPX generator
-run-name: ${{ github.actor }} a démarré la génération des images depuis les GPX
-on: [push]
+name: Generate articles from issues
+run-name: | 
+  ${{ github.actor }} a lancé la génération automatique d'un article
+on:
+  pull_request:
+permissions: write-all
 jobs:
-  Generate-images-from-GPX-files:
+  generate:
     runs-on: ubuntu-latest
-    permissions: write-all
     steps:
-      - name: Generate images
-        uses: the-cyclist-diary/generate-map-cicd@v1.4.0
+      - name: Generate articles
+        uses: the-cyclist-diary/the-cyclist-diary-editor@main
         with:
+          action: "Generate maps"
           content-path: "content"
-          user-token: ${{ secrets.PAT }}
+          github-token: ${{ secrets.PAT }}
+          github-username: ibethus
+

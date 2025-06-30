@@ -15,5 +15,6 @@ jobs:
       - name: Generate articles
         uses: the-cyclist-diary/the-cyclist-diary-editor@main
         with:
+          action: "Generate article"
           github-token: ${{ secrets.PAT }}
           github-username: ibethus
