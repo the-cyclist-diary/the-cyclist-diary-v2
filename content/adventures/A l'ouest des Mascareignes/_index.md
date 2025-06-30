@@ -1,7 +1,7 @@
 +++
 speed = "9.478151"
 title = "A l'ouest des Mascareignes"
-gps = "3402890232085565335.png"
+gps = "3314193897620264297.png"
 draft = "false"
 distance = "17087"
 date = "2025-06-29 20:25:11.050529"
