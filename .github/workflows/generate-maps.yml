@@ -1,6 +1,6 @@
-name: Generate articles from issues
+name: Generate maps from pull requests
 run-name: | 
-  ${{ github.actor }} a lancé la génération automatique d'un article
+  ${{ github.actor }} a lancé la génération automatique des cartes
 on:
   pull_request:
 permissions: write-all
