@@ -8,7 +8,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate articles
+      - name: Generate maps
         uses: the-cyclist-diary/the-cyclist-diary-editor@main
         with:
           action: "Generate maps"
