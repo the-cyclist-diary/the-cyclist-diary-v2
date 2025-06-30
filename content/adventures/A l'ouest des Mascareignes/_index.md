@@ -1,12 +1,12 @@
 +++
-speed = "9.457626"
+speed = "9.478151"
 title = "A l'ouest des Mascareignes"
-gps = "6606725828385365442.png"
+gps = "3314193897620264297.png"
 draft = "false"
-distance = "8525"
-elevation = "11"
-duration = "0:54:05"
+distance = "17087"
 date = "2025-06-29 20:25:11.050529"
+duration = "1:48:10"
+elevation = "22"
 +++
 
 Avec mon ami William, nous souhaitions vivre une aventure mémorable à l'occasion de notre trentième anniversaire. Après de brèves tergiversations, notre choix s'est porté sur le mythique GR-R2, aussi connu sous le nom de la non moins célèbre course qui l'emprunte : la diagonale des fous.

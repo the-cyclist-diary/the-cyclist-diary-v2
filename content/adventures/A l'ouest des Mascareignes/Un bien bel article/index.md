@@ -1,7 +1,12 @@
 +++
+speed = "9.457626"
 title = "Un bien bel article"
-date = "2025-06-30"
+gps = "Un bien bel article.png"
 draft = "false"
+distance = "8525"
+elevation = "11"
+duration = "0:54:05"
+date = "2025-06-30"
 +++
 
 
