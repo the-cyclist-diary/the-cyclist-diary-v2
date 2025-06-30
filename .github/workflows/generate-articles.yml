@@ -4,10 +4,7 @@ run-name: |
 on:
   issues:
     types: [opened, edited]
-  workflow_dispatch:
-permissions:
-  contents: write
-  id-token: write
+permissions: write-all
 jobs:
   generate:
     runs-on: ubuntu-latest
