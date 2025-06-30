@@ -11,7 +11,7 @@
         <article class="media">
             <figure class="media-left">
                 <p>
-                    {{ $image := .Resources.GetMatch "index.jpg" }}
+                    {{ $image := .Resources.GetMatch "index.{jpg,png}" }}
                     <img class="image is-128x128" src="{{ $image.RelPermalink }}">
                 </p>
             </figure>
