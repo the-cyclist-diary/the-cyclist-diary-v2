@@ -1,7 +1,12 @@
 +++
+speed = "2.7787943"
 title = "Randonnée avec les copains"
-date = "2025-06-30"
+gps = "Randonnée avec les copains.png"
 draft = "false"
+distance = "9566"
+elevation = "388"
+duration = "3:26:33"
+date = "2025-06-30"
 +++
 
 
