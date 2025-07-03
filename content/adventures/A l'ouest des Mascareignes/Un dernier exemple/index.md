@@ -1,7 +1,12 @@
 +++
+speed = "2.7787943"
 title = "Un dernier exemple"
-date = "2025-07-03"
+gps = "Un dernier exemple.png"
 draft = "false"
+distance = "9566"
+elevation = "388"
+duration = "3:26:33"
+date = "2025-07-03"
 +++
 
 

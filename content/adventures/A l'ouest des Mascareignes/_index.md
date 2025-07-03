@@ -1,6 +1,11 @@
 +++
+speed = "2.7787943"
 title = "A l'ouest des Mascareignes"
+gps = "17217425660385764500.png"
 draft = "false"
+distance = "9566"
+elevation = "388"
+duration = "3:26:33"
 date = "2025-06-29 20:25:11.050529"
 +++
 
