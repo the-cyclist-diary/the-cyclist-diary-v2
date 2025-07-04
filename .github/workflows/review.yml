@@ -10,7 +10,7 @@ jobs:
         with:
           github_token: ${{ secrets.PAT }}
           # Change reviewdog reporter if you need [github-pr-check,github-check,github-pr-review].
-          reporter: github-pr-check
+          reporter: github-pr-review
           # Change reporter level if you need.
           level: info
           language: 'fr-FR'
