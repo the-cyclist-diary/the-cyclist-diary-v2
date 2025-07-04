@@ -9,8 +9,7 @@ jobs:
       - uses: reviewdog/action-languagetool@ea19c757470ce0dbfcbc34aec090317cef1ff0b5 # v1.22.0
         with:
           github_token: ${{ secrets.PAT }}
-          # Change reviewdog reporter if you need [github-pr-check,github-check,github-pr-review].
-          reporter: github-pr-review
-          # Change reporter level if you need.
           level: info
+          reporter: github-pr-review
           language: 'fr-FR'
+          patterns: '**/*.md'
