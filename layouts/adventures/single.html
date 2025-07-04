@@ -16,7 +16,9 @@
     let sliders = document.querySelectorAll('.glide');
     sliders.forEach(s => {
         new Glide(s, {
-            type: 'carousel',
+            type: 'slider',
+            rewind: false,
+            bound: true,
             startAt: 0,
             perView: 2
         }).mount();
