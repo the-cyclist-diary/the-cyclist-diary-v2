@@ -1,7 +1,12 @@
 +++
+speed = "2.7787943"
 title = "Dernier test avant la route"
-date = "2025-07-04"
+gps = "Dernier test avant la route.png"
 draft = "false"
+distance = "9566"
+elevation = "388"
+duration = "3:26:33"
+date = "2025-07-04"
 +++
 
 
