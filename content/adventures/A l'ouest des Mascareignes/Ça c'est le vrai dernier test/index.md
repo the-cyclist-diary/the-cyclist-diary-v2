@@ -1,7 +1,12 @@
 +++
+speed = "9.457626"
 title = "Ça c'est le vrai dernier test"
-date = "2025-07-04"
+gps = "Ça c'est le vrai dernier test.png"
 draft = "false"
+distance = "8525"
+elevation = "11"
+duration = "0:54:05"
+date = "2025-07-04"
 +++
 
 
