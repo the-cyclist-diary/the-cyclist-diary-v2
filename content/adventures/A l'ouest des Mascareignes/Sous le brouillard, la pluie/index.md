@@ -1,7 +1,12 @@
 +++
+speed = "2.7221935"
 title = "Sous le brouillard, la pluie"
-date = "2025-07-08"
+gps = "Sous le brouillard, la pluie.png"
 draft = "false"
+distance = "22201"
+elevation = "262"
+duration = "8:09:20"
+date = "2025-07-08"
 +++
 
 
