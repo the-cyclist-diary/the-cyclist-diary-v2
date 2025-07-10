@@ -1,7 +1,12 @@
 +++
+speed = "2.310671"
 title = "Trois larrons aux trois roches"
-date = "2025-07-10"
+gps = "Trois larrons aux trois roches.png"
 draft = "false"
+distance = "20547"
+elevation = "1457"
+duration = "8:53:32"
+date = "2025-07-10"
 +++
 
 
