@@ -1,7 +1,12 @@
 +++
+speed = "1.9305474"
 title = "Sortir de Mafate"
-date = "2025-07-11"
+gps = "Sortir de Mafate.png"
 draft = "false"
+distance = "19158"
+elevation = "1221"
+duration = "9:55:25"
+date = "2025-07-11"
 +++
 
 
