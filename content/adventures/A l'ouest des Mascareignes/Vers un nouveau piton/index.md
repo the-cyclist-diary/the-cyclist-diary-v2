@@ -1,7 +1,12 @@
 +++
+speed = "2.8651686"
 title = "Vers un nouveau piton"
-date = "2025-07-14"
+gps = "Vers un nouveau piton.png"
 draft = "false"
+distance = "22950"
+elevation = "1116"
+duration = "8:00:36"
+date = "2025-07-14"
 +++
 
 
