@@ -1,7 +1,7 @@
 +++
 speed = "2.8317316"
 title = "On descend ?"
-gps = "On descend ?.png"
+gps = "On descend.png"
 draft = "false"
 distance = "30659"
 elevation = "580"
