@@ -1,7 +1,12 @@
 +++
+speed = "2.8317316"
 title = "On descend ?"
-date = "2025-07-15"
+gps = "On descend ?.png"
 draft = "false"
+distance = "30659"
+elevation = "580"
+duration = "10:49:37"
+date = "2025-07-15"
 +++
 
 
