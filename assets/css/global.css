@@ -9,8 +9,15 @@
     --bulma-link-text: #303030;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bulma-link-text: #e0e0e0;
+    }
+}
+
 a {
     text-decoration: none;
+    color: var(--bulma-link-text);
 }
 
 a:hover {
@@ -20,4 +27,3 @@ a:hover {
 .has-text-justified p {
     margin-bottom: 2rem;
 }
-

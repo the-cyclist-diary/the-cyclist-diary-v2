@@ -1,3 +1,12 @@
 .footer {
     --bulma-footer-padding: 2rem 1rem 2rem;
 }
+
+@media (prefers-color-scheme: dark) {
+    .footer {
+        color: #3e3e3e;
+    }
+    .footer a {
+        color: #777777;
+    }
+}
