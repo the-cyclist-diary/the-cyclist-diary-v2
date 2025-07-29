@@ -6,3 +6,9 @@
     display: block;
     margin: auto;
 }
+
+@media screen and (min-width: 450px) {
+    .has-text-justified p img {
+        max-width: 80%;
+    }
+}

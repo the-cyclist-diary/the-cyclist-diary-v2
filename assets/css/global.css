@@ -17,3 +17,7 @@ a:hover {
     text-decoration: underline;
 }
 
+.has-text-justified p {
+    margin-bottom: 2rem;
+}
+
