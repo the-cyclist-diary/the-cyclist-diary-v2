@@ -4,6 +4,8 @@ date = "2022-07-22 13:17:42.387911"
 draft = "false"
 +++
 
-A travers ce site, découvrez mes aventures pédestres et cyclistes ainsi que, pourquoi pas, quelques anecdotes.
-Une partie "blog" viendra bientôt compléter ces récits de voyage, dans un format plus libre et sur des sujets d'autant
-plus variés.
+À pied ou à vélo, j'aime à parcourir les routes et les chemins, à la recherche de paysages bucoliques et d'expériences uniques.
+Des highlands brumeux aux côtes ensoleillées, je vous propose de découvrir mes aventures, le temps d'un week-end ou de quelques semaines.
+
+Puissent ces quelques récits vous inspirer à enfourcher votre vélo et à partir à l'aventure !
+
