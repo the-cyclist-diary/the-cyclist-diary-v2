@@ -1,6 +1,6 @@
 +++
 title = "Le triptyque of death 💀"
-date = 2022-08-13 22:16:29.111085
+date = "2022-08-13 22:16:29.111085"
 draft = "false"
 +++
 

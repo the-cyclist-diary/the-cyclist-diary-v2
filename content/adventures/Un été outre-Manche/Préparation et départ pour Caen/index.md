@@ -1,6 +1,6 @@
 +++
 title = "Préparation et départ pour Caen"
-date = 2022-07-23 20:03:00.719336
+date = "2022-07-23 20:03:00.719336"
 draft = "false"
 +++
 
