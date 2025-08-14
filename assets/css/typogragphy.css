@@ -1,6 +1,6 @@
 @font-face {
     font-family: "custom-sans-serif";
-    src: local("LTCushion"),
+    src: local("LTCusion-Medium"),
     local("sans-serif"),
     url("../fonts/LTCushion-Medium.ttf") format('truetype');
 }
@@ -20,7 +20,7 @@
 }
 
 .navbar-item {
-    font-family: "custom-sans-serif",  "sans-serif";
+    font-family: custom-sans-serif,  sans-serif;
 }
 
 p {
