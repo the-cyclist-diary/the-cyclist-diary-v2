@@ -8,39 +8,55 @@ elevation = "2938"
 duration = "14:06:39"
 date = "2022-07-25 20:13:36.513949"
 +++
+
 Réveil peu après 5h ce matin. L'air est doux mais humide, la tente aussi. Elle a tenu, la petite ! Quoique j'ai senti quelques gouttes perler dans ma nuque durant la nuit... un arrêt dans un quelconque magasin outdoor permettra de régler ce problème.
+
 Malgré tout, j'ai dormi et longtemps ! Vers 21h, n'y tenant plus, j'ai sombré dans les bras d'une Morphée bien agitée, qui m'a réveillé de nombreuse fois à coup de combat de catch D'ANNI (Animal Nocturne Non Identifié) et de maux de tête.
+
 
 La taverne qui m'héberge m'a demandé de partir tôt le matin (je ferais sans doute peur aux client) ainsi donc à 5h30 je suis déjà sur la route. Pas de petit-déjeuner, pas de toilettes, pas de problème.
 
 Si, problème en fait, le Pays de Galles a décidé de me sortir sa plus belle panoplie d'outils anti-cyclistes à savoir du dénivelé à n'en plus finir, de la pluie et du vent de face à vous clouer sur place. Ainsi, avant même d'avoir pu avaler quelque chose, me voilà sur des rampes à 17%, sous une bruine bien pénétrante : un rêve de vacances.
 
+{{< gallery class="content-gallery" btn="3">}}
+{{< img src="Wiy64p4C.jpg" >}}
+{{< img src="QnyvY4XL.jpg" >}}
+{{< img src="BSJTUjLz.jpg" >}}
+{{< /gallery >}}
+
 Je m'arrête 1h30 plus tard une station service pour me nettoyer et boire un grand café. L'un des moments les plus paisible de la journée, à n'en pas douter.
 
 Suite à ça, la route, la vraie, peut commencer. Pas grand chose à en dire si ce n'est que j'ai voulu abandonner 20 fois, que j'ai pensé à mes copains en vacances au soleil 30 fois et que j'ai remis en question mes choix de vie 40 fois. Et que dire de la température ? 21° au soleil, MERCI le Pays de Galles.
 
-Finalement, c'est le retour en Anlgeterre qui améliore les choses. Moins de dénivelé, plus de vent ni de pluie. Moins de paysages grandioses aussi, c'est un morceau d'étape de transition, dirons nous.
-Point culminant de la journée : j'ai pu trouver ce soir un petit fast good encore ouvert dans un village (chose bien plus rare qu'on ne pourrait le croire !) Et dans la foulée un camping à 3km. La journée se termine donc parfaitement bien. Je suis repu, bientôt propre et la nuit s'annonce plus sèche que la dernière.
-
-
-Note à part : le montage de ma tente était désastreux la nuit dernière, ce qui explique l'inconfort. Aujourdhui c'est 100x mieux et devinez pourquoi ? J'ai suivi les instructions de montage que j'ai MOI-MÊME écrites. Mais vraiment alors, quelle surprise franchement. Elle est effectivement petite, mais confortable et je pense bien étanche. L'Écosse confirmera ou non ce dernier point, sans aucun doute.
-
-
-P.S. J'ai été très touché par tous vos messages, je les ai découverts cet après-midi en mangeant un sandwich très moyen entre deux champs de moutons, les mains frigorifiés et ca m'a fait très chaud au cœur. J'espère que vous continuerez à prendre du plaisir à suivre l'aventure. Merci !!
-
-{{< gallery class="content-gallery" btn="15">}}
-{{< img src="Wiy64p4C.jpg" >}}
-{{< img src="QnyvY4XL.jpg" >}}
-{{< img src="BSJTUjLz.jpg" >}}
+{{< gallery class="content-gallery" btn="3">}}
 {{< img src="g73Srg3B.jpg" >}}
 {{< img src="6k3W3qDs.jpg" >}}
 {{< img src="UTDRuzMC.jpg" >}}
+{{< /gallery >}}
+
+Finalement, c'est le retour en Anlgeterre qui améliore les choses. Moins de dénivelé, plus de vent ni de pluie. Moins de paysages grandioses aussi, c'est un morceau d'étape de transition, dirons nous.
+
+Point culminant de la journée : j'ai pu trouver ce soir un petit fast good encore ouvert dans un village (chose bien plus rare qu'on ne pourrait le croire !) Et dans la foulée un camping à 3km. La journée se termine donc parfaitement bien. Je suis repu, bientôt propre et la nuit s'annonce plus sèche que la dernière.
+
+{{< gallery class="content-gallery" btn="3">}}
 {{< img src="Xebfo3NB.jpg" >}}
 {{< img src="jC2S4fBX.jpg" >}}
 {{< img src="vD4zsJWr.jpg" >}}
+{{< /gallery >}}
+
+Note à part : le montage de ma tente était désastreux la nuit dernière, ce qui explique l'inconfort. Aujourdhui c'est 100x mieux et devinez pourquoi ? J'ai suivi les instructions de montage que j'ai MOI-MÊME écrites. Mais vraiment alors, quelle surprise franchement.
+
+Elle est effectivement petite, mais confortable et je pense bien étanche. L'Écosse confirmera ou non ce dernier point, sans aucun doute.
+
+{{< gallery class="content-gallery" btn="3">}}
 {{< img src="iYmk8Wwy.jpg" >}}
 {{< img src="3Dv4YC4U.jpg" >}}
 {{< img src="c3MPWFmq.jpg" >}}
+{{< /gallery >}}
+
+P.S. J'ai été très touché par tous vos messages, je les ai découverts cet après-midi en mangeant un sandwich très moyen entre deux champs de moutons, les mains frigorifiés et ca m'a fait très chaud au cœur. J'espère que vous continuerez à prendre du plaisir à suivre l'aventure. Merci !!
+
+{{< gallery class="content-gallery" btn="3">}}
 {{< img src="MieXGzs6.jpg" >}}
 {{< img src="yCScdzKz.jpg" >}}
 {{< img src="Apn1dE4Q.jpg" >}}

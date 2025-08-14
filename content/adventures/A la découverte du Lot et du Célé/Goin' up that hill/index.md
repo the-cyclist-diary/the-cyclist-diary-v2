@@ -19,7 +19,7 @@ La première montée est longue sans être abrupte. Nous hésitons entre les pin
 
 Ragaillardis par quelques barres de céréales, nous repartons de plus belle. Après un morceau de plat, c'est une longue descente qui nous accueille et nous ramène près de l'eau.
 
-_Bis repetita_, montée, plateau, descente. Cette fois c'est en direction de Vers que l'on avance, pour finalement boucler la boucle prévue. Nous retrouvons le petit snack du départ, où nous profitons d'une bonne bière bien méritée. La pluie d'orage qui s'abat sur le camping n'aura pas raison de notre moral, la tente est étanche, on attend patiemment. A l'occasion d'une éclaircie, on dine.
+_Bis repetita_, montée, plateau, descente. Cette fois c'est en direction de Vers que l'on avance, pour finalement boucler la boucle prévue. Nous retrouvons le petit snack du départ, où nous profitons d'une bonne bière bien méritée. La pluie d'orage qui s'abat sur le camping n'aura pas raison de notre moral, la tente est étanche, on attend patiemment. À l'occasion d'une éclaircie, on dîne.
 
 Pour demain la question se pose encore : rentrera-t-on à pied ou en stop jusqu'à Cahors ?
 
@@ -28,4 +28,3 @@ Pour demain la question se pose encore : rentrera-t-on à pied ou en stop jusqu'
 {{< img src="795DKvZn.jpg" >}}
 {{< img src="N6FiwMLe.jpg" >}}
 {{< /gallery >}}
-

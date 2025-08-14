@@ -8,27 +8,71 @@ elevation = "1500"
 duration = "8:31:25"
 date = "2022-08-01 16:37:06.229765"
 +++
-Ce matin, plus de batterie. Je me lève avec le soleil, vers 5h et me prépare un bon petit-déjeuner avec café. À 7h30 la laverie du camping rouvre et je pourrais récupérer ma batterie que j'y ai laissé à charger. Je fais en sorte d'être fin prêt pour que, le moment venu, je puisse partir directement. Vers 7h40, c'est chose faite et je prends le large. J'arrive rapidement sur la célèbre North Coast 500, une route qui sillonne les highlands, très prisée des motards et des cyclistes de tous poils. La route est effectivement magnifique, suivant le tracé des falaises. Je découvre des plages de sable dorée et comme dirait mon cousin surfeur, "ça tube" ! Un très fort vent de face vient à nouveau contrecarrer mes envies de vitesses. Mais j'ai hâte, vraiment hâte d'arriver à John o' Groats, qui est l'un des points phare de ce voyage. Alors je ne compte pas à la dépense (d'énergie  j'entends). J'écrase les pédales, les genoux gonflent, les cuisent brûlent et je finis par prendre un peu de vitesse. L'arrivée est libératrice. Il est tout juste midi, j'ai parcouru plus de 100km. John o' Groats est un hameau, transformé en petit hub touristique, du fait de sa réputation de "ville la plus au nord du Royaume-Uni". Une fois ma photo-finish prise, j'avale, non sans satisfaction, mon premier flash & chips du voyage ! Et oui, qui l'eût cru, j'ai presque été raisonnable jusqu'à présent. Je suis persuadé d'avoir battu mon ami belge, sur qui j'avais presque une journée d'avance. Lorsqu'il publie son parcours de la journée, surprise ! Il a commencé à rouler à 3h du matin et a comblé tout son retard pendant que je roupillais tranquillement. En fait, nous nous sommes croisés sur la route le midi, à Thurso, sans le savoir... dommage, nous avons raté l'occasion de nous dire au revoir. Peut-être n'est-ce que partie remise pour une session prochaine ? Quoi qu'il en soit, j'ai décidé hier que mon plan initial ne me plaisait plus beaucoup. Il consistait à revenir sur mes pas sur plus de 200km pour rejoindre ensuite les grands lochs et l'ouest du pays, direction l'Irlande. Damien (le belge, donnons lui enfin un prénom), m'indique que depuis Thurso, des trains et bus font la connexion avec Inverness, qui ferait une très bonne base de départ pour traverser vers l'ouest. Seulement voilà, je vérifie avec l'office du tourisme de John o' Groats : le dernier bus part dans une heure et la ville est à 30km. Pas de problèmes, que des solutions ; mon fish & chips pesant bien sur l'estomac, j'entame un sprint monumental (le vent dans le dos cette fois, certes) vers Thurso pour attraper ce fichu bus, que je n'ai par ailleurs absolument pas réservé. Je depense, une fois de plus, les watts sans compter et ça paie. 50 minutes pour 30 km, un petit record personnel, surtout chargé comme je le suis. Arrivé à la gare routière, le chauffeur rouvre la soute en me voyant arriver en nage. Sympathique mais pas trop, il m'engueule parce que je ne charge pas mon vélo assez vite, mais m'autorise quand même à monter alors que le bus (de 12 places) est manifestement plein à craquer. Une fois assis à ma place, un détail me reviens en tête : pas de lessive depuis presque 10 jours (oui finalement la dernière fois j'ai eu la flemme). Je compte sur la mamie devant moi qui empeste le parfum pour couvrir mon odeur. J'en connait qui se souviendront de leur voyage de 2h30 pour Inverness. Moi, je vais sûrement dormir, tout simplement. Arrivée prévue vers 19h30, j'irai tranquillement atterrir quelque par pour dormir et repartirai demain, à peu près conformément à mes plans initiaux. Le bus suit la NC500 vers le sud, je profite du paysage, sans l'effort, que demander de plus ?
 
-{{< gallery class="content-gallery" btn="17">}}
+Ce matin, plus de batterie. Je me lève avec le soleil, vers 5h et me prépare un bon petit-déjeuner avec café. À 7h30 la laverie du camping rouvre et je pourrais récupérer ma batterie que j'y ai laissé à charger.
+
+Je fais en sorte d'être fin prêt pour que, le moment venu, je puisse partir directement. Vers 7h40, c'est chose faite et je prends le large.
+
+
+J'arrive rapidement sur la célèbre North Coast 500, une route qui sillonne les highlands, très prisée des motards et des cyclistes de tous poils. La route est effectivement magnifique, suivant le tracé des falaises. Je découvre des plages de sable dorée et comme dirait mon cousin surfeur, "ça tube" !
+
+{{< gallery class="content-gallery" btn="3">}}
 {{< img src="msVhtfgn.jpg" >}}
 {{< img src="H8ADmQ9h.jpg" >}}
 {{< img src="RjyoPvBk.jpg" >}}
+{{< /gallery >}}
+
+Un très fort vent de face vient à nouveau contrecarrer mes envies de vitesses. Mais j'ai hâte, vraiment hâte d'arriver à John o' Groats, qui est l'un des points phare de ce voyage. Alors je ne compte pas à la dépense (d'énergie j'entends).
+
+J'écrase les pédales, les genoux gonflent, les cuisent brûlent et je finis par prendre un peu de vitesse. L'arrivée est libératrice. Il est tout juste midi, j'ai parcouru plus de 100km.
+
+{{< gallery class="content-gallery" btn="3">}}
 {{< img src="4Ehr6EBW.jpg" >}}
 {{< img src="PEctXqmc.jpg" >}}
 {{< img src="3ptuQHG4.jpg" >}}
+{{< /gallery >}}
+
+John o' Groats est un hameau, transformé en petit hub touristique, du fait de sa réputation de "ville la plus au nord du Royaume-Uni". Une fois ma photo-finish prise, j'avale, non sans satisfaction, mon premier flash & chips du voyage ! Et oui, qui l'eût cru, j'ai presque été raisonnable jusqu'à présent.
+
+Je suis persuadé d'avoir battu mon ami belge, sur qui j'avais presque une journée d'avance. Lorsqu'il publie son parcours de la journée, surprise ! Il a commencé à rouler à 3h du matin et a comblé tout son retard pendant que je roupillais tranquillement.
+
+{{< gallery class="content-gallery" btn="3">}}
 {{< img src="Df5FrywF.jpg" >}}
 {{< img src="aaX8k5nV.jpg" >}}
 {{< img src="hAMSTCnw.jpg" >}}
+{{< /gallery >}}
+
+En fait, nous nous sommes croisés sur la route le midi, à Thurso, sans le savoir... dommage, nous avons raté l'occasion de nous dire au revoir. Peut-être n'est-ce que partie remise pour une session prochaine ?
+
+Quoi qu'il en soit, j'ai décidé hier que mon plan initial ne me plaisait plus beaucoup. Il consistait à revenir sur mes pas sur plus de 200km pour rejoindre ensuite les grands lochs et l'ouest du pays, direction l'Irlande.
+
+{{< gallery class="content-gallery" btn="3">}}
 {{< img src="pTAUWim2.jpg" >}}
 {{< img src="yqvhtWsK.jpg" >}}
 {{< img src="YQgR8deC.jpg" >}}
+{{< /gallery >}}
+
+Damien (le belge, donnons lui enfin un prénom), m'indique que depuis Thurso, des trains et bus font la connexion avec Inverness, qui ferait une très bonne base de départ pour traverser vers l'ouest.
+
+Seulement voilà, je vérifie avec l'office du tourisme de John o' Groats : le dernier bus part dans une heure et la ville est à 30km. Pas de problèmes, que des solutions ; mon fish & chips pesant bien sur l'estomac, j'entame un sprint monumental (le vent dans le dos cette fois, certes) vers Thurso pour attraper ce fichu bus, que je n'ai par ailleurs absolument pas réservé.
+
+{{< gallery class="content-gallery" btn="3">}}
 {{< img src="v94MTZLy.jpg" >}}
 {{< img src="7LSCeviU.jpg" >}}
 {{< img src="8cUWVvWA.jpg" >}}
-{{< img src="axWpyLA6.jpg" >}}
-{{< img src="TzgBaiHP.jpg" >}}
 {{< /gallery >}}
+
+Je depense, une fois de plus, les watts sans compter et ça paie. 50 minutes pour 30 km, un petit record personnel, surtout chargé comme je le suis. Arrivé à la gare routière, le chauffeur rouvre la soute en me voyant arriver en nage.
+
+Sympathique mais pas trop, il m'engueule parce que je ne charge pas mon vélo assez vite, mais m'autorise quand même à monter alors que le bus (de 12 places) est manifestement plein à craquer.
+
+![John o' Groats - Point le plus au nord du Royaume-Uni](axWpyLA6.jpg)
+
+Une fois assis à ma place, un détail me reviens en tête : pas de lessive depuis presque 10 jours (oui finalement la dernière fois j'ai eu la flemme). Je compte sur la mamie devant moi qui empeste le parfum pour couvrir mon odeur. J'en connait qui se souviendront de leur voyage de 2h30 pour Inverness.
+
+Moi, je vais sûrement dormir, tout simplement. Arrivée prévue vers 19h30, j'irai tranquillement atterrir quelque par pour dormir et repartirai demain, à peu près conformément à mes plans initiaux. Le bus suit la NC500 vers le sud, je profite du paysage, sans l'effort, que demander de plus ?
+
+![Paysages de la North Coast 500](TzgBaiHP.jpg)
 
 ## Commentaires
 #### Sandrine

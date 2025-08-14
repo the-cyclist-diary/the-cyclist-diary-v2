@@ -13,7 +13,7 @@ De nouveau levés de bonne heure, après une nuit fort reposante, nous nous mett
 Dans la première côte qui nous emmène en haut du causse, nous retrouvons un groupe de pèlerins de Compostelle avec qui nous discutons un peu. Finalement nous les semons et redescendons sur les bords du Lot. 
 
 ### Long way home 
-Malheureusement la suite du trajet est bien longue et monotone. Le long du Lot, dans un petit sous-bois boueux, nous traînons nous pieds endoloris, sans autre vue que de piètres champs de maïs.
+Malheureusement la suite du trajet est bien longue et monotone. Le long du Lot, dans un petit sous-bois boueux, nous traînons nos pieds endoloris, sans autre vue que de piètres champs de maïs.
 L'arrivée à Cahors est tout de même joyeuse. Un peu de musique en ville, une petite pizzeria, qui semblait nous attendre, nous accueille. 
 
 Juste le temps d'avaler un bon déjeuner, de voir le fameux pont de la ville et nous voilà déjà à la gare, prêts à repartir pour Bordeaux, mais surtout, à l'aventure ! 
@@ -22,4 +22,3 @@ Juste le temps d'avaler un bon déjeuner, de voir le fameux pont de la ville et 
 {{< img src="4vuy6vKH.jpg" >}}
 {{< img src="Gqgy3sgq.jpg" >}}
 {{< /gallery >}}
-

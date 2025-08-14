@@ -10,7 +10,7 @@ date = "2025-07-12"
 +++
 
 
-La nuit passée dans notre point de bivouac s'est révélée très agréable et nous nous réveillons en bonne forme avec William. Nous déjeunons avec nos amis et prenons le temps de faire du café. Il s'agit en effet aujourd'hui de ne pas finir l'étape trop tôt. Nous avons pour projet de gravir le piton des neiges et y arriver tôt signifierait subir un froid intense pour trop longtemps. 
+La nuit passée dans notre point de bivouac s'est révélée très agréable et nous nous réveillons en bonne forme avec William. Nous déjeunons avec nos amis et prenons le temps de faire du café. Il s'agit en effet aujourd'hui de ne pas finir l'étape trop tôt. Nous avons pour projet de gravir le Piton des Neiges et y arriver tôt signifierait subir un froid intense pendant trop longtemps. 
 
 ![an image from this adventure](f6c32d0e-04a8-4ad0-a252-4255f992481e.jpg)
 
@@ -36,8 +36,8 @@ Enfin, sous un soleil radieux, le toit de l'Océan Indien se dévoile devant nou
 {{< /gallery >}}
 
 
-Le soleil déclinant nous rappelle à l'ordre, une fois qu'il sera derrière la montagne, la température chutera sous le zéro et nous devront être déjà dans nos duvet. 
-Dîner rapide, quelque photos supplémentaire et voilà qu'à 18h30 nous sommes déjà bien au chaud.
+Le soleil déclinant nous rappelle à l'ordre, une fois qu'il sera derrière la montagne, la température chutera sous le zéro et nous devrons être déjà dans nos duvets. 
+Dîner rapide, quelques photos supplémentaires et voilà qu'à 18h30 nous sommes déjà bien au chaud.
 Si nous sommes chanceux, nous assisterons demain au lever du soleil, avant de redescendre dans la plaine.
 
 {{< gallery class="content-gallery" btn="4">}}
@@ -46,5 +46,3 @@ Si nous sommes chanceux, nous assisterons demain au lever du soleil, avant de re
 {{< img src="e3cb93b9-4272-4aa9-9629-76f86c539057.jpg" >}}
 {{< img src="34d27e33-fbe3-433d-8532-1bbbcc1d138c.jpg" >}}
 {{< /gallery >}}
-
-
