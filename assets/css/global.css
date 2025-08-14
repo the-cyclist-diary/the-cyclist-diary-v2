@@ -8,22 +8,6 @@
     --bulma-link-text: #777777;
 }
 
-.navbar {
-    --bulma-navbar-background-color: #708A58;
-}
-
-.navbar .title{
-    color: #FFF1CA;
-}
-
-.navbar .navbar-item {
-    color: #FFF1CA;
-}
-
-.navbar-burger {
-    --bulma-navbar-burger-color: #FFF1CA;
-}
-
 @media (prefers-color-scheme: dark) {
     :root {
         --bulma-link-text: #e0e0e0;
@@ -41,4 +25,8 @@ a:hover {
 
 .has-text-justified p {
     margin-bottom: 2rem;
+}
+
+.u-padding > .section {
+    margin-top: 2rem;
 }

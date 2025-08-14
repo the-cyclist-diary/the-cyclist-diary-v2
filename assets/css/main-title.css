@@ -1,0 +1,17 @@
+
+.main-title {
+    position: absolute;
+    bottom: 1vh;
+    left: 1vw;
+    z-index: 100;
+    font-size: 8rem;
+    color: #FFF1CA;
+}
+
+@media screen and (max-width: 450px) {
+    .main-title {
+        font-size: 6rem;
+        bottom: 1vh;
+        left: 5vw;
+    }
+}

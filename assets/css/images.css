@@ -2,13 +2,18 @@
     object-fit: cover;
 }
 
-.image.is-3by2>img {
+.image>img {
     object-fit: cover !important;
 }
 
 .container.is-max-tablet img {
     display: block;
     margin: auto;
+}
+
+.cover-image {
+    height: 100vh;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 450px) {

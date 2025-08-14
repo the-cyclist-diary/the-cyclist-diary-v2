@@ -12,7 +12,9 @@
 </head>
 
 <body>
+{{ if not .IsHome }}
   {{ partialCached "banner.html" . }}
+{{ end }}
   <main>
     <div class="u-wrapper">
       <div class="u-padding">

@@ -8,14 +8,14 @@
     {{ $images := .context.Resources.ByType "image" }}
     {{ if $images }}
         {{ $randomImage := index (first 1 $images) 0 }}
-        <div class="column is-two-thirds">
+        <div class="column">
             <a href="{{ .context.RelPermalink }}">
-            <figure class="image is-3by2">
+            <figure class="image is-5by3">
                 <img src="{{ $randomImage.RelPermalink }}" alt="{{ .context.Title }}">
             </figure>
             </a>
         </div>
-        <div class="column is-one-third adventure-summary-text">
+        <div class="column is-two-fifths adventure-summary-text">
             <div>
                 {{ if eq .displaySection true }}
                 <p class="title is-6">

@@ -1,13 +1,9 @@
 {{ define "main" }}
-<!--<div class="section">
-    <div class="container is-max-tablet has-text-justified">
-        <div class="is-size-5">
-            {{ .Content }}
-        </div>
-    </div>
-</div>-->
-<img src="images/cover.webp" alt="">
+<img class="cover-image" src="images/cover.webp" alt="Cover image of the website">
+<h1 class="title main-title">The cyclist diary</h1>
+{{ partialCached "banner.html" . }}
 <div class="section">
+    <h2 class="title">Derniers articles</h2>
     <div>
         <hr>
         {{ range $index, $element := .Paginator.Pages.Limit 5 }}
@@ -15,5 +11,27 @@
         {{ end }}
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const navbar = document.querySelector('.navbar');
+    const threshold = window.innerHeight * 0.9; // 90% de la hauteur de l'écran
+
+    // Cache la navbar initialement
+    navbar.style.transform = 'translateY(-100%)';
+    navbar.style.opacity = '0';
+    navbar.style.transition = 'transform 0.5s ease-in-out, opacity 0.5s ease-in-out';
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY >= threshold) {
+            navbar.style.transform = 'translateY(0)';
+            navbar.style.opacity = '1';
+        } else {
+            navbar.style.transform = 'translateY(-100%)';
+            navbar.style.opacity = '0';
+        }
+    });
+});
+</script>
 
 {{ end }}
