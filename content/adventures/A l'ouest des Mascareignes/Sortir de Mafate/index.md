@@ -12,7 +12,7 @@ date = "2025-07-11"
 
 La nuit est plutôt bonne près de la rivière, malheureusement je me réveille vers 4h sans pouvoir me rendormir ensuite.
 Nous petit-déjeunons tous les trois avant de prendre la route du "rempart" délimitant le cirque de Mafate. L'étape d'
-aujourd'hui consiste à en sortir pour rejoindre la ville de Cilaos.
+aujourd'hui consiste à en sortir pour rejoindre la ville de Cilaos.<!--more-->
 
 {{< gallery class="content-gallery" btn="4">}}
 {{< img src="ab220ed6-1ff2-480e-ab95-edd8faf4885f.jpg" >}}

@@ -1,9 +1,13 @@
 
 .footer {
     --bulma-footer-background-color: rgba(112, 138, 88, 0.34) !important;
+
+    bottom: 0;
+    width: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
+    --bulma-footer-background-color: rgba(112, 138, 88, 0.84) !important;
     .footer {
         color: #3e3e3e;
     }
@@ -11,3 +15,4 @@
         color: #777777;
     }
 }
+

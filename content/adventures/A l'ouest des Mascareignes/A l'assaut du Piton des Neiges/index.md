@@ -11,7 +11,7 @@ date = "2025-07-12"
 
 
 La nuit passée dans notre point de bivouac s'est révélée très agréable et nous nous réveillons en bonne forme avec William. Nous déjeunons avec nos amis et prenons le temps de faire du café. Il s'agit en effet aujourd'hui de ne pas finir l'étape trop tôt. Nous avons pour projet de gravir le Piton des Neiges et y arriver tôt signifierait subir un froid intense pendant trop longtemps. 
-
+<!--more-->
 ![an image from this adventure](f6c32d0e-04a8-4ad0-a252-4255f992481e.jpg)
 
 La montée est particulièrement ardue, nous nous serrons les coudes pour nous arracher à Cilaos. Un gîte à mi-parcours nous permet de prendre une pause déjeuner bien méritée et de dire au revoir à Camille et sa compagne. Ils descendent par un autre itinéraire et nous ne les retrouverons qu'à la fin du GR. 

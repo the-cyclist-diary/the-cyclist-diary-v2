@@ -3,35 +3,36 @@
 <h1 class="title main-title">The cyclist diary</h1>
 {{ partialCached "banner.html" . }}
 <div class="section">
-    <h2 class="title">Derniers articles</h2>
-    <div>
-        <hr>
+    <div class="section container">
         {{ range $index, $element := .Paginator.Pages.Limit 5 }}
         {{ partial "adventure-summary.html" (dict "context" $element "displaySection" true "index" $index) }}
         {{ end }}
     </div>
+    <div class="has-text-centered">
+        <a href="/adventures">Voir plus...</a>
+    </div>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const navbar = document.querySelector('.navbar');
-    const threshold = window.innerHeight * 0.9; // 90% de la hauteur de l'écran
+    document.addEventListener('DOMContentLoaded', function () {
+        const navbar = document.querySelector('.navbar');
+        const threshold = window.innerHeight * 0.9; // 90% de la hauteur de l'écran
 
-    // Cache la navbar initialement
-    navbar.style.transform = 'translateY(-100%)';
-    navbar.style.opacity = '0';
-    navbar.style.transition = 'transform 0.5s ease-in-out, opacity 0.5s ease-in-out';
+        // Cache la navbar initialement
+        navbar.style.transform = 'translateY(-100%)';
+        navbar.style.opacity = '0';
+        navbar.style.transition = 'transform 0.5s ease-in-out, opacity 0.5s ease-in-out';
 
-    window.addEventListener('scroll', function() {
-        if (window.scrollY >= threshold) {
-            navbar.style.transform = 'translateY(0)';
-            navbar.style.opacity = '1';
-        } else {
-            navbar.style.transform = 'translateY(-100%)';
-            navbar.style.opacity = '0';
-        }
+        window.addEventListener('scroll', function () {
+            if (window.scrollY >= threshold) {
+                navbar.style.transform = 'translateY(0)';
+                navbar.style.opacity = '1';
+            } else {
+                navbar.style.transform = 'translateY(-100%)';
+                navbar.style.opacity = '0';
+            }
+        });
     });
-});
 </script>
 
 {{ end }}

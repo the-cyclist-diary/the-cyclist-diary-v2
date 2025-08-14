@@ -1,52 +1,54 @@
 {{ if .Params.gps }}
-    {{ $gpsImage := .Resources.Get .Params.gps }}
-    <br>
-    <div>
-        {{ with $original := .Resources.GetMatch (printf "%s" $gpsImage ) }}
-            {{ with $webp := .Process "webp" }}
-                <a href="{{ $original }}" target="_blank">
-                    <img alt="The gpx image of this adventure" src="{{ .RelPermalink }}" loading="lazy">
-                </a>
-            {{end}}
-        {{end}}
-        <div class="level">
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Distance</p>
-                    <p class="subtitle">
-                        {{ $fmt := div (float .Params.distance) 1000 }}
-                        {{ with $distance := printf "%.2f" $fmt }}
-                            {{ lang.FormatNumberCustom 2 $distance "-|.| " "|"}} km
-                        {{ end }}
-                    </p>
-                </div>
+{{ $gpsImage := .Resources.Get .Params.gps }}
+<br>
+<div>
+    {{ with $original := .Resources.GetMatch (printf "%s" $gpsImage ) }}
+    {{ with $webp := .Process "webp" }}
+    <figure class="image">
+        <a href="{{ $original }}" target="_blank">
+            <img alt="The gpx image of this adventure" src="{{ .RelPermalink }}" loading="lazy">
+        </a>
+    </figure>
+    {{end}}
+    {{end}}
+    <div class="level">
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Distance</p>
+                <p class="subtitle">
+                    {{ $fmt := div (float .Params.distance) 1000 }}
+                    {{ with $distance := printf "%.2f" $fmt }}
+                    {{ lang.FormatNumberCustom 2 $distance "-|.| " "|"}} km
+                    {{ end }}
+                </p>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Durée</p>
-                    <p class="subtitle">
-                        {{ .Params.duration }} h
-                    </p>
-                </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Durée</p>
+                <p class="subtitle">
+                    {{ .Params.duration }} h
+                </p>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Dénivelé</p>
-                    <p class="subtitle">
-                        {{ lang.FormatNumberCustom 0 .Params.elevation "-|.| " "|" }} m
-                    </p>
-                </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Dénivelé</p>
+                <p class="subtitle">
+                    {{ lang.FormatNumberCustom 0 .Params.elevation "-|.| " "|" }} m
+                </p>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Vitesse</p>
-                    {{ $speed := float .Params.speed }}
-                    <p class="subtitle">{{ printf "%.2f" $speed }} km/h</p>
-                </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Vitesse</p>
+                {{ $speed := float .Params.speed }}
+                <p class="subtitle">{{ printf "%.2f" $speed }} km/h</p>
             </div>
         </div>
     </div>
-    <hr>
-    {{ else }}
-    <br>
+</div>
+<hr>
+{{ else }}
+<br>
 {{ end }}

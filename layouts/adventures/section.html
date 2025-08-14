@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="section">
-    <div class="container is-max-tablet">
+    <div class="container">
         <div>
         {{ partial "breadcrumb.html" . }}
         {{ partial "section-heading.html" . }}
@@ -16,8 +16,8 @@
             <br>
         </div>
         <div>
-            {{ range .Paginator.Pages }}
-                {{ partial "step-short-summary.html" . }}
+            {{ range $index, $element := .Paginator.Pages }}
+            {{ partial "adventure-summary.html" (dict "context" $element "displaySection" true "index" $index) }}
             {{ end }}
             {{ template "partials/pagination.html" . }}
         </div>

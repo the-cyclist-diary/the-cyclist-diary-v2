@@ -13,7 +13,7 @@ date = "2025-07-10"
 Notre journée commence avec un petit plaisir : des bananes locales offertes par la tenancière du camping où nous
 dormons, qui nous les offre en accompagnement de notre sempiternel avoine au lait.
 La descente vers les gorges est comme toujours brutale, de grandes marches de pierre qu'il faut enjamber ; puis
-recommencer en sens inverse de l'autre côté.
+recommencer en sens inverse de l'autre côté.<!--more-->
 
 {{< gallery class="content-gallery" btn="4">}}
 {{< img src="f6cb3911-01c8-48d8-91e3-4cf26b73cf20.jpg" >}}

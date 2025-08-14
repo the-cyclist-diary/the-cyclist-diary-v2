@@ -14,7 +14,7 @@ La matinée est bien fraîche et même à l'abri de notre gîte, nous ressentons
 temps radieux, notre linge est propre et sec, nous sommes pleins d'énergie pour reprendre la route.
 La traversée du village me frappe, j'ai l'impression d'être dans l'Aubrac. Petites maisonnettes, odeur de feu de bois,
 pâturages givrés.
-
+<!--more-->
 ![an image from this adventure](5c149eb1-1363-43d8-9a60-a27c2427a6aa.jpg)
 
 Nous progressons très vite, il y a peu de dénivelé aujourd'hui, mais nos sacs sont lourds, car l'approvisionnement en eau

@@ -10,7 +10,7 @@ date = "2025-07-07"
 +++
 
 De bon matin, nous nous mettons en quête d'une bouteille de gaz que nous n'avons pas pu amener dans l'avion. Nous en achetons une (la mauvaise, nous l'apprendrons plus tard) ainsi que quelques provisions pour le midi.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="557f9e1e-1c19-4620-a742-ad63f0c97b6f.jpg" >}}
 {{< img src="57095f2a-cfef-4eba-877b-318755937d6c.jpg" >}}

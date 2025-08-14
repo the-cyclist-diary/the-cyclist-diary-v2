@@ -1,17 +1,23 @@
 {{ define "main" }}
 <div class="section">
-    <div class="container is-max-tablet">
+    <div class="container">
         {{ partial "breadcrumb.html" . }}
         {{ partial "section-heading.html" . }}
-        <br>
-        <article class="media">
-            <figure class="image is-128x128 media-left">
+    </div>
+    <br>
+</div>
+<div class="section">
+    <div class="container columns is-vcentered">
+        <div class="column is-one-quarter">
+            <figure class="image is-1by1">
                 <p>
                     {{ $image := .Resources.GetMatch "index.jpg" }}
                     <img alt="the cyclist face :)" class="is-rounded" src="{{ $image.RelPermalink }}">
                 </p>
             </figure>
-            <div class="media-content">
+        </div>
+        <div class="column">
+            <div>
                 <div class="content has-text-justified is-size-5">
                     <a href="{{ .RelPermalink }}">
                 <span class="title is-4 is-family-sans-serif">
@@ -27,7 +33,11 @@
                     </p>
                 </div>
             </div>
-        </article>
+        </div>
+    </div>
+</div>
+<div class="section is-medium">
+    <div class="container">
     </div>
 </div>
 {{ end }}

@@ -1,39 +1,43 @@
 {{ define "main" }}
 <div class="section">
-    <div class="container is-max-tablet">
+    <div class="container">
         {{ partial "breadcrumb.html" . }}
         {{ partial "section-heading.html" . }}
         <div class="block has-text-justified is-size-5">
             {{ .Content }}
         </div>
-        <hr class="mb-6">
-        {{ range .Sections }}
-        <article class="media">
-            <figure class="media-left">
-                <p>
-                    {{ $image := .Resources.GetMatch "index.{jpg,png}" }}
-                    <img class="image is-128x128" src="{{ $image.RelPermalink }}">
-                </p>
-            </figure>
-            <div class="media-content">
-                <div class="content has-text-justified">
-                    <a href="{{ .RelPermalink }}">
-                        <p class="title is-4 is-family-sans-serif">
-                            {{ .Title }}
-                        </p>
-                        <p class="subtitle is-6 is-family-sans-serif">
-                            {{ time.Format "2006-01-02" .PublishDate }}
-                        </p>
-                    </a>
-                    {{ .Summary }}
-                    {{ if .Truncated }}
-                    <a href="{{ .RelPermalink }}">Lire plus...</a>
-                    {{ end }}
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+            {{ range .Sections }}
+            <div class="columns">
+                <div class="column is-one-third">
+                    <figure class="image is-5by3">
+                        {{ $image := .Resources.GetMatch "index.{jpg,png}" }}
+                        <img class="image is-128x128" src="{{ $image.RelPermalink }}"
+                             alt="cover image of this adventure">
+                    </figure>
+                </div>
+                <div class="column">
+                    <div class="content has-text-justified">
+                        <a href="{{ .RelPermalink }}">
+                            <p class="title is-4 is-family-sans-serif">
+                                {{ .Title }}
+                            </p>
+                            <p class="subtitle is-6 is-family-sans-serif">
+                                {{ time.Format "2006-01-02" .PublishDate }}
+                            </p>
+                        </a>
+                        {{ .Summary }}
+                        {{ if .Truncated }}
+                        <a href="{{ .RelPermalink }}">Lire plus...</a>
+                        {{ end }}
+                    </div>
                 </div>
             </div>
-        </article>
         {{ end }}
-        {{ template "partials/pagination.html" . }}
     </div>
+    {{ template "partials/pagination.html" . }}
 </div>
 {{ end }}

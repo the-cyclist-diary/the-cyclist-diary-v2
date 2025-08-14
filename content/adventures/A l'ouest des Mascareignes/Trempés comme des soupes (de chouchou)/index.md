@@ -14,7 +14,7 @@ Finalement, la chance n'aura pas été de notre côté.
 Ce matin au réveil, nous sommes accueillis par des nuages, de la pluie, du vent, ceux-là mêmes qui avaient ballotté notre
 pauvre petite tente toute la nuit durant.
 Point de lever de soleil donc, déception pour les innombrables marcheurs qui étaient venus l'admirer.
-
+<!--more-->
 ![an image from this adventure](8effb93e-e47d-4621-bc08-8a6c77cbc355.jpg)
 
 Nous plions rapidement nos bagages, beaucoup de choses sont mouillées, la tente a un peu pris l'eau. La redescente

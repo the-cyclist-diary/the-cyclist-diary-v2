@@ -11,7 +11,7 @@ date = "2025-07-09"
 
 
 Une nuit calme et longue nous procure l'énergie nécessaire pour nous lever vers 6h, ranger la tente (sèche) et préparer notre habituel porridge au lait en poudre. Le spot de bivouac était idéal, nous avons été bercés par le bruit de la rivière et à peine dérangés par un chat sauvage. 
-
+<!--more-->
 ![an image from this adventure](48dc65bf-7d6d-4f9c-b44a-f182a35dcb32.jpg)
 
 La montée vers Aurère est brutale, 600m de dénivelé en 2 kilomètres, de grandes marches de pierre. Cependant, le jeu en valait la chandelle puisque nous trouvons là-haut du délicieux jus d'orange maison sur le bord du chemin. Nous nous en régalons avant de trouver une boulangerie qui nous fournit en café, Macatias et sandwiches. 

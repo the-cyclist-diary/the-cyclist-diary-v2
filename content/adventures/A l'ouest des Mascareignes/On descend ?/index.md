@@ -11,7 +11,7 @@ date = "2025-07-15"
 
 
 La nuit est un peu agitée, la tente est installée sur une bosse et je dois me contorsionner pour ne pas la sentir. Heureusement, la vue extraordinaire du Piton de la Fournaise vient compenser ce désagrément ; nous en profitons avec un café bien chaud.
-
+<!--more-->
 ![an image from this adventure](e312d9b8-c786-432a-98e4-ea97de07ae5d.jpg)
 
 L'objectif du jour est de gravir le volcan, puis de retourner dormir un peu plus loin autour du cratère. L'ascension est longue mais aisée, si l'on oublie la cohorte de touristes et le ballet des hélicoptères qui survolent le cratère. La traversée du champ de lave est magnifique, le sol, lunaire (on dirait la croûte craquelée d'un gros brownie). En deux heures, nous sommes en haut.
