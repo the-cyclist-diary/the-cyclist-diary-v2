@@ -1,19 +1,17 @@
 {{ define "main" }}
-<div class="section">
+<!--<div class="section">
     <div class="container is-max-tablet has-text-justified">
         <div class="is-size-5">
             {{ .Content }}
         </div>
     </div>
-</div>
+</div>-->
+<img src="images/cover.webp" alt="">
 <div class="section">
-    <div class="container is-max-tablet">
-        <h1 class="title">
-            Derniers articles
-        </h1>
+    <div>
         <hr>
-        {{ range .Paginator.Pages.Limit 5 }}
-        {{ partial "adventure-summary.html" (dict "context" . "displaySection" true) }}
+        {{ range $index, $element := .Paginator.Pages.Limit 5 }}
+        {{ partial "adventure-summary.html" (dict "context" $element "displaySection" true "index" $index) }}
         {{ end }}
     </div>
 </div>

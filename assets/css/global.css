@@ -20,6 +20,10 @@
     color: #FFF1CA;
 }
 
+.navbar-burger {
+    --bulma-navbar-burger-color: #FFF1CA;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --bulma-link-text: #e0e0e0;

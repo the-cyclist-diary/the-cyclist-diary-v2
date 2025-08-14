@@ -2,6 +2,10 @@
     object-fit: cover;
 }
 
+.image.is-3by2>img {
+    object-fit: cover !important;
+}
+
 .container.is-max-tablet img {
     display: block;
     margin: auto;
