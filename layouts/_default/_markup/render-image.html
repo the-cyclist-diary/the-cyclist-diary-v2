@@ -1,0 +1,6 @@
+<a href="{{ .Destination | safeURL }}" target="_blank" rel="noopener">
+<img src="{{ .Destination | safeURL }}"
+     {{- with .PlainText }} alt="{{ . }}"{{ end -}}
+     {{- with .Title }} title="{{ . }}"{{ end -}}
+>
+</a>

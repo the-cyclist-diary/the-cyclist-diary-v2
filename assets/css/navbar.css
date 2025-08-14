@@ -1,10 +1,5 @@
 .navbar {
     --bulma-navbar-background-color: #708A58;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 30;
 }
 
 .navbar .title{
