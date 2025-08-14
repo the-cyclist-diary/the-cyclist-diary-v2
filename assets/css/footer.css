@@ -1,5 +1,6 @@
+
 .footer {
-    --bulma-footer-padding: 2rem 1rem 2rem;
+    --bulma-footer-background-color: rgba(112, 138, 88, 0.34) !important;
 }
 
 @media (prefers-color-scheme: dark) {

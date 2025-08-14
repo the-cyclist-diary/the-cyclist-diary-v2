@@ -1,28 +1,30 @@
-<div id="cover-display">
-    <p class="title is-1 has-text-centered">
-        The cyclist diary
-    </p>
-    <nav>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="{{ relLangURL nil }}">
+            <p class="title">
+                The cyclist diary
+            </p>
+        </a>
+
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="site-navbar">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
         </a>
-        <div class="navbar-menu" id="site-navbar">
-            <div class="navbar-end has-text-weight-bold is-size-5">
-                {{ range site.Menus.main }}
-                {{ $url := relLangURL .URL }}
-                {{ if isset .Params "format" | and .Page }}
-                {{ $url = (.Page.OutputFormats.Get .Params.format).RelPermalink }}
-                {{ end }}
-                <a class="navbar-item white" href="{{ $url }}">{{ .Name }}</a>
-                {{ end }}
-            </div>
+    </div>
+
+    <div class="navbar-menu" id="site-navbar">
+        <div class="navbar-end has-text-weight-bold is-size-5">
+            {{ range site.Menus.main }}
+            {{ $url := relLangURL .URL }}
+            {{ if isset .Params "format" | and .Page }}
+            {{ $url = (.Page.OutputFormats.Get .Params.format).RelPermalink }}
+            {{ end }}
+            <a class="navbar-item white" href="{{ $url }}">{{ .Name }}</a>
+            {{ end }}
         </div>
-    </nav>
-    <a aria-label="Go back to main menu" id="a-fill-div" href="{{ relLangURL nil }}"></a>
-</div>
+    </div>
+</nav>
 
 
 <script defer>

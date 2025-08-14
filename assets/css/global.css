@@ -4,9 +4,20 @@
 
 /** ROOT VARIABLES **/
 :root {
-    --bulma-navbar-item-color: white;
     --bulma-family-primary: serif;
-    --bulma-link-text: #303030;
+    --bulma-link-text: #777777;
+}
+
+.navbar {
+    --bulma-navbar-background-color: #708A58;
+}
+
+.navbar .title{
+    color: #FFF1CA;
+}
+
+.navbar .navbar-item {
+    color: #FFF1CA;
 }
 
 @media (prefers-color-scheme: dark) {
