@@ -5,6 +5,9 @@ draft = "false"
 layout = "about"
 +++
 
-Cycliste le jour, développeur la nuit (ou l'inverse). Passionné par la randonnée à vélo et notamment l'ultra-distance.
-J'aime profiter de weekends prolongés pour m'évader et partir à la découverte de petits villages et d'églises
-abandonnées.
+Cycliste le jour, développeur la nuit (ou l'inverse). À pied ou à vélo, j'aime à parcourir les routes et les chemins, à
+la recherche de paysages bucoliques et d'expériences uniques.
+Des highlands brumeux aux côtes ensoleillées, je vous propose de découvrir mes aventures, le temps d'un week-end ou de
+quelques semaines.
+
+Puissent ces quelques récits vous inspirer à enfourcher votre vélo et à partir à l'aventure !
