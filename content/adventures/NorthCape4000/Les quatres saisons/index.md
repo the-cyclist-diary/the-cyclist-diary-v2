@@ -10,7 +10,7 @@ date = "2023-07-28 21:53:18.605433"
 +++
 
 Pour changer, départ sous le crachin et la grisaille ce matin. Une première crevaison intervient à Brême, puis nous prenons une douche monumentale, du genre qui pénètre toutes les couches de notre tenue.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="UXy2DfmT.jpg" >}}
 {{< img src="5rm5vvL3.jpg" >}}

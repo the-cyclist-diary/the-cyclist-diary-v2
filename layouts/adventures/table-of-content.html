@@ -10,32 +10,34 @@
 </div>
 <div class="section">
     <div class="container">
-            {{ range .Sections }}
-            <div class="columns">
-                <div class="column is-one-third">
-                    <figure class="image is-5by3">
-                        {{ $image := .Resources.GetMatch "index.{jpg,png}" }}
+        {{ range .Sections}}
+        <div class="columns">
+            <div class="column is-one-third">
+                <figure class="image is-5by3">
+                    {{ $image := .Resources.GetMatch "index.{jpg,png,webp}" }}
+                    <a href="{{ .RelPermalink }}">
                         <img class="image is-128x128" src="{{ $image.RelPermalink }}"
                              alt="cover image of this adventure">
-                    </figure>
-                </div>
-                <div class="column">
-                    <div class="content has-text-justified">
-                        <a href="{{ .RelPermalink }}">
-                            <p class="title is-4 is-family-sans-serif">
-                                {{ .Title }}
-                            </p>
-                            <p class="subtitle is-6 is-family-sans-serif">
-                                {{ time.Format "2006-01-02" .PublishDate }}
-                            </p>
-                        </a>
-                        {{ .Summary }}
-                        {{ if .Truncated }}
-                        <a href="{{ .RelPermalink }}">Lire plus...</a>
-                        {{ end }}
-                    </div>
+                    </a>
+                </figure>
+            </div>
+            <div class="column">
+                <div class="content has-text-justified">
+                    <a href="{{ .RelPermalink }}">
+                        <p class="title is-4 is-family-sans-serif">
+                            {{ .Title }}
+                        </p>
+                        <p class="subtitle is-6 is-family-sans-serif">
+                            {{ time.Format "2006-01-02" .PublishDate }}
+                        </p>
+                    </a>
+                    {{ .Summary }}
+                    {{ if .Truncated }}
+                    <a href="{{ .RelPermalink }}">Lire plus...</a>
+                    {{ end }}
                 </div>
             </div>
+        </div>
         {{ end }}
     </div>
     {{ template "partials/pagination.html" . }}

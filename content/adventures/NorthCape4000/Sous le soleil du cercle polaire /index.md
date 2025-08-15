@@ -10,7 +10,7 @@ date = "2023-08-05 21:25:13.005172"
 +++
 
 Voilà une journée comme on aurait voulu en avoir plus souvent ! Du soleil du matin au soir, pas une goutte de pluie et 15° au plus chaud de la journée. De quoi avaler les kilomètres sereinement.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="5t7X4Rja.jpg" >}}
 {{< img src="pjcqM3rn.jpg" >}}

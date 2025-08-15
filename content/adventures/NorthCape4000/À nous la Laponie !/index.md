@@ -12,7 +12,7 @@ date = "2023-08-04 21:34:27.840438"
 L'objectif du jour est clair : rejoindre Gällivare, la capitale de la Laponie. L'étape s'annonce longue mais pas très difficile.
 
 Pendant les cent premiers kilomètres, je m'abrite honteusement derrière mes petits camarades ; je les ai prévenus, la journée d'hier m'a brisé.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="cNyGcCVt.jpg" >}}
 {{< img src="ZZg3JokB.jpg" >}}

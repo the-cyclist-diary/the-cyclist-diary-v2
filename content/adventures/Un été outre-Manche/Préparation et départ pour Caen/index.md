@@ -7,7 +7,7 @@ draft = "false"
 Départ bien (trop) tôt ce matin de Bordeaux, pour rejoindre Caen par le train.
 
 Après bien des heures ballotté dans un TGV puis un TER, c'est enfin la libération. Remontage du vélo qui était emmitouflé dans sa sacoche, puis départ pour Ouistreham le long du canal, pour finir par une longue après-midi de visite, notamment d'une jolie exposition dans le bourg et de nombreux cafés.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="TpifGLot.jpg" >}}
 {{< img src="CRyS5nTS.jpg" >}}

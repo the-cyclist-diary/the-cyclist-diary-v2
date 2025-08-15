@@ -12,7 +12,7 @@ date = "2023-07-24 22:47:56.749138"
 Du vent, du vent et encore du vent (et de la pluie) voilà le programme de cette longue journée. Le départ à 6h nous permet de prendre une belle avance, d'avaler les quelques bosses de la journée sans faiblir...
 
 Malheureusement l'arrivée à Paris gâche la fête. Nationales, embouteillages, travaux, nous perdons un temps fou à essayer de progresser tant bien que mal dans la jungle urbaine.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="QssruUF9.jpg" >}}
 {{< img src="W6gSc43V.jpg" >}}

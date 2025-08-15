@@ -10,7 +10,7 @@ date = "2023-08-03 20:15:55.965344"
 +++
 
 Aujourd'hui c'est _enfin_ sous un grand soleil que nous partons à la conquête de la Laponie. Rapidement nous retrouvons Eduard, un Hollandais que nous avons souvent croisé sur la route. Nous décidons de rouler ensemble, car il vise la même ville que nous, puis de partager un gîte.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="a7VUuwuS.jpg" >}}
 {{< img src="ZsW1vh54.jpg" >}}

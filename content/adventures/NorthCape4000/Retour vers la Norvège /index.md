@@ -10,7 +10,7 @@ date = "2023-07-31 19:22:22.159532"
 +++
 
 C'est le grand retour en Norvège pour moi ! Que d'émotion en débarquant sur le port d'Oslo. Nous passons au checkpoint faire tamponner notre carnet de bord, pour la première fois.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="ets5u4Sk.jpg" >}}
 {{< img src="fHMo7q1h.jpg" >}}

@@ -10,7 +10,7 @@ date = "2023-08-07 12:52:55.507093"
 +++
 
 Nous nous réveillons ragaillardis de notre nuit dans notre charmante cabane finlandaise. Le petit-déjeuner est copieux, le propriétaire des lieux nous fait même l'honneur d'une truite sauvage fumée, pêchée par lui.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="umXb4oKh.jpg" >}}
 {{< img src="hPLCGWRe.jpg" >}}

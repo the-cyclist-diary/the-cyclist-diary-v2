@@ -10,7 +10,7 @@ date = "2023-07-26 22:29:27.696452"
 +++
 
 Le départ est glacial, 7° au bord de l'eau, tout le monde est bien couvert. La nuit à l'hôtel a été excellente, nous sommes en parfait état de fonctionnement.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="qm2NNruA.jpg" >}}
 {{< img src="cUz7mWzb.jpg" >}}

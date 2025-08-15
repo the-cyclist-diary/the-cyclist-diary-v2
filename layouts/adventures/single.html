@@ -1,12 +1,17 @@
 {{ define "main" }}
 <div class="section">
-    <div class="container is-max-tablet">
+    <div class="container">
         {{ partial "breadcrumb.html" . }}
         {{ partial "heading.html" . }}
-        {{ partial "gps-display.html" . }}
+        <div class="adventure-gps-display">
+            {{ partial "gps-display.html" . }}
+        </div>
+    </div>
+    <div class="container is-max-tablet">
         <div class="has-text-justified is-size-5">
             {{ .Content }}
         </div>
+    </div>
     </div>
     <div class="section">
         {{ partial "giscus.html" }}

@@ -12,7 +12,7 @@ date = "2023-07-30 23:05:11.235387"
 L'étape du jour est bien courte, seulement 150 km. Nous faisons une longue grasse matinée et un petit-déjeuner copieux. En fait, nous prenons notre temps, pour ne pas arriver trop vite à l'embarcadère.
 
 Une fois partis, tout va très vite. La route défile, le vent nous pousse. Seule une pluie longue et intense vient gâcher cette journée par ailleurs bien tranquille.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="tfsRQGoV.jpg" >}}
 {{< img src="KHBzyJAg.jpg" >}}

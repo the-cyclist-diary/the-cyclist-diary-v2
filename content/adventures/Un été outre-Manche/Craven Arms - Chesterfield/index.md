@@ -12,7 +12,7 @@ date = "2022-07-26 22:48:16.562444"
 Manifestement ragaillardi par ma fameuse soirée d'hier, j'ai décidé ce matin de prendre tout mon temps avant de commencer à pédaler (c'est les vacances, non ?). Sauf que partir à 8h30 pour faire 200 km... ça ne passe pas, élémentaire mon cher Béthus.
 
 J'essaie de profiter du "peu" de dénivelé de cette étape pour rattraper mon petit retard des jours précédents.
-
+<!--more-->
 
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="a3vJ53GE.jpg" >}}

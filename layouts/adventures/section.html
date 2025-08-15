@@ -7,17 +7,14 @@
         <div class="block has-text-justified is-size-5">
             {{ .Content }}
         </div>
-        {{ partial "gps-display.html" . }}
+        <div class="adventure-gps-display">
+            {{ partial "gps-display.html" . }}
         </div>
-        <div>
-            <h2 class="title">
-               Etapes
-            </h2>
-            <br>
         </div>
-        <div>
+        <div class="section">
+            {{ template "partials/pagination.html" . }}
             {{ range $index, $element := .Paginator.Pages }}
-            {{ partial "adventure-summary.html" (dict "context" $element "displaySection" true "index" $index) }}
+                {{ partial "adventure-summary.html" (dict "context" $element "displaySection" true "index" $index) }}
             {{ end }}
             {{ template "partials/pagination.html" . }}
         </div>

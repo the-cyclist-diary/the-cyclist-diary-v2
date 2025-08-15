@@ -12,7 +12,7 @@ date = "2023-07-23 20:55:14.499097"
 Le départ de Lausanne est douloureux, deux petits cols pour le petit-déjeuner.
 
 Un vent fort nous ralentit mais notre petit groupe de fortune lutte vaillamment. Enfin la frontière, la maison.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="nrh8ZShG.jpg" >}}
 {{< img src="FuzN792d.jpg" >}}

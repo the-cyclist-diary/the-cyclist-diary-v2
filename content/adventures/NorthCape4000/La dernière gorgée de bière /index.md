@@ -10,7 +10,7 @@ date = "2023-07-21 19:22:30.334160"
 +++
 
 La nuit fut bonne à l'abri du ventilateur. Un réveil tardif, mais pas trop, suivi de deux cafés _à l'italienne_ - bien sûr -, plus tard, il est temps de faire de petites courses en prévision du lendemain.
-
+<!--more-->
 ![Préparatifs matinaux](DEwqoVZV.jpg)
 
 #### Tonnerre de Zeus

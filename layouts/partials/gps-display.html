@@ -5,7 +5,7 @@
     {{ with $original := .Resources.GetMatch (printf "%s" $gpsImage ) }}
     {{ with $webp := .Process "webp" }}
     <figure class="image">
-        <a href="{{ $original }}" target="_blank">
+        <a href="{{ .RelPermalink }}" target="_blank">
             <img alt="The gpx image of this adventure" src="{{ .RelPermalink }}" loading="lazy">
         </a>
     </figure>

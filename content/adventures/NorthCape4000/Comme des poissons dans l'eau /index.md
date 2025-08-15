@@ -12,7 +12,7 @@ date = "2023-08-01 21:28:57.559769"
 Le départ à 5h est glacial, je suis couvert au maximum et pourtant je meurs de froid. Au bout d'une heure la pluie s'invite à la fête et notre plus dure journée jusqu'à présent commence.
 
 Pendant plus de quatre heures, pas un mot échangé. Nous ravalons notre douleur et livrons chacun de notre côté une véritable bataille mentale pour tenir.
-
+<!--more-->
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="m3d4fP4B.jpg" >}}
 {{< img src="DZ3Eegac.jpg" >}}
