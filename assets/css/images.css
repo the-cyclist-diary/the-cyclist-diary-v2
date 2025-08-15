@@ -2,7 +2,7 @@
     object-fit: cover;
 }
 
-.image>img {
+.image > img {
     object-fit: cover !important;
 }
 
@@ -18,11 +18,10 @@
     object-position: 60% 50%;
 }
 
-@media screen and (min-width: 450px) {
-    .has-text-justified p img {
-        max-width: 80%;
-    }
+.has-text-justified p img {
+    max-width: 80%;
 }
+
 @media screen and (min-width: 1200px) {
     .adventure-gps-display img {
         width: 50vw;
