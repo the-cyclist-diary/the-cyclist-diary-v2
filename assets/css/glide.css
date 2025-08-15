@@ -1,6 +1,7 @@
 .glide {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    max-width: 90vw;
 }
 .glide__slide img {
     display: block;

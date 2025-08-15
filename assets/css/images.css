@@ -2,13 +2,15 @@
     object-fit: cover;
 }
 
-.image > img {
-    object-fit: cover !important;
+.image-cover {
+    object-fit: cover;
 }
 
-.container.is-max-tablet img {
+.plain-image {
     display: block;
     margin: auto;
+    max-height: 80vh;
+    max-width: 90vw;
 }
 
 .cover-image {
@@ -16,10 +18,6 @@
     width: 100vw;
     object-fit: cover;
     object-position: 60% 50%;
-}
-
-.has-text-justified p img {
-    max-width: 80%;
 }
 
 @media screen and (min-width: 1200px) {
