@@ -13,7 +13,7 @@ date = "2025-08-17"
 Drôle de suprise au lever aujourd'hui : l'eau est coupée dans tout le village. Difficile de faire un petit déjeuner (a base de porridge normalement) ou même un brin de toilette. 
 
 Nous achetons deux litres d'eau à l'épicerie, où nous croisons nombre d'habitants, tout aussi circonspects que nous.
-
+<!--more-->
 ![an image from this adventure](d58f8695-0ee6-404e-8be9-d2ed4087f95f.jpg)
 
 De petits chemins herbeux nous amènent à la tour de Broadway et nous découvrons les paysages qui seront probablement le décors de la semaine à venir; vieilles collines rondes, chênes noueux, prairies jaunes et crottées. Nous nous amusons des nombreux passages, clôturés, qui nous font traverser d'innombrables pâturages. Les moutons nous regardent randonner paisiblement.
