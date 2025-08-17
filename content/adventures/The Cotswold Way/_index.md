@@ -1,6 +1,11 @@
 +++
+speed = "3.076734"
 title = "The cotswold way"
+gps = "15866687613088235899.png"
 draft = "false"
+distance = "26430"
+elevation = "614"
+duration = "8:35:25"
 date = "2025-08-15 13:17:42.387911"
 +++
 
