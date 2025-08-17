@@ -1,7 +1,12 @@
 +++
+speed = "3.076734"
 title = "Le soleil qui poudroie et l'herbe qui verdoie"
-date = "2025-08-17"
+gps = "Le soleil qui poudroie et l'herbe qui verdoie.png"
 draft = "false"
+distance = "26430"
+elevation = "614"
+duration = "8:35:25"
+date = "2025-08-17"
 +++
 
 
