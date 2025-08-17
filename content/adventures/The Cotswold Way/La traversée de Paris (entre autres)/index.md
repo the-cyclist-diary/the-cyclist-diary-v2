@@ -5,24 +5,13 @@ draft = "false"
 +++
 
 
-Nous avons décidé, dans un soucis de réduction de notre empreinte carbone - c'est à la mode - de ne pas prendre l'avion pour nous rendre en Angleterre. La perspective de prendre l'Eurostar pour la deuxième fois de la vie me réjouissais au plus haut point je dois l'admettre. 
+Nous avons décidé, dans un soucis de réduction de notre empreinte carbone - c'est à la mode - de ne pas prendre l'avion pour nous rendre en Angleterre. La perspective de prendre l'Eurostar pour la deuxième fois de ma vie me réjouissais au plus haut point je dois l'admettre. 
 Cependant nous ne faisons pas simplement Paris - Londres, mais Talence - Chipping Campden, et là est toute la différence. 
 <!--more-->
 
 ![an image from this adventure](ac9915e1-9a13-4156-a1b3-acd3421332b4.jpg)
 
-Ainsi, partis de chez nous à cinq heures du matin, nous avons pris, dans l'ordre : 
-
-* un tram
-* un bus
-* le tgv
-* le métro
-* l'Eurostar
-* le métro londonien
-* un autre train
-* un bus miteux
-* ... Et voilà !
-  
+Ainsi, partis de chez nous à cinq heures du matin, nous avons pris, dans l'ordre : un tram, un bus, le tgv, le métro, l'Eurostar, le métro londonien, un autre train, un bus miteux... Et voilà !
 
 Quel plaisir donc, d'arriver dans ce magnifique petit village de Chipping Campden après ces très longues heures de voyage - onze environ.
 
