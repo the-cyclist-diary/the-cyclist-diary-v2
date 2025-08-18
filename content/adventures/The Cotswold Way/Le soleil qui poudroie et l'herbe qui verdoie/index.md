@@ -36,7 +36,7 @@ Redescente vers Stanton, endormi par la chaleur, puis remontée... Puis redescen
 
 ![an image from this adventure](5491b98f-ecd4-4623-96db-8a984cc56c13.jpg)
 
-La journée s'achève au camping de la Hays fruit farm, où nous posons notre tente et nos "chaises de randonnée" nouvellement acquises et contre lesquelles nous avons pesté lorsqu'elles étaient dans le sac à dos et que nous bénissons maintenant. 
+La journée s'achève au camping de la Hailes fruit farm, où nous posons notre tente et nos "chaises de randonnée" nouvellement acquises et contre lesquelles nous avons pesté lorsqu'elles étaient dans le sac à dos et que nous bénissons maintenant. 
 
 La journée a été longue mais tranquille, rendue difficile seulement par le manque d'eau. Une petite partie de yams et au lit !
 
