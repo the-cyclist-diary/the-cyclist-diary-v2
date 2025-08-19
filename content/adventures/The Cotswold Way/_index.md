@@ -1,12 +1,12 @@
 +++
-speed = "3.136295"
+speed = "3.169664"
 title = "The cotswold way"
-gps = "3625892251400869806.png"
+gps = "14779341298440224021.png"
 draft = "false"
-distance = "54007"
+distance = "82671"
+elevation = "1926"
+duration = "26:04:55"
 date = "2025-08-15 13:17:42.387911"
-duration = "17:13:12"
-elevation = "1334"
 +++
 
 Le long de la bordure occidentale des collines des Cotswolds, ce sentier de 164 kilomètres nous mènera à travers
