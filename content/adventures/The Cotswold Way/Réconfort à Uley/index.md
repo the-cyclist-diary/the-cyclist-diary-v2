@@ -27,7 +27,7 @@ Après quelques dizaines de minutes de descente tranquille à travers champs (et
 {{< /gallery >}}
 
 
-Lorsqu'est ventu le temps de repartir, une bruine fine s'est levée et nous enfilons les imper. Ça ne suffira pas à nous décourager : le moral est excellent. Une fois encore, beaucoup de traversée de très beaux pâturages, de fermes méticuleusement entretenues. 
+Lorsqu'est venu le temps de repartir, une bruine fine s'est levée et nous enfilons les imper. Ça ne suffira pas à nous décourager : le moral est excellent. Une fois encore, beaucoup de traversée de très beaux pâturages, de fermes méticuleusement entretenues. 
 
 ![an image from this adventure](7f14cbef-8947-4f6f-8fb2-6514b0ebeffe.jpg)
 
@@ -47,7 +47,7 @@ La traversée d'une ferme au toit de pierre m'offre même l'occasion d'utiliser 
 
 Le descente vers Uley est abrupte, mais qu'importe, nous savons qu'une auberge nous y attend et pas des moindres, selon le témoignage d'un vieil anglais du cru (et de son lévrier) : "la meilleure du coin".
 
-Nous sommes effectivement reçu comme des princes dans cette auberge basse, aux poutres apparentes, qui fleure bon l'Ale fraîchement brassée. Une bonne douche et une rapide visite du village plus tard et nous voilà attablés, prêts à déguster la traditionnelle _pie_, ici au bœuf mariné à la bière. 
+Nous sommes effectivement reçu comme des rois dans cette auberge basse, aux poutres apparentes, qui fleure bon l'Ale fraîchement brassée. Une bonne douche et une rapide visite du village plus tard et nous voilà attablés, prêts à déguster la traditionnelle _pie_, ici au bœuf mariné à la bière. 
 
 ![an image from this adventure](2a102014-6668-4b01-a763-f8d83f73cabe.jpg)
 
