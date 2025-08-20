@@ -1,7 +1,12 @@
 +++
+speed = "2.9217908"
 title = "Réconfort à Uley"
-date = "2025-08-20"
+gps = "Réconfort à Uley.png"
 draft = "false"
+distance = "26176"
+elevation = "558"
+duration = "8:57:32"
+date = "2025-08-20"
 +++
 
 
