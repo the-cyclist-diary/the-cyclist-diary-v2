@@ -12,7 +12,7 @@ date = "2025-08-21"
 
 La nuit n'a pas été si bonne à l'auberge. La faute à un repas trop copieux ? Peut-être. À un peu trop de bonne ale ? Possible aussi. 
 
-Quoiqu'il en soit, nous nous mettons en route rapidement après un petit déjeuner expédié (on me fait tout de même d'excellents œufs brouillés). Première étape Dursley, encore endormi lorsque nous passons. C'est moins joli que d'habitude, alors aucun regrets. 
+Quoiqu'il en soit, nous nous mettons en route rapidement après un petit déjeuner expédié (on me fait tout de même d'excellents œufs brouillés). Première étape Dursley, encore endormi lorsque nous passons. C'est moins joli que d'habitude, alors aucun regrets. <!--more-->
 
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="7455ce35-3c92-4cee-bb9f-e56ab3e06768.jpg" >}}
