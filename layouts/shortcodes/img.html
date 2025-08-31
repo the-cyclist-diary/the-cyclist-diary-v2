@@ -1,6 +1,6 @@
 {{- $image := .Page.Resources.GetMatch (printf "%s" (.Get "src") ) -}}
-<li class="glide__slide">
-    <a href="{{ $image.RelPermalink }}" target="_blank" rel="noopener">
+
+    <a class="column is-half" href="{{ $image.RelPermalink }}" target="_blank" rel="noopener">
         {{- $image_sizes := slice "789" "1430" -}}
         {{- $image_quality := "Lanczos" -}}
         {{- if and (not $image) .Page.File -}}
@@ -17,7 +17,6 @@
         {{- end -}}
         {{- $fallback_image := ($image.Resize (print "789x jpg " $image_quality)) -}}
         <img
-                class="slide"
                 alt="An image of this adventure"
                 width="{{- $image_width -}}"
                 height="{{- $image_height -}}"
@@ -53,5 +52,5 @@
         />
         {{- end -}}
     </a>
-</li>
+
 

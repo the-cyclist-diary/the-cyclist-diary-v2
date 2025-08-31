@@ -1,15 +1,3 @@
-<div class="glide mg-medium">
-    <div class="glide__track" data-glide-el="track">
-        <ul class="glide__slides">
-            {{ .Inner }}
-        </ul>
-    </div>
-    <div class="glide__bullets" data-glide-el="controls[nav]">
-        {{ $buttons := .Get "btn" }}
-        {{if gt (len (seq $buttons)) 2}}
-            {{ range $k, $v := seq $buttons }}
-                <button aria-label="image selection button" class="glide__bullet" data-glide-dir="={{ $k }}"></button>
-            {{ end }}
-        {{end}}
-    </div>
+<div class="columns is-multiline is-centered">
+    {{ .Inner }}
 </div>
