@@ -1,5 +1,20 @@
 {{ define "main" }}
-<img class="cover-image" src="images/COVER.webp" alt="Cover image of the website">
+{{ $image_sizes := slice "1000" "1500" }}
+{{ $cover := resources.Get "images/COVER.webp"}}
+        <img class="cover-image"
+             alt="Cover image of the website"
+             srcset="
+                    {{ with $image_sizes }}
+                        {{ range $index, $size := . }}
+                                {{ with $cover.Resize (print $size "x") }}
+                                    {{ print .RelPermalink " " $size "w, " }}
+                                {{ end }}
+                        {{ end }}
+                    {{ end }}"
+                    sizes="100vw"
+                    src="{{ $cover.RelPermalink }}"
+                    loading="eager"
+                    decoding="sync">
 <h1 class="title main-title">The cyclist diary</h1>
 {{ partialCached "banner.html" . }}
 <div class="section">

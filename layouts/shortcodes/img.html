@@ -1,10 +1,57 @@
-{{- $src := .Get "src" -}}
-{{ with $original := .Page.Resources.GetMatch (printf "%s" (.Get "src") ) }}
-    {{ with .Resize "500x" }}
-        <li class="glide__slide">
-            <a href="{{ $src }}" target="_blank">
-                <img alt="{{ .RelPermalink }}" class="slide" src="{{ .RelPermalink }}" loading="lazy">
-            </a>
-        </li>
-    {{end}}
-{{end}}
+{{- $image := .Page.Resources.GetMatch (printf "%s" (.Get "src") ) -}}
+<li class="glide__slide">
+    <a href="{{ $image.RelPermalink }}" target="_blank" rel="noopener">
+        {{- $image_sizes := slice "789" "1430" -}}
+        {{- $image_quality := "Lanczos" -}}
+        {{- if and (not $image) .Page.File -}}
+        {{- $image = resources.Get (path.Join .Page.File.Dir .Destination) -}}
+        {{- else -}}
+        {{- $image := resources.Get $image -}}
+        {{- end -}}
+        {{- with $image -}}
+        {{- $image_width := $image.Width -}}
+        {{- $image_height := $image.Height -}}
+        {{- if strings.Contains $image "_2x" -}}
+        {{- $image_width = math.Floor (math.Div $image_width 2) -}}
+        {{- $image_height = math.Floor (math.Div $image_height 2) -}}
+        {{- end -}}
+        {{- $fallback_image := ($image.Resize (print "789x jpg " $image_quality)) -}}
+        <img
+                class="slide"
+                alt="An image of this adventure"
+                width="{{- $image_width -}}"
+                height="{{- $image_height -}}"
+                loading="lazy"
+                {{- if (or (strings.HasSuffix $image ".gif") (strings.HasSuffix $image ".svg")) -}}
+        src="{{- $image.RelPermalink -}}"
+        {{- else -}}
+        srcset="
+        {{- if le $image.Width (index $image_sizes 0) }}
+        {{- with $image.Resize (print $image.Width "x webp " $image_quality) -}}
+        {{- print .RelPermalink " " .Width "w, " -}}
+        {{- end -}}
+        {{- end -}}
+        {{- with $image_sizes -}}
+        {{- range $index, $size := . -}}
+        {{- if ge $image.Width $size -}}
+        {{- with $image.Resize (print $size "x webp " $image_quality) -}}
+        {{- print .RelPermalink " " $size "w, " -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}"
+        sizes="100vw"
+        src="{{- $fallback_image.RelPermalink -}}"
+        {{- end -}}
+        {{- if strings.Contains $image "featured" -}}
+        loading="eager"
+        decoding="sync"
+        {{- else -}}
+        decoding="async"
+        loading="lazy"
+        {{- end -}}
+        />
+        {{- end -}}
+    </a>
+</li>
+

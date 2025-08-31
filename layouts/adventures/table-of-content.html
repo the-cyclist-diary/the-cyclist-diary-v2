@@ -17,7 +17,8 @@
                     {{ $image := .Resources.GetMatch "index.{jpg,png,webp}" }}
                     <a href="{{ .RelPermalink }}">
                         <img class="image is-128x128" src="{{ $image.RelPermalink }}"
-                             alt="cover image of this adventure">
+                             alt="cover image of this adventure"
+                        loading="lazy">
                     </a>
                 </figure>
             </div>

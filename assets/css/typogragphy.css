@@ -1,5 +1,6 @@
 @font-face {
     font-family: "custom-sans-serif";
+    font-display: swap;
     src: local("LTCusion-Medium"),
     local("sans-serif"),
     url("../fonts/LTCushion-Medium.ttf") format('truetype');
@@ -7,6 +8,7 @@
 
 @font-face {
     font-family: "custom-serif";
+    font-display: swap;
     src: local("LTSoul-Regular"),
     local("serif"),
     url("../fonts/LTSoul-Regular.otf") format('truetype');

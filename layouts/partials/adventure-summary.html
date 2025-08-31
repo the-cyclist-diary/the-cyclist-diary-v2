@@ -11,7 +11,10 @@
         <div class="column">
             <a href="{{ .context.RelPermalink }}">
             <figure class="image is-5by3">
-                <img class="image-cover" src="{{ $randomImage.RelPermalink }}" alt="{{ .context.Title }}">
+                {{ $title := .context.Title }}
+                {{ with $randomImage.Resize "x1000 q80 webp" }}
+                    <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ $title }}" loading="lazy">
+                {{ end }}
             </figure>
             </a>
         </div>
