@@ -1,11 +1,11 @@
 +++
-speed = "16.697725"
+
 title = "De Portnoo à Ballina"
-gps = "Morning_Gravel_Ride.png"
+
 draft = "false"
-distance = "197715"
-elevation = "2152"
-duration = "11:50:27"
+
+
+
 date = "2022-08-06 20:56:22.988900"
 +++
 

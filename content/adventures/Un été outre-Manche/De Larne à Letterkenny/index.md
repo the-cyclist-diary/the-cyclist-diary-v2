@@ -1,11 +1,11 @@
 +++
-speed = "14.359549"
+
 title = "De Larne à Letterkenny"
-gps = "Morning_Gravel_Ride.png"
+
 draft = "false"
-distance = "202342"
-elevation = "2545"
-duration = "14:05:28"
+
+
+
 date = "2022-08-04 22:40:11.799892"
 +++
 

@@ -2,4 +2,13 @@
     <h1 class="title">
         {{ .Title }}
     </h1>
+    {{ with .Params.categories }}
+    <span class="categories" style="margin-top: 0.5rem;">
+        {{ range . }}
+        <a href="{{ " /categories/" | relLangURL }}" class="tag is-warning is-light">{{ . }}</a>
+        {{ end }}
+    </span>
+    </br>
+    </br>
+    {{ end }}
 </header>

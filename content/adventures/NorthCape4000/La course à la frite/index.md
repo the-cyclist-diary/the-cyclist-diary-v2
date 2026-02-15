@@ -1,11 +1,11 @@
 +++
-speed = "18.065739"
+
 title = "La course à la frite"
-gps = "Morning_Ride (1).png"
+
 draft = "false"
-distance = "270419"
-elevation = "2416"
-duration = "14:58:07"
+
+
+
 date = "2023-07-25 21:45:14.878495"
 +++
 

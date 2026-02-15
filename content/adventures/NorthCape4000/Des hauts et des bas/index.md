@@ -1,11 +1,11 @@
 +++
-speed = "19.500141"
+
 title = "Des hauts et des bas"
-gps = "Morning_Ride (1).png"
+
 draft = "false"
-distance = "277617"
-elevation = "2671"
-duration = "14:14:12"
+
+
+
 date = "2023-07-23 20:55:14.499097"
 +++
 

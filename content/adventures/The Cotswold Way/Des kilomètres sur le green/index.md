@@ -1,11 +1,11 @@
 +++
-speed = "3.1824894"
+
 title = "Des kilomètres sur le green"
-gps = "Des kilomètres sur le green.png"
+
 draft = "false"
-distance = "27464"
-elevation = "720"
-duration = "8:37:47"
+
+
+
 date = "2025-08-18"
 +++
 

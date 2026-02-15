@@ -1,11 +1,11 @@
 +++
-speed = "17.42217"
+
 title = "De Inishmore à Carrigaholt"
-gps = "Lunch_Gravel_Ride.png"
+
 draft = "false"
-distance = "123378"
-elevation = "1127"
-duration = "7:04:54"
+
+
+
 date = "2022-08-09 21:57:09.571363"
 +++
 

@@ -1,11 +1,11 @@
 +++
-speed = "1.9628048"
+
 title = "Bergerie de Vaccaghia - Pietra Piana"
-gps = "GR20_j5.png"
+
 draft = "false"
-distance = "12231"
-elevation = "1343"
-duration = "6:13:53"
+
+
+
 date = "2024-09-05 12:39:00"
 +++
 ### Terreurs Nocturnes

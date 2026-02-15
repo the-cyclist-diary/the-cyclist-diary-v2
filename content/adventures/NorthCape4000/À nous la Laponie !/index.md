@@ -1,11 +1,11 @@
 +++
-speed = "22.367828"
+
 title = "À nous la Laponie !"
-gps = "Sortie_vélo_le_matin.png"
+
 draft = "false"
-distance = "323911"
-elevation = "2128"
-duration = "14:28:52"
+
+
+
 date = "2023-08-04 21:34:27.840438"
 +++
 

@@ -1,0 +1,54 @@
+/* Navigation entre articles */
+.article-navigation {
+    margin: 3rem 0 2rem 0;
+    padding: 2rem 0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.nav-prev {
+    text-align: left;
+}
+
+.nav-next {
+    text-align: right;
+}
+
+.nav-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #363636;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    display: block;
+    margin: 0.25rem 0;
+}
+
+.nav-title:hover {
+    color: #e9ba3a;
+}
+
+.nav-date {
+    font-size: 0.813rem;
+    color: #999;
+    font-style: italic;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .article-navigation .columns {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .nav-next {
+        text-align: left;
+    }
+}

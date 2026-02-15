@@ -1,11 +1,11 @@
 +++
-speed = "14.667426"
+
 title = "Bort-les-Orgues - Limoges"
-gps = "Fin_du_voyage_de_Pâques_.png"
+
 draft = "false"
-distance = "123789"
-elevation = "1885"
-duration = "8:26:23"
+
+
+
 date = "2022-07-19 22:50:46.899243"
 +++
 

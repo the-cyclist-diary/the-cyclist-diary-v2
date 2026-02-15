@@ -1,11 +1,11 @@
 +++
-speed = "17.57154"
+
 title = "D'Édimbourg à presque Inverness"
-gps = "Morning_Gravel_Ride.png"
+
 draft = "false"
-distance = "195049"
-elevation = "1861"
-duration = "11:06:01"
+
+
+
 date = "2022-07-30 20:30:59.221877"
 +++
 

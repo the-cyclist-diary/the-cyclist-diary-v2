@@ -1,11 +1,11 @@
 +++
-speed = "2.0871124"
+
 title = "Pietra Piana - Vizzavona"
-gps = "GR20_j6.png"
+
 draft = "false"
-distance = "19380"
-elevation = "1378"
-duration = "9:17:08"
+
+
+
 date = "2024-09-10 10:47:09.270221"
 +++
 ### Et la lumière fut 

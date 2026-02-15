@@ -1,0 +1,26 @@
+{{/* Navigation entre articles (précédent/suivant dans la section) */}}
+<nav class="article-navigation">
+    <div class="columns">
+        {{ with .NextInSection }}
+        <div class="column is-half">
+            <div class="nav-item nav-prev">
+                <a href="{{ .RelPermalink }}" class="nav-title subtitle">← {{ .Title }}</a>
+                <span class="nav-date">{{ .Date | time.Format ":date_long" }}</span>
+            </div>
+        </div>
+        {{ else }}
+        <div class="column is-half"></div>
+        {{ end }}
+        
+        {{ with .PrevInSection }}
+        <div class="column is-half">
+            <div class="nav-item nav-next">
+                <a href="{{ .RelPermalink }}" class="nav-title subtitle">{{ .Title }} →</a>
+                <span class="nav-date">{{ .Date | time.Format ":date_long" }}</span>
+            </div>
+        </div>
+        {{ else }}
+        <div class="column is-half"></div>
+        {{ end }}
+    </div>
+</nav>

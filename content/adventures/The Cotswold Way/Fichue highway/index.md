@@ -1,11 +1,11 @@
 +++
-speed = "3.2325864"
+
 title = "Fichue highway"
-gps = "Fichue highway.png"
+
 draft = "false"
-distance = "28647"
-elevation = "592"
-duration = "8:51:43"
+
+
+
 date = "2025-08-19"
 +++
 

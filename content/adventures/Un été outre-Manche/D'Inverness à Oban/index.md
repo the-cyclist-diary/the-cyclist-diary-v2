@@ -1,11 +1,11 @@
 +++
-speed = "15.445613"
+
 title = "D'Inverness à Oban"
-gps = "Morning_Gravel_Ride (1).png"
+
 draft = "false"
-distance = "161840"
-elevation = "1577"
-duration = "10:28:41"
+
+
+
 date = "2022-08-02 21:36:50.474611"
 +++
 

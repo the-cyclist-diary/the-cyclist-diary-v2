@@ -1,11 +1,11 @@
 +++
-speed = "15.967646"
+
 title = "De Tongue à John o' Groats puis 🚌 vers Inverness"
-gps = "Morning_Gravel_Ride.png"
+
 draft = "false"
-distance = "136102"
-elevation = "1500"
-duration = "8:31:25"
+
+
+
 date = "2022-08-01 16:37:06.229765"
 +++
 

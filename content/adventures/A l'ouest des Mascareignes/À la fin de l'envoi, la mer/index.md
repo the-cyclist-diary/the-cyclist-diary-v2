@@ -1,11 +1,6 @@
 +++
-speed = "4.3276772"
 title = "À la fin de l'envoi, la mer"
-gps = "À la fin de l'envoi, la mer.png"
 draft = "false"
-distance = "10259"
-elevation = "21"
-duration = "2:22:14"
 date = "2025-07-16"
 +++
 

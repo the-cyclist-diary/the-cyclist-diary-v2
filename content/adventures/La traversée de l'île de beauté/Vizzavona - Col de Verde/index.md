@@ -1,11 +1,11 @@
 +++
-speed = "3.1898222"
+
 title = "Vizzavona - Col de Verde"
-gps = "GR20_j7.png"
+
 draft = "false"
-distance = "28416"
-elevation = "1621"
-duration = "8:54:30"
+
+
+
 date = "2024-09-10 10:53:01.696185"
 +++
 ### Premier jour au Sud

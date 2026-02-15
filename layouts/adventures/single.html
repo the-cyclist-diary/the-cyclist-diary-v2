@@ -1,3 +1,7 @@
+{{ define "load_paginator" }}
+{{ partial "map-assets.html" . }}
+{{ end }}
+
 {{ define "main" }}
 <div class="section">
     <div class="container">
@@ -11,6 +15,9 @@
         <div class="has-text-justified is-size-5">
             {{ .Content }}
         </div>
+    </div>
+    <div class="container">
+        {{ partial "article-navigation.html" . }}
     </div>
     <div class="section">
         {{ partial "giscus.html" }}

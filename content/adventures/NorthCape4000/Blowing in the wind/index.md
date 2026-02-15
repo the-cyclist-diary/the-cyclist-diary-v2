@@ -1,11 +1,11 @@
 +++
-speed = "16.304426"
+
 title = "Blowing in the wind"
-gps = "Morning_Ride.png"
+
 draft = "false"
-distance = "284313"
-elevation = "2027"
-duration = "17:26:16"
+
+
+
 date = "2023-07-24 22:47:56.749138"
 +++
 

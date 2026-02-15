@@ -1,11 +1,11 @@
 +++
-speed = "3.02925"
+
 title = "De soleil et de sueur"
-gps = "Quercy_j2.png"
+
 draft = "false"
-distance = "25874"
-elevation = "782"
-duration = "8:32:29"
+
+
+
 date = "2024-08-16 07:39:00"
 +++
 ### Célé'té

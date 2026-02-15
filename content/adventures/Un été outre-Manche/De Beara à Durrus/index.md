@@ -1,11 +1,11 @@
 +++
-speed = "15.938407"
+
 title = "De Beara à Durrus"
-gps = "Morning_Gravel_Ride.png"
+
 draft = "false"
-distance = "159663"
-elevation = "1931"
-duration = "10:01:03"
+
+
+
 date = "2022-08-12 21:55:00.211962"
 +++
 

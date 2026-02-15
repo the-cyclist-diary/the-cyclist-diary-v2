@@ -1,0 +1,64 @@
+{{/* Chargement des librairies pour cartes dynamiques et graphiques d'élévation */}}
+
+{{/* Leaflet CSS */}}
+{{ $leafletCss := resources.GetRemote "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" }}
+{{ if $leafletCss }}
+<link rel="stylesheet" href="{{ $leafletCss.RelPermalink }}" 
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+      crossorigin="anonymous">
+{{ end }}
+
+{{/* Leaflet Fullscreen CSS */}}
+{{ $leafletFullscreenCss := resources.GetRemote "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" }}
+{{ if $leafletFullscreenCss }}
+<link rel="stylesheet" href="{{ $leafletFullscreenCss.RelPermalink }}">
+{{ end }}
+
+{{/* uPlot CSS */}}
+{{ $uplotCss := resources.GetRemote "https://unpkg.com/uplot@1.6.30/dist/uPlot.min.css" }}
+{{ if $uplotCss }}
+<link rel="stylesheet" href="{{ $uplotCss.RelPermalink }}">
+{{ end }}
+
+{{/* Leaflet JS */}}
+{{ $leafletJs := resources.GetRemote "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" }}
+{{ if $leafletJs }}
+<script defer 
+        src="{{ $leafletJs.RelPermalink }}" 
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+        crossorigin="anonymous"></script>
+{{ end }}
+
+{{/* Leaflet Fullscreen JS */}}
+{{ $leafletFullscreenJs := resources.GetRemote "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js" }}
+{{ if $leafletFullscreenJs }}
+<script defer src="{{ $leafletFullscreenJs.RelPermalink }}"></script>
+{{ end }}
+
+{{/* uPlot JS */}}
+{{ $uplotJs := resources.GetRemote "https://unpkg.com/uplot@1.6.30/dist/uPlot.iife.min.js" }}
+{{ if $uplotJs }}
+<script defer src="{{ $uplotJs.RelPermalink }}"></script>
+{{ end }}
+
+{{/* Polyline decoder (local) */}}
+{{ $decoder := resources.Get "js/polyline-decoder.js" }}
+{{ if $decoder }}
+  {{ if hugo.IsProduction }}
+    {{ $decoder = $decoder | minify | fingerprint }}
+    <script defer src="{{ $decoder.RelPermalink }}" integrity="{{ $decoder.Data.Integrity }}" crossorigin="anonymous"></script>
+  {{ else }}
+    <script defer src="{{ $decoder.RelPermalink }}"></script>
+  {{ end }}
+{{ end }}
+
+{{/* Map initialization script (local) */}}
+{{ $mapInit := resources.Get "js/map-init.js" }}
+{{ if $mapInit }}
+  {{ if hugo.IsProduction }}
+    {{ $mapInit = $mapInit | minify | fingerprint }}
+    <script defer src="{{ $mapInit.RelPermalink }}" integrity="{{ $mapInit.Data.Integrity }}" crossorigin="anonymous"></script>
+  {{ else }}
+    <script defer src="{{ $mapInit.RelPermalink }}"></script>
+  {{ end }}
+{{ end }}

@@ -1,11 +1,11 @@
 +++
-speed = "16.432547"
+
 title = "De Portsmouth au Pays de Galles"
-gps = "Morning_Gravel_Ride.png"
+
 draft = "false"
-distance = "199094"
-elevation = "1807"
-duration = "12:06:57"
+
+
+
 date = "2022-07-24 19:25:36.296635"
 +++
 

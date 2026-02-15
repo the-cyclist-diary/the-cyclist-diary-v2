@@ -1,11 +1,11 @@
 +++
-speed = "16.02853"
+
 title = "Retour vers la Norvège"
-gps = "Morning_Ride.png"
+
 draft = "false"
-distance = "159052"
-elevation = "1640"
-duration = "9:55:23"
+
+
+
 date = "2023-07-31 19:22:22.159532"
 +++
 
