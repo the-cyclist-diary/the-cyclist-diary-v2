@@ -3,7 +3,7 @@
  * pour le site the-cyclist-diary
  */
 
-(function() {
+(function () {
     'use strict';
 
     /**
@@ -16,7 +16,8 @@
         // Créer la carte
         const map = L.map(mapId, {
             zoomControl: true,
-            scrollWheelZoom: false
+            scrollWheelZoom: true,
+            fullscreenControl: true
         });
 
         // Ajouter la couche OpenStreetMap
@@ -76,11 +77,11 @@
             const parentWidth = container.parentElement?.offsetWidth || container.parentElement?.clientWidth;
             const containerWidth = container.offsetWidth || container.clientWidth;
             const viewportWidth = window.innerWidth;
-            
+
             // Prendre la plus petite valeur non nulle
             const widths = [parentWidth, containerWidth, viewportWidth].filter(w => w > 0);
             const width = Math.min(...widths);
-            
+
             // Soustraire les marges/padding (estimation)
             return Math.max(width - 40, 200);
         }
@@ -172,7 +173,7 @@
         try {
             // Charger et décoder les données avec métadonnées
             const { points, metadata } = await window.PolylineDecoder.loadPolylineWithMetadata(jsonUrl);
-            
+
             if (!points || points.length === 0) {
                 console.error('Aucun point trouvé dans le fichier polyline');
                 return;
@@ -209,7 +210,7 @@
 
         } catch (error) {
             console.error('Erreur lors de l\'initialisation de la carte:', error);
-            
+
             // Afficher un message d'erreur à l'utilisateur
             const mapElement = document.getElementById(mapId);
             if (mapElement) {

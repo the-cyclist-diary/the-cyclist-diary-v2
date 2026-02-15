@@ -8,6 +8,12 @@
       crossorigin="anonymous">
 {{ end }}
 
+{{/* Leaflet Fullscreen CSS */}}
+{{ $leafletFullscreenCss := resources.GetRemote "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" }}
+{{ if $leafletFullscreenCss }}
+<link rel="stylesheet" href="{{ $leafletFullscreenCss.RelPermalink }}">
+{{ end }}
+
 {{/* uPlot CSS */}}
 {{ $uplotCss := resources.GetRemote "https://unpkg.com/uplot@1.6.30/dist/uPlot.min.css" }}
 {{ if $uplotCss }}
@@ -21,6 +27,12 @@
         src="{{ $leafletJs.RelPermalink }}" 
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
         crossorigin="anonymous"></script>
+{{ end }}
+
+{{/* Leaflet Fullscreen JS */}}
+{{ $leafletFullscreenJs := resources.GetRemote "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js" }}
+{{ if $leafletFullscreenJs }}
+<script defer src="{{ $leafletFullscreenJs.RelPermalink }}"></script>
 {{ end }}
 
 {{/* uPlot JS */}}
