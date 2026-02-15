@@ -16,7 +16,7 @@
         // Créer la carte
         const map = L.map(mapId, {
             zoomControl: true,
-            scrollWheelZoom: true,
+            scrollWheelZoom: false,
             fullscreenControl: true
         });
 
@@ -25,6 +25,35 @@
             attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
             maxZoom: 19
         }).addTo(map);
+
+        // Activer le zoom avec Ctrl/Cmd + molette de souris
+        const mapElement = document.getElementById(mapId);
+        mapElement.addEventListener('wheel', function(e) {
+            if (e.ctrlKey || e.metaKey) {
+                e.preventDefault();
+                const delta = e.deltaY;
+                const currentZoom = map.getZoom();
+                
+                if (delta < 0) {
+                    map.setZoom(currentZoom + 1);
+                } else {
+                    map.setZoom(currentZoom - 1);
+                }
+            }
+        }, { passive: false });
+
+        // Gérer le mode plein écran
+        map.on('fullscreenchange', function () {
+            if (map.isFullscreen()) {
+                // En plein écran : activer le zoom à la molette sans Ctrl
+                map.scrollWheelZoom.enable();
+                mapElement.classList.add('fullscreen-active');
+            } else {
+                // Hors plein écran : désactiver le zoom à la molette
+                map.scrollWheelZoom.disable();
+                mapElement.classList.remove('fullscreen-active');
+            }
+        });
 
         // Convertir les points pour Leaflet (lat, lon)
         const latLngs = points.map(p => [p.lat, p.lon]);

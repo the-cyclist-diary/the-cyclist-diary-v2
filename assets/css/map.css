@@ -23,6 +23,39 @@
     z-index: 1;
 }
 
+/* Message d'aide pour le zoom */
+.adventure-map::after {
+    content: "Utilisez Ctrl + molette pour zoomer";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(54, 54, 54, 0.8);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.813rem;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.adventure-map:hover::after {
+    opacity: 1;
+}
+
+/* Cacher le message en mode plein écran */
+.adventure-map.fullscreen-active::after {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .adventure-map::after {
+        content: "Utilisez deux doigts pour zoomer";
+    }
+}
+
 /* Responsive: hauteur réduite sur mobile */
 @media screen and (max-width: 768px) {
     .adventure-map {
