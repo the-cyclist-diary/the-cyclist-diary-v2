@@ -1,0 +1,20 @@
+{{ define "load_paginator" }}
+{{ partial "map-assets.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="content">
+            <h1 class="title">Catégorie : {{ .Title }}</h1>
+            <p class="subtitle">{{ len .Pages }} aventure{{ if ne (len .Pages) 1 }}s{{ end }}</p>
+        </div>
+        
+        <div class="section">
+            {{ range $index, $element := .Pages }}
+                {{ partial "adventure-summary.html" (dict "context" $element "displaySection" false "index" $index) }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

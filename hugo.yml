@@ -3,6 +3,11 @@ languageCode: fr-FR
 title: The cyclist diary
 defaultContentLanguage: fr
 timeout: 120
+
+# Configuration des taxonomies
+taxonomies:
+  category: categories
+
 menu:
   main:
     - name: Sur le vif

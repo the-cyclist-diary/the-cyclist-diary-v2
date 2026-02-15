@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="content">
+            <h1 class="title">Catégories</h1>
+            <p class="subtitle">Toutes les catégories</p>
+        </div>
+
+        <div class="columns is-multiline categories-list">
+            {{ range .Data.Terms.Alphabetical }}
+            <div class="column is-half">
+                <a href="{{ .Page.RelPermalink }}">
+                    <div class="">
+                        <h2 class="title is-4">
+                            {{ .Page.Title }}
+                        </h2>
+                        <p class="subtitle is-6">{{ .Count }} article{{ if ne .Count 1 }}s{{ end }}</p>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
