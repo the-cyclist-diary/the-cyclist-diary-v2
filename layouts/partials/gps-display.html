@@ -1,65 +1,70 @@
-{{ if .Params.gps }}
-    {{ $gpsImage := .Resources.Get .Params.gps }}
-    {{ $image_sizes := slice "700" "1080" }}
-    <br>
-    <div>
-        <figure class="image">
-            <a href="{{ $gpsImage.RelPermalink }}" target="_blank">
-                <img
-                        alt="The GPX image of this adventure"
-                        srcset="
-                        {{ with $image_sizes }}
-                            {{ range $index, $size := . }}
-                                    {{ with $gpsImage.Resize (print $size "x webp q80") }}
-                                    {{ print .RelPermalink " " $size "w, " }}
-                                {{ end }}
-                            {{ end }}
-                        {{ end }}"
-                        sizes="100vw"
-                        src="{{ $gpsImage.RelPermalink }}"
-                        loading="eager"
-                        decoding="sync"
-                        />
-            </a>
-        </figure>
-        <div class="level">
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Distance</p>
-                    <p class="subtitle">
-                        {{ $fmt := div (float .Params.distance) 1000 }}
-                        {{ with $distance := printf "%.2f" $fmt }}
-                            {{ lang.FormatNumberCustom 2 $distance "-|.| " "|"}} km
-                        {{ end }}
-                    </p>
-                </div>
+{{/* Chercher un fichier polyline.json dans les ressources de la page */}}
+{{ $polylineJson := .Resources.GetMatch "*.polyline.json" }}
+
+{{ if $polylineJson }}
+<br>
+<div class="gps-container">
+    {{/* Carte Leaflet */}}
+    {{ $mapId := printf "map-%s" .File.UniqueID }}
+    <div id="{{ $mapId }}" class="adventure-map"></div>
+    
+    {{/* Graphique d'élévation */}}
+    {{ $chartId := printf "elevation-%s" .File.UniqueID }}
+    <div id="{{ $chartId }}" class="elevation-chart"></div>
+    
+    {{/* Métadonnées de l'aventure */}}
+    <div class="level" style="margin-top: 1.5rem;">
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Distance</p>
+                <p class="subtitle" id="adventure-distance">--</p>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Durée</p>
-                    <p class="subtitle">
-                        {{ .Params.duration }} h
-                    </p>
-                </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Durée</p>
+                <p class="subtitle" id="adventure-duration">--</p>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Dénivelé</p>
-                    <p class="subtitle">
-                        {{ lang.FormatNumberCustom 0 .Params.elevation "-|.| " "|" }} m
-                    </p>
-                </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Dénivelé</p>
+                <p class="subtitle" id="adventure-elevation">--</p>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Vitesse</p>
-                    {{ $speed := float .Params.speed }}
-                    <p class="subtitle">{{ printf "%.2f" $speed }} km/h</p>
-                </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Vitesse</p>
+                <p class="subtitle" id="adventure-speed">--</p>
             </div>
         </div>
     </div>
-    <hr>
+    
+    {{/* Script d'initialisation de la carte */}}
+    <script>
+        (function() {
+            // Attendre que toutes les librairies soient chargées
+            function waitForLibraries(callback) {
+                if (typeof L !== 'undefined' && 
+                    typeof uPlot !== 'undefined' && 
+                    typeof window.initializeAdventureMap !== 'undefined') {
+                    callback();
+                } else {
+                    setTimeout(function() { waitForLibraries(callback); }, 50);
+                }
+            }
+            
+            waitForLibraries(function() {
+                window.initializeAdventureMap(
+                    '{{ $mapId }}',
+                    '{{ $chartId }}',
+                    '{{ $polylineJson.RelPermalink }}'
+                );
+            });
+        })();
+    </script>
+</div>
+<hr>
 {{ else }}
     <br>
 {{ end }}
