@@ -1,11 +1,11 @@
 +++
-speed = "3.13226"
+
 title = "The cotswold way"
-gps = "10565807386887613701.png"
+
 draft = "false"
-distance = "143769"
-elevation = "3310"
-duration = "45:53:58"
+
+
+
 date = "2025-08-15 13:17:42.387911"
 categories = ["rando"]
 +++

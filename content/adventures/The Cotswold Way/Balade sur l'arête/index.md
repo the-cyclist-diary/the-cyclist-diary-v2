@@ -1,11 +1,11 @@
 +++
-speed = "3.200225"
+
 title = "Balade sur l'arête"
-gps = "Balade sur l'arête.png"
+
 draft = "false"
-distance = "34750"
-elevation = "818"
-duration = "10:51:31"
+
+
+
 date = "2025-08-21"
 +++
 
