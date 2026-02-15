@@ -1,11 +1,11 @@
 +++
-speed = "18.441454"
+
 title = "Un jour, quatre pays"
-gps = "Morning_Ride.png"
+
 draft = "false"
-distance = "285402"
-elevation = "1999"
-duration = "15:28:34"
+
+
+
 date = "2023-07-26 22:29:27.696452"
 +++
 

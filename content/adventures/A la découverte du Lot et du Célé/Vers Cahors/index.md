@@ -1,11 +1,11 @@
 +++
-speed = "4.1657114"
+
 title = "Vers Cahors"
-gps = "Quercy_j4.png"
+
 draft = "false"
-distance = "19256"
-elevation = "412"
-duration = "4:37:21"
+
+
+
 date = "2024-08-18 12:35:08.419491"
 +++
 ### Grimpette et parlotte

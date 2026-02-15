@@ -7,6 +7,7 @@ distance = "143769"
 elevation = "3310"
 duration = "45:53:58"
 date = "2025-08-15 13:17:42.387911"
+categories = ["rando"]
 +++
 
 Le long de la bordure occidentale des collines des Cotswolds, ce sentier de 164 kilomètres nous mènera à travers

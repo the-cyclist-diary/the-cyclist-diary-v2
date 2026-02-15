@@ -1,11 +1,11 @@
 +++
-speed = "2.5377429"
+
 title = "Calenzana - Ortu"
-gps = "GR20_j1.png"
+
 draft = "false"
-distance = "13173"
-elevation = "1644"
-duration = "5:11:27"
+
+
+
 date = "2024-09-02 14:57:16.816572"
 +++
 ### A la loupiotte 

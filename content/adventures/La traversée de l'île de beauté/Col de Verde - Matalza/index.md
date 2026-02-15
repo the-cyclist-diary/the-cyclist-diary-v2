@@ -1,11 +1,11 @@
 +++
-speed = "2.887663"
+
 title = "Col de Verde - Matalza"
-gps = "GR20_j8.png"
+
 draft = "false"
-distance = "28036"
-elevation = "1821"
-duration = "9:42:32"
+
+
+
 date = "2024-09-10 12:36:54.684204"
 +++
 Cette nuit un sanglier a volé un bâton de randonnée, percé une tente et dispersé notre poubelle.

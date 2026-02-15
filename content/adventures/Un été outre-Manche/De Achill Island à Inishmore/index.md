@@ -1,11 +1,11 @@
 +++
-speed = "18.18398"
+
 title = "De Achill Island à Inishmore"
-gps = "Full_blast_pour_choper_le_dernier_ferry_.png"
+
 draft = "false"
-distance = "176127"
-elevation = "1539"
-duration = "9:41:09"
+
+
+
 date = "2022-08-08 22:15:05.305128"
 +++
 

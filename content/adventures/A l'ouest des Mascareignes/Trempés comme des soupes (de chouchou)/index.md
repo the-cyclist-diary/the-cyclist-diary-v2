@@ -1,11 +1,11 @@
 +++
-speed = "2.75502"
+
 title = "Trempés comme des soupes (de chouchou)"
-gps = "Trempés comme des soupes (de chouchou).png"
+
 draft = "false"
-distance = "22608"
-elevation = "247"
-duration = "8:12:22"
+
+
+
 date = "2025-07-13"
 +++
 

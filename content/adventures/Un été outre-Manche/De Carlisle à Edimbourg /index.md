@@ -1,11 +1,11 @@
 +++
-speed = "17.070564"
+
 title = "De Carlisle à Edimbourg "
-gps = "Morning_Gravel_Ride (1).png"
+
 draft = "false"
-distance = "214577"
-elevation = "1825"
-duration = "12:34:12"
+
+
+
 date = "2022-07-30 07:08:39.959080"
 +++
 

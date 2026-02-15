@@ -1,11 +1,11 @@
 +++
-speed = "14.587018"
+
 title = "De Letterkenny à Portnoo"
-gps = "Morning_Gravel_Ride (1).png"
+
 draft = "false"
-distance = "127916"
-elevation = "2040"
-duration = "8:46:09"
+
+
+
 date = "2022-08-05 20:31:52.239959"
 +++
 

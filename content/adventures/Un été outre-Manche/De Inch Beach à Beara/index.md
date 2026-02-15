@@ -1,11 +1,11 @@
 +++
-speed = "17.870907"
+
 title = "De Inch Beach à Beara"
-gps = "Morning_Gravel_Ride (1).png"
+
 draft = "false"
-distance = "191318"
-elevation = "1876"
-duration = "10:42:20"
+
+
+
 date = "2022-08-11 21:40:59.431869"
 +++
 

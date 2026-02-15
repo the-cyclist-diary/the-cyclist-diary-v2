@@ -1,11 +1,11 @@
 +++
-speed = "2.9787383"
+
 title = "Mataza - Paliri"
-gps = "GR20_j9.png"
+
 draft = "false"
-distance = "26922"
-elevation = "2078"
-duration = "9:02:17"
+
+
+
 date = "2024-09-10 12:40:54.025833"
 +++
 ### Maussade 

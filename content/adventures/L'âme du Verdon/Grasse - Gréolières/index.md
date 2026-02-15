@@ -1,12 +1,12 @@
 +++
-speed = "3.059547"
+
 title = "Grasse - Gréolières"
-gps = "Grasse - Gréolières.png"
+
 draft = "false"
-distance = "26341"
+
 date = "2024-04-28"
-duration = "8:36:34"
-elevation = "1495"
+
+
 +++
 
 ## Brouillard

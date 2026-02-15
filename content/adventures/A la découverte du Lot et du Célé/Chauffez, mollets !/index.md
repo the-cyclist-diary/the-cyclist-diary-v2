@@ -1,11 +1,11 @@
 +++
-speed = "3.767741"
+
 title = "Chauffez, mollets !"
-gps = "j1.png"
+
 draft = "false"
-distance = "16397"
-elevation = "373"
-duration = "4:21:07"
+
+
+
 date = "2024-08-15 19:14:30.815364"
 +++
 ### Atteindre Cahors 

@@ -1,11 +1,11 @@
 +++
-speed = "2.1728313"
+
 title = "De la rivière à la Grand Place"
-gps = "De la rivière à la Grand Place.png"
+
 draft = "false"
-distance = "16866"
-elevation = "1105"
-duration = "7:45:44"
+
+
+
 date = "2025-07-09"
 +++
 

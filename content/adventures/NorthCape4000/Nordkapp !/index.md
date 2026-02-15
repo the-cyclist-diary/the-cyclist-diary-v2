@@ -1,11 +1,11 @@
 +++
-speed = "19.586487"
+
 title = "Nordkapp !"
-gps = "Morning_Ride (1).png"
+
 draft = "false"
-distance = "456746"
-elevation = "3975"
-duration = "23:19:10"
+
+
+
 date = "2023-08-07 12:52:55.507093"
 +++
 

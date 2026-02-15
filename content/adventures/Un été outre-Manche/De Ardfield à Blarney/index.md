@@ -1,11 +1,11 @@
 +++
-speed = "14.57769"
+
 title = "De Ardfield à Blarney"
-gps = "Trajet_vers_Cork_finalement_.png"
+
 draft = "false"
-distance = "137909"
-elevation = "1823"
-duration = "9:27:37"
+
+
+
 date = "2022-08-15 21:30:16.266559"
 +++
 

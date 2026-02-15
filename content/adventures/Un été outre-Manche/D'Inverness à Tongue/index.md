@@ -1,11 +1,11 @@
 +++
-speed = "17.643007"
+
 title = "D'Inverness à Tongue"
-gps = "Morning_Gravel_Ride (1).png"
+
 draft = "false"
-distance = "205394"
-elevation = "1940"
-duration = "11:38:30"
+
+
+
 date = "2022-07-31 20:24:31.806564"
 +++
 

@@ -1,11 +1,11 @@
 +++
-speed = "19.214006"
+
 title = "Danish cruising"
-gps = "Morning_Ride (1).png"
+
 draft = "false"
-distance = "270245"
-elevation = "1717"
-duration = "14:03:54"
+
+
+
 date = "2023-07-29 21:31:43.071766"
 +++
 

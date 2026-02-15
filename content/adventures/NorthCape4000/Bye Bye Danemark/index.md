@@ -1,11 +1,11 @@
 +++
-speed = "22.381565"
+
 title = "Bye Bye Danemark"
-gps = "Lunch_Ride.png"
+
 draft = "false"
-distance = "151088"
-elevation = "885"
-duration = "6:45:02"
+
+
+
 date = "2023-07-30 23:05:11.235387"
 +++
 

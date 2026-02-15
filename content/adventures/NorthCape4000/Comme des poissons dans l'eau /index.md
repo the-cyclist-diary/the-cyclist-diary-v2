@@ -1,11 +1,11 @@
 +++
-speed = "19.146137"
+
 title = "Comme des poissons dans l'eau"
-gps = "Morning_Ride (1).png"
+
 draft = "false"
-distance = "313518"
-elevation = "3105"
-duration = "16:22:30"
+
+
+
 date = "2023-08-01 21:28:57.559769"
 +++
 

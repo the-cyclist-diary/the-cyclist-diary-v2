@@ -1,11 +1,11 @@
 +++
-speed = "2.9361768"
+
 title = "A la conquête de la Roche Écrite"
-gps = "A la conquête de la Roche Écrite.png"
+
 draft = "false"
-distance = "19391"
-elevation = "1819"
-duration = "6:36:15"
+
+
+
 date = "2025-07-07"
 +++
 

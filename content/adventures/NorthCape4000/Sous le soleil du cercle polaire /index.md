@@ -1,11 +1,11 @@
 +++
-speed = "21.342894"
+
 title = "Sous le soleil du cercle polaire"
-gps = "Morning_Ride.png"
+
 draft = "false"
-distance = "288882"
-elevation = "1561"
-duration = "13:32:07"
+
+
+
 date = "2023-08-05 21:25:13.005172"
 +++
 

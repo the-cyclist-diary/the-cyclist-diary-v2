@@ -1,11 +1,11 @@
 +++
-speed = "2.0874372"
+
 title = "Ortu - Asco"
-gps = "gr20-J2.png"
+
 draft = "false"
-distance = "18319"
-elevation = "1680"
-duration = "8:46:33"
+
+
+
 date = "2024-09-02 17:16:30.274392"
 +++
 ### No pasarán

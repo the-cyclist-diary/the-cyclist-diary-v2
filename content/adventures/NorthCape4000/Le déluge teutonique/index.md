@@ -1,11 +1,11 @@
 +++
-speed = "18.897783"
+
 title = "Le déluge teutonique"
-gps = "Morning_Ride (1).png"
+
 draft = "false"
-distance = "219524"
-elevation = "1156"
-duration = "11:36:59"
+
+
+
 date = "2023-07-27 21:13:38.533605"
 +++
 

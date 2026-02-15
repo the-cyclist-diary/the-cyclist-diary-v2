@@ -1,11 +1,11 @@
 +++
-speed = "19.891562"
+
 title = "Les quatre saisons"
-gps = "Morning_Ride.png"
+
 draft = "false"
-distance = "288726"
-elevation = "1898"
-duration = "14:30:54"
+
+
+
 date = "2023-07-28 21:53:18.605433"
 +++
 

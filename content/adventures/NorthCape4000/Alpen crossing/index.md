@@ -1,11 +1,11 @@
 +++
-speed = "19.332558"
+
 title = "Alpen crossing"
-gps = "Morning_Ride.png"
+
 draft = "false"
-distance = "292899"
-elevation = "3341"
-duration = "15:09:02"
+
+
+
 date = "2023-07-22 22:02:16.357161"
 +++
 

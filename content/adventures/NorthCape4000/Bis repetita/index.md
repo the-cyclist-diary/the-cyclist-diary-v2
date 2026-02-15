@@ -1,11 +1,11 @@
 +++
-speed = "19.22827"
+
 title = "Bis repetita"
-gps = "Morning_Ride.png"
+
 draft = "false"
-distance = "279328"
-elevation = "1607"
-duration = "14:31:37"
+
+
+
 date = "2023-08-02 21:50:22.391721"
 +++
 

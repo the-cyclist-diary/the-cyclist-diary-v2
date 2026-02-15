@@ -1,11 +1,11 @@
 +++
-speed = "15.219844"
+
 title = "De Chesterfield à Kettelwell"
-gps = "Morning_Gravel_Ride (1).png"
+
 draft = "false"
-distance = "194721"
-elevation = "1992"
-duration = "12:47:38"
+
+
+
 date = "2022-07-27 20:17:18.202568"
 +++
 

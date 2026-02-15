@@ -1,11 +1,11 @@
 +++
-speed = "17.13355"
+
 title = "De Ballina à Achill Island "
-gps = "Morning_Gravel_Ride (1).png"
+
 draft = "false"
-distance = "157543"
-elevation = "1514"
-duration = "9:11:42"
+
+
+
 date = "2022-08-07 20:57:08.220828"
 +++
 

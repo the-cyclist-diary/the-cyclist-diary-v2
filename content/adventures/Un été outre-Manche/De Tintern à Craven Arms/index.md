@@ -1,11 +1,11 @@
 +++
-speed = "13.794295"
+
 title = "De Tintern à Craven Arms"
-gps = "Morning_Gravel_Ride (1).png"
+
 draft = "false"
-distance = "194649"
-elevation = "2938"
-duration = "14:06:39"
+
+
+
 date = "2022-07-25 20:13:36.513949"
 +++
 

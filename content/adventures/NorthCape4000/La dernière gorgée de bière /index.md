@@ -1,11 +1,11 @@
 +++
-speed = "4.011528"
+
 title = "La dernière gorgée de bière"
-gps = "NC4K_meeting.png"
+
 draft = "false"
-distance = "17322"
-elevation = "95"
-duration = "4:19:05"
+
+
+
 date = "2023-07-21 19:22:30.334160"
 +++
 

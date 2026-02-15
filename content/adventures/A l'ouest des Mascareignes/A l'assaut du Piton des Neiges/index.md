@@ -1,11 +1,11 @@
 +++
-speed = "1.7170948"
+
 title = "A l'assaut du Piton des Neiges"
-gps = "A l'assaut du Piton des Neiges.png"
+
 draft = "false"
-distance = "12924"
-elevation = "1894"
-duration = "7:31:36"
+
+
+
 date = "2025-07-12"
 +++
 

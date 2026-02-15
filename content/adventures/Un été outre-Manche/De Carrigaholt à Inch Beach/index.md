@@ -1,11 +1,11 @@
 +++
-speed = "15.315451"
+
 title = "De Carrigaholt à Inch Beach"
-gps = "Morning_Gravel_Ride.png"
+
 draft = "false"
-distance = "158115"
-elevation = "1609"
-duration = "10:19:26"
+
+
+
 date = "2022-08-10 22:29:31.915999"
 +++
 

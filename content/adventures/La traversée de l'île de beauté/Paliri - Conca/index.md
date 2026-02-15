@@ -1,11 +1,11 @@
 +++
-speed = "3.9159856"
+
 title = "Paliri - Conca"
-gps = "GR20_J10.png"
+
 draft = "false"
-distance = "13657"
-elevation = "499"
-duration = "3:29:15"
+
+
+
 date = "2024-09-10 12:43:52.696244"
 +++
 ### Départ 

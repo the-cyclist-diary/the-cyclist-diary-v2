@@ -1,11 +1,11 @@
 +++
-speed = "16.443361"
+
 title = "Craven Arms - Chesterfield"
-gps = "Morning_Gravel_Ride.png"
+
 draft = "false"
-distance = "211521"
-elevation = "2124"
-duration = "12:51:49"
+
+
+
 date = "2022-07-26 22:48:16.562444"
 +++
 
