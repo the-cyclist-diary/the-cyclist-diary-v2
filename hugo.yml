@@ -7,7 +7,6 @@ timeout: 120
 # Configuration des taxonomies
 taxonomies:
   category: categories
-
 menu:
   main:
     - name: Sur le vif
@@ -19,8 +18,10 @@ menu:
 
 module:
   mounts:
-    - source: "assets/images"
-      target: "static/images"
+    # Les images restent dans assets/ pour être traitées par Hugo
+    - source: "assets"
+      target: "assets"
+    # CSS et fonts copiés directement dans static/
     - source: "assets/css"
       target: "static/css"
     - source: "assets/fonts"

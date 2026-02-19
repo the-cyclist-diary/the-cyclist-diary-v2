@@ -98,6 +98,11 @@
     .leaflet-tile-container {
         will-change: auto !important;
     }
+
+    /* Réduire le padding du graphique sur mobile */
+    .elevation-chart {
+        padding: 0.25rem;
+    }
 }
 
 /* Message de chargement */

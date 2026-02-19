@@ -21,10 +21,11 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .adventure-gps-display img {
-        width: 50vw;
-        display: block;
-        margin: auto;
+    /* Limiter la largeur du contenu sur les pages d'aventures */
+    figure {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

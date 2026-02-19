@@ -101,6 +101,9 @@
         // Extraire les élévations
         const elevations = points.map(p => p.elevation);
 
+        // Détecter si on est sur mobile
+        const isMobile = window.innerWidth < 768;
+
         // Calculer la largeur disponible de manière robuste
         function getContainerWidth() {
             const parentWidth = container.parentElement?.offsetWidth || container.parentElement?.clientWidth;
@@ -111,8 +114,9 @@
             const widths = [parentWidth, containerWidth, viewportWidth].filter(w => w > 0);
             const width = Math.min(...widths);
 
-            // Soustraire les marges/padding (estimation)
-            return Math.max(width - 40, 200);
+            // Soustraire les marges/padding (moins sur mobile pour maximiser l'espace)
+            const margin = isMobile ? 10 : 40;
+            return Math.max(width - margin, 200);
         }
 
         // Options du graphique
@@ -122,14 +126,14 @@
             series: [
                 {
                     label: 'Distance (km)',
-                    value: (u, v) => v == null ? '-' : v.toFixed(2).replace('.', ',') + ' km'
+                    value: (_, v) => v == null ? '-' : v.toFixed(2).replace('.', ',') + ' km'
                 },
                 {
                     label: 'Altitude (m)',
                     stroke: '#e9ba3a',
                     fill: '#fff1ca91',
                     width: 2,
-                    value: (u, v) => v == null ? '-' : Math.round(v) + ' m'
+                    value: (_, v) => v == null ? '-' : Math.round(v) + ' m'
                 }
             ],
             axes: [
@@ -137,12 +141,13 @@
                     label: 'Distance (km)',
                     labelSize: 20,
                     space: 40,
-                    values: (u, vals) => vals.map(v => v.toFixed(1).replace('.', ','))
+                    values: (_, vals) => vals.map(v => v.toFixed(1).replace('.', ','))
                 },
                 {
-                    label: 'Altitude (m)',
-                    labelSize: 30,
-                    space: 50
+                    // Pas de label sur mobile pour gagner de la place
+                    label: isMobile ? '' : 'Altitude (m)',
+                    labelSize: isMobile ? 0 : 30,
+                    space: isMobile ? 35 : 50
                 }
             ],
             cursor: {
