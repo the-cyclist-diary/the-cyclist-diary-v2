@@ -126,14 +126,14 @@
             series: [
                 {
                     label: 'Distance (km)',
-                    value: (u, v) => v == null ? '-' : v.toFixed(2).replace('.', ',') + ' km'
+                    value: (_, v) => v == null ? '-' : v.toFixed(2).replace('.', ',') + ' km'
                 },
                 {
                     label: 'Altitude (m)',
                     stroke: '#e9ba3a',
                     fill: '#fff1ca91',
                     width: 2,
-                    value: (u, v) => v == null ? '-' : Math.round(v) + ' m'
+                    value: (_, v) => v == null ? '-' : Math.round(v) + ' m'
                 }
             ],
             axes: [
@@ -141,7 +141,7 @@
                     label: 'Distance (km)',
                     labelSize: 20,
                     space: 40,
-                    values: (u, vals) => vals.map(v => v.toFixed(1).replace('.', ','))
+                    values: (_, vals) => vals.map(v => v.toFixed(1).replace('.', ','))
                 },
                 {
                     // Pas de label sur mobile pour gagner de la place
