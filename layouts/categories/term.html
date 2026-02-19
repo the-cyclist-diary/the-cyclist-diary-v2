@@ -2,9 +2,11 @@
 {{ partial "map-assets.html" . }}
 {{ end }}
 
+
 {{ define "main" }}
 <div class="section">
     <div class="container">
+        {{ partial "breadcrumb.html" . }}
         <div class="content">
             <h1 class="title">Catégorie : {{ .Title }}</h1>
             <p class="subtitle">{{ len .Pages }} aventure{{ if ne (len .Pages) 1 }}s{{ end }}</p>
