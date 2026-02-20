@@ -1,7 +1,10 @@
-{{ with site.Params.utterances }}
-  {{ if $.Type | in site.Params.mainSections | and .repo }}
-    {{ $issueterm := .issueterm | default "pathname" }}
-    {{ $theme := .theme | default "preferred-color-scheme" }}
-    <script src="https://utteranc.es/client.js" data-repo="{{ .repo }}" data-issue-term="{{ $issueterm }}" data-theme="{{ $theme }}" crossorigin="anonymous" async></script>
-  {{end}}
-{{end}}
+<div id="remark42"></div>
+<script>
+	var remark_config = {
+		host: "https://comments.the-cyclist-diary.fr",
+		site_id: "the-cyclist-diary",
+    locale: 'fr',
+		no_footer: true
+	}
+</script>
+<script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>

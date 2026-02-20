@@ -5,7 +5,7 @@
     {{ with .Params.categories }}
     <span class="categories" style="margin-top: 0.5rem;">
         {{ range . }}
-        <a href="{{ absLangURL (print "categories/" (. | urlize)) }}" class="tag is-warning is-light">{{ . | urlize }}</a>
+        <a href="{{ absLangURL (print "categories/" (. | urlize)) }}" class="tag is-warning is-light">{{ . }}</a>
         {{ end }}
     </span>
     </br>
