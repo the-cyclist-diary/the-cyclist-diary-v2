@@ -12,7 +12,7 @@ series = ["Coudre son sac de rando"]
 
 Avant toute chose, pourquoi coudre son propre sac de randonnée ? Il existe déjà pléthore de modèles dans le commerce !
 
-
+<!--more-->
 # Le poids
 
 C'est littéralement le moins lourd du marché, _ou presque_.

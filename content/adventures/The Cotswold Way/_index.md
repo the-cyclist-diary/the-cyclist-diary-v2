@@ -1,13 +1,10 @@
 +++
-
 title = "The cotswold way"
-
 draft = "false"
-
-
-
 date = "2025-08-15 13:17:42.387911"
 categories = ["rando"]
+date_debut = "2026-08-16"
+date_fin   = "2026-08-22"
 +++
 
 Le long de la bordure occidentale des collines des Cotswolds, ce sentier de 164 kilomètres nous mènera à travers

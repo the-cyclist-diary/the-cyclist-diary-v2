@@ -1,13 +1,9 @@
 {{/* series-badge.html — badge "Série" cliquable, affiché sur les articles et dans les résumés */}}
 {{ range .GetTerms "series" }}
 <a href="{{ .RelPermalink }}" class="series-badge">
-    <div class="columns">
-        <div class="column is-narrow">
-            <span class="series-badge-label">Série</span>
-        </div>
-        <div class="column is-narrow">
+    <div>
+            <span class="series-badge-label">Série : </span>
             <span class="series-badge-name">{{ .LinkTitle }}</span>
-        </div>
     </div>
 </a>
 {{ end }}

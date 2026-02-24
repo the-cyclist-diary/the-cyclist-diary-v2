@@ -4,21 +4,51 @@
 
 {{ define "main" }}
 <div class="section">
-    <div class="container">
+    <div class="container is-fullhd">
         <div>
-        {{ partial "breadcrumb.html" . }}
-        {{ partial "section-heading.html" . }}
-        <div class="block has-text-justified is-size-5">
-            {{ .Content }}
-        </div>
-        <div class="adventure-gps-display">
-            {{ partial "gps-display.html" . }}
-        </div>
+            {{ partial "breadcrumb.html" . }}
+            <header class="has-text-centered">
+                <h1 class="title">{{ .Title }}</h1>
+                {{ $dateDebut := .Params.date_debut }}
+                {{ $dateFin := .Params.date_fin }}
+                {{ if or $dateDebut $dateFin }}
+                <p class="subtitle is-6">
+                    {{ with $dateDebut }}{{ time.Format ":date_long" . }}{{ end -}}
+                    {{ if and $dateDebut $dateFin }} — {{ end -}}
+                    {{ with $dateFin }}{{ time.Format ":date_long" . }}{{ end }}
+                </p>
+                {{ end }}
+                {{ with .Params.categories }}
+                <span class="categories">
+                    {{ range . }}
+                    <a href="{{ absLangURL (print " categories/" (. | urlize)) }}" class="tag is-warning is-light">{{ .
+                        }}</a>
+                    {{ end }}
+                </span>
+                <br><br>
+                {{ end }}
+                
+            </header>
+            {{ $cover := .Resources.GetMatch (.Params.cover | default "index.*") }}
+            {{ with $cover }}
+            <figure class="image is-2by1 is-fullwidth">
+                {{ with $cover.Resize "1000x q80 webp" }}
+                <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy">
+                {{ end }}
+            </figure>
+            <br>
+            {{ end }}
+            <div class="block has-text-justified is-size-5">
+                {{ .Content }}
+            </div>
+            <div class="adventure-gps-display">
+                {{ partial "gps-display.html" . }}
+            </div>
         </div>
         <div class="section">
             {{ template "partials/pagination.html" . }}
             {{ range $index, $element := .Paginator.Pages }}
-                {{ partial "adventure-summary.html" (dict "context" $element "displaySection" true "index" $index) }}
+            {{ partial "adventure-summary.html" (dict "context" $element "displaySection" true "index" $index) }}
             {{ end }}
             {{ template "partials/pagination.html" . }}
         </div>

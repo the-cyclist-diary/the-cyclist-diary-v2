@@ -14,18 +14,16 @@
     url("../fonts/LTSoul-Regular.otf") format('truetype');
 }
 
-.title {
-    font-family: custom-sans-serif, sans-serif !important;
-}
-.subtitle {
+.title, .subtitle, .navbar-item {
     font-family: custom-sans-serif, sans-serif !important;
 }
 
-.navbar-item {
-    font-family: custom-sans-serif,  sans-serif;
-}
-
-p {
+p, span, li {
     font-family: custom-serif, serif;
-    font-size: 1.1em;
+}
+
+@media screen and (min-width: 450px) {
+    p {
+        font-size: 1.1em;
+    }
 }

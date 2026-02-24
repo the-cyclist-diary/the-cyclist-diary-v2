@@ -5,7 +5,7 @@
 /** ROOT VARIABLES **/
 :root {
     --bulma-family-primary: serif;
-    --bulma-link-text: #777777;
+    --bulma-link-text: #4b4b4b;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -26,11 +26,10 @@
                 <span class="subtitle is-6 is-family-sans-serif">
                     | {{ time.Format "2006-01-02" .context.Date }}
                 </span>
-                </a>
-                </br>
-                {{ partial "categories-badge.html" .context }}
-            </br>
+                </a>            
                 {{ partial "series-badge.html" .context }}
+                {{ partial "categories-badge.html" .context }}
+                </br>
                 <div class="mt-3">
                     {{ .context.Summary }}
                     {{ if .context.Truncated }}
