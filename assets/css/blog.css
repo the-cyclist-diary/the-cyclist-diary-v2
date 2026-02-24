@@ -1,0 +1,100 @@
+/* --- Série --------------------------------------------------- */
+
+.series-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: rgba(112, 138, 88, 0.12);
+    border: 1px solid rgba(112, 138, 88, 0.45);
+    color: #708A58;
+    border-radius: 4px;
+    padding: 0.25rem 0.65rem;
+    font-family: var(--custom-sans-serif, sans-serif);
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.series-badge:hover {
+    background-color: rgba(112, 138, 88, 0.25);
+    color: #708A58;
+}
+
+.series-badge-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.65;
+}
+
+.series-badge-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.series-badge-wrapper {
+    margin-bottom: 1rem;
+}
+
+.taxonomy-card {
+    display: block;
+    padding: 1rem 1.25rem;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+    color: inherit;
+}
+
+.taxonomy-card:hover {
+    border-color: #708A58;
+    background-color: rgba(112, 138, 88, 0.05);
+    color: inherit;
+}
+
+.series-term-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.series-term-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.series-term-number {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #708A58;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-top: 1.4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .series-badge {
+        background-color: rgba(112, 138, 88, 0.18);
+        border-color: rgba(112, 138, 88, 0.55);
+    }
+
+    .series-badge:hover {
+        background-color: rgba(112, 138, 88, 0.32);
+    }
+
+    .taxonomy-card {
+        border-color: #333;
+    }
+
+    .taxonomy-card:hover {
+        border-color: #708A58;
+        background-color: rgba(112, 138, 88, 0.08);
+    }
+}

@@ -3,18 +3,23 @@ languageCode: fr-FR
 title: The cyclist diary
 defaultContentLanguage: fr
 timeout: 120
+capitalizeListTitles: false
 
 # Configuration des taxonomies
 taxonomies:
   category: categories
+  serie: series
 menu:
   main:
     - name: Sur le vif
       pageRef: /adventures
       weight: 1
+    - name: Articles
+      pageRef: /blog
+      weight: 2
     - name: A propos
       pageRef: /about
-      weight: 2
+      weight: 3
 
 module:
   mounts:

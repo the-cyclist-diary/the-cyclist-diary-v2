@@ -1,0 +1,8 @@
+{{/* categories-badge.html — badges de catégories cliquables */}}
+{{ with .Params.categories }}
+<span class="categories">
+    {{ range . }}
+    <a href="{{ absLangURL (printf "/categories/%s" (. | urlize)) }}" class="tag is-warning is-light">{{ . }}</a>
+    {{ end }}
+</span>
+{{ end }}

@@ -22,7 +22,7 @@
         {{- $image_height = math.Floor (math.Div $image_height 2) -}}
     {{- end -}}
     {{- $fallback_image := ($image.Resize (print "789x jpg " $image_quality)) -}}
-    <figure role="figure" aria-label="{{- $label | plainify -}}">
+    <figure class="article-image" role="figure" aria-label="{{- $label | plainify -}}">
         <img
                 alt="{{- $caption | markdownify | plainify -}}"
                 title="{{- $label | plainify -}}"

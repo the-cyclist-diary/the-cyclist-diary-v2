@@ -1,0 +1,35 @@
+<div class="adventure-summary">
+    <div class="columns">
+    {{ $cover := .context.Resources.GetMatch (.context.Params.cover | default "cover.*") }}
+    {{ if $cover }}
+        <div class="column">
+            <a href="{{ .context.RelPermalink }}">
+            <figure class="image is-5by3">
+                {{ $title := .context.Title }}
+                {{ with $cover.Resize "x1000 q80 webp" }}
+                    <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ $title }}" loading="lazy">
+                {{ end }}
+            </figure>
+            </a>
+        </div>
+        <div class="column is-two-fifths adventure-summary-text">
+            <div>
+                <a href="{{ .context.RelPermalink }}">
+                <span class="title is-4 is-family-sans-serif">
+                    {{ .context.Title }}
+                </span>
+                <span class="subtitle is-6 is-family-sans-serif">
+                    | {{ time.Format "2006-01-02" .context.Date }}
+                </span>
+                </a>
+                <div class="mt-3">
+                    {{ .context.Summary }}
+                    {{ if .context.Truncated }}
+                    <a href="{{ .context.RelPermalink }}">Lire plus...</a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    {{ end }}
+</div>
+</div>

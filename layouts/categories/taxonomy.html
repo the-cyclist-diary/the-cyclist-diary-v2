@@ -7,16 +7,12 @@
             <p class="subtitle">Toutes les catégories</p>
         </div>
 
-        <div class="columns is-multiline categories-list">
+        <div class="columns is-multiline">
             {{ range .Data.Terms.Alphabetical }}
             <div class="column is-half">
-                <a href="{{ .Page.RelPermalink }}">
-                    <div class="">
-                        <h2 class="title is-4">
-                            {{ .Page.Title }}
-                        </h2>
-                        <p class="subtitle is-6">{{ .Count }} article{{ if ne .Count 1 }}s{{ end }}</p>
-                    </div>
+                <a href="{{ .Page.RelPermalink }}" class="taxonomy-card">
+                    <h2 class="title is-4">{{ .Page.Title }}</h2>
+                    <p class="subtitle is-6">{{ .Count }} résultat{{ if ne .Count 1 }}s{{ end }}</p>
                 </a>
             </div>
             {{ end }}

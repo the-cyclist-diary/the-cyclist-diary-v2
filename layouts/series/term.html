@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        {{ partial "breadcrumb.html" . }}
+        <div class="content">
+            <h1 class="title">{{ .Title }}</h1>
+            <p class="subtitle">{{ len .Pages }} article{{ if ne (len .Pages) 1 }}s{{ end }} dans cette série</p>
+        </div>
+        <div class="section">
+            {{ range $i, $page := .Pages.ByDate }}
+            {{ partial "serie-summary.html" (dict "context" $page "index" $i "displaySection" false) }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        {{ partial "breadcrumb.html" . }}
+        {{ partial "blog-heading.html" . }}
+        <div class="has-text-centered series-badge-wrapper">
+            {{ partial "series-badge.html" . }}
+        </div>
+        {{ $cover := .Resources.GetMatch (.Params.cover | default "cover.*") }}
+        {{ with $cover }}
+        <figure class="image is-2by1 is-fullwidth">
+            {{ with $cover.Resize "1000x q80 webp" }}
+            <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+            {{ end }}
+        </figure>
+        </br>
+        {{ end }}
+        <div class="container is-max-desktop">
+            <div class="has-text-justified is-size-5">
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="container">
+            {{ partial "article-navigation.html" . }}
+        </div>
+    </div>
+    <div class="container">
+        {{ partial "comments.html" . }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        {{ partial "breadcrumb.html" . }}
+        {{ partial "section-heading.html" . }}
+        <div class="block has-text-justified is-size-5">
+            {{ .Content }}
+        </div>
+        <div class="container">
+            {{ template "partials/pagination.html" . }}
+            {{ range $index, $element := .Paginator.Pages }}
+                {{ partial "blog-summary.html" (dict "context" $element "index" $index "displaySection" false) }}
+            {{ end }}
+            {{ template "partials/pagination.html" . }}
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -1,9 +1,8 @@
 
 .footer {
     --bulma-footer-background-color: rgba(112, 138, 88, 0.34) !important;
-
-    bottom: 0;
-    width: 100%;
+    max-height: 10%;
+    align-self: end;
 }
 
 @media (prefers-color-scheme: dark) {

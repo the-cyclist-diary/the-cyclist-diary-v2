@@ -21,9 +21,14 @@
 }
 
 @media screen and (min-width: 1200px) {
-    /* Limiter la largeur du contenu sur les pages d'aventures */
-    figure {
-        max-width: 70%;
+    /* Limiter la taille des images sur PC */
+    .article-image {
+        max-width: 20vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-gallery{
+        max-width: 40vw;
         margin-left: auto;
         margin-right: auto;
     }
