@@ -8,7 +8,7 @@
         </div>
         {{ $cover := .Resources.GetMatch (.Params.cover | default "cover.*") }}
         {{ with $cover }}
-        <figure class="image is-2by1 is-fullwidth">
+        <figure class="image is-2by1 is-fullwidth blog-cover">
             {{ with $cover.Resize "1000x q80 webp" }}
             <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy">
             {{ end }}
@@ -16,7 +16,12 @@
         </br>
         {{ end }}
         <div class="container is-max-desktop">
-            <div class="has-text-justified is-size-5">
+            {{ if and .TableOfContents (strings.Contains .TableOfContents "<a") }}
+            <div class="blog-toc">
+                {{ partial "toc.html" . }}
+            </div>
+            {{ end }}
+            <div class="blog-article-content has-text-justified is-size-5">
                 {{ .Content }}
             </div>
         </div>

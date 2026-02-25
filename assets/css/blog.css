@@ -1,3 +1,8 @@
+/* Blog */
+.blog-cover {
+    margin: 1rem;
+}
+
 /* --- Série --------------------------------------------------- */
 
 .series-badge {
@@ -31,5 +36,28 @@
     .taxonomy-card:hover {
         border-color: #708A58;
         background-color: rgba(112, 138, 88, 0.08);
+    }
+}
+
+/* --- Table des matières ------------------------------------ */
+
+.blog-toc {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+#TableOfContents ol {
+    margin-left: 1rem;
+}
+
+.toc-details a, .toc-details summary {
+    font-size: larger;
+}
+
+@media (prefers-color-scheme: dark) {
+    .blog-toc {
+        border-color: #444;
     }
 }

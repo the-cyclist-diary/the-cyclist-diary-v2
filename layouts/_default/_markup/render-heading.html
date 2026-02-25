@@ -1,3 +1,5 @@
 <p class="subtitle mt-4 is-family-sans-serif">
-    {{ safeHTML .Text }}
+    <a href="#{{ .Anchor | urlize }}">
+        {{ safeHTML .Text }}
+    </a>
 </p>

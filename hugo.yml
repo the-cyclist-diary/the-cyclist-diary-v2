@@ -35,6 +35,10 @@ module:
       target: "static"
 
 markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 3
+    ordered: true
   goldmark:
     parser:
       attribute:

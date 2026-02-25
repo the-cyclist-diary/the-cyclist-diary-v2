@@ -18,7 +18,7 @@
     font-family: custom-sans-serif, sans-serif !important;
 }
 
-p, span, li {
+p, span, li, a, ul {
     font-family: custom-serif, serif;
 }
 
