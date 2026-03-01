@@ -2,8 +2,10 @@
 {{ $cover := .Resources.GetMatch "index.{jpg,png,webp}" }}
 {{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title "showTitle" true) }}
 {{ partial "breadcrumb.html" . }}
-<div class="container is-max-tablet is-size-5">
-    {{ .Content }}
+<div class="section">
+    <div class="container is-max-tablet is-size-5">
+        {{ .Content }}
+    </div>
 </div>
 <div class="section" id="sections">
     <div class="container">

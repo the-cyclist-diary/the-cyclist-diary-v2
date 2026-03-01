@@ -1,10 +1,12 @@
-.pagination-link.is-current{
+.pagination-link.is-current {
     background-color: var(--the-cyclist-diary-light-green);
     border-color: var(--the-cyclist-diary-green);
     color: var(--bulma-link-text);
 }
 
-.container.pagination-wrapper {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+@media screen and (min-width: 450px) {
+    .container.pagination-wrapper {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
