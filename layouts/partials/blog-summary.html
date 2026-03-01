@@ -23,12 +23,13 @@
                 <span class="title is-4 is-family-sans-serif">
                     {{ .context.Title }}
                 </span>
-                <span class="subtitle is-6 is-family-sans-serif">
+                <span class="subtitle is-6 is-family-sans-serif date-title">
                     | {{ time.Format "2006-01-02" .context.Date }}
                 </span>
-                </a>            
-                {{ partial "series-badge.html" .context }}
+                </a>    
+                </br>        
                 {{ partial "categories-badge.html" .context }}
+                {{ partial "series-badge.html" .context }}
                 </br>
                 <div class="mt-3">
                     {{ .context.Summary }}

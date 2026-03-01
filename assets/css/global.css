@@ -6,6 +6,8 @@
 :root {
     --bulma-family-primary: serif;
     --bulma-link-text: #4b4b4b;
+    --the-cyclist-diary-green: #708A58;
+    --the-cyclist-diary-yellow: #FFF1CA;
 }
 
 @media (prefers-color-scheme: dark) {

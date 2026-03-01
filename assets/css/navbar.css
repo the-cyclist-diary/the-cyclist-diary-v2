@@ -1,15 +1,15 @@
 .navbar {
-    --bulma-navbar-background-color: #708A58 !important;
+    --bulma-navbar-background-color: var(--the-cyclist-diary-green) !important;
 }
 
 .navbar .title{
-    color: #FFF1CA;
+    color: var(--the-cyclist-diary-yellow);
 }
 
 .navbar .navbar-item {
-    color: #FFF1CA;
+    color: var(--the-cyclist-diary-yellow);
 }
 
 .navbar-burger {
-    --bulma-navbar-burger-color: #FFF1CA;
+    --bulma-navbar-burger-color: var(--the-cyclist-diary-yellow);
 }

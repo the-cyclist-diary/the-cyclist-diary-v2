@@ -2,24 +2,34 @@
     font-family: "custom-sans-serif";
     font-display: swap;
     src: local("LTCusion-Medium"),
-    local("sans-serif"),
-    url("../fonts/LTCushion-Medium.ttf") format('truetype');
+        local("sans-serif"),
+        url("../fonts/LTCushion-Medium.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "custom-serif";
     font-display: swap;
     src: local("LTSoul-Regular"),
-    local("serif"),
-    url("../fonts/LTSoul-Regular.otf") format('truetype');
+        local("serif"),
+        url("../fonts/LTSoul-Regular.otf") format('truetype');
 }
 
-.title, .subtitle, .navbar-item {
+.title,
+.subtitle,
+.navbar-item {
     font-family: custom-sans-serif, sans-serif !important;
 }
 
-p, span, li, a, ul {
+p,
+span,
+li,
+a,
+ul {
     font-family: custom-serif, serif;
+}
+
+.date-title {
+    white-space: nowrap
 }
 
 @media screen and (min-width: 450px) {
