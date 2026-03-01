@@ -1,0 +1,4 @@
+.card {
+    --bulma-card-radius: 0px !important;
+    --bulma-card-shadow: none !important;
+}

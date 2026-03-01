@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{ $cover := .Resources.GetMatch "index.{jpg,png,webp}" }}
+{{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title) }}
 <div class="section">
     <div class="container">
         {{ partial "breadcrumb.html" . }}

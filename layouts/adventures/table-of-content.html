@@ -1,45 +1,43 @@
 {{ define "main" }}
-<div class="section">
-    <div class="container">
+{{ $cover := .Resources.GetMatch "index.{jpg,png,webp}" }}
+{{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title) }}
+<div class="table-of-content-header">
+    <div class="container.is-fullhd">
         {{ partial "breadcrumb.html" . }}
-        {{ partial "section-heading.html" . }}
-        <div class="block has-text-justified is-size-5">
+        <div class="container is-max-tablet is-size-5">
             {{ .Content }}
         </div>
     </div>
 </div>
 <div class="section">
-    <div class="container">
-        {{ range .Sections}}
-        <div class="columns">
-            <div class="column is-one-third">
-                <figure class="image is-5by3">
-                    {{ $image := .Resources.GetMatch "index.{jpg,png,webp}" }}
-                    <a href="{{ .RelPermalink }}">
-                        <img class="image is-128x128" src="{{ $image.RelPermalink }}"
-                             alt="cover image of this adventure"
-                        loading="lazy">
-                    </a>
-                </figure>
-            </div>
-            <div class="column">
-                <div class="content has-text-justified">
-                    <a href="{{ .RelPermalink }}">
-                        <p class="title is-4 is-family-sans-serif">
-                            {{ .Title }}
-                        </p>
-                        <p class="subtitle is-6 is-family-sans-serif">
-                            {{ time.Format "2006-01-02" .PublishDate }}
-                        </p>
-                    </a>
-                    {{ .Summary }}
-                    {{ if .Truncated }}
-                    <a href="{{ .RelPermalink }}">Lire plus...</a>
+    <div class="container.is-fullhd">
+        <div class="columns is-multiline">
+            {{ $pager:= .Paginate .Sections 8 }}
+            {{ range $item := $pager.Pages }}
+            <div class="column is-one-quarter">
+                <div class="card">
+                    {{ $itemCover := $item.Resources.GetMatch "index.{jpg,png,webp}" }}
+                    {{ with $itemCover }}
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="{{ $item.RelPermalink }}">
+                                <img class="image-cover" src="{{ $itemCover.RelPermalink }}" alt="{{ $item.Title }}"
+                                    loading="lazy">
+                            </a>
+                        </figure>
+                    </div>
                     {{ end }}
+                    <div class="card-content has-text-centered">
+                        <a href="{{ $item.RelPermalink }}">
+                            <p class="title is-5">{{ $item.Title }}</p>
+                        </a>
+                        <p class="subtitle is-6" style="white-space: nowrap;">{{ time.Format "2006-01-02"
+                            $item.PublishDate }}</p>
+                    </div>
                 </div>
             </div>
+            {{ end }}
         </div>
-        {{ end }}
     </div>
     {{ template "partials/pagination.html" . }}
 </div>

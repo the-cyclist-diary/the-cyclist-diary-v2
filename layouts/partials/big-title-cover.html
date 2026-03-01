@@ -1,0 +1,38 @@
+{{ $image := .image}}
+{{ $titleText := .titleText }}
+{{ $isHome := .isHome | default false }}
+{{ $image_sizes := slice "1000" "1500" "3000" }}
+
+<img class="cover-image" alt="Cover image" srcset="
+                    {{ with $image_sizes }}
+                        {{ range $index, $size := . }}
+                                {{ with $image.Resize (printf "%sx" $size) }} {{ print .RelPermalink " " $size "w, " }}
+    {{ end }} {{ end }} {{ end }}" sizes="100vw" src="{{ $image.RelPermalink }}" loading="eager" decoding="sync">
+    {{ if $isHome }}
+<h1 class="title main-title">{{ $titleText }}</h1>
+{{ else }}
+<h1 class="title section-title">{{ $titleText }}</h1>
+{{ end }}
+<script>
+    {{ if $isHome }}
+    document.addEventListener('DOMContentLoaded', function () {
+        const navbar = document.querySelector('.navbar');
+        const threshold = window.innerHeight * 0.9; // 90% de la hauteur de l'écran
+
+        // Cache la navbar initialement
+        navbar.style.transform = 'translateY(-100%)';
+        navbar.style.opacity = '0';
+        navbar.style.transition = 'transform 0.5s ease-in-out, opacity 0.5s ease-in-out';
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY >= threshold) {
+                navbar.style.transform = 'translateY(0)';
+                navbar.style.opacity = '1';
+            } else {
+                navbar.style.transform = 'translateY(-100%)';
+                navbar.style.opacity = '0';
+            }
+        });
+    });
+    {{ end }}
+</script>

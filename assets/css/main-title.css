@@ -1,11 +1,20 @@
-
 .main-title {
     position: absolute;
     bottom: 1vh;
     left: 1vw;
-    z-index: 100;
+    z-index: 10;
     font-size: 8rem;
-    color: #FFF1CA;
+    color: var(--the-cyclist-diary-yellow);
+}
+
+.section-title {
+    position: absolute;
+    top: calc(50% + 3.25rem / 2);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-size: 5rem;
+    color: var(--the-cyclist-diary-yellow);
 }
 
 @media screen and (max-width: 450px) {
@@ -13,5 +22,11 @@
         font-size: 6rem;
         bottom: 1vh;
         left: 5vw;
+    }
+    .section-title {
+        font-size: 3rem;
+        top: calc(50% + 3.25rem / 2);
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }

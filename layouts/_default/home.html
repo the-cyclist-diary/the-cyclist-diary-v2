@@ -1,21 +1,6 @@
 {{ define "main" }}
-{{ $image_sizes := slice "1000" "1500" }}
 {{ $cover := resources.Get "images/COVER.webp"}}
-        <img class="cover-image"
-             alt="Cover image of the website"
-             srcset="
-                    {{ with $image_sizes }}
-                        {{ range $index, $size := . }}
-                                {{ with $cover.Resize (print $size "x") }}
-                                    {{ print .RelPermalink " " $size "w, " }}
-                                {{ end }}
-                        {{ end }}
-                    {{ end }}"
-                    sizes="100vw"
-                    src="{{ $cover.RelPermalink }}"
-                    loading="eager"
-                    decoding="sync">
-<h1 class="title main-title">The cyclist diary</h1>
+{{ partial "big-title-cover.html" (dict "image" $cover "titleText" "The cyclist diary" "isHome" true) }}
 {{ partialCached "banner.html" . }}
 <div class="section">
     <div class="section container">
@@ -28,26 +13,5 @@
     </div>
 </div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const navbar = document.querySelector('.navbar');
-        const threshold = window.innerHeight * 0.9; // 90% de la hauteur de l'écran
-
-        // Cache la navbar initialement
-        navbar.style.transform = 'translateY(-100%)';
-        navbar.style.opacity = '0';
-        navbar.style.transition = 'transform 0.5s ease-in-out, opacity 0.5s ease-in-out';
-
-        window.addEventListener('scroll', function () {
-            if (window.scrollY >= threshold) {
-                navbar.style.transform = 'translateY(0)';
-                navbar.style.opacity = '1';
-            } else {
-                navbar.style.transform = 'translateY(-100%)';
-                navbar.style.opacity = '0';
-            }
-        });
-    });
-</script>
 
 {{ end }}
