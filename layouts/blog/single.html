@@ -11,7 +11,7 @@
     <div class="container">
         {{ $cover := .Resources.GetMatch (.Params.cover | default "cover.*") }}
         {{ with $cover }}
-        <figure class="image is-2by1 is-fullwidth blog-cover">
+        <figure class="image is-2by1 blog-cover">
             {{ with $cover.Resize "1000x q80 webp" }}
             <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy">
             {{ end }}

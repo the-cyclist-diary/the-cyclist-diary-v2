@@ -7,7 +7,7 @@
         {{ .Content }}
     </div>
 </div>
-<div class="section" id="sections">
+<div class="" id="sections">
     <div class="container">
         <div class="columns is-multiline">
             {{ $pager:= .Paginate .Sections 6 }}
@@ -37,6 +37,8 @@
             {{ end }}
         </div>
     </div>
-    {{ template "partials/pagination.html" . }}
+    <div class="section">
+        {{ template "partials/pagination.html" . }}
+    </div>
 </div>
 {{ end }}

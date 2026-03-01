@@ -5,18 +5,18 @@
 
 {{ define "main" }}
 <div class="section">
+    {{ partial "breadcrumb.html" . }}
     <div class="container">
-        {{ partial "breadcrumb.html" . }}
         <div class="content">
             <h1 class="title">Catégorie : {{ .Title }}</h1>
             <p class="subtitle">{{ len .Pages }} résultat{{ if ne (len .Pages) 1 }}s{{ end }}</p>
         </div>
-        
-        <div class="section">
-            {{ range $index, $element := .Pages }}
-                {{ partial "adventure-summary.html" (dict "context" $element "displaySection" false "index" $index) }}
-            {{ end }}
-        </div>
     </div>
+</div>
+
+<div class="container">
+    {{ range $index, $element := .Pages }}
+    {{ partial "adventure-summary.html" (dict "context" $element "displaySection" false "series" ($element.GetTerms "series") "index" $index) }}
+    {{ end }}
 </div>
 {{ end }}

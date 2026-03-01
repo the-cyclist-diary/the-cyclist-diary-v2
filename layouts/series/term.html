@@ -8,11 +8,10 @@
         </div>
     </div>
 </div>
-<div class="section">
-    <div class="container">
-        {{ range $i, $page := .Pages.ByDate }}
-        {{ partial "serie-summary.html" (dict "context" $page "index" $i "displaySection" false) }}
-        {{ end }}
-    </div>
+<div class="container">
+    {{ range $i, $page := .Pages.ByDate }}
+    {{ partial "serie-summary.html" (dict "context" $page "index" $i "displaySection" false) }}
+    {{ end }}
 </div>
+
 {{ end }}
