@@ -1,20 +1,23 @@
 {{ $image := .image}}
 {{ $titleText := .titleText }}
 {{ $isHome := .isHome | default false }}
+{{ $showTitle := .showTitle | default false }}
 {{ $image_sizes := slice "1000" "1500" "3000" }}
 
 <img class="cover-image" alt="Cover image" srcset="
                     {{ with $image_sizes }}
                         {{ range $index, $size := . }}
-                                {{ with $image.Resize (printf "%sx" $size) }} {{ print .RelPermalink " " $size "w, " }}
-    {{ end }} {{ end }} {{ end }}" sizes="100vw" src="{{ $image.RelPermalink }}" loading="eager" decoding="sync">
+                                {{ with $image.Resize (printf " %sx" $size) }} {{ print .RelPermalink " " $size "w, "
+    }} {{ end }} {{ end }} {{ end }}" sizes="100vw" src="{{ $image.RelPermalink }}" loading="eager" decoding="sync">
+{{ if $showTitle }}
     {{ if $isHome }}
-<h1 class="title main-title">{{ $titleText }}</h1>
-{{ else }}
-<h1 class="title section-title">{{ $titleText }}</h1>
+    <h1 class="title main-title">{{ $titleText }}</h1>
+    {{ else }}
+    <h1 class="title section-title">{{ $titleText }}</h1>
+    {{ end }}
 {{ end }}
+{{ if $isHome }}
 <script>
-    {{ if $isHome }}
     document.addEventListener('DOMContentLoaded', function () {
         const navbar = document.querySelector('.navbar');
         const threshold = window.innerHeight * 0.9; // 90% de la hauteur de l'écran
@@ -34,5 +37,5 @@
             }
         });
     });
-    {{ end }}
 </script>
+{{ end }}

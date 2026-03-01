@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $cover := .Resources.GetMatch "index.{jpg,png,webp}" }}
-{{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title) }}
+{{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title "showTitle" true) }}
 <div class="table-of-content-header">
     <div class="container.is-fullhd">
         {{ partial "breadcrumb.html" . }}

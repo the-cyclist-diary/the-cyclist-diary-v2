@@ -29,10 +29,6 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-.u-padding > .section {
-    margin-top: 2rem;
-}
-
 body {
     min-height: 100vh;
     display: grid;
