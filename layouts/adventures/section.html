@@ -4,14 +4,14 @@
 
 {{ define "main" }}
 {{ $cover := .Resources.GetMatch "index.{jpg,png,webp}" }}
-{{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title) }}
+{{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title "showTitle" true) }}
 <div class="section">
     <div class="container">
         <div>
             {{ partial "breadcrumb.html" . }}
             <div class="container is-max-tablet">
                 <header class="has-text-centered">
-                    <h1 class="title">{{ .Title }}</h1>
+                    <!-- <h1 class="title">{{ .Title }}</h1> -->
                     {{ $dateDebut := .Params.date_debut }}
                     {{ $dateFin := .Params.date_fin }}
                     {{ if or $dateDebut $dateFin }}

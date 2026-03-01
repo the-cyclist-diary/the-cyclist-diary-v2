@@ -13,6 +13,8 @@ Fin d'un joli weekend plein de rebondissements. Petite journée aujourd'hui car 
 attraper mon train sinon.
 Je profiterai de ce petit flottement une fois à Limoges pour aller boire une grande bière bien fraîche.
 
+<!-- more -->
+
 {{< gallery class="content-gallery" btn="6">}}
 {{< img src="pqfoLHP2.jpg" >}}
 {{< img src="bvLjqJT2.jpg" >}}
