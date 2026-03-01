@@ -3,6 +3,8 @@
 {{ $isHome := .isHome | default false }}
 {{ $showTitle := .showTitle | default false }}
 {{ $image_sizes := slice "1000" "1500" "3000" }}
+{{ $dateDebut := .date_debut }}
+{{ $dateFin := .date_fin }}
 
 <img class="cover-image" alt="Cover image" srcset="
                     {{ with $image_sizes }}
@@ -10,11 +12,19 @@
                                 {{ with $image.Resize (printf " %sx" $size) }} {{ print .RelPermalink " " $size "w, "
     }} {{ end }} {{ end }} {{ end }}" sizes="100vw" src="{{ $image.RelPermalink }}" loading="eager" decoding="sync">
 {{ if $showTitle }}
-    {{ if $isHome }}
-    <h1 class="title main-title">{{ $titleText }}</h1>
-    {{ else }}
-    <h1 class="title section-title">{{ $titleText }}</h1>
-    {{ end }}
+{{ if $isHome }}
+<h1 class="title main-title">{{ $titleText }}</h1>
+{{ else }}
+<h1 class="title section-title">{{ $titleText }}</h1>
+{{ end }}
+{{ end }}
+
+{{ if or $dateDebut $dateFin }}
+<p class="title section-dates">
+    {{ with $dateDebut }}{{ time.Format ":date_long" . }}{{ end -}}
+    {{ if and $dateDebut $dateFin }} — {{ end -}}
+    {{ with $dateFin }}{{ time.Format ":date_long" . }}{{ end }}
+</p>
 {{ end }}
 {{ if $isHome }}
 <script>

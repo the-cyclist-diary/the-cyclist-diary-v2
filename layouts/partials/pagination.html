@@ -1,14 +1,65 @@
 {{ if gt .Paginator.TotalPages 1 }}
-<nav class="is-size-5">
-    {{ with .Paginator.Next }}
-    <div class="has-text-right">
-        <a class="Pagination u-clickable" href="{{ relLangURL .URL }}" rel="prev">Suivant »</a>
-    </div>
-    {{ end }}
-    {{ with .Paginator.Prev }}
-    <div class="has-text-left">
-        <a class="Pagination Pagination--right u-clickable" href="{{ relLangURL .URL }}" rel="next">« Précédent</a>
-    </div>
-    {{ end }}
-</nav>
+<div class="container pagination-wrapper">
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+        <!-- Previous button -->
+        {{ with .Paginator.Prev }}
+        <a class="pagination-previous" href="{{ relLangURL .URL }}#sections">Précédent</a>
+        {{ end }}
+        
+        <!-- Next button -->
+        {{ with .Paginator.Next }}
+        <a class="pagination-next" href="{{ relLangURL .URL }}#sections">Suivant</a>
+        {{ end }}
+        
+        <!-- Pages list -->
+        <ul class="pagination-list">
+            {{ $current := .Paginator.PageNumber }}
+            {{ $total := .Paginator.TotalPages }}
+            {{ $window := 2 }}
+            
+            {{ range $i, $page := .Paginator.Pagers }}
+                {{ $pageNum := add $i 1 }}
+                
+                <!-- Always show first page -->
+                {{ if eq $pageNum 1 }}
+                    <li>
+                        {{ if eq $pageNum $current }}
+                        <a class="pagination-link is-current" aria-label="Page {{ $pageNum }}" aria-current="page">{{ $pageNum }}</a>
+                        {{ else }}
+                        <a class="pagination-link" href="{{ relLangURL $page.URL }}#sections" aria-label="Goto page {{ $pageNum }}">{{ $pageNum }}</a>
+                        {{ end }}
+                    </li>
+                <!-- Show ellipsis if gap after first page -->
+                {{ else if and (gt $pageNum 2) (lt $pageNum (sub $current $window)) }}
+                    {{ if eq $pageNum 2 }}
+                    <li><span class="pagination-ellipsis">&hellip;</span></li>
+                    {{ end }}
+                <!-- Show pages in window around current -->
+                {{ else if and (ge $pageNum (sub $current $window)) (le $pageNum (add $current $window)) }}
+                    <li>
+                        {{ if eq $pageNum $current }}
+                        <a class="pagination-link is-current" aria-label="Page {{ $pageNum }}" aria-current="page">{{ $pageNum }}</a>
+                        {{ else }}
+                        <a class="pagination-link" href="{{ relLangURL $page.URL }}#sections" aria-label="Goto page {{ $pageNum }}">{{ $pageNum }}</a>
+                        {{ end }}
+                    </li>
+                <!-- Show ellipsis if gap before last page -->
+                {{ else if and (gt $pageNum (add $current $window)) (lt $pageNum (sub $total 1)) }}
+                    {{ if eq $pageNum (add (add $current $window) 1) }}
+                    <li><span class="pagination-ellipsis">&hellip;</span></li>
+                    {{ end }}
+                <!-- Always show last page -->
+                {{ else if eq $pageNum $total }}
+                    <li>
+                        {{ if eq $pageNum $current }}
+                        <a class="pagination-link is-current" aria-label="Page {{ $pageNum }}" aria-current="page">{{ $pageNum }}</a>
+                        {{ else }}
+                        <a class="pagination-link" href="{{ relLangURL $page.URL }}#sections" aria-label="Goto page {{ $pageNum }}">{{ $pageNum }}</a>
+                        {{ end }}
+                    </li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </nav>
+</div>
 {{ end }}

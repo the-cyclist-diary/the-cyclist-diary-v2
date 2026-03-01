@@ -1,12 +1,15 @@
 {{ define "load_paginator" }}
 {{ partial "map-assets.html" . }}
 {{ end }}
-
 {{ define "main" }}
 <div class="section">
+    {{ partial "breadcrumb.html" . }}
+    <div class="table-of-content-header">
+        <div class="container is-size-5">
+            {{ partial "heading.html" . }}
+        </div>
+    </div>
     <div class="container">
-        {{ partial "breadcrumb.html" . }}
-        {{ partial "heading.html" . }}
         <div class="adventure-gps-display">
             {{ partial "gps-display.html" . }}
         </div>

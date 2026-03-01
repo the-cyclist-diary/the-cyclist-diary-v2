@@ -1,6 +1,6 @@
 
 .footer {
-    --bulma-footer-background-color: rgba(112, 138, 88, 0.34) !important;
+    --bulma-footer-background-color: var(--the-cyclist-diary-light-green) !important;
     max-height: 10%;
     align-self: end;
 }

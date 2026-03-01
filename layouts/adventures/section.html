@@ -4,23 +4,13 @@
 
 {{ define "main" }}
 {{ $cover := .Resources.GetMatch "index.{jpg,png,webp}" }}
-{{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title "showTitle" true) }}
+{{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title "showTitle" true "date_debut" .Params.date_debut "date_fin" .Params.date_fin ) }}
 <div class="section">
+    {{ partial "breadcrumb.html" . }}
     <div class="container">
         <div>
-            {{ partial "breadcrumb.html" . }}
             <div class="container is-max-tablet">
                 <header class="has-text-centered">
-                    <!-- <h1 class="title">{{ .Title }}</h1> -->
-                    {{ $dateDebut := .Params.date_debut }}
-                    {{ $dateFin := .Params.date_fin }}
-                    {{ if or $dateDebut $dateFin }}
-                    <p class="subtitle is-6">
-                        {{ with $dateDebut }}{{ time.Format ":date_long" . }}{{ end -}}
-                        {{ if and $dateDebut $dateFin }} — {{ end -}}
-                        {{ with $dateFin }}{{ time.Format ":date_long" . }}{{ end }}
-                    </p>
-                    {{ end }}
                     {{ with .Params.categories }}
                     <span class="categories">
                         {{ range . }}
@@ -43,9 +33,13 @@
         </div>
         <div class="section">
             {{ template "partials/pagination.html" . }}
+        </div>
+        <div class="section" id="sections">
             {{ range $index, $element := .Paginator.Pages }}
             {{ partial "adventure-summary.html" (dict "context" $element "displaySection" true "index" $index) }}
             {{ end }}
+        </div>
+        <div class="section">
             {{ template "partials/pagination.html" . }}
         </div>
     </div>

@@ -1,20 +1,16 @@
 {{ define "main" }}
 {{ $cover := .Resources.GetMatch "index.{jpg,png,webp}" }}
 {{ partial "big-title-cover.html" (dict "image" $cover "titleText" .Title "showTitle" true) }}
-<div class="table-of-content-header">
-    <div class="container.is-fullhd">
-        {{ partial "breadcrumb.html" . }}
-        <div class="container is-max-tablet is-size-5">
-            {{ .Content }}
-        </div>
-    </div>
+{{ partial "breadcrumb.html" . }}
+<div class="container is-max-tablet is-size-5">
+    {{ .Content }}
 </div>
-<div class="section">
-    <div class="container.is-fullhd">
+<div class="section" id="sections">
+    <div class="container">
         <div class="columns is-multiline">
-            {{ $pager:= .Paginate .Sections 8 }}
+            {{ $pager:= .Paginate .Sections 6 }}
             {{ range $item := $pager.Pages }}
-            <div class="column is-one-quarter">
+            <div class="column is-one-third">
                 <div class="card">
                     {{ $itemCover := $item.Resources.GetMatch "index.{jpg,png,webp}" }}
                     {{ with $itemCover }}

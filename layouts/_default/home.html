@@ -3,7 +3,7 @@
 {{ partial "big-title-cover.html" (dict "image" $cover "titleText" "The cyclist diary" "isHome" true "showTitle" true) }}
 {{ partialCached "banner.html" . }}
 <div class="section">
-    <div class="container.is-fullhd">
+    <div class="container">
         {{ range $index, $element := .Paginator.Pages.Limit 5 }}
         {{ partial "adventure-summary.html" (dict "context" $element "displaySection" true "index" $index) }}
         {{ end }}

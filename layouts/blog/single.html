@@ -1,11 +1,14 @@
 {{ define "main" }}
 <div class="section">
-    <div class="container">
-        {{ partial "breadcrumb.html" . }}
+    {{ partial "breadcrumb.html" . }}
+    <div class="container is-size-5">
         {{ partial "blog-heading.html" . }}
         <div class="has-text-centered series-badge-wrapper">
             {{ partial "series-badge.html" . }}
+            {{ partial "categories-badge.html" . }}
         </div>
+    </div>
+    <div class="container">
         {{ $cover := .Resources.GetMatch (.Params.cover | default "cover.*") }}
         {{ with $cover }}
         <figure class="image is-2by1 is-fullwidth blog-cover">
@@ -16,21 +19,20 @@
         </br>
         {{ end }}
         <div class="container is-max-desktop">
-            {{ if and .TableOfContents (strings.Contains .TableOfContents "<a") }}
-            <div class="blog-toc">
+            {{ if and .TableOfContents (strings.Contains .TableOfContents "<a") }} <div class="blog-toc">
                 {{ partial "toc.html" . }}
-            </div>
-            {{ end }}
-            <div class="blog-article-content has-text-justified is-size-5">
-                {{ .Content }}
-            </div>
         </div>
-        <div class="container">
-            {{ partial "article-navigation.html" . }}
+        {{ end }}
+        <div class="blog-article-content has-text-justified is-size-5">
+            {{ .Content }}
         </div>
     </div>
     <div class="container">
-        {{ partial "comments.html" . }}
+        {{ partial "article-navigation.html" . }}
     </div>
+</div>
+<div class="container">
+    {{ partial "comments.html" . }}
+</div>
 </div>
 {{ end }}
