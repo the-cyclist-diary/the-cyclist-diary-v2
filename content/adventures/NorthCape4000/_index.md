@@ -1,13 +1,10 @@
 +++
-
 title = "NorthCape4000"
-
 draft = "false"
-
-
-
 date = "2023-07-21 08:00:00"
 categories = ["vélo"]
+date_debut=2023-07-19
+date_fin=2023-08-08
 +++
 
 2023 sera l'année de la NorthCape4000. Une aventure qui m'envoie sillonner les routes d'Italie, de Suisse, de France, de Belgique, d'Allemagne, du Danemark, de Suède et évidemment de Norvège, point final de ce parcours hors-norme de 4 000 km.
