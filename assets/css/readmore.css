@@ -1,0 +1,5 @@
+.button.readmore {
+    background-color: var(--the-cyclist-diary-green);
+    color: var(--the-cyclist-diary-yellow);
+    margin-top: 0.5rem;
+}

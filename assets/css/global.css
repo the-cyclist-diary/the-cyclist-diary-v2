@@ -22,6 +22,10 @@ a {
     color: var(--bulma-link-text);
 }
 
+.home-links a {
+    color: var(--the-cyclist-diary-green);
+}
+
 a:hover {
     text-decoration: underline;
 }

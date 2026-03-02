@@ -38,9 +38,7 @@
                 {{ partial "categories-badge.html" .context }}
                 <div class="mt-3">
                     {{ .context.Summary }}
-                    {{ if .context.Truncated }}
-                    <a href="{{ .context.RelPermalink }}">Lire plus...</a>
-                    {{ end }}
+                    {{ partial "lire-plus.html" .context }}
                 </div>
             </div>
         </div>
