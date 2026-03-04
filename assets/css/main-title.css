@@ -1,4 +1,4 @@
-.main-title {
+h1.main-title {
     position: absolute;
     bottom: 1vh;
     left: 1vw;
@@ -8,7 +8,7 @@
     word-break: auto-phrase;
 }
 
-.section-title {
+h1.section-title {
     position: absolute;
     top: calc(50% + 3.25rem / 2);
     left: 50%;
@@ -20,7 +20,7 @@
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
-.section-dates {
+p.section-dates {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -33,20 +33,20 @@
 }
 
 @media screen and (max-width: 450px) {
-    .main-title {
+    h1.main-title {
         font-size: 6rem;
         bottom: 1vh;
         left: 5vw;
     }
 
-    .section-title {
+    h1.section-title {
         font-size: 12vmin;
         top: calc(50% + 3.25rem / 2);
         left: 50%;
         transform: translate(-50%, -50%);
         text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
     }
-    .section-dates {
+    p.section-dates {
         font-size: 1.5rem;
         bottom: 1vh;
         left: 50%;    
