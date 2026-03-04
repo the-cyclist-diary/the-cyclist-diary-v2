@@ -1,0 +1,10 @@
+{{/* Lightbox – vanilla JS gallery viewer */}}
+{{ $lightboxJs := resources.Get "js/lightbox.js" }}
+{{ if $lightboxJs }}
+  {{ if hugo.IsProduction }}
+    {{ $lightboxJs = $lightboxJs | minify | fingerprint }}
+    <script defer src="{{ $lightboxJs.RelPermalink }}" integrity="{{ $lightboxJs.Data.Integrity }}" crossorigin="anonymous"></script>
+  {{ else }}
+    <script defer src="{{ $lightboxJs.RelPermalink }}"></script>
+  {{ end }}
+{{ end }}
