@@ -24,7 +24,8 @@ p,
 span,
 li,
 a,
-ul {
+ul,
+.toc-summary {
     font-family: custom-serif, serif;
 }
 
