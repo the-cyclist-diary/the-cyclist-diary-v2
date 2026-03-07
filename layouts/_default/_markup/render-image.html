@@ -1,62 +1,98 @@
-{{- $image_sizes := slice "789" "1430" -}}
-{{- $image_quality := "Lanczos" -}}
-{{- $alt := .Text -}}
-{{- $label := .Text -}}
-{{- $caption := "" -}}
+{{- $image_sizes    := slice 200 400 600 800 1200 1920 -}}
+{{- $image_quality  := "Lanczos" -}}
+{{- $alt            := .Text -}}
+{{- $label          := .Text -}}
+{{- $caption        := "" -}}
 {{- if ne .Title "" -}}
     {{- $caption = .Title | $.Page.RenderString -}}
     {{- $label = $caption -}}
 {{- end -}}
-{{- $image := .Page.Resources.GetMatch .Destination -}}
+{{- $src   := .Destination -}}
+{{- $image := .Page.Resources.GetMatch $src -}}
 {{- if and (not $image) .Page.File -}}
-    {{- $image = resources.Get (path.Join .Page.File.Dir .Destination) -}}
+    {{- $image = resources.Get (path.Join .Page.File.Dir $src) -}}
 {{- end -}}
-{{- $href := .Destination | safeURL -}}
+{{- $href := $src | safeURL -}}
 {{- with $image -}}{{- $href = .RelPermalink -}}{{- end -}}
-{{- with $image -}}
-    {{- $image_width := $image.Width -}}
+
+{{- $webp_server_url := os.Getenv "HUGO_WEBPSERVER_URL" -}}
+
+{{- if $webp_server_url -}}
+
+  {{/* ============================================================
+       Mode serveur WebP distant
+       ============================================================ */}}
+
+  {{- $basename    := path.Base $src -}}
+  {{- $without_ext := strings.TrimSuffix (path.Ext $basename) $basename -}}
+  {{- $sanitized   := replaceRE "[^a-z0-9-.]" "-" (strings.ToLower $without_ext) -}}
+  {{- $remote_file := printf "%s.webp" $sanitized -}}
+  {{- $base_url    := printf "%s/%s" (strings.TrimRight "/" $webp_server_url) $remote_file -}}
+
+  {{- $image_width  := 0 -}}
+  {{- $image_height := 0 -}}
+  {{- with $image -}}
+    {{- $image_width  = $image.Width -}}
+    {{- $image_height = $image.Height -}}
+    {{- if strings.Contains $src "_2x" -}}
+      {{- $image_width  = math.Floor (math.Div $image_width  2) -}}
+      {{- $image_height = math.Floor (math.Div $image_height 2) -}}
+    {{- end -}}
+  {{- end -}}
+
+  <figure class="article-image lightbox-trigger" data-lightbox-src="{{ $base_url }}" role="figure" aria-label="{{- $label | plainify -}}">
+    <img
+      alt="{{- $caption | markdownify | plainify -}}"
+      title="{{- $label | plainify -}}"
+      {{ with $image_width }}width="{{ . }}"{{ end }}
+      {{ with $image_height }}height="{{ . }}"{{ end }}
+      srcset="
+        {{- range $image_sizes -}}
+          {{- printf "%s?w=%d %dw, " $base_url . . -}}
+        {{- end -}}"
+      sizes="(min-width: 1200px) 20vw, (min-width: 768px) calc(100vw - 3rem), calc(100vw - 3rem)"
+      src="{{ printf "%s?w=1000" $base_url }}"
+      {{- if strings.Contains $src "featured" }}
+      loading="eager"
+      decoding="sync"
+      {{- else }}
+      loading="lazy"
+      decoding="async"
+      {{- end }}
+    />
+    <figcaption>{{- $caption -}}</figcaption>
+  </figure>
+
+{{- else -}}
+
+  {{/* ============================================================
+       Fallback : traitement local Hugo
+       ============================================================ */}}
+
+  {{- with $image -}}
+    {{- $image_width  := $image.Width -}}
     {{- $image_height := $image.Height -}}
-    {{- if strings.Contains $image "_2x" -}}
-        {{- $image_width = math.Floor (math.Div $image_width 2) -}}
+    {{- if strings.Contains $src "_2x" -}}
+        {{- $image_width  = math.Floor (math.Div $image_width 2) -}}
         {{- $image_height = math.Floor (math.Div $image_height 2) -}}
     {{- end -}}
-    {{- $fallback_image := ($image.Resize (print "789x jpg " $image_quality)) -}}
     <figure class="article-image lightbox-trigger" data-lightbox-src="{{ $href }}" role="figure" aria-label="{{- $label | plainify -}}">
         <img
                 alt="{{- $caption | markdownify | plainify -}}"
                 title="{{- $label | plainify -}}"
                 width="{{- $image_width -}}"
                 height="{{- $image_height -}}"
+                src="{{- $image.RelPermalink -}}"
+                {{- if strings.Contains $src "featured" }}
+                loading="eager"
+                decoding="sync"
+                {{- else }}
                 loading="lazy"
-                {{- if (or (strings.HasSuffix $image ".gif") (strings.HasSuffix $image ".svg")) -}}
-                    src="{{- $image.RelPermalink -}}"
-                {{- else -}}
-                    srcset="
-                    {{- if le $image.Width (index $image_sizes 0) }}
-                        {{- with $image.Resize (print $image.Width "x webp " $image_quality) -}}
-                        {{- print .RelPermalink " " .Width "w, " -}}
-                    {{- end -}}
-                {{- end -}}
-                    {{- with $image_sizes -}}
-                        {{- range $index, $size := . -}}
-                            {{- if ge $image.Width $size -}}
-                                {{- with $image.Resize (print $size "x webp " $image_quality) -}}
-                                {{- print .RelPermalink " " $size "w, " -}}
-                            {{- end -}}
-                        {{- end -}}
-                    {{- end -}}
-                    {{- end -}}"
-                    sizes="100vw"
-                    src="{{- $fallback_image.RelPermalink -}}"
-                    {{- end -}}
-                    {{- if strings.Contains $image "featured" -}}
-                        loading="eager"
-                        decoding="sync"
-                    {{- else -}}
-                        decoding="async"
-                        loading="lazy"
-                    {{- end -}}
+                decoding="async"
+                {{- end }}
         />
         <figcaption>{{- $caption -}}</figcaption>
     </figure>
+  {{- end -}}
+
 {{- end -}}

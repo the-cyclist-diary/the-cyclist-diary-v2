@@ -49,3 +49,59 @@ Aujourd’hui, superbe étape entre Nantes et Rennes sous le soleil !
 - Voir le workflow de génération : [`generate-articles.yml`](.github/workflows/generate-articles.yml)
 
 ---
+## Upload des images vers le serveur WebP
+
+Les images du dossier `content/` doivent être uploadées manuellement sur le serveur WebP avant le build.  
+Hugo les servira ensuite depuis ce serveur (si `HUGO_WEBPSERVER_URL` est défini) plutôt que de les traiter localement.
+
+### Prérequis
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows : .venv\Scripts\activate
+pip install requests
+```
+
+### Utilisation
+
+```bash
+# Upload vers le serveur local (défaut)
+python upload_images.py
+
+# Avec une clef d'API
+WEBPSERVER_API_KEY=my-secret python upload_images.py
+
+# Vers un serveur distant, avec plus de parallélisme
+python upload_images.py --server https://images.example.com --workers 8
+
+# Simuler sans rien envoyer
+python upload_images.py --dry-run
+```
+
+La variable d'environnement `HUGO_WEBPSERVER_URL` est également lue comme URL de serveur par défaut si `--server` n'est pas précisé.
+
+### Ce que fait le script
+
+- Parcourt récursivement `content/` et collecte tous les fichiers `.jpg/.jpeg/.png/.gif/.webp`
+- Envoie chaque fichier en multipart `POST /` sur le serveur
+- Affiche `✓` (uploadé), `=` (déjà présent sur le serveur), ou `✗` (erreur) pour chaque fichier
+- Sort avec le code 1 si au moins une erreur s'est produite
+
+### Variables d'environnement
+
+| Variable | Rôle |
+|---|---|
+| `HUGO_WEBPSERVER_URL` | URL de base du serveur (ex. `http://localhost:8080`) |
+| `WEBPSERVER_API_KEY` | Clef d'API Bearer pour l'authentification (optionnel si le serveur est public) |
+
+### Build Hugo avec le serveur WebP
+
+Définir `HUGO_WEBPSERVER_URL` au moment du build pour que Hugo construise les URLs d'images pointant vers le serveur :
+
+```bash
+HUGO_WEBPSERVER_URL=https://images.example.com hugo build
+```
+
+Sans cette variable, Hugo génère les images localement (comportement par défaut, pratique pour le développement).
+
+---
