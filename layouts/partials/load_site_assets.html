@@ -1,5 +1,14 @@
-{{ $cssTemplate := resources.Match "css/*.css"}}
-{{ range $k, $v := $cssTemplate }}
-    {{ $style := $v | resources.ExecuteAsTemplate $v . | css.Sass }}
-    {{ $.Page.Scratch.SetInMap "css" (string $k) $style}}
+{{/* CSS bundle : vendor (bulma, glide) en premier, puis CSS locaux */}}
+{{ $bulma     := resources.Get "css/vendor/bulma.min.css" }}
+{{ $glideCore := resources.Get "css/vendor/glide.core.min.css" }}
+{{ $glideTheme := resources.Get "css/vendor/glide.theme.min.css" }}
+
+{{/* Construire la liste : vendor d'abord, local ensuite (ordre alpha) */}}
+{{ $parts := slice $bulma $glideCore $glideTheme }}
+{{ range resources.Match "css/*.css" }}
+  {{ $parts = $parts | append . }}
 {{ end }}
+
+{{/* Concaténer en un seul fichier */}}
+{{ $bundle := $parts | resources.Concat "css/bundle.css" }}
+{{ $.Page.Scratch.SetInMap "css" "0-bundle" $bundle }}
