@@ -26,12 +26,6 @@
   {{ template "_internal/schema.html" . }}
 {{ end }}
 
-{{ if site.Params.opengraph }}
-  {{ template "_internal/opengraph.html" . }}
-{{ end }}
-
-{{ if site.Params.twittercards }}
-  {{ template "_internal/twitter_cards.html" . }}
-{{ end }}
+{{ partial "og.html" . }}
 
 {{ hugo.Generator }}

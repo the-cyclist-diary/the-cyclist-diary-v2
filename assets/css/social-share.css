@@ -1,0 +1,85 @@
+/* ─────────────────────────────────────────────
+   Couleurs réseau sociaux
+   ───────────────────────────────────────────── */
+:root {
+  --social-facebook:  #1877F2;
+  --social-whatsapp:  #25D366;
+  /* Le bouton "Partager" (Web Share API) reprend la couleur verte du site */
+  --social-share:     var(--the-cyclist-diary-green);
+}
+
+/* ─────────────────────────────────────────────
+   Barre de partage
+   ───────────────────────────────────────────── */
+.social-share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 1rem 0;
+  /*margin: 1.5rem 0;
+  border-top: 1px solid var(--the-cyclist-diary-light-green);
+  border-bottom: 1px solid var(--the-cyclist-diary-light-green);*/
+}
+
+.social-share-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--bulma-link-text);
+  opacity: 0.7;
+}
+
+.social-share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+/* ─────────────────────────────────────────────
+   Bouton générique
+   ───────────────────────────────────────────── */
+.social-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+
+.social-share-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-share-btn:active {
+  transform: translateY(0);
+}
+
+/* ─────────────────────────────────────────────
+   Variantes par réseau
+   ───────────────────────────────────────────── */
+.social-share-btn--facebook {
+  background-color: var(--social-facebook);
+}
+
+.social-share-btn--whatsapp {
+  background-color: var(--social-whatsapp);
+}
+
+.social-share-btn--share {
+  background-color: var(--social-share);
+}

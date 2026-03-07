@@ -1,0 +1,65 @@
+{{/*
+  og.html — Open Graph + Twitter Card meta tags
+  Résolution de l'image de couverture :
+    1. Blog : champ `cover` du front matter (page bundle)
+    2. Aventure (single) : image `index.*` du bundle de la série parente
+    3. Aucune image : les balises og:image ne sont pas émises
+*/}}
+
+{{- $image := "" -}}
+
+{{/* 1. Image de couverture blog */}}
+{{- with .Resources.GetMatch (.Params.cover | default "cover.*") -}}
+  {{- with .Fill "1200x630 Center q85" -}}
+    {{- $image = .Permalink -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* 2. Image de la série parente (aventures) */}}
+{{- if not $image -}}
+  {{- with .Parent -}}
+    {{- with .Resources.GetMatch "index.*" -}}
+      {{- with .Fill "1200x630 Center q85" -}}
+        {{- $image = .Permalink -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $locale := site.Language.LanguageCode | default "fr-FR" | replace "-" "_" -}}
+{{- $desc := "" -}}
+{{- if .Description -}}
+  {{- $desc = .Description -}}
+{{- else if .IsPage -}}
+  {{- $desc = .Summary -}}
+{{- end -}}
+
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="{{ $locale }}">
+{{- with $desc }}
+<meta property="og:description" content="{{ . | plainify | htmlEscape }}">
+{{- end }}
+{{- with $image }}
+<meta property="og:image" content="{{ . }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{{- end }}
+{{- if .IsPage }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+{{- range .Params.categories }}
+<meta property="article:tag" content="{{ . }}">
+{{- end }}
+{{- end }}
+
+{{/* Twitter Card */}}
+<meta name="twitter:card" content="{{ if $image }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:title" content="{{ .Title }}">
+{{- with $desc }}
+<meta name="twitter:description" content="{{ . | plainify | htmlEscape }}">
+{{- end }}
+{{- with $image }}
+<meta name="twitter:image" content="{{ . }}">
+{{- end }}
