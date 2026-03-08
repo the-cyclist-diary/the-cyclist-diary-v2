@@ -4,62 +4,57 @@
   {{- $image = resources.Get (path.Join .Page.File.Dir $src) -}}
 {{- end -}}
 
-{{- $webp_server_url := os.Getenv "HUGO_WEBPSERVER_URL" -}}
-{{- $image_sizes     := slice 200 400 600 800 1200 1920 -}}
+{{- $image_sizes := slice 200 400 600 800 1200 1920 -}}
 
-{{- if $webp_server_url -}}
+{{- if hugo.IsProduction -}}
 
   {{/* ============================================================
-       Mode serveur WebP distant
-       Le nom du fichier distant est dérivé du src selon les règles
-       de sanitisation du serveur : basename sans extension,
-       en minuscules, caractères hors [a-z0-9-.] remplacés par "-",
-       puis extension .webp
+       Mode production : conversion WebP et redimensionnement local
+       via le pipeline d'images Hugo
        ============================================================ */}}
 
-  {{- $basename      := path.Base $src -}}
-  {{- $without_ext   := strings.TrimSuffix (path.Ext $basename) $basename -}}
-  {{- $sanitized     := replaceRE "[^a-z0-9-.]" "-" (strings.ToLower $without_ext) -}}
-  {{- $remote_file   := printf "%s.webp" $sanitized -}}
-  {{- $base_url      := printf "%s/%s" (strings.TrimRight "/" $webp_server_url) $remote_file -}}
-
-  {{- $image_width  := 0 -}}
-  {{- $image_height := 0 -}}
   {{- with $image -}}
-    {{- $image_width  = $image.Width -}}
-    {{- $image_height = $image.Height -}}
+    {{- $image_width  := $image.Width -}}
+    {{- $image_height := $image.Height -}}
     {{- if strings.Contains $src "_2x" -}}
       {{- $image_width  = math.Floor (math.Div $image_width  2) -}}
       {{- $image_height = math.Floor (math.Div $image_height 2) -}}
     {{- end -}}
-  {{- end -}}
 
-  <a class="column is-half lightbox-trigger" href="{{ $base_url }}" target="_blank" rel="noopener">
-    <img
-      alt="An image of this adventure"
-      {{ with $image_width }}width="{{ . }}"{{ end }}
-      {{ with $image_height }}height="{{ . }}"{{ end }}
-      srcset="
-        {{- range $image_sizes -}}
-          {{- printf "%s?w=%d %dw, " $base_url . . -}}
-        {{- end -}}"
-      sizes="(min-width: 1200px) 20vw, 50vw"
-      src="{{ printf "%s?w=1000" $base_url }}"
-      {{- if strings.Contains $src "featured" }}
-      loading="eager"
-      decoding="sync"
-      {{- else }}
-      loading="lazy"
-      decoding="async"
-      {{- end }}
-    />
-  </a>
+    {{- $srcset_parts := slice -}}
+    {{- range $image_sizes -}}
+      {{- if le . $image.Width -}}
+        {{- $resized := $image.Resize (printf "%dx webp" .) -}}
+        {{- $srcset_parts = $srcset_parts | append (printf "%s %dw" $resized.RelPermalink .) -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- $fallback  := $image.Resize "1000x webp" -}}
+    {{- $lightbox  := $image.Process "webp" -}}
+
+    <a class="column is-half lightbox-trigger" href="{{ $lightbox.RelPermalink }}" target="_blank" rel="noopener">
+      <img
+        alt="An image of this adventure"
+        width="{{ $image_width }}"
+        height="{{ $image_height }}"
+        srcset="{{ delimit $srcset_parts ", " }}"
+        sizes="(min-width: 1200px) 20vw, 50vw"
+        src="{{ $fallback.RelPermalink }}"
+        {{- if strings.Contains $src "featured" }}
+        loading="eager"
+        decoding="sync"
+        {{- else }}
+        loading="lazy"
+        decoding="async"
+        {{- end }}
+      />
+    </a>
+  {{- end -}}
 
 {{- else -}}
 
   {{/* ============================================================
-       Fallback : traitement local Hugo
-       Utilisé quand HUGO_WEBPSERVER_URL n'est pas défini (dev local)
+       Mode développement : images telles quelles, sans traitement
        ============================================================ */}}
 
   {{- with $image -}}

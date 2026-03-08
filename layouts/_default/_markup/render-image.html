@@ -15,83 +15,82 @@
 {{- $href := $src | safeURL -}}
 {{- with $image -}}{{- $href = .RelPermalink -}}{{- end -}}
 
-{{- $webp_server_url := os.Getenv "HUGO_WEBPSERVER_URL" -}}
-
-{{- if $webp_server_url -}}
+{{- if hugo.IsProduction -}}
 
   {{/* ============================================================
-       Mode serveur WebP distant
-       ============================================================ */}}
-
-  {{- $basename    := path.Base $src -}}
-  {{- $without_ext := strings.TrimSuffix (path.Ext $basename) $basename -}}
-  {{- $sanitized   := replaceRE "[^a-z0-9-.]" "-" (strings.ToLower $without_ext) -}}
-  {{- $remote_file := printf "%s.webp" $sanitized -}}
-  {{- $base_url    := printf "%s/%s" (strings.TrimRight "/" $webp_server_url) $remote_file -}}
-
-  {{- $image_width  := 0 -}}
-  {{- $image_height := 0 -}}
-  {{- with $image -}}
-    {{- $image_width  = $image.Width -}}
-    {{- $image_height = $image.Height -}}
-    {{- if strings.Contains $src "_2x" -}}
-      {{- $image_width  = math.Floor (math.Div $image_width  2) -}}
-      {{- $image_height = math.Floor (math.Div $image_height 2) -}}
-    {{- end -}}
-  {{- end -}}
-
-  <figure class="article-image lightbox-trigger" data-lightbox-src="{{ $base_url }}" role="figure" aria-label="{{- $label | plainify -}}">
-    <img
-      alt="{{- $caption | markdownify | plainify -}}"
-      title="{{- $label | plainify -}}"
-      {{ with $image_width }}width="{{ . }}"{{ end }}
-      {{ with $image_height }}height="{{ . }}"{{ end }}
-      srcset="
-        {{- range $image_sizes -}}
-          {{- printf "%s?w=%d %dw, " $base_url . . -}}
-        {{- end -}}"
-      sizes="(min-width: 1200px) 20vw, (min-width: 768px) calc(100vw - 3rem), calc(100vw - 3rem)"
-      src="{{ printf "%s?w=1000" $base_url }}"
-      {{- if strings.Contains $src "featured" }}
-      loading="eager"
-      decoding="sync"
-      {{- else }}
-      loading="lazy"
-      decoding="async"
-      {{- end }}
-    />
-    <figcaption>{{- $caption -}}</figcaption>
-  </figure>
-
-{{- else -}}
-
-  {{/* ============================================================
-       Fallback : traitement local Hugo
+       Mode production : conversion WebP et redimensionnement local
+       via le pipeline d'images Hugo
        ============================================================ */}}
 
   {{- with $image -}}
     {{- $image_width  := $image.Width -}}
     {{- $image_height := $image.Height -}}
     {{- if strings.Contains $src "_2x" -}}
-        {{- $image_width  = math.Floor (math.Div $image_width 2) -}}
-        {{- $image_height = math.Floor (math.Div $image_height 2) -}}
+      {{- $image_width  = math.Floor (math.Div $image_width  2) -}}
+      {{- $image_height = math.Floor (math.Div $image_height 2) -}}
+    {{- end -}}
+
+    {{- $srcset_parts := slice -}}
+    {{- range $image_sizes -}}
+      {{- if le . $image.Width -}}
+        {{- $resized := $image.Resize (printf "%dx webp" .) -}}
+        {{- $srcset_parts = $srcset_parts | append (printf "%s %dw" $resized.RelPermalink .) -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- $fallback := $image.Resize "1000x webp" -}}
+    {{- $lightbox := $image.Process "webp" -}}
+
+    <figure class="article-image lightbox-trigger" data-lightbox-src="{{ $lightbox.RelPermalink }}" role="figure" aria-label="{{- $label | plainify -}}">
+      <img
+        alt="{{- $caption | markdownify | plainify -}}"
+        title="{{- $label | plainify -}}"
+        width="{{ $image_width }}"
+        height="{{ $image_height }}"
+        srcset="{{ delimit $srcset_parts ", " }}"
+        sizes="(min-width: 1200px) 20vw, (min-width: 768px) calc(100vw - 3rem), calc(100vw - 3rem)"
+        src="{{ $fallback.RelPermalink }}"
+        {{- if strings.Contains $src "featured" }}
+        loading="eager"
+        decoding="sync"
+        {{- else }}
+        loading="lazy"
+        decoding="async"
+        {{- end }}
+      />
+      <figcaption>{{- $caption -}}</figcaption>
+    </figure>
+  {{- end -}}
+
+{{- else -}}
+
+  {{/* ============================================================
+       Mode développement : images telles quelles, sans traitement
+       ============================================================ */}}
+
+  {{- with $image -}}
+    {{- $image_width  := $image.Width -}}
+    {{- $image_height := $image.Height -}}
+    {{- if strings.Contains $src "_2x" -}}
+      {{- $image_width  = math.Floor (math.Div $image_width 2) -}}
+      {{- $image_height = math.Floor (math.Div $image_height 2) -}}
     {{- end -}}
     <figure class="article-image lightbox-trigger" data-lightbox-src="{{ $href }}" role="figure" aria-label="{{- $label | plainify -}}">
-        <img
-                alt="{{- $caption | markdownify | plainify -}}"
-                title="{{- $label | plainify -}}"
-                width="{{- $image_width -}}"
-                height="{{- $image_height -}}"
-                src="{{- $image.RelPermalink -}}"
-                {{- if strings.Contains $src "featured" }}
-                loading="eager"
-                decoding="sync"
-                {{- else }}
-                loading="lazy"
-                decoding="async"
-                {{- end }}
-        />
-        <figcaption>{{- $caption -}}</figcaption>
+      <img
+        alt="{{- $caption | markdownify | plainify -}}"
+        title="{{- $label | plainify -}}"
+        width="{{- $image_width -}}"
+        height="{{- $image_height -}}"
+        src="{{- $image.RelPermalink -}}"
+        {{- if strings.Contains $src "featured" }}
+        loading="eager"
+        decoding="sync"
+        {{- else }}
+        loading="lazy"
+        decoding="async"
+        {{- end }}
+      />
+      <figcaption>{{- $caption -}}</figcaption>
     </figure>
   {{- end -}}
 
