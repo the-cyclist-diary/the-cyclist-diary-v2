@@ -15,3 +15,6 @@ jobs:
           action: "Generate article"
           github-token: ${{ secrets.PAT }}
           github-username: ibethus
+          webp-server-url: ${{ vars.HUGO_WEBPSERVER_URL }}
+          webp-server-api-key: ${{ secrets.WEBPSERVER_API_KEY }}
+
