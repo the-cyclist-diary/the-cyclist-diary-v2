@@ -3,3 +3,4 @@ public/*
 *.lock
 resources/*
 .venv
+.env
