@@ -16,10 +16,11 @@
                 <div class="card">
                     {{ $itemCover := $item.Resources.GetMatch "index.{jpg,png,webp}" }}
                     {{ with $itemCover }}
+                    {{ $thumb := .Resize "500x webp" }}
                     <div class="card-image">
                         <figure class="image is-4by3">
                             <a href="{{ $item.RelPermalink }}">
-                                <img class="image-cover" src="{{ $itemCover.RelPermalink }}" alt="{{ $item.Title }}"
+                                <img class="image-cover" src="{{ $thumb.RelPermalink }}" alt="{{ $item.Title }}"
                                     loading="lazy">
                             </a>
                         </figure>

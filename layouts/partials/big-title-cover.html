@@ -2,14 +2,14 @@
 {{ $titleText := .titleText }}
 {{ $isHome := .isHome | default false }}
 {{ $showTitle := .showTitle | default false }}
-{{ $image_sizes := slice "1000" "1500" "3000" }}
+{{ $image_sizes := slice "1000" "1500" "3000" "3840" }}
 {{ $dateDebut := .date_debut }}
 {{ $dateFin := .date_fin }}
 
 <img class="cover-image" alt="Cover image" srcset="
                     {{ with $image_sizes }}
                         {{ range $index, $size := . }}
-                                {{ with $image.Resize (printf " %sx" $size) }} {{ print .RelPermalink " " $size "w, "
+                                {{ with $image.Resize (printf " %sx webp" $size) }} {{ print .RelPermalink " " $size "w, "
     }} {{ end }} {{ end }} {{ end }}" sizes="100vw" src="{{ $image.RelPermalink }}" loading="eager" decoding="sync">
 {{ if $showTitle }}
 {{ if $isHome }}
