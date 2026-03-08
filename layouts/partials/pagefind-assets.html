@@ -1,0 +1,97 @@
+<!-- Modal container for search -->
+<div id="pagefind-modal" class="pagefind-modal" style="display: none;">
+    <div class="pagefind-modal-backdrop"></div>
+    <div class="pagefind-modal-content">
+        <button class="pagefind-modal-close" aria-label="Fermer">&times;</button>
+        <div id="pagefind-ui"></div>
+    </div>
+</div>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js" defer></script>
+<script defer>
+    window.addEventListener('DOMContentLoaded', () => {
+        const pagefindUI = new PagefindUI({
+            element: "#pagefind-ui",
+            showSubResults: true,
+            showImages: false,
+            excerptLength: 15,
+            translations: {
+                placeholder: "Rechercher sur le blog...",
+                clear_search: "Effacer",
+                load_more: "Charger plus de résultats",
+                search_label: "Rechercher sur ce site",
+                filters_label: "Filtres",
+                zero_results: "Aucun résultat pour [SEARCH_TERM]",
+                many_results: "[COUNT] résultats pour [SEARCH_TERM]",
+                one_result: "[COUNT] résultat pour [SEARCH_TERM]",
+                alt_search: "Aucun résultat pour [SEARCH_TERM]. Résultats pour [DIFFERENT_TERM] à la place",
+                search_suggestion: "Aucun résultat pour [SEARCH_TERM]. Essayez l'une de ces recherches :",
+                searching: "Recherche en cours..."
+            }
+        });
+
+        // Open modal function
+        const openSearchModal = () => {
+            const modal = document.getElementById('pagefind-modal');
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            // Focus on search input after a short delay to ensure it's rendered
+            setTimeout(() => {
+                const input = document.querySelector('#pagefind-ui input');
+                if (input) input.focus();
+            }, 100);
+        };
+
+        // Close modal function
+        const closeSearchModal = () => {
+            const modal = document.getElementById('pagefind-modal');
+            modal.style.display = 'none';
+            document.body.style.overflow = '';
+            // Clear the search
+            const input = document.querySelector('#pagefind-ui input');
+            if (input) input.value = '';
+        };
+
+        // Desktop button
+        const searchButton = document.getElementById('search');
+        if (searchButton) {
+            searchButton.addEventListener('click', openSearchModal);
+        }
+
+        // Mobile button
+        const searchMobile = document.getElementById('search-mobile');
+        if (searchMobile) {
+            searchMobile.addEventListener('click', (e) => {
+                e.preventDefault();
+                // Close the mobile menu
+                document.querySelector('.navbar-menu').classList.remove('is-active');
+                document.querySelector('.navbar-burger').classList.remove('is-active');
+                // Open search modal
+                openSearchModal();
+            });
+        }
+
+        // Close button
+        const closeButton = document.querySelector('.pagefind-modal-close');
+        if (closeButton) {
+            closeButton.addEventListener('click', closeSearchModal);
+        }
+
+        // Backdrop click
+        const backdrop = document.querySelector('.pagefind-modal-backdrop');
+        if (backdrop) {
+            backdrop.addEventListener('click', closeSearchModal);
+        }
+
+        // ESC key to close
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const modal = document.getElementById('pagefind-modal');
+                if (modal && modal.style.display === 'block') {
+                    closeSearchModal();
+                }
+            }
+        });
+    });
+</script>

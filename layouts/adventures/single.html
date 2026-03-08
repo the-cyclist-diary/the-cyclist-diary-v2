@@ -3,19 +3,21 @@
 {{ end }}
 {{ define "main" }}
 <div class="section">
-    {{ partial "breadcrumb.html" . }}
+    <div data-pagefind-ignore>
+        {{ partial "breadcrumb.html" . }}
+    </div>
     <div class="table-of-content-header">
         <div class="container is-size-5">
             {{ partial "heading.html" . }}
         </div>
     </div>
     <div class="container">
-        <div class="adventure-gps-display">
+        <div class="adventure-gps-display" data-pagefind-ignore>
             {{ partial "gps-display.html" . }}
         </div>
     </div>
     <div class="container is-max-desktop">
-        <div class="has-text-justified is-size-5">
+        <div class="has-text-justified is-size-5" data-pagefind-body>
             {{ .Content }}
         </div>
     </div>

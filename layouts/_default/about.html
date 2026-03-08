@@ -1,12 +1,14 @@
 {{ define "main" }}
 <div class="section">
-    {{ partial "breadcrumb.html" . }}
+    <div data-pagefind-ignore>
+        {{ partial "breadcrumb.html" . }}
+    </div>
     <div class="container">
         {{ partial "section-heading.html" . }}
     </div>
     <br>
 </div>
-<div class="section">
+<div class="section" data-pagefind-body>
     <div class="container columns is-vcentered">
         <div class="column is-one-quarter">
             <figure class="image is-1by1">
