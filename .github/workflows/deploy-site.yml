@@ -30,18 +30,30 @@ jobs:
       - name: Setup GH Pages
         id: pages
         uses: actions/configure-pages@v5
-      - uses: actions/cache@v4
+      - uses: whywaita/actions-cache-s3@v2
         with:
-          path: ${{ env.HUGO_CACHEDIR }} # <- Use the same env variable just right here
+          path: ${{ env.HUGO_CACHEDIR }}
           key: ${{ runner.os }}-hugomod
           restore-keys: |
             ${{ runner.os }}-hugo-modules
-      - uses: actions/cache@v4
+          aws-s3-bucket: the-cyclist-diary-cache
+          aws-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.R2_ACCESS_KEY }}
+          aws-endpoint: https://59d55d1a4dbc1f28fe6cd3d2d2036e4d.r2.cloudflarestorage.com
+          aws-region: auto
+          aws-s3-force-path-style: true
+      - uses: whywaita/actions-cache-s3@v2
         with:
           path: resources
           key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**') }}
           restore-keys: |
             ${{ runner.os }}-hugo-resources-
+          aws-s3-bucket: the-cyclist-diary-cache
+          aws-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.R2_ACCESS_KEY }}
+          aws-endpoint: https://59d55d1a4dbc1f28fe6cd3d2d2036e4d.r2.cloudflarestorage.com
+          aws-region: auto
+          aws-s3-force-path-style: true
 
       - name: Build
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
