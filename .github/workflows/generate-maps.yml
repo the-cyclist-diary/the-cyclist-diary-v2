@@ -3,13 +3,14 @@ run-name: |
   ${{ github.actor }} a lancé la génération automatique des cartes
 on:
   pull_request:
+    types: [opened, reopened]
 permissions: write-all
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - name: Generate maps
-        uses: the-cyclist-diary/the-cyclist-diary-editor@main
+        uses: docker://ghcr.io/the-cyclist-diary/the-cyclist-diary-editor:main
         with:
           action: "Generate maps"
           content-path: "content"
