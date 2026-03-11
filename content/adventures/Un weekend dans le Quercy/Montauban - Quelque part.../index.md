@@ -11,7 +11,7 @@ date = "2022-04-16 21:09:00"
 Peut-être trop d'ambition pour cette première étape : impossible de rejoindre Saint-Flour, à près de 200km de Montauban. J'avais définitivement sous-estimé le dénivelé...
 Pour compenser, joli petit bivouac en bord de rivière, très agréable !
 
-<!-- more -->
+<!--more-->
 
 {{< gallery class="content-gallery" btn="13">}}
 {{< img src="hGHkthAE.jpg" >}}

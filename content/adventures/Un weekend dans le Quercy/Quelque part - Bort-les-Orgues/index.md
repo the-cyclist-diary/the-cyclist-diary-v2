@@ -7,7 +7,7 @@ Pas mal d'errements aujourd'hui, je me suis bien planté de route !
 Au lieu de bifurquer vers le Nord, j'ai continué ma route vers Saint-Flour...
 Malgré tout, la journée s'est terminée avant l'arrivée de la nuit.
 
-<!-- more -->
+<!--more-->
 
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="syKjDS2h.jpg" >}}
