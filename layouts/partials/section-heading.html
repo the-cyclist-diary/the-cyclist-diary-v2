@@ -2,13 +2,9 @@
     <h1 class="title">
         {{ .Title }}
     </h1>
-    {{ with .Params.categories }}
-    <span class="categories" style="margin-top: 0.5rem;">
-        {{ range . }}
-        <a href="{{ absLangURL (print "categories/" (. | urlize)) }}" class="tag is-warning is-light">{{ . }}</a>
-        {{ end }}
-    </span>
+    <div style="margin-top: 0.5rem;">
+        {{ partial "categories-badge.html" . }}
+    </div>
     </br>
     </br>
-    {{ end }}
 </header>

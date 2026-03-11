@@ -12,16 +12,8 @@
         <div>
             <div class="container is-max-tablet">
                 <header class="has-text-centered">
-                    {{ with .Params.categories }}
-                    <span class="categories">
-                        {{ range . }}
-                        <a href="{{ absLangURL (print " categories/" (. | urlize)) }}"
-                            class="tag is-warning is-light">{{ .
-                            }}</a>
-                        {{ end }}
-                    </span>
+                    {{ partial "categories-badge.html" . }}
                     <br><br>
-                    {{ end }}
                 </header>
                 <div class="block has-text-justified is-size-5">
                     {{ .Content }}
