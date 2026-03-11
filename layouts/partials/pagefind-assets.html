@@ -8,9 +8,14 @@
 </div>
 
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js" defer></script>
-<script defer>
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
     window.addEventListener('DOMContentLoaded', () => {
+        // Wait for PagefindUI to be available
+        if (typeof PagefindUI === 'undefined') {
+            console.error('PagefindUI not loaded');
+            return;
+        }
         const pagefindUI = new PagefindUI({
             element: "#pagefind-ui",
             showSubResults: true,
