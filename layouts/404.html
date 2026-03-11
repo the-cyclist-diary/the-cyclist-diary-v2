@@ -1,0 +1,47 @@
+{{ define "load_paginator" }}
+{{ $style := resources.Get "css/404.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ end }}
+
+{{ define "main" }}
+<div class="section is-large">
+    <div class="container">
+        <div class="container is-max-tablet has-text-centered">
+            <div class="error-404-container">
+                <!-- Icône ou illustration -->
+                <div class="error-404-icon">
+                    🚴💨
+                </div>
+
+                <h1 class="title is-1">404</h1>
+                <h2 class="subtitle is-3 error-404-subtitle">
+                    Vous vous êtes égaré·e sur le parcours !
+                </h2>
+
+                <div class="content is-size-5 has-text-justified error-404-content">
+                    <p>
+                        Il semblerait que cette page n'existe pas ou ait été déplacée.
+                        Sortez carte et compas et revenez sur le chemin...
+                    </p>
+                </div>
+
+                <!-- Boutons d'action -->
+                <div class="buttons is-centered error-404-buttons">
+                    <a href="/" class="button is-medium error-404-button-primary">
+                        <span>🏠</span>
+                        <span>Retour à l'accueil</span>
+                    </a>
+                    <a href="/adventures/" class="button is-light is-medium">
+                        <span>🗺️</span>
+                        <span>Voir les aventures</span>
+                    </a>
+                    <a href="/blog/" class="button is-light is-medium">
+                        <span>📝</span>
+                        <span>Lire le blog</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
