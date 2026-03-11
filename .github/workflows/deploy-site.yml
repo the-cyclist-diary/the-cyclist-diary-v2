@@ -17,7 +17,6 @@ jobs:
     runs-on: ubuntu-22.04
     env:
       HUGO_CACHEDIR: /tmp/hugo_cache
-      HUGO_WEBPSERVER_URL: "https://webpserver.the-cyclist-diary.fr"
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -62,6 +61,22 @@ jobs:
 
       - name: Install Pagefind
         run: npx -y pagefind@latest --site public
+
+      - name: Upload images to R2 
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.IMAGES_R2_ACCESS_KEY_ID }}
+          R2_ACCESS_KEY: ${{ secrets.IMAGES_R2_ACCESS_KEY }}
+          R2_BUCKET: the-cyclist-diary-images
+          R2_ENDPOINT: https://59d55d1a4dbc1f28fe6cd3d2d2036e4d.r2.cloudflarestorage.com
+        run: |
+          pip install awscli
+          python3 scripts/upload-images-to-r2.py
+
+      - name: Remove WebP images from artifact
+        run: |
+          echo "Suppression des images WebP de l'artifact (elles sont sur R2)"
+          find public -name "*.webp" -delete
+          echo "Images WebP supprimées ✅"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4

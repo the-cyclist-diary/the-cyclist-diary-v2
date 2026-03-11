@@ -5,6 +5,10 @@ defaultContentLanguage: fr
 timeout: 120
 capitalizeListTitles: false
 
+# URL de base pour les images hébergées sur R2 (CloudFlare)
+params:
+  imagesCDN: "https://images.the-cyclist-diary.fr"
+
 # Configuration des taxonomies
 taxonomies:
   category: categories

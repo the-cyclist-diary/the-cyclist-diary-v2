@@ -10,7 +10,7 @@
 
   {{/* ============================================================
        Mode production : conversion WebP et redimensionnement local
-       via le pipeline d'images Hugo
+       via le pipeline d'images Hugo, images servies depuis R2 CDN
        ============================================================ */}}
 
   {{- with $image -}}
@@ -21,25 +21,29 @@
       {{- $image_height = math.Floor (math.Div $image_height 2) -}}
     {{- end -}}
 
+    {{- $cdnBaseURL := site.Params.imagesCDN -}}
     {{- $srcset_parts := slice -}}
     {{- range $image_sizes -}}
       {{- if le . $image.Width -}}
         {{- $resized := $image.Resize (printf "%dx webp" .) -}}
-        {{- $srcset_parts = $srcset_parts | append (printf "%s %dw" $resized.RelPermalink .) -}}
+        {{- $cdnURL := printf "%s%s" $cdnBaseURL $resized.RelPermalink -}}
+        {{- $srcset_parts = $srcset_parts | append (printf "%s %dw" $cdnURL .) -}}
       {{- end -}}
     {{- end -}}
 
     {{- $fallback  := $image.Resize "1000x webp" -}}
     {{- $lightbox  := $image.Process "webp" -}}
+    {{- $fallbackURL := printf "%s%s" $cdnBaseURL $fallback.RelPermalink -}}
+    {{- $lightboxURL := printf "%s%s" $cdnBaseURL $lightbox.RelPermalink -}}
 
-    <a class="column is-half lightbox-trigger" href="{{ $lightbox.RelPermalink }}" target="_blank" rel="noopener">
+    <a class="column is-half lightbox-trigger" href="{{ $lightboxURL }}" target="_blank" rel="noopener">
       <img
         alt="An image of this adventure"
         width="{{ $image_width }}"
         height="{{ $image_height }}"
         srcset="{{ delimit $srcset_parts ", " }}"
         sizes="(min-width: 1200px) 20vw, 50vw"
-        src="{{ $fallback.RelPermalink }}"
+        src="{{ $fallbackURL }}"
         {{- if strings.Contains $src "featured" }}
         loading="eager"
         decoding="sync"

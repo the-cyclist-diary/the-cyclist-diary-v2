@@ -19,7 +19,7 @@
 
   {{/* ============================================================
        Mode production : conversion WebP et redimensionnement local
-       via le pipeline d'images Hugo
+       via le pipeline d'images Hugo, images servies depuis R2 CDN
        ============================================================ */}}
 
   {{- with $image -}}
@@ -30,18 +30,22 @@
       {{- $image_height = math.Floor (math.Div $image_height 2) -}}
     {{- end -}}
 
+    {{- $cdnBaseURL := site.Params.imagesCDN -}}
     {{- $srcset_parts := slice -}}
     {{- range $image_sizes -}}
       {{- if le . $image.Width -}}
         {{- $resized := $image.Resize (printf "%dx webp" .) -}}
-        {{- $srcset_parts = $srcset_parts | append (printf "%s %dw" $resized.RelPermalink .) -}}
+        {{- $cdnURL := printf "%s%s" $cdnBaseURL $resized.RelPermalink -}}
+        {{- $srcset_parts = $srcset_parts | append (printf "%s %dw" $cdnURL .) -}}
       {{- end -}}
     {{- end -}}
 
     {{- $fallback := $image.Resize "1000x webp" -}}
     {{- $lightbox := $image.Process "webp" -}}
+    {{- $fallbackURL := printf "%s%s" $cdnBaseURL $fallback.RelPermalink -}}
+    {{- $lightboxURL := printf "%s%s" $cdnBaseURL $lightbox.RelPermalink -}}
 
-    <figure class="article-image lightbox-trigger" data-lightbox-src="{{ $lightbox.RelPermalink }}" role="figure" aria-label="{{- $label | plainify -}}">
+    <figure class="article-image lightbox-trigger" data-lightbox-src="{{ $lightboxURL }}" role="figure" aria-label="{{- $label | plainify -}}">
       <img
         alt="{{- $caption | markdownify | plainify -}}"
         title="{{- $label | plainify -}}"
@@ -49,7 +53,7 @@
         height="{{ $image_height }}"
         srcset="{{ delimit $srcset_parts ", " }}"
         sizes="(min-width: 1200px) 20vw, (min-width: 768px) calc(100vw - 3rem), calc(100vw - 3rem)"
-        src="{{ $fallback.RelPermalink }}"
+        src="{{ $fallbackURL }}"
         {{- if strings.Contains $src "featured" }}
         loading="eager"
         decoding="sync"
