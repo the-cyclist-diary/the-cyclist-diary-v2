@@ -6,11 +6,25 @@
 {{ $dateDebut := .date_debut }}
 {{ $dateFin := .date_fin }}
 
-<img class="cover-image" alt="Cover image" srcset="
+{{- if hugo.IsProduction -}}
+  {{- $cdnBaseURL := site.Params.imagesCDN -}}
+  {{- $srcset_parts := slice -}}
+  {{- range $image_sizes -}}
+    {{- with $image.Resize (printf "%sx webp" .) -}}
+      {{- $cdnURL := printf "%s%s" $cdnBaseURL .RelPermalink -}}
+      {{- $srcset_parts = $srcset_parts | append (printf "%s %sw" $cdnURL .) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $fallback := $image.Resize "1000x webp" -}}
+  {{- $fallbackURL := printf "%s%s" $cdnBaseURL $fallback.RelPermalink -}}
+  <img class="cover-image" alt="Cover image" srcset="{{ delimit $srcset_parts ", " }}" sizes="100vw" src="{{ $fallbackURL }}" loading="eager" decoding="sync">
+{{- else -}}
+  <img class="cover-image" alt="Cover image" srcset="
                     {{ with $image_sizes }}
                         {{ range $index, $size := . }}
                                 {{ with $image.Resize (printf " %sx webp" $size) }} {{ print .RelPermalink " " $size "w, "
     }} {{ end }} {{ end }} {{ end }}" sizes="100vw" src="{{ $image.RelPermalink }}" loading="eager" decoding="sync">
+{{- end -}}
 {{ if $showTitle }}
 {{ if $isHome }}
 <h1 class="title main-title">{{ $titleText }}</h1>

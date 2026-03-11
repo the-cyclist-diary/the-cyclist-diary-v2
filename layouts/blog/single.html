@@ -15,7 +15,12 @@
         {{ with $cover }}
         <figure class="image is-2by1 blog-cover">
             {{ with $cover.Resize "1000x q80 webp" }}
-            <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+              {{- if hugo.IsProduction -}}
+                {{- $cdnURL := printf "%s%s" site.Params.imagesCDN .RelPermalink -}}
+                <img class="image-cover" src="{{ $cdnURL }}" alt="{{ .Title }}" loading="lazy">
+              {{- else -}}
+                <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+              {{- end -}}
             {{ end }}
         </figure>
         </br>

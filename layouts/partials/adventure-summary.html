@@ -13,7 +13,12 @@
             <figure class="image is-5by3">
                 {{ $title := .context.Title }}
                 {{ with $randomImage.Resize "x1000 q80 webp" }}
+                  {{- if hugo.IsProduction -}}
+                    {{- $cdnURL := printf "%s%s" site.Params.imagesCDN .RelPermalink -}}
+                    <img class="image-cover" src="{{ $cdnURL }}" alt="{{ $title }}" loading="lazy">
+                  {{- else -}}
                     <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ $title }}" loading="lazy">
+                  {{- end -}}
                 {{ end }}
             </figure>
             </a>

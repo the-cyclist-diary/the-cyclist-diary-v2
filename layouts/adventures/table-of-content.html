@@ -20,8 +20,12 @@
                     <div class="card-image">
                         <figure class="image is-4by3">
                             <a href="{{ $item.RelPermalink }}">
-                                <img class="image-cover" src="{{ $thumb.RelPermalink }}" alt="{{ $item.Title }}"
-                                    loading="lazy">
+                              {{- if hugo.IsProduction -}}
+                                {{- $cdnURL := printf "%s%s" site.Params.imagesCDN $thumb.RelPermalink -}}
+                                <img class="image-cover" src="{{ $cdnURL }}" alt="{{ $item.Title }}" loading="lazy">
+                              {{- else -}}
+                                <img class="image-cover" src="{{ $thumb.RelPermalink }}" alt="{{ $item.Title }}" loading="lazy">
+                              {{- end -}}
                             </a>
                         </figure>
                     </div>
