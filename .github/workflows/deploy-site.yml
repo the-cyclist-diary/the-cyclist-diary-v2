@@ -80,11 +80,22 @@ jobs:
           R2_ENDPOINT: https://59d55d1a4dbc1f28fe6cd3d2d2036e4d.r2.cloudflarestorage.com
         run: python3 scripts/upload-images-to-r2.py
 
-      - name: Remove WebP images from artifact
+      - name: Remove images from artifact (served from R2)
         run: |
-          echo "Suppression des images WebP de l'artifact (elles sont sur R2)"
+          echo "Suppression des images de l'artifact (elles sont sur R2)"
+          
+          # Supprimer tous les WebP
+          webp_count=$(find public -name "*.webp" | wc -l)
           find public -name "*.webp" -delete
-          echo "Images WebP supprimées ✅"
+          echo "✅ $webp_count fichiers WebP supprimés"
+          
+          # Supprimer les JPG/PNG sources des contenus (convertis en WebP)
+          jpg_count=$(find public/adventures public/blog public/about -name "*.jpg" -o -name "*.png" 2>/dev/null | wc -l)
+          find public/adventures public/blog public/about -name "*.jpg" -delete 2>/dev/null || true
+          find public/adventures public/blog public/about -name "*.png" -delete 2>/dev/null || true
+          echo "✅ $jpg_count fichiers JPG/PNG supprimés du contenu"
+          
+          echo "✅ Nettoyage terminé !"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4

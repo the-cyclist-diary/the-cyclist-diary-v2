@@ -14,7 +14,15 @@
             <figure class="image is-1by1">
                 <p>
                     {{ $image := .Resources.GetMatch "index.jpg" }}
-                    <img alt="the cyclist face :)" class="is-rounded" src="{{ $image.RelPermalink }}">
+                    {{ with $image }}
+                      {{ $webp := .Process "webp" }}
+                      {{- if hugo.IsProduction -}}
+                        {{- $cdnURL := printf "%s%s" site.Params.imagesCDN $webp.RelPermalink -}}
+                        <img alt="the cyclist face :)" class="is-rounded" src="{{ $cdnURL }}">
+                      {{- else -}}
+                        <img alt="the cyclist face :)" class="is-rounded" src="{{ $webp.RelPermalink }}">
+                      {{- end -}}
+                    {{ end }}
                 </p>
             </figure>
         </div>
