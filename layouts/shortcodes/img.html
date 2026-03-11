@@ -4,7 +4,7 @@
   {{- $image = resources.Get (path.Join .Page.File.Dir $src) -}}
 {{- end -}}
 
-{{- $image_sizes := slice 200 400 600 800 1200 1920 -}}
+{{- $image_sizes := slice 400 600 1200 1920 -}}
 
 {{- if hugo.IsProduction -}}
 
