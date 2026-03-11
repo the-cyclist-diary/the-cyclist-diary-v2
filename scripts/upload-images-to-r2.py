@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Script pour uploader les images WebP vers R2 (CloudFlare)
-Utilise AWS CLI (compatible S3) et ne ré-uploade pas les fichiers existants.
+Script pour synchroniser les images WebP vers R2 (CloudFlare)
+Utilise AWS CLI S3 sync pour des uploads parallélisés et rapides.
+Supprime automatiquement les images orphelines sur R2.
 """
 import os
 import subprocess
 import sys
 from pathlib import Path
-from typing import Set
 
 # Configuration R2
 R2_BUCKET = os.environ.get('R2_BUCKET', 'the-cyclist-diary-images')
@@ -22,7 +22,8 @@ PUBLIC_DIR = Path(__file__).parent.parent / "public"
 def check_aws_cli():
     """Vérifie que AWS CLI est installé"""
     try:
-        subprocess.run(['aws', '--version'], capture_output=True, check=True)
+        result = subprocess.run(['aws', '--version'], capture_output=True, check=True, text=True)
+        print(f"✅ AWS CLI détecté: {result.stdout.strip()}")
         return True
     except (subprocess.CalledProcessError, FileNotFoundError):
         print("❌ AWS CLI n'est pas installé. Installez-le avec:")
@@ -31,74 +32,93 @@ def check_aws_cli():
         return False
 
 
-def get_existing_files() -> Set[str]:
-    """Récupère la liste des fichiers déjà présents sur R2"""
-    print("🔍 Récupération de la liste des fichiers sur R2...")
+def count_webp_files() -> int:
+    """Compte le nombre de fichiers WebP dans public/"""
+    return len(list(PUBLIC_DIR.rglob("*.webp")))
+
+
+def sync_to_r2(delete_orphans: bool = True) -> bool:
+    """
+    Synchronise les images WebP vers R2 en utilisant aws s3 sync
     
+    Args:
+        delete_orphans: Si True, supprime les fichiers sur R2 qui n'existent plus localement
+    
+    Returns:
+        True si succès, False sinon
+    """
+    print(f"\n🔄 Synchronisation vers R2 (bucket: {R2_BUCKET})...")
+    print("-" * 60)
+    
+    cmd = [
+        'aws', 's3', 'sync',
+        str(PUBLIC_DIR),
+        f's3://{R2_BUCKET}/',
+        '--endpoint-url', R2_ENDPOINT,
+        '--content-type', 'image/webp',
+        '--cache-control', 'public, max-age=31536000, immutable',
+        '--exclude', '*',
+        '--include', '*.webp',
+        '--size-only',  # Compare par taille (plus rapide que checksum)
+    ]
+    
+    if delete_orphans:
+        cmd.append('--delete')
+        print("🗑️  Mode: synchronisation avec suppression des fichiers orphelins")
+    else:
+        print("📤 Mode: upload uniquement (pas de suppression)")
+    
+    print(f"⚡ Parallélisation: AWS CLI utilisera plusieurs threads automatiquement")
+    print()
+    
+    try:
+        # Exécute la commande et affiche la sortie en temps réel
+        result = subprocess.run(
+            cmd,
+            check=True,
+            text=True,
+            capture_output=False  # Affiche directement dans la console
+        )
+        return True
+    
+    except subprocess.CalledProcessError as e:
+        print(f"\n❌ Erreur lors de la synchronisation: {e}")
+        return False
+
+
+def get_r2_stats() -> dict:
+    """Récupère des statistiques sur le bucket R2"""
     try:
         cmd = [
             'aws', 's3', 'ls',
             f's3://{R2_BUCKET}/',
             '--recursive',
-            '--endpoint-url', R2_ENDPOINT
+            '--endpoint-url', R2_ENDPOINT,
+            '--summarize',
+            '--human-readable'
         ]
         
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         
-        # Parse la sortie: "2024-03-11 10:30:00   12345 path/to/file.webp"
-        existing = set()
-        for line in result.stdout.strip().split('\n'):
-            if line:
-                parts = line.split()
-                if len(parts) >= 4:
-                    # Le chemin est tout après la taille
-                    filepath = ' '.join(parts[3:])
-                    existing.add(filepath)
+        # Parse les dernières lignes qui contiennent les stats
+        lines = result.stdout.strip().split('\n')
+        stats = {'files': 0, 'size': '0 Bytes'}
         
-        print(f"✅ {len(existing)} fichiers déjà présents sur R2")
-        return existing
-    
-    except subprocess.CalledProcessError as e:
-        print(f"⚠️  Impossible de lister les fichiers R2: {e.stderr}")
-        print("   Le bucket est peut-être vide ou inaccessible")
-        return set()
-
-
-def find_webp_files() -> list[tuple[Path, str]]:
-    """Trouve tous les fichiers WebP dans public/ et retourne (chemin_complet, chemin_relatif)"""
-    webp_files = []
-    
-    for webp_file in PUBLIC_DIR.rglob("*.webp"):
-        # Chemin relatif depuis public/
-        rel_path = webp_file.relative_to(PUBLIC_DIR)
-        webp_files.append((webp_file, str(rel_path)))
-    
-    return webp_files
-
-
-def upload_file(local_path: Path, remote_path: str) -> bool:
-    """Upload un fichier vers R2"""
-    try:
-        cmd = [
-            'aws', 's3', 'cp',
-            str(local_path),
-            f's3://{R2_BUCKET}/{remote_path}',
-            '--endpoint-url', R2_ENDPOINT,
-            '--content-type', 'image/webp',
-            '--cache-control', 'public, max-age=31536000, immutable'
-        ]
+        for line in lines[-5:]:  # Les stats sont dans les dernières lignes
+            if 'Total Objects:' in line:
+                stats['files'] = int(line.split(':')[1].strip())
+            elif 'Total Size:' in line:
+                stats['size'] = line.split(':')[1].strip()
         
-        subprocess.run(cmd, capture_output=True, check=True)
-        return True
+        return stats
     
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Erreur lors de l'upload de {remote_path}: {e.stderr.decode()}")
-        return False
+    except subprocess.CalledProcessError:
+        return {'files': '?', 'size': '?'}
 
 
 def main():
     """Fonction principale"""
-    print("🚀 Upload des images WebP vers R2")
+    print("🚀 Synchronisation des images WebP vers R2")
     print("=" * 60)
     
     # Vérifications préalables
@@ -119,46 +139,28 @@ def main():
     os.environ['AWS_ACCESS_KEY_ID'] = R2_ACCESS_KEY
     os.environ['AWS_SECRET_ACCESS_KEY'] = R2_SECRET_KEY
     
-    # Récupère les fichiers existants
-    existing_files = get_existing_files()
+    # Compte les fichiers locaux
+    local_count = count_webp_files()
+    print(f"📊 {local_count} fichiers WebP trouvés localement")
     
-    # Trouve tous les fichiers WebP
-    print(f"\n🔍 Recherche des fichiers WebP dans {PUBLIC_DIR}...")
-    webp_files = find_webp_files()
-    print(f"✅ {len(webp_files)} fichiers WebP trouvés")
+    # Synchronise vers R2 avec suppression des orphelins
+    success = sync_to_r2(delete_orphans=True)
     
-    # Filtre les fichiers à uploader
-    to_upload = []
-    for local_path, remote_path in webp_files:
-        if remote_path not in existing_files:
-            to_upload.append((local_path, remote_path))
+    if not success:
+        sys.exit(1)
     
-    if not to_upload:
-        print("\n✅ Tous les fichiers sont déjà sur R2 !")
-        return
-    
-    print(f"\n📤 {len(to_upload)} fichiers à uploader...")
-    print("-" * 60)
-    
-    # Upload les fichiers
-    success_count = 0
-    fail_count = 0
-    
-    for i, (local_path, remote_path) in enumerate(to_upload, 1):
-        print(f"[{i}/{len(to_upload)}] {remote_path}...", end=" ")
-        
-        if upload_file(local_path, remote_path):
-            print("✅")
-            success_count += 1
-        else:
-            print("❌")
-            fail_count += 1
-    
-    # Résumé
+    # Affiche les statistiques finales
     print("\n" + "=" * 60)
-    print(f"✅ Upload terminé: {success_count} réussis, {fail_count} échecs")
-    print(f"📊 Total sur R2: {len(existing_files) + success_count} fichiers")
+    print("✅ Synchronisation terminée !")
+    
+    stats = get_r2_stats()
+    print(f"📊 Statistiques R2:")
+    print(f"   • Fichiers: {stats['files']}")
+    print(f"   • Taille totale: {stats['size']}")
+    print(f"\n💡 Les images orphelines ont été supprimées de R2")
+    print(f"💡 Les fichiers identiques n'ont pas été ré-uploadés")
 
 
 if __name__ == "__main__":
     main()
+

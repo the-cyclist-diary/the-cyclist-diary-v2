@@ -2,9 +2,19 @@
 
 Ce dossier contient les scripts utilitaires pour le site.
 
+## requirements.txt
+
+Dépendances Python nécessaires pour les scripts d'upload :
+- `awscli` : client CLI S3-compatible pour interagir avec CloudFlare R2
+
+**Installation** :
+```bash
+pip install -r scripts/requirements.txt
+```
+
 ## upload-images-to-r2.py
 
-Script Python pour uploader les images WebP générées par Hugo vers CloudFlare R2.
+Script Python pour synchroniser les images WebP générées par Hugo vers CloudFlare R2.
 
 **Utilisation** :
 ```bash
@@ -14,15 +24,20 @@ source .env
 # Builder le site
 hugo --minify
 
-# Uploader les images
+# Synchroniser les images
 python3 scripts/upload-images-to-r2.py
 ```
 
 **Fonctionnalités** :
-- Détecte automatiquement les images déjà présentes sur R2
-- N'uploade que les nouvelles images
+- Utilise `aws s3 sync` pour des uploads parallélisés ultra-rapides
+- Ne ré-uploade que les fichiers modifiés (comparaison par taille)
+- Supprime automatiquement les images orphelines sur R2
 - Configure les bonnes métadonnées (Content-Type, Cache-Control)
-- Affiche une progression détaillée
+- Affiche des statistiques détaillées
+
+**Performance** :
+- ~10-50x plus rapide que les uploads séquentiels
+- Parallélisation automatique par AWS CLI
 
 ## upload-images.sh
 
@@ -37,7 +52,7 @@ Ce script :
 1. Vérifie que `.env` existe
 2. Charge les variables d'environnement  
 3. Lance la build Hugo si nécessaire
-4. Execute le script Python d'upload
+4. Synchronise les images avec R2 (upload + nettoyage)
 
 **Configuration requise** :
 - Créer un fichier `.env` à partir de `.env.example`

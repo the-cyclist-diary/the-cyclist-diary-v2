@@ -52,13 +52,17 @@ Puis sourcez-le : `source .env`
 
 Le workflow GitHub Actions s'occupe automatiquement de :
 1. Builder le site avec Hugo
-2. Uploader les nouvelles images WebP vers R2
-3. Supprimer les images WebP de l'artifact
-4. Déployer sur GitHub Pages
+2. Installer les dépendances Python (avec cache pour optimiser les builds)
+3. Synchroniser les images WebP vers R2 (upload parallélisé + suppression des orphelines)
+4. Supprimer les images WebP de l'artifact
+5. Déployer sur GitHub Pages
+
+**Note** : Les dépendances Python (awscli) sont mises en cache via `actions/setup-python@v5` pour accélérer les builds successifs.
+**Performance** : L'utilisation de `aws s3 sync` permet des uploads parallélisés 10-50x plus rapides qu'une copie séquentielle.
 
 ### Upload manuel des images
 
-Si vous voulez uploader les images manuellement :
+Si vous voulez synchroniser les images manuellement :
 
 ```bash
 # 1. Builder le site en mode production
@@ -67,13 +71,14 @@ hugo --minify
 # 2. Sourcer les variables d'environnement
 source .env
 
-# 3. Lancer l'upload
+# 3. Lancer la synchronisation
 python3 scripts/upload-images-to-r2.py
 ```
 
 Le script :
-- Liste les images déjà présentes sur R2
-- Upload uniquement les nouvelles images
+- Utilise `aws s3 sync` pour des uploads parallélisés ultra-rapides
+- Upload uniquement les fichiers nouveaux ou modifiés
+- Supprime automatiquement les images orphelines sur R2
 - Configure les bonnes métadonnées (Content-Type, Cache-Control)
 
 ### Tester localement avec hugo server

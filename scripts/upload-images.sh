@@ -31,6 +31,12 @@ if [ ! -d "public" ]; then
     hugo --minify
 fi
 
+# Vérifier que awscli est installé
+if ! command -v aws &> /dev/null; then
+    echo "📦 Installation des dépendances Python..."
+    pip install -r scripts/requirements.txt
+fi
+
 # Compter les images WebP
 webp_count=$(find public -name "*.webp" | wc -l)
 echo "📊 $webp_count images WebP trouvées dans public/"

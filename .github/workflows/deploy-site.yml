@@ -62,15 +62,23 @@ jobs:
       - name: Install Pagefind
         run: npx -y pagefind@latest --site public
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
       - name: Upload images to R2 
         env:
           R2_ACCESS_KEY_ID: ${{ secrets.IMAGES_R2_ACCESS_KEY_ID }}
           R2_ACCESS_KEY: ${{ secrets.IMAGES_R2_ACCESS_KEY }}
           R2_BUCKET: the-cyclist-diary-images
           R2_ENDPOINT: https://59d55d1a4dbc1f28fe6cd3d2d2036e4d.r2.cloudflarestorage.com
-        run: |
-          pip install awscli
-          python3 scripts/upload-images-to-r2.py
+        run: python3 scripts/upload-images-to-r2.py
 
       - name: Remove WebP images from artifact
         run: |
