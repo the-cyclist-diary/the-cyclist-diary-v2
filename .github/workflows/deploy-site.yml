@@ -59,6 +59,54 @@ jobs:
       - name: Build
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Clean old cache on R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY }}
+          R2_ENDPOINT: https://59d55d1a4dbc1f28fe6cd3d2d2036e4d.r2.cloudflarestorage.com
+        run: |
+          echo "🧹 Nettoyage des anciens caches sur R2..."        
+          
+          # Pour chaque préfixe de cache (hugo-resources, hugo-modules)
+          for prefix in "linux-hugo-resources-" "linux-hugomod"; do
+            echo "Vérification du cache $prefix..."
+            
+            # Lister tous les objets avec ce préfixe, triés par date (plus récent en dernier)
+            objects=$(aws s3api list-objects-v2 \
+              --bucket the-cyclist-diary-cache \
+              --prefix "$prefix" \
+              --endpoint-url "$R2_ENDPOINT" \
+              --query 'sort_by(Contents, &LastModified)[].Key' \
+              --output text 2>/dev/null || echo "")
+            
+            if [ -z "$objects" ]; then
+              echo "  Aucun cache trouvé pour $prefix"
+              continue
+            fi
+            
+            # Convertir en tableau
+            cache_files=($objects)
+            total=${#cache_files[@]}
+            
+            if [ $total -le 2 ]; then
+              echo "  $total cache(s) trouvé(s), conservation de tous"
+              continue
+            fi
+            
+            # Garder les 2 plus récents, supprimer le reste
+            to_keep=2
+            to_delete=$((total - to_keep))
+            
+            echo "  $total cache(s) trouvé(s), suppression des $to_delete plus ancien(s)..."
+            
+            for ((i=0; i<$to_delete; i++)); do
+              key="${cache_files[$i]}"
+              aws s3 rm "s3://the-cyclist-diary-cache/$key" --endpoint-url "$R2_ENDPOINT" 2>/dev/null && echo "    ✅ Supprimé: $key" || true
+            done
+          done
+          
+          echo "✅ Nettoyage du cache terminé !"
+
       - name: Install Pagefind
         run: npx -y pagefind@latest --site public
 
