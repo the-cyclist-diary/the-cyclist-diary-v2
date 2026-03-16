@@ -9,8 +9,7 @@
 .plain-image {
     display: block;
     margin: auto;
-    max-height: 80vh;
-    max-width: 90vw;
+    max-width: 80%;
 }
 
 .cover-image {
@@ -24,12 +23,12 @@
 @media screen and (min-width: 1200px) {
     /* Limiter la taille des images sur PC */
     .article-image {
-        max-width: 20vw;
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
     .image-gallery{
-        max-width: 40vw;
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
     }

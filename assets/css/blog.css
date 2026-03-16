@@ -30,6 +30,16 @@
     color: inherit;
 }
 
+.blog-article-content a {
+    color: var(--the-cyclist-diary-green);
+    text-decoration: underline;
+}
+
+.subtitle a {
+    color: inherit;
+    text-decoration: none;
+}
+
 
 @media (prefers-color-scheme: dark) {
     .taxonomy-card {
