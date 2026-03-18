@@ -27,6 +27,14 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .article-image img {
+        display: block;
+        max-height: 80vh;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .image-gallery{
         max-width: 80%;
         margin-left: auto;

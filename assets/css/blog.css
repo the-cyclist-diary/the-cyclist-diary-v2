@@ -74,3 +74,20 @@
         border-color: #444;
     }
 }
+
+blockquote {
+    border-left: 4px solid var(--the-cyclist-diary-green);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-style: italic;
+}
+
+blockquote p {
+    padding: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    blockquote {
+        color: #ccc;
+    }
+}
