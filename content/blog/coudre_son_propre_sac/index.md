@@ -1,7 +1,7 @@
 +++
 title = 'Coudre son propre sac - Partie 1'
 date = 2026-03-18T20:48:22+01:00
-draft = true
+draft = false
 description = ""
 categories = ["MYOG", "Couture", "DIY", "Sac à dos", "rando"]
 cover = "index.jpg"
