@@ -165,6 +165,13 @@
         open(index);
       });
     });
+
+    /* Prevent figcaption links from triggering the lightbox */
+    document.querySelectorAll('figure.lightbox-trigger figcaption a').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.stopPropagation();
+      });
+    });
   }
 
   if (document.readyState === 'loading') {

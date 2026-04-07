@@ -7,7 +7,8 @@
     {{end}}
     {{ $images := .context.Resources.ByType "image" }}
     {{ if $images }}
-        {{ $randomImage := index (first 1 $images) 0 }}
+        {{ $coverImage := .context.Resources.GetMatch "index.{jpg,png,webp}" }}
+        {{ $randomImage := or $coverImage (index (first 1 $images) 0) }}
         <div class="column">
             <a href="{{ .context.RelPermalink }}">
             <figure class="image is-5by3">
