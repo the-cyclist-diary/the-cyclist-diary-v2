@@ -82,6 +82,56 @@
     }
 }
 
+/* --- Tableaux --------------------------------------------- */
+
+.blog-article-content table {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+.blog-article-content th,
+.blog-article-content td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.blog-article-content th {
+    background-color: rgba(112, 138, 88, 0.12);
+    font-weight: 600;
+    text-align: left;
+    padding: 0.6rem 1rem;
+    border: 1px solid #ddd;
+}
+
+.blog-article-content td {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.blog-article-content tr:nth-child(even) td {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+@media (prefers-color-scheme: dark) {
+    .blog-article-content th {
+        background-color: rgba(112, 138, 88, 0.2);
+        border-color: #444;
+    }
+
+    .blog-article-content td {
+        border-color: #444;
+    }
+
+    .blog-article-content tr:nth-child(even) td {
+        background-color: rgba(255, 255, 255, 0.03);
+    }
+}
+
+/* --- Blockquote ------------------------------------------- */
+
 blockquote {
     border-left: 4px solid var(--the-cyclist-diary-green);
     padding-left: 2rem;

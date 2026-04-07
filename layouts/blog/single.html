@@ -10,19 +10,21 @@
             {{ partial "categories-badge.html" . }}
         </div>
     </div>
+    <div class="container is-fullscreen">
+    {{ $cover := .Resources.GetMatch (.Params.cover | default "cover.*") }}
+    {{ with $cover }}
+    <figure class="image is-2by1 blog-cover">
+        {{ with $cover.Resize "1000x q80 webp" }}
+          {{- if hugo.IsProduction -}}
+            {{- $cdnURL := printf "%s%s" site.Params.imagesCDN .RelPermalink -}}
+            <img class="image-cover" src="{{ $cdnURL }}" alt="{{ .Title }}" loading="lazy">
+          {{- else -}}
+            <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+          {{- end -}}
+        {{ end }}
+    </figure>
+    </div>
     <div class="container">
-        {{ $cover := .Resources.GetMatch (.Params.cover | default "cover.*") }}
-        {{ with $cover }}
-        <figure class="image is-2by1 blog-cover">
-            {{ with $cover.Resize "1000x q80 webp" }}
-              {{- if hugo.IsProduction -}}
-                {{- $cdnURL := printf "%s%s" site.Params.imagesCDN .RelPermalink -}}
-                <img class="image-cover" src="{{ $cdnURL }}" alt="{{ .Title }}" loading="lazy">
-              {{- else -}}
-                <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy">
-              {{- end -}}
-            {{ end }}
-        </figure>
         </br>
         {{ end }}
         <div class="container is-max-desktop">
