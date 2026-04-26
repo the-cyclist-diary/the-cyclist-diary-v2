@@ -10,6 +10,8 @@ J'achète un pain aux noix pour compléter mes provisions, avant de prendre la r
 
 Certains disent que cette étape est optionnelle, car elle ne correspond pas au tracé de Stevenson. C'est vrai, mais elle est dans le topo guide, et je suis tatillon.
 
+<!--more-->
+
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="229dfa69-7bd9-4391-bce5-84599f3d8733.jpg" >}}
 {{< img src="fa64e471-479b-4f17-a045-e93dd6b62014.jpg" >}}
@@ -46,7 +48,7 @@ Cette deuxième partie de journée se passe sans encombre, je traverse de charma
 
 Rude descente sur Goudet, en bord de Loire. Tout est fermé, même la petite pizzeria/bar. J'ai de la chance, le propriétaire est en pleine pétanque devant l'établissement, mais accepte de me servir une bière. En même temps, son beau-père m'a déjà ouvert pour me faire rentrer.
 
-Ce dernier est fort sympathique et semble connaître tous les coins et recoins du pays. C'est la chance, car le camping est lui aussi fermé. Il m'indique une belle pinède au bord de l'eau où je pourrais coucher sans problème. 
+Ce dernier est fort sympathique et semble connaître tous les coins et recoins du pays. C'est ma chance, car le camping est lui aussi fermé. Il m'indique une belle pinède au bord de l'eau où je pourrais coucher sans problème. 
 
 Je le quitte non sans le remercier chaleureusement. Quelle première journée ! Tant de rencontres m'ont fait paraître le temps court. Pourtant, il est déjà seize heures passé. Je file dans le sous-bois, me lave dans la Loire gelée et pends mes affaires à sécher.
 
