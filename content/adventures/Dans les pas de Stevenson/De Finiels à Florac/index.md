@@ -8,11 +8,11 @@ draft = "false"
 Est-ce _La Malédiction des Cabanes Forestières_ qui frappe ? J'ai encore mal dormi. Le pathogène récalcitrant qui m'habite a encore fait des siennes.
 Pourtant, la nuit était belle, la lune presque pleine et les trous dans le plafond formaient autant d'étoiles dans mon ciel.
 
-Je prends le temps faire un café devant les sapins qui sont en feux dans le soleil levant. Je suis évidemment couvert de suie malgré mes mille précautions hier soir. 
+Je prends le temps de faire un café devant les sapins qui sont en feu dans le soleil levant. Je suis évidemment couvert de suie malgré mes mille précautions hier soir. 
 
 ![an image from this adventure](4cec6e2a-37d9-4d7d-97cf-d64b6195ee99.jpg)
 
-Pliage rapide du campement et en route ! Aujourd'hui est une grosse journée. Le froid est mordant et je pousse la chansonnette pour me réchauffer un peu, et peut-être pour me donner du courage dans ce lugubre bois d'immense sapin, dont la piste, que je suis, est traversée d'empreintes de sangliers.
+Pliage rapide du campement et en route ! Aujourd'hui est une grosse journée. Le froid est mordant et je pousse la chansonnette pour me réchauffer un peu, et peut-être pour me donner du courage dans ce lugubre bois d'immenses sapins, dont la piste, que je suis, est traversée d'empreintes de sangliers.
 
 Bien vite, Finiels. Charmant village, minuscule, perché en haut du vallon. Il y a une source d'eau fraîche, ce n'est pas le moment de se priver. Il faut encore s'armer d'un peu de courage pour traverser les grands troupeaux d'Aubrac, aussi curieuses que craintives. Il y a des veaux partout, quelques mouvements de panique parfois, mais, finalement, tout se passe bien.
 
@@ -22,7 +22,7 @@ Bien vite, Finiels. Charmant village, minuscule, perché en haut du vallon. Il y
 {{< /gallery >}}
 
 
-Descente raide sur Pont-de-Montvert, qui est d'une certaine manière le point culminant de ce voyage, d'un point de vue esthétique. Les montagnes de genets devant et derrière, de l'eau claire dans la vallée, et ce petit village engoncé entre ces reliefs.
+Descente raide sur Pont-de-Montvert, qui est d'une certaine manière le point culminant de ce voyage, d'un point de vue esthétique. Les montagnes de genêts devant et derrière, de l'eau claire dans la vallée, et ce petit village engoncé entre ces reliefs.
 
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="31b3168b-efd1-4ec2-9dc3-37c5902fa805.jpg" >}}
@@ -45,7 +45,7 @@ Marche sur le fil de cette arête ventée, j'y croise même un petit refuge, tr�
 
 Étonnamment, le sentier plonge ensuite dans une immense forêt de sapins et s'étire à n'en plus finir autour d'un petit mont que l'on s'épuise à contourner en larges lacets. Je rencontre un couple, eux aussi sont à bout. Enfin, raide sente vers Florac.
 
-Ce week-end accueil le rallye des Cévennes, qui passe ici. La ville est en émoi. Pas moi, je file au refuge, ce soir, je n'avais pas envie de dormir dehors, le vent est fort, le ciel menaçant et je suis épuisé. Un petit lit superposé dans une chambre puante partagée avec d'autres marcheurs fera une parfaite alternative.
+Ce week-end accueille le rallye des Cévennes, qui passe ici. La ville est en émoi. Pas moi, je file au refuge, ce soir, je n'avais pas envie de dormir dehors, le vent est fort, le ciel menaçant et je suis épuisé. Un petit lit superposé dans une chambre puante partagée avec d'autres marcheurs fera une parfaite alternative.
 
 Le repas est un joyeux bazar, entre les pilotes qui dînent là, certains la combinaison à moitié sur les genoux, et les randonneurs en polaires quechua. C'est vivant, chaleureux, j'aime ça, aussi.
 

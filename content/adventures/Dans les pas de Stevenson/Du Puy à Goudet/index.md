@@ -42,7 +42,7 @@ Elle fait chambre d'hôte, mais mon point de chute est encore à dix kilomètres
 {{< /gallery >}}
 
 
-Cette deuxième partie de journée se passe sans encombre, je traverse de charmantes fermé, l'on y fauche l'herbe, qui embaume l'air.
+Cette deuxième partie de journée se passe sans encombre, je traverse de charmantes fermes, l'on y fauche l'herbe, qui embaume l'air.
 
 ![an image from this adventure](02e7ddfa-bf46-43d8-8c31-0f594548b75f.jpg)
 
@@ -50,7 +50,7 @@ Rude descente sur Goudet, en bord de Loire. Tout est fermé, même la petite piz
 
 Ce dernier est fort sympathique et semble connaître tous les coins et recoins du pays. C'est ma chance, car le camping est lui aussi fermé. Il m'indique une belle pinède au bord de l'eau où je pourrais coucher sans problème. 
 
-Je le quitte non sans le remercier chaleureusement. Quelle première journée ! Tant de rencontres m'ont fait paraître le temps court. Pourtant, il est déjà seize heures passé. Je file dans le sous-bois, me lave dans la Loire gelée et pends mes affaires à sécher.
+Je le quitte non sans le remercier chaleureusement. Quelle première journée ! Tant de rencontres m'ont fait paraître le temps court. Pourtant, il est déjà seize heures passées. Je file dans le sous-bois, me lave dans la Loire gelée et pends mes affaires à sécher.
 
 ![an image from this adventure](9f207cf4-93cf-49a5-92d8-70d83d2518cc.jpg)
 

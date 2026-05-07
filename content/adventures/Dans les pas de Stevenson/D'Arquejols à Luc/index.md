@@ -22,11 +22,11 @@ Plongeon sur Langogne, il n'y a pas beaucoup de route. La ville est bien plus gr
 
 Je file de cette ville qui ne me plaît guère, après avoir acheté un sandwich. 
 
-Le Gévaudan m'ouvre grand ses bras ; le soleil se cache, un vent froid se lève et de gros nuages s'amoncellent en couches obscures. Au bout d'un moment, on entend tonner. Stevenson n'avait pas aimé ce passage, moi, je le crains. Arrivé à Saint-Flour-de-Mercoire, une fine pluie s'installe. Je continue ma route au snobant un petit café-théâtre (quelle erreur !), quand, sans prévenir, un déluge me surprend. Aucune toiture à l'horizon, il faut serrer les dents et continuer.
+Le Gévaudan m'ouvre grand ses bras ; le soleil se cache, un vent froid se lève et de gros nuages s'amoncellent en couches obscures. Au bout d'un moment, on entend tonner. Stevenson n'avait pas aimé ce passage, moi, je le crains. Arrivé à Saint-Flour-de-Mercoire, une fine pluie s'installe. Je continue ma route en snobant un petit café-théâtre (quelle erreur !), quand, sans prévenir, un déluge me surprend. Aucune toiture à l'horizon, il faut serrer les dents et continuer.
 
 ![an image from this adventure](5428db9c-88af-403c-ae72-2790a47f7bad.jpg)
 
-Cette histoire se répétera trois fois dans l'après-midi. Même si j'ai pris des dispositions, je suis trempé, surtout mes pieds. Je me dis que finalement, le gîte d'étape, c'est très bien aussi. Alors à Cheylard, je frappe à la porte, mais c'est déjà complet. Ceci étant dit, je n'étais guère inspiré par le lieu, dont les remugles de fond de baskets me parvenant depuis l'entrée, sans compter sur ces gros messieurs près à vrombir dès qu'ils seront sous la couette.
+Cette histoire se répétera trois fois dans l'après-midi. Même si j'ai pris des dispositions, je suis trempé, surtout mes pieds. Je me dis que finalement, le gîte d'étape, c'est très bien aussi. Alors à Cheylard, je frappe à la porte, mais c'est déjà complet. Ceci étant dit, je n'étais guère inspiré par le lieu, dont les remugles de fond de baskets me parvenaient depuis l'entrée, sans compter sur ces gros messieurs prêts à vrombir dès qu'ils seront sous la couette.
 
 Un peu de pommade sur les pieds. J'ai repéré un lac où une prétendue cabane peut servir de refuge, mais c'est à huit kilomètres. Je me lance, encore une averse, la pluie est horizontale.
 

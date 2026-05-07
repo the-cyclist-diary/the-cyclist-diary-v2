@@ -6,7 +6,7 @@ draft = "false"
 
 
 Encore une nuit d'un sommeil lourd et sans rêves. Cependant ce matin je me sens réellement plus en forme, au point de m'autoriser un bol du café façon jus de chaussette, servi par le patron.
-Les nouvelles vont très vite sur le GR. Au petit-déjeuner : "J'ai été malade avant-hier... -Ah oui, c'est toi qui a bu dans l'étang ?!". Certains ont manifestement vendu la mèche.
+Les nouvelles vont très vite sur le GR. Au petit-déjeuner : "J'ai été malade avant-hier... -Ah oui, c'est toi qui as bu dans l'étang ?!". Certains ont manifestement vendu la mèche.
 
 Je discute assez longtemps avec deux comparses qui étaient au dortoir, puis chacun vaque à ses occupations. Mes affaires sont déjà prêtes, je file sur le sentier. La forme est décidément très bonne, j'ai pu manger, les trente kilomètres prévus aujourd'hui ne devraient pas poser de problème.
 
@@ -26,7 +26,7 @@ La première partie de la journée, jusqu'au Bleymard, est ponctuée de passages
 
 Au Bleymard, je me ravitaille et retrouve l'un des gars de ce matin. Nous déjeunons ensemble puis il m'invite au café, il termine aujourd'hui, pas le temps pour plus. Nous traînons en terrasse au soleil un long moment, j'ai bien du mal à repartir, la conversation est bonne.
 
-Enfin, passé quatorze heures je me décide, il me reste tout de même l'ascension du Mont Finiels, point culminant de la Lozère, à avaler cet après-midi. Visite rapide du bourg, qui est magnifiques, vieilles boutiques et anciennes maisons bourgeoises en pierre.
+Enfin, passé quatorze heures je me décide, il me reste tout de même l'ascension du Mont Finiels, point culminant de la Lozère, à avaler cet après-midi. Visite rapide du bourg, qui est magnifique, vieilles boutiques et anciennes maisons bourgeoises en pierre.
 
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="6868f169-87ae-43ba-927a-c9b76a45c70d.jpg" >}}
@@ -34,7 +34,7 @@ Enfin, passé quatorze heures je me décide, il me reste tout de même l'ascensi
 {{< /gallery >}}
 
 
-La montée commence tout de suite. Elle est longue mais douce, ça grimpe dans les bois avant de déboucher sur la station de ski du Mont Lozère, ou ne se presse personne malgré le jour férié. On m'y confirme qu'une cabane forestière existe bel et bien sûr l'autre versant et qu'elle est alimentée par une source. C'est ce que je voulais entendre, ce sera mon objectif du jour.
+La montée commence tout de suite. Elle est longue mais douce, ça grimpe dans les bois avant de déboucher sur la station de ski du Mont Lozère, où ne se presse personne malgré le jour férié. On m'y confirme qu'une cabane forestière existe bel et bien sur l'autre versant et qu'elle est alimentée par une source. C'est ce que je voulais entendre, ce sera mon objectif du jour.
 
 ![an image from this adventure](6fec409d-69f1-4ff4-a609-4ab712befb59.jpg)
 

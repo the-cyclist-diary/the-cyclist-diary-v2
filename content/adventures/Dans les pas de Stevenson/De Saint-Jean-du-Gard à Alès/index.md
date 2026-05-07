@@ -39,7 +39,7 @@ Pause-déjeuner au point culminant, à côté des tables d'orientation. Je prend
 {{< /gallery >}}
 
 
-Nous repartons ensemble, discutons un peu, puis je fini par le semer, il ne veut pas prendre de risques dans la descente. J'avais bien anticipé un peu de pluie dans l'après-midi et la voilà qui arrive à treize heures. C'est une bonne raison de se presser pour descendre sur Alès.
+Nous repartons ensemble, discutons un peu, puis je finis par le semer, il ne veut pas prendre de risques dans la descente. J'avais bien anticipé un peu de pluie dans l'après-midi et la voilà qui arrive à treize heures. C'est une bonne raison de se presser pour descendre sur Alès.
 
 Sous-bois oubliables, quartiers déshérités, puis proche banlieue, centre-ville, gare. Il faut avoir randonné au moins deux ou trois jours en pleine nature, pour connaître la violence de ce retour à la réalité. Les odeurs, le bruit, les gens. J'aurais pu passer un peu de temps à Alès, mais lorsque j'arrive, je ne pense qu'à une chose : fuir !
 
