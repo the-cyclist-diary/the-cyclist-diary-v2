@@ -4,7 +4,7 @@ draft = "false"
 date = "2026-04-20"
 categories = ["rando"]
 date_debut=2026-04-25
-date_fin=2026-05-10
+date_fin=2026-05-05
 +++
 
 Le chemin de Stevenson, ou GR70, serait le plus emprunté de France. Cela s'explique sans doute par un simple constat : tout le monde a une bonne raison d'y randonner.
