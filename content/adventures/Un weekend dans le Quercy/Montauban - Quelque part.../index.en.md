@@ -1,0 +1,30 @@
++++
+
+title = "Montauban - Somewhere..."
+
+draft = "false"
+
+
+
+date = "2022-04-16 21:09:00"
++++
+Maybe too ambitious for this first leg: impossible to reach Saint-Flour, nearly 200km from Montauban. I had definitely underestimated the elevation gain...
+To make up for it, a lovely little bivouac by the riverside, very pleasant!
+
+<!--more-->
+
+{{< gallery class="content-gallery" btn="13">}}
+{{< img src="hGHkthAE.jpg" >}}
+{{< img src="NGanXpM1.jpg" >}}
+{{< img src="DfRjXQ6A.jpg" >}}
+{{< img src="MazpU5dy.jpg" >}}
+{{< img src="dAgC5jFa.jpg" >}}
+{{< img src="91Wc9n9v.jpg" >}}
+{{< img src="uRpS9Qxz.jpg" >}}
+{{< img src="kS2Np9BX.jpg" >}}
+{{< img src="gHYswnna.jpg" >}}
+{{< img src="f496HqS4.jpg" >}}
+{{< img src="a1d1194Q.jpg" >}}
+{{< img src="jSbMZ9ij.jpg" >}}
+{{< img src="1suK29C7.jpg" >}}
+{{< /gallery >}}

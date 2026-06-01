@@ -2,7 +2,7 @@
 {{ $cover := resources.Get "images/COVER.webp"}}
 {{ partial "big-title-cover.html" (dict "image" $cover "titleText" "The cyclist diary" "isHome" true "showTitle" true)
 }}
-{{ partialCached "banner.html" . }}
+{{ partial "banner.html" . }}
 <div class="section">
     <div class="container has-text-centered">
         <h1 class="subtitle">{{ i18n "latest_posts" }}</h1>

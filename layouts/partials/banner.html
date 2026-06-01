@@ -35,17 +35,26 @@
             {{ end }}
             <a class="navbar-item white" href="{{ $url }}">{{ .Name }}</a>
             {{ end }}
-            {{/* Language switcher: fr | en */}}
+            {{/* Language switcher: fr | en — stay on the same page */}}
             <span class="navbar-item lang-switcher is-family-sans-serif has-text-weight-light is-size-6">
-                {{ $langs := site.Home.AllTranslations }}
                 {{ $current := site.Language.Lang }}
-                {{ range $i, $lang := $langs }}
-                    {{- if eq $lang.Language.Lang $current -}}
-                        <span class="lang-current">{{ $lang.Language.Lang }}</span>
+                {{ $sep := "" }}
+                {{ range $lang := site.Home.AllTranslations }}
+                    {{ $langCode := $lang.Language.Lang }}
+                    {{- if ne $sep "" }}<span class="lang-sep"> | </span>{{ end -}}
+                    {{- $sep = "|" -}}
+                    {{- if eq $langCode $current -}}
+                        <span class="lang-current">{{ $langCode }}</span>
                     {{- else -}}
-                        <a class="lang-link" href="{{ $lang.RelPermalink }}">{{ $lang.Language.Lang }}</a>
+                        {{- $url := $lang.RelPermalink -}}
+                        {{- if eq $current "fr" -}}
+                            {{- $url = printf "/en%s" $.RelPermalink -}}
+                        {{- else -}}
+                            {{- $url = strings.TrimPrefix "/en" $.RelPermalink -}}
+                            {{- if eq $url "" }}{{ $url = "/" }}{{ end -}}
+                        {{- end -}}
+                        <a class="lang-link" href="{{ $url }}">{{ $langCode }}</a>
                     {{- end -}}
-                    {{- if lt $i (sub (len $langs) 1) }}<span class="lang-sep"> | </span>{{ end -}}
                 {{ end }}
             </span>
         </div>
