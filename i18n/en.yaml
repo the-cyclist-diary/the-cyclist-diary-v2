@@ -1,0 +1,89 @@
+# Navigation & Search
+search_mobile:
+  other: "Search"
+search_aria:
+  other: "Search"
+
+# Read more
+read_more:
+  other: "Read more..."
+
+# Pagination
+pagination_previous:
+  other: "Previous"
+pagination_next:
+  other: "Next"
+pagination_page:
+  other: "Page %d"
+pagination_goto:
+  other: "Go to page %d"
+
+# Table of contents
+table_of_contents:
+  other: "Table of contents"
+
+# Social share
+share_label:
+  other: "Share"
+share_facebook:
+  other: "Share on Facebook"
+share_via:
+  other: "Share via…"
+
+# GPS display
+gps_distance:
+  other: "Distance"
+gps_duration:
+  other: "Duration"
+gps_elevation:
+  other: "Elevation gain"
+gps_speed:
+  other: "Speed"
+
+# Homepage
+latest_posts:
+  other: "Latest posts"
+home_read_articles:
+  other: "Read"
+home_more_articles:
+  other: "more articles,"
+home_or_discover:
+  other: "or discover"
+home_more_adventures:
+  other: "more adventures."
+
+# Footer
+footer_made_by:
+  other: "Made with 🧡 by"
+footer_license:
+  other: "| The cyclist diary %d | The website content is licensed CC BY NC SA 4.0."
+
+# Search / Pagefind
+search_close:
+  other: "Close"
+search_placeholder:
+  other: "Search the blog..."
+search_clear:
+  other: "Clear"
+search_load_more:
+  other: "Load more results"
+search_label:
+  other: "Search this site"
+search_filters:
+  other: "Filters"
+search_zero:
+  other: "No results for [SEARCH_TERM]"
+search_many:
+  other: "[COUNT] results for [SEARCH_TERM]"
+search_one:
+  other: "[COUNT] result for [SEARCH_TERM]"
+search_alt:
+  other: "No results for [SEARCH_TERM]. Results for [DIFFERENT_TERM] instead"
+search_suggestion:
+  other: "No results for [SEARCH_TERM]. Try one of these searches:"
+search_searching:
+  other: "Searching..."
+
+# Comments
+comments_locale:
+  other: "en"

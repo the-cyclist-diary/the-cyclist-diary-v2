@@ -1,7 +1,7 @@
 baseURL: https://the-cyclist-diary.fr
-languageCode: fr-FR
 title: The cyclist diary
 defaultContentLanguage: fr
+defaultContentLanguageInSubdir: false
 timeout: 120
 capitalizeListTitles: false
 
@@ -13,17 +13,38 @@ params:
 taxonomies:
   category: categories
   serie: series
-menu:
-  main:
-    - name: Sur le vif
-      pageRef: /adventures
-      weight: 1
-    - name: Articles
-      pageRef: /blog
-      weight: 2
-    - name: A propos
-      pageRef: /about
-      weight: 3
+
+languages:
+  fr:
+    locale: fr-FR
+    label: Français
+    weight: 1
+    menu:
+      main:
+        - name: Sur le vif
+          pageRef: /adventures
+          weight: 1
+        - name: Articles
+          pageRef: /blog
+          weight: 2
+        - name: A propos
+          pageRef: /about
+          weight: 3
+  en:
+    locale: en-GB
+    label: English
+    weight: 2
+    menu:
+      main:
+        - name: On the go
+          pageRef: /adventures
+          weight: 1
+        - name: Blog
+          pageRef: /blog
+          weight: 2
+        - name: About
+          pageRef: /about
+          weight: 3
 
 module:
   mounts:

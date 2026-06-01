@@ -5,7 +5,7 @@
 {{ partialCached "banner.html" . }}
 <div class="section">
     <div class="container has-text-centered">
-        <h1 class="subtitle">Dernières parutions</h1>
+        <h1 class="subtitle">{{ i18n "latest_posts" }}</h1>
         <hr>
     </div>
 </div>
@@ -19,10 +19,10 @@
 <div class="container home-links">
     <hr>
     <div class="has-text-centered">
-        <span>Lire </span>
-        <a href="/blog">d'autres articles, </a>
-        <span>ou découvrir </span>
-        <a href="/adventures"> d'autres aventures.</a>
+        <span>{{ i18n "home_read_articles" }} </span>
+        <a href="{{ relLangURL "blog" }}">{{ i18n "home_more_articles" }} </a>
+        <span>{{ i18n "home_or_discover" }} </span>
+        <a href="{{ relLangURL "adventures" }}">{{ i18n "home_more_adventures" }}</a>
     </div>
 </div>
 {{ end }}

@@ -26,7 +26,7 @@
                     <circle cx="11" cy="11" r="8"></circle>
                     <path d="m21 21-4.35-4.35"></path>
                 </svg>
-                Rechercher
+                {{ i18n "search_mobile" }}
             </a>
             {{ range site.Menus.main }}
             {{ $url := relLangURL .URL }}
@@ -35,6 +35,19 @@
             {{ end }}
             <a class="navbar-item white" href="{{ $url }}">{{ .Name }}</a>
             {{ end }}
+            {{/* Language switcher: fr | en */}}
+            <span class="navbar-item lang-switcher is-family-sans-serif has-text-weight-light is-size-6">
+                {{ $langs := site.Home.AllTranslations }}
+                {{ $current := site.Language.Lang }}
+                {{ range $i, $lang := $langs }}
+                    {{- if eq $lang.Language.Lang $current -}}
+                        <span class="lang-current">{{ $lang.Language.Lang }}</span>
+                    {{- else -}}
+                        <a class="lang-link" href="{{ $lang.RelPermalink }}">{{ $lang.Language.Lang }}</a>
+                    {{- end -}}
+                    {{- if lt $i (sub (len $langs) 1) }}<span class="lang-sep"> | </span>{{ end -}}
+                {{ end }}
+            </span>
         </div>
     </div>
 </nav>
