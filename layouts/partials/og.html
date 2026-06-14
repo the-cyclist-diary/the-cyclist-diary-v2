@@ -36,7 +36,7 @@
   {{- end -}}
 {{- end -}}
 
-{{- $locale := site.Language.Locale | default "fr-FR" | replace "-" "_" -}}
+{{- $locale := replace (site.Language.Locale | default "fr-FR") "-" "_" -}}
 {{- $desc := "" -}}
 {{- if .Description -}}
   {{- $desc = .Description -}}
