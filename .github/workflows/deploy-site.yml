@@ -45,7 +45,7 @@ jobs:
       - uses: whywaita/actions-cache-s3@v2
         with:
           path: resources
-          key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**') }}
+          key: ${{ runner.os }}-hugo-resources-${{ github.run_id }}
           restore-keys: |
             ${{ runner.os }}-hugo-resources-
           aws-s3-bucket: the-cyclist-diary-cache
@@ -88,13 +88,13 @@ jobs:
             cache_files=($objects)
             total=${#cache_files[@]}
             
-            if [ $total -le 1 ]; then
+            if [ $total -le 2 ]; then
               echo "  $total cache(s) trouvé(s), conservation de tous"
               continue
             fi
             
-            # Garder le plus récent, supprimer le reste
-            to_keep=1
+            # Garder les 2 plus récents, supprimer le reste
+            to_keep=2
             to_delete=$((total - to_keep))
             
             echo "  $total cache(s) trouvé(s), suppression des $to_delete plus ancien(s)..."
