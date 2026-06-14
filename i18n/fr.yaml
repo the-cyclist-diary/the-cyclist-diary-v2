@@ -84,6 +84,42 @@ search_suggestion:
 search_searching:
   other: "Recherche en cours..."
 
+# Categories
+categories_title:
+  other: "Catégories"
+all_categories:
+  other: "Toutes les catégories"
+category_label:
+  other: "Catégorie :"
+
+# Series
+series_title:
+  other: "Séries"
+all_series:
+  other: "Toutes les séries d'articles"
+series_label:
+  other: "Série :"
+articles_in_series:
+  one: "{{ .Count }} article dans cette série"
+  other: "{{ .Count }} articles dans cette série"
+
+# Taxonomy result count (used in category/series cards)
+result_count:
+  one: "{{ .Count }} résultat"
+  other: "{{ .Count }} résultats"
+
+# 404 page
+404_subtitle:
+  other: "Vous vous êtes égaré·e sur le parcours !"
+404_description:
+  other: "Il semblerait que cette page n'existe pas ou ait été déplacée. Sortez carte et compas et revenez sur le chemin…"
+404_home:
+  other: "Retour à l'accueil"
+404_adventures:
+  other: "Voir les aventures"
+404_blog:
+  other: "Lire le blog"
+
 # Comments
 comments_locale:
   other: "fr"

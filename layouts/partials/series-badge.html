@@ -2,7 +2,7 @@
 {{ range .GetTerms "series" }}
 <a href="{{ .RelPermalink }}" class="series-badge">
     <div>
-            <span class="series-badge-label">Série : </span>
+            <span class="series-badge-label">{{ i18n "series_label" }} </span>
             <span class="series-badge-name">{{ .LinkTitle }}</span>
     </div>
 </a>

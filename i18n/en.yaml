@@ -84,6 +84,42 @@ search_suggestion:
 search_searching:
   other: "Searching..."
 
+# Categories
+categories_title:
+  other: "Categories"
+all_categories:
+  other: "All categories"
+category_label:
+  other: "Category:"
+
+# Series
+series_title:
+  other: "Series"
+all_series:
+  other: "All series"
+series_label:
+  other: "Series:"
+articles_in_series:
+  one: "{{ .Count }} article in this series"
+  other: "{{ .Count }} articles in this series"
+
+# Taxonomy result count (used in category/series cards)
+result_count:
+  one: "{{ .Count }} result"
+  other: "{{ .Count }} results"
+
+# 404 page
+404_subtitle:
+  other: "You went off course!"
+404_description:
+  other: "This page doesn't exist or has been moved. Get out your map and compass and find your way back…"
+404_home:
+  other: "Back to homepage"
+404_adventures:
+  other: "See adventures"
+404_blog:
+  other: "Read the blog"
+
 # Comments
 comments_locale:
   other: "en"

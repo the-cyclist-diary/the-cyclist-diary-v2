@@ -4,6 +4,22 @@
 {{ end }}
 
 {{ define "main" }}
+{{/*
+  Hugo always serves the root /404.html for all 404 errors, regardless of language.
+  The /en/404.html page exists but is never shown automatically.
+  We detect the language server-side for direct /en/404.html access,
+  and use JavaScript to redirect English visitors to the English 404 page.
+*/}}
+{{ $isEnglish := hasPrefix .RelPermalink "/en/" }}
+<script>
+(function() {
+  var path = window.location.pathname;
+  // If the URL is in English and we're not already on the English 404 page, redirect
+  if ((path.startsWith('/en/') || path === '/en') && !path.startsWith('/en/404')) {
+    window.location.replace('/en/404.html');
+  }
+})();
+</script>
 <div class="section is-large">
     <div class="container">
         <div class="container is-max-tablet has-text-centered">
@@ -15,29 +31,28 @@
 
                 <h1 class="title is-1">404</h1>
                 <h2 class="subtitle is-3 error-404-subtitle">
-                    Vous vous êtes égaré·e sur le parcours !
+                    {{ if $isEnglish }}You went off course!{{ else }}Vous vous êtes égaré·e sur le parcours !{{ end }}
                 </h2>
 
                 <div class="content is-size-5 has-text-justified error-404-content">
                     <p>
-                        Il semblerait que cette page n'existe pas ou ait été déplacée.
-                        Sortez carte et compas et revenez sur le chemin...
+                        {{ if $isEnglish }}This page doesn't exist or has been moved. Get out your map and compass and find your way back…{{ else }}Il semblerait que cette page n'existe pas ou ait été déplacée. Sortez carte et compas et revenez sur le chemin…{{ end }}
                     </p>
                 </div>
 
                 <!-- Boutons d'action -->
                 <div class="buttons is-centered error-404-buttons">
-                    <a href="/" class="button is-medium error-404-button-primary">
+                    <a href="{{ if $isEnglish }}/en/{{ else }}/{{ end }}" class="button is-medium error-404-button-primary">
                         <span>🏠</span>
-                        <span>Retour à l'accueil</span>
+                        <span>{{ if $isEnglish }}Back to homepage{{ else }}Retour à l'accueil{{ end }}</span>
                     </a>
-                    <a href="/adventures/" class="button is-light is-medium">
+                    <a href="{{ if $isEnglish }}/en/adventures{{ else }}/adventures{{ end }}" class="button is-light is-medium">
                         <span>🗺️</span>
-                        <span>Voir les aventures</span>
+                        <span>{{ if $isEnglish }}See adventures{{ else }}Voir les aventures{{ end }}</span>
                     </a>
-                    <a href="/blog/" class="button is-light is-medium">
+                    <a href="{{ if $isEnglish }}/en/blog{{ else }}/blog{{ end }}" class="button is-light is-medium">
                         <span>📝</span>
-                        <span>Lire le blog</span>
+                        <span>{{ if $isEnglish }}Read the blog{{ else }}Lire le blog{{ end }}</span>
                     </a>
                 </div>
             </div>
