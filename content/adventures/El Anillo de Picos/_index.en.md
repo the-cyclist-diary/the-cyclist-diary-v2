@@ -2,7 +2,7 @@
 title = "El Anillo de Picos"
 draft = "false"
 date = "2026-06-14 15:27:24.772656"
-categories = ["rando"]
+categories = ["hiking"]
 date_debut=2026-06-20
 date_fin=2026-06-28
 +++
