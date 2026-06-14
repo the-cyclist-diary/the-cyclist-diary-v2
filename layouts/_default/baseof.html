@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}">
+<html lang="{{ site.Language.Locale }}">
 
 <head>
   {{ block "load_paginator" . }}{{ end }}
@@ -16,7 +16,7 @@
 
 <body>
 {{ if not .IsHome }}
-  {{ partialCached "banner.html" . }}
+  {{ partial "banner.html" . }}
 {{ end }}
   <main>
     <div class="u-wrapper">

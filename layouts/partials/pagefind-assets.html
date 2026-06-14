@@ -2,7 +2,7 @@
 <div id="pagefind-modal" class="pagefind-modal" style="display: none;">
     <div class="pagefind-modal-backdrop"></div>
     <div class="pagefind-modal-content">
-        <button class="pagefind-modal-close" aria-label="Fermer">&times;</button>
+        <button class="pagefind-modal-close" aria-label='{{ i18n "search_close" }}'>&times;</button>
         <div id="pagefind-ui"></div>
     </div>
 </div>
@@ -12,8 +12,8 @@
 <script data-cfasync="false">
     window.addEventListener('DOMContentLoaded', () => {
         // Wait for PagefindUI to be available
+        // Pagefind UI is only available after running `npx pagefind --site public`
         if (typeof PagefindUI === 'undefined') {
-            console.error('PagefindUI not loaded');
             return;
         }
         const pagefindUI = new PagefindUI({
@@ -22,17 +22,17 @@
             showImages: false,
             excerptLength: 15,
             translations: {
-                placeholder: "Rechercher sur le blog...",
-                clear_search: "Effacer",
-                load_more: "Charger plus de résultats",
-                search_label: "Rechercher sur ce site",
-                filters_label: "Filtres",
-                zero_results: "Aucun résultat pour [SEARCH_TERM]",
-                many_results: "[COUNT] résultats pour [SEARCH_TERM]",
-                one_result: "[COUNT] résultat pour [SEARCH_TERM]",
-                alt_search: "Aucun résultat pour [SEARCH_TERM]. Résultats pour [DIFFERENT_TERM] à la place",
-                search_suggestion: "Aucun résultat pour [SEARCH_TERM]. Essayez l'une de ces recherches :",
-                searching: "Recherche en cours..."
+                placeholder: "{{ i18n "search_placeholder" }}",
+                clear_search: "{{ i18n "search_clear" }}",
+                load_more: "{{ i18n "search_load_more" }}",
+                search_label: "{{ i18n "search_label" }}",
+                filters_label: "{{ i18n "search_filters" }}",
+                zero_results: "{{ i18n "search_zero" }}",
+                many_results: "{{ i18n "search_many" }}",
+                one_result: "{{ i18n "search_one" }}",
+                alt_search: "{{ i18n "search_alt" }}",
+                search_suggestion: "{{ i18n "search_suggestion" }}",
+                searching: "{{ i18n "search_searching" }}"
             }
         });
 
