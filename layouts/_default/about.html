@@ -15,12 +15,12 @@
                 <p>
                     {{ $image := .Resources.GetMatch "index.jpg" }}
                     {{ with $image }}
-                      {{ $webp := .Process "webp" }}
                       {{- if hugo.IsProduction -}}
+                        {{ $webp := .Process "webp" }}
                         {{- $cdnURL := printf "%s%s" site.Params.imagesCDN $webp.RelPermalink -}}
                         <img alt="the cyclist face :)" class="is-rounded" src="{{ $cdnURL }}">
                       {{- else -}}
-                        <img alt="the cyclist face :)" class="is-rounded" src="{{ $webp.RelPermalink }}">
+                        <img alt="the cyclist face :)" class="is-rounded" src="{{ .RelPermalink }}">
                       {{- end -}}
                     {{ end }}
                 </p>

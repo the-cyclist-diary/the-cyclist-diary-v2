@@ -59,6 +59,10 @@ module:
     - source: "static"
       target: "static"
 
+imaging:
+  quality: 80
+  resampleFilter: "Lanczos"
+
 markup:
   tableOfContents:
     startLevel: 1

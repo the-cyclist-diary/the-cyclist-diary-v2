@@ -14,14 +14,14 @@
     {{ $cover := .Resources.GetMatch (.Params.cover | default "cover.*") }}
     {{ with $cover }}
     <figure class="image is-2by1 blog-cover">
-        {{ with $cover.Resize "1000x q80 webp" }}
-          {{- if hugo.IsProduction -}}
+        {{- if hugo.IsProduction -}}
+          {{ with $cover.Resize "1000x q80 webp" }}
             {{- $cdnURL := printf "%s%s" site.Params.imagesCDN .RelPermalink -}}
             <img class="image-cover" src="{{ $cdnURL }}" alt="{{ .Title }}" loading="lazy">
-          {{- else -}}
-            <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy">
-          {{- end -}}
-        {{ end }}
+          {{ end }}
+        {{- else -}}
+          <img class="image-cover" src="{{ $cover.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+        {{- end -}}
     </figure>
     </div>
     <div class="container">

@@ -16,15 +16,15 @@
                 <div class="card">
                     {{ $itemCover := $item.Resources.GetMatch "index.{jpg,png,webp}" }}
                     {{ with $itemCover }}
-                    {{ $thumb := .Resize "500x webp" }}
                     <div class="card-image">
                         <figure class="image is-4by3">
                             <a href="{{ $item.RelPermalink }}">
                               {{- if hugo.IsProduction -}}
+                                {{ $thumb := .Resize "500x webp" }}
                                 {{- $cdnURL := printf "%s%s" site.Params.imagesCDN $thumb.RelPermalink -}}
                                 <img class="image-cover" src="{{ $cdnURL }}" alt="{{ $item.Title }}" loading="lazy">
                               {{- else -}}
-                                <img class="image-cover" src="{{ $thumb.RelPermalink }}" alt="{{ $item.Title }}" loading="lazy">
+                                <img class="image-cover" src="{{ .RelPermalink }}" alt="{{ $item.Title }}" loading="lazy">
                               {{- end -}}
                             </a>
                         </figure>
