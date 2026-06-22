@@ -20,6 +20,8 @@ La deuxième partie de l'ascension est fidèle aux descriptions que l'on m'avait
 
 ![an image from this adventure](88d3461e-58c5-4713-bdc6-50dd744cc9be.jpg)
 
+Après un dernier long et abrupt pierrier, le refuge se dévoile sur un éperon rocheux. On y déjeune de la "planche du refuge" arrosée d'une bière bien fraîche. Vu la difficulté, nous prenons la décision de nous arrêter là pour aujourd'hui, plutôt que de brûler nos dernières forces. Nous passons donc une agréable après-midi avec de nombreux Espagnols, Anglais, Belges... Il y a du monde, à deux mille mètres !
+
 {{< gallery class="content-gallery" btn="2">}}
 {{< img src="1e197e85-8a4e-4ba8-a09e-abfbf99f366c.jpg" >}}
 {{< img src="9156818f-0bb7-4ee1-9a7b-154e36a83696.jpg" >}}
