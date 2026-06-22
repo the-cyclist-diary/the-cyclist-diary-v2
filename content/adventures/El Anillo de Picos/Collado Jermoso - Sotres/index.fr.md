@@ -18,7 +18,7 @@ A l'approche du deuxième refuge, Cabana Veronica, c'est un véritable jeu de fu
 
 ![an image from this adventure](0a487260-0296-4278-b560-cb684b469b63.jpg)
 
-Lorsque l'on se quitte, nous avons pour plan de partir vers le refuge d'Uriellu, ce qui implique de traverser le massif dans sa longueur. A l'arrivée au début du sentier... Malheur, tout s'est écoulé, les chaînes sont arrachées et des éboulis recouvrent le sentier. J'avais eu vent de cette mésaventure, qui a eu lieu en 2023, mais j'étais sûr que les dégâts auraient été réparés depuis. Malheureusement, nous devons faire demi-tour, hors de question de jouer notre vie là-dessus.
+Lorsque l'on se quitte, nous avons pour plan de partir vers le refuge d'Uriellu, ce qui implique de traverser le massif dans sa longueur. A l'arrivée au début du sentier... Malheur, tout s'est écroulé, les chaînes sont arrachées et des éboulis recouvrent le sentier. J'avais eu vent de cette mésaventure, qui a eu lieu en 2023, mais j'étais sûr que les dégâts auraient été réparés depuis. Malheureusement, nous devons faire demi-tour, hors de question de jouer notre vie là-dessus.
 
 ![an image from this adventure](f95fb1d7-2b28-4907-bd15-16c0a1bab5b2.jpg)
 
@@ -26,6 +26,6 @@ Nous entamons alors un immense détour, par la voie "normale" de l'Anillo de Pic
 
 ![an image from this adventure](4673d227-5635-4fc3-96a6-fe5ca2b09681.jpg)
 
-Nous sommes brûlés par le soleil et épuisés. Un bon repas en ville arrosé de bonne bière nous remet tout d'aplomb pour prendre une douche et laver nos quelques vêtements. Si tout se passe bien, demain nous dormirons à Uriellu et nous pourrons ainsi reprendre la suite de notre voyage comme prévu.
+Nous sommes brûlés par le soleil et épuisés. Un bon repas en ville arrosé de bonne bière nous remet tout juste d'aplomb pour prendre une douche et laver nos quelques vêtements. Si tout se passe bien, demain nous dormirons à Uriellu et nous pourrons ainsi reprendre la suite de notre voyage comme prévu.
 
 ![an image from this adventure](5f08aeda-9ac4-4d5e-923c-3cb64847eaf4.jpg)
