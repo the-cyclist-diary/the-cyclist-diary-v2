@@ -4,7 +4,13 @@ date = "2026-06-22"
 draft = "false"
 +++
 
+Nous nous sommes fait littéralement brasser toute la nuit par un vent d'une puissance rare. Au loin, un orage nous a tenus en alerte, les éclairs se rapprochent-ils ? Finalement, à part le bruit effroyable de la toile de tente, tout a tenu, et je n'ai pas perdu de chaussette qui séchait au grand air.
+
+Petit-déjeuner expédié, le souffle d'air qui monte de la vallée est déjà tiède à huit heures. Cette fois, nous essayons de partir vraiment plus tôt, pour éviter la chaleur de l'après-midi. 
+
 ![an image from this adventure](930786b3-e113-4b71-90d7-d2ad651984ee.jpg)
+
+Les premiers pas se font à flanc de falaise, dans un immense pierrier dont on imagine tout juste la fin. Le genre de terrain dans lequel les chevilles s'échauffent en se tordant allègrement dans tous les sens. Après quelques névés et le passage d'un petit col venteux, changement complet de décor. De gros éboulis de pierre nous obligent d'abord à de larges enjambées et quelques prises complexes. Rapidement, ils se transforment en plaques et immenses rochers de pierre dure et coupante, qui déchirent à plusieurs reprises mains et vêtements.
 
 ![an image from this adventure](ebfdd344-948f-4253-a47f-c35c71539521.jpg)
 
