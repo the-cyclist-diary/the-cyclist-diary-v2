@@ -6,6 +6,8 @@ draft = "false"
 
 Difficile de se lever ce matin, après une si longue journée de conduite et un dîner bien arrosé. Pourtant, dès huit heures, nous garons la voiture dans un coin tranquille du village avant de nous mettre en route.
 
+<!--more-->
+
 ![an image from this adventure](781dd4d7-4724-4ac0-b985-892a9b835dad.jpg)
 
 Le chemin, plat pendant les premiers kilomètres, nous permet de tranquillement dégourdir nos jambes. C'est tant mieux car peu après le village de Cordiñanes, la montée commence et elle est abrupte. Très rapidement, on se retrouve confrontés à des chaînes à flanc de falaise qui nous permettent de progresser plus sereinement sur la pierre blanche.

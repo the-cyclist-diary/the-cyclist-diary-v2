@@ -6,6 +6,8 @@ draft = "false"
 
 Alors que nous sommes déjà installés à la terrasse du refuge pour préparer notre petit-déjeuner, un employé sort la tête pour nous proposer du café : voilà qui introduit admirablement cette journée.
 
+<!--more-->
+
 ![an image from this adventure](436f2f84-1d60-4c38-8d74-f3067fde0b24.jpg)
 
 Nous partons sous un beau ciel bleu moucheté de nuages. Autant les premiers pas dans le chemin herbeux sont francs et faciles, autant l'orientation devient rapidement un problème lorsque nous attaquons la portion pierreuse du chemin. Des cairns partout, pas de marquage, on se perd deux fois malgré notre carte, perdant ainsi plus d'une heure.

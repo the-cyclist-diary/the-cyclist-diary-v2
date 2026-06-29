@@ -6,6 +6,8 @@ draft = "false"
 
 The wind calmed down late in the evening and the night was rather calm. Also, breakfast was taken in good spirits, especially as the rising sun and herds of isards offered us a fascinating spectacle.
 
+<!--more-->
+
 ![an image from this adventure](4437a55b-d69f-4fd5-a82b-42a903afdf0e.jpg)
 
 The supply bags are definitely empty, we perfectly calculated our rations, there is only one thing left to do: descend!

@@ -6,6 +6,8 @@ draft = "false"
 
 Le vent s'est calmé en fin de soirée et la nuit a été plutôt calme. Aussi, le petit-déjeuner est pris dans la bonne humeur, d'autant que le soleil levant et des troupeaux d'isards nous offrent un spectacle fascinant.
 
+<!--more-->
+
 ![an image from this adventure](4437a55b-d69f-4fd5-a82b-42a903afdf0e.jpg)
 
 Les sacs de provisions sont définitivement vides, nous avons parfaitement calculé notre coup, il ne nous reste plus qu'une chose à faire : descendre !

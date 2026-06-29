@@ -6,6 +6,8 @@ draft = "false"
 
 L'état d'esprit est bon ce matin. Nous avons bien dormi et un magnifique lever de soleil embrase la brume permanente qui baigne les pics d'Europe. L'efficacité de notre duo s'est aussi améliorée, en une heure environ, le petit-déjeuner est pris, la tente pliée, les affaires rangées. On ne distingue que deux personnes qui ont pris la route avant nous, c'est notre petite fierté.
 
+<!--more-->
+
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="4862d650-baad-4908-ac16-95386fa92999.jpg" >}}
 {{< img src="6dd7e12b-581e-49ed-9ae9-e4240f3c4a3d.jpg" >}}

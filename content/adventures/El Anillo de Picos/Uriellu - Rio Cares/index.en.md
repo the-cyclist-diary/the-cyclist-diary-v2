@@ -6,6 +6,8 @@ draft = "false"
 
 The mood is good this morning. We slept well and a magnificent sunrise ignites the permanent mist that bathes the Picos de Europa. The efficiency of our duo has also improved; in about an hour, breakfast is eaten, the tent folded, gear packed. We can only make out two people who took the trail before us, that's our little pride.
 
+<!--more-->
+
 {{< gallery class="content-gallery" btn="3">}}
 {{< img src="4862d650-baad-4908-ac16-95386fa92999.jpg" >}}
 {{< img src="6dd7e12b-581e-49ed-9ae9-e4240f3c4a3d.jpg" >}}

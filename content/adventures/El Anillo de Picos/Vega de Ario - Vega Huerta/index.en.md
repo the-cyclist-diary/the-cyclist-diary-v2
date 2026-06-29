@@ -6,6 +6,8 @@ draft = "false"
 
 As we are already settled on the terrace of the refuge preparing our breakfast, an employee pops his head out to offer us coffee: a fine introduction to this day.
 
+<!--more-->
+
 ![an image from this adventure](436f2f84-1d60-4c38-8d74-f3067fde0b24.jpg)
 
 We set off under a beautiful blue sky speckled with clouds. As straightforward and easy as the first steps on the grassy path are, orientation quickly becomes a problem when we tackle the rocky section of the trail. Cairns everywhere, no markings, we get lost twice despite our map, thus losing more than an hour.

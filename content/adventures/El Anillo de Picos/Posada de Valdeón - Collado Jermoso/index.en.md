@@ -6,6 +6,8 @@ draft = "false"
 
 Difficult to get up this morning, after such a long day of driving and a well-watered dinner. However, by eight o'clock, we park the car in a quiet corner of the village before setting off.
 
+<!--more-->
+
 ![an image from this adventure](781dd4d7-4724-4ac0-b985-892a9b835dad.jpg)
 
 The trail, flat for the first few kilometers, allows us to gently stretch our legs. That's all the better because shortly after the village of Cordiñanes, the climb begins and it is steep. Very quickly, we find ourselves faced with chains on the cliffside that allow us to progress more serenely on the white stone.
