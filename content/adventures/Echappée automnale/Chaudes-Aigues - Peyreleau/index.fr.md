@@ -10,11 +10,11 @@ Quant à moi, je me mets en route dans ce brouillard, sur une route sinueuse qui
 
 ![an image from this adventure](5f39143a-1266-49c9-9de0-7e152ca993d1.jpg)
 
-La montée n'en finit pas, car à peine la sortie de Chaudes-Aigues atteinte, c'est reparti de plus belle, vers le col d'Aubrac. Au-dessus de mille mètres, me voilà de nouveau plongé dans un épais nuage poisseux qui m'oblige à retirer mes lunettes trempées. L'effort est long et ingrat.
+La montée n'en finit pas, car à peine la sortie de Chaudes-Aigues atteinte, c'est reparti de plus belle, vers un prtit col. Au-dessus de mille mètres, me voilà de nouveau plongé dans un épais nuage poisseux qui m'oblige à retirer mes lunettes trempées. L'effort est long et ingrat.
 
 ![an image from this adventure](d3f683cc-ffcb-47d7-aa64-6e9ee94b2b8b.jpg)
 
-Changement de braquet musical aujourd'hui. Je me dis que la douceur âpre des collines de l'Aubrac se prêterait bien à une petite rétrospective Brahms (pourquoi pas ?). En haut du col, lorsqu'enfin je bascule sur les hauts-plateaux, ce n'est autre que le premier mouvement du [concerto pour piano n°2](https://youtu.be/y4YqWXmF9Dg?t=26&is=HMftlKcehufAuO-g) qui se lance et qui m'accompagne dans une belle descente, douce et louvoyante, vers le petit village d'Aubrac. Le plaisir est intense et contraste prodigieusement avec la terne journée d'hier.
+Changement de braquet musical aujourd'hui. Je me dis que la douceur âpre des collines de l'Aubrac se prêterait bien à une petite rétrospective Brahms (pourquoi pas ?). En haut du col, lorsqu'enfin je bascule sur les hauts-plateaux, ce n'est autre que le premier mouvement du [concerto pour piano n°2](https://youtu.be/y4YqWXmF9Dg?t=26&is=HMftlKcehufAuO-g) qui se lance et qui m'accompagne dans une belle descente louvoyante, vers le petit village d'Aubrac. Le plaisir est intense et contraste prodigieusement avec la terne journée d'hier.
 
 ![an image from this adventure](0caf9a22-b3f2-4c0e-bbae-724669d0e3df.jpg)
 
@@ -33,7 +33,7 @@ Très longue descente ensuite sur Saint-Geniez-d'Olt, où malheureusement tout e
 {{< img src="003faef0-ac1a-45ee-b32c-f19fe3ae7367.jpg" >}}
 {{< /gallery >}}
 
-Il semblerait presque facile, ensuite, de rejoindre Peyreleau, dans les gorges du Tarn, où un gîte m'attend. Ce serait néanmoins sans compter sur les nombreuses côtes casse-pattes et abruptes, comme seuls savent en engendrer les plateaux calcaires des Grandes Causses.
+Il semblerait presque facile à présent de rejoindre Peyreleau, dans les gorges du Tarn, où un gîte m'attend. Ce serait néanmoins sans compter sur les nombreuses côtes casse-pattes et abruptes, comme seuls savent en engendrer les plateaux calcaires des Grandes Causses.
 
 Après bien des efforts, je surplombe enfin une large vallée au fond de laquelle j'aperçois le village. Les lacets sont si serrés que, malgré mes heures de selle accumulées, je ne fais pas le fier.
 
