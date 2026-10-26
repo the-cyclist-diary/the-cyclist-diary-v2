@@ -6,3 +6,8 @@
 .adventure-summary {
     margin-bottom: 2rem;
 }
+
+.adventure-article-content a {
+    color: var(--the-cyclist-diary-green);
+    text-decoration: underline;
+}

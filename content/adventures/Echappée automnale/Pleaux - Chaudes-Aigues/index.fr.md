@@ -21,13 +21,13 @@ Arrivé à Salers, je m'accorde tout de même un petit café avec les habitués 
 
 ![an image from this adventure](bdad4b44-5826-4d30-bb19-7b28e1304407.jpg)
 
-Après cette pause méritée, voilà enfin la montée, la fameuse, longue de plus de huit kilomètres, que j'attaque évidemment par son versant le plus dur. Je repense aux attaques de Pogačar sur ces mêmes pentes en 2024, sous un soleil de plomb, alors que j'y traîne ma misère sous la pluie battante. Les ruisseaux grondent et de multiples cascades jaillissent des talus.
+Après cette pause méritée, voilà enfin la montée, la fameuse, longue de plus de huit kilomètres, que j'entreprends évidemment par son versant le plus dur. Je repense aux attaques de Pogačar sur ces mêmes pentes en 2024, sous un soleil de plomb, alors que j'y traîne ma misère sous la pluie battante. Les ruisseaux grondent et de multiples cascades jaillissent des talus.
 
 Au sommet, la pluie redouble et le vent est effroyable. Je dois bloquer mon vélo pour une rapide photo-finish, afin qu'il ne parte pas à la renverse. Pas de temps à perdre : la photo prise, il faut redescendre, vite ! Là-haut, il ne fait que cinq degrés.
 
 ![an image from this adventure](e2693afd-96c0-48ae-bfa5-6ae1bbb6704a.jpg)
 
-Est-ce une coïncidence ? Dès que ma roue avant découvre enfin un semblant de pense descendante, un morceau de rock bien senti se lance dans ma playlist ! La pluie me fouette le visage comme mille épines, mais je me laisse glisser à toute vitesse sur l'asphalte transformé en rivière. Mon pneu projette une immense gerbe d'eau qui me revient en pleine figure, mais qu'importe ; avec suffisamment d'abnégation, je redécouvre le plaisir vrai du vélo.
+Est-ce une coïncidence ? Dès que ma roue avant découvre enfin un semblant de pente descendante, un morceau de rock bien senti se lance dans ma playlist ! La pluie me fouette le visage comme mille épines, mais je me laisse glisser à toute vitesse sur l'asphalte transformé en rivière. Mon pneu projette une immense gerbe d'eau qui me revient en pleine figure, mais qu'importe ; avec suffisamment d'abnégation, je redécouvre le plaisir vrai du vélo.
 
 ![an image from this adventure](9603138b-46d5-49c7-8fcf-d2b184a33a8d.jpg)
 

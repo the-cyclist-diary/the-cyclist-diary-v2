@@ -33,7 +33,7 @@ Très longue descente ensuite sur Saint-Geniez-d'Olt, où malheureusement tout e
 {{< img src="003faef0-ac1a-45ee-b32c-f19fe3ae7367.jpg" >}}
 {{< /gallery >}}
 
-Il semblerait presque facile, ensuite, de rejoindre Peyreleau, dans les gorges du Tarn, où un gîte m'attend. Ce serait néanmoins sans compter sur les nombreuses côtes casse-pattes et abruptes, comme seuls savent en engendrer les plateaux calcaires des Grands Causses.
+Il semblerait presque facile, ensuite, de rejoindre Peyreleau, dans les gorges du Tarn, où un gîte m'attend. Ce serait néanmoins sans compter sur les nombreuses côtes casse-pattes et abruptes, comme seuls savent en engendrer les plateaux calcaires des Grandes Causses.
 
 Après bien des efforts, je surplombe enfin une large vallée au fond de laquelle j'aperçois le village. Les lacets sont si serrés que, malgré mes heures de selle accumulées, je ne fais pas le fier.
 
