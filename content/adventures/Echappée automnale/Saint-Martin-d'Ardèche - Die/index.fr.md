@@ -6,7 +6,7 @@ draft = "false"
 
 La traversée de la vallée du Rhône me paraissait peu plaisante. Malheureusement, le tenancier de l'hôtel confirme mes craintes : les routes sont passantes et monotones.
 
-Dans ce cas de figure, pas d'autre choix que de monter le son de la musique, prendre son mal en patience et écraser les pédales pour sortir le plus vite possible du bourbier. Pendant cinquante kilomètres, c'est effectivement assez pénible, malgré une traversée de Pont-Saint-Esprit engageante. Je me fais la réflexion qu'il s'agit de la première fois que je passe le Rhône à vélo. Allez, c'est un petit accomplissement qui compense un tant soit peu cette matinée par ailleurs décevante.
+Dans ce cas de figure, pas d'autre choix que de pousser le volume de la musique, prendre son mal en patience et écraser les pédales pour sortir le plus vite possible du bourbier. Pendant cinquante kilomètres, c'est effectivement assez pénible, malgré une traversée de Pont-Saint-Esprit engageante. Je me fais la réflexion qu'il s'agit de la première fois que je passe le Rhône à vélo. Allez, c'est un petit accomplissement qui compense un tant soit peu cette matinée par ailleurs décevante.
 
 ![an image from this adventure](0b2997d2-b857-4c7e-858f-d28ed83b3873.jpg)
 
